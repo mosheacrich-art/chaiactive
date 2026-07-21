@@ -6,44 +6,36 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="border-t border-navy/10 bg-navy py-12 text-cream/80">
+    <footer className="border-t border-black/5 bg-cream py-14">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex flex-col gap-8 sm:flex-row sm:justify-between">
+        <div className="flex flex-col items-center gap-8 text-center sm:flex-row sm:justify-between sm:text-start">
           <div>
-            <p className="font-serif text-xl font-bold text-cream">Chai Active</p>
-            <p className="mt-2 max-w-xs text-sm">{t("footer.tagline")}</p>
-            <p className="mt-2 text-xs text-cream/40">{t("footer.pendingDomain")}</p>
+            <p className="text-lg font-bold text-navy">Chai Active</p>
+            <p className="mt-1 text-sm text-ink/50">{t("footer.tagline")}</p>
+            <p className="mt-1 text-xs text-ink/30">{t("footer.pendingDomain")}</p>
           </div>
 
-          <nav className="flex flex-col gap-2 text-sm sm:items-end">
-            <a href="#que-hacemos" className="hover:text-cream">
-              {t("nav.queHacemos")}
-            </a>
-            <a href="#servicios" className="hover:text-cream">
-              {t("nav.servicios")}
-            </a>
-            <a href="#casos" className="hover:text-cream">
-              {t("nav.casos")}
-            </a>
-            <a href="#contacto" className="hover:text-cream">
-              {t("nav.contacto")}
-            </a>
+          <nav className="flex flex-col gap-2 text-sm">
+            <a href="#que-hacemos" className="text-ink/60 hover:text-navy">{t("nav.queHacemos")}</a>
+            <a href="#servicios" className="text-ink/60 hover:text-navy">{t("nav.servicios")}</a>
+            <a href="#casos" className="text-ink/60 hover:text-navy">{t("nav.casos")}</a>
+            <a href="#contacto" className="text-ink/60 hover:text-navy">{t("nav.contacto")}</a>
           </nav>
 
-          <nav className="flex flex-col gap-2 text-sm sm:items-end">
-            <Link href="/aviso-legal" className="hover:text-cream">
+          <nav className="flex flex-col gap-2 text-sm">
+            <Link href="/aviso-legal" className="text-ink/60 hover:text-navy">
               {t("footer.legalLinks.avisoLegal")}
             </Link>
-            <Link href="/privacidad" className="hover:text-cream">
+            <Link href="/privacidad" className="text-ink/60 hover:text-navy">
               {t("footer.legalLinks.privacidad")}
             </Link>
-            <Link href="/cookies" className="hover:text-cream">
+            <Link href="/cookies" className="text-ink/60 hover:text-navy">
               {t("footer.legalLinks.cookies")}
             </Link>
           </nav>
         </div>
 
-        <p className="mt-10 border-t border-cream/10 pt-6 text-xs text-cream/50">
+        <p className="mt-10 border-t border-black/5 pt-6 text-center text-xs text-ink/30">
           {t("footer.rights", { year })}
         </p>
       </div>

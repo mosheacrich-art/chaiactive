@@ -4,8 +4,8 @@
   --color-navy: #1b2e5e;
   --color-navy-dark: #12203f;
   --color-navy-light: #2c4177;
-  --color-cream: #faf5e9;
-  --color-cream-dark: #f1e8d6;
+  --color-cream: #f8f7f4;
+  --color-cream-dark: #eeece5;
   --color-gold: #c1932f;
   --color-gold-light: #d9b45c;
   --color-ink: #1c1a15;
@@ -21,7 +21,6 @@
   --color-gold-light: var(--color-gold-light);
   --color-ink: var(--color-ink);
 
-  --font-serif: var(--font-heading), serif;
   --font-sans: var(--font-body), sans-serif;
 }
 
@@ -30,14 +29,14 @@ html {
 }
 
 body {
-  background: var(--color-cream);
+  background: #ffffff;
   color: var(--color-ink);
 }
 
-/* Hebrew reads better a touch larger and with more line-height than Latin body copy */
+/* Hebrew reads a touch larger and with more line-height than Latin body copy */
 html[dir="rtl"] body {
-  font-size: 1.05em;
-  line-height: 1.85;
+  font-size: 1.03em;
+  line-height: 1.75;
 }
 
 ::selection {

@@ -24,49 +24,29 @@ export default function CasosDeExito() {
 
   return (
     <section id="casos" className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-28">
-      <div className="max-w-2xl">
-        <p className="text-sm font-semibold uppercase tracking-wide text-gold">
-          {t("eyebrow")}
-        </p>
-        <h2 className="mt-3 font-serif text-3xl font-bold text-navy sm:text-4xl">
-          {t("title")}
-        </h2>
-      </div>
+      <h2 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
+        {t("title")}
+      </h2>
 
-      <div className="mt-12 grid gap-6 lg:grid-cols-3">
+      <div className="mt-12 grid gap-5 lg:grid-cols-3">
         {cases.map((c) => (
           <article
             key={c.name}
-            className="flex flex-col rounded-2xl border border-navy/10 bg-white/60 p-6"
+            className="flex flex-col rounded-2xl bg-navy p-6 text-white"
           >
             <div className="flex items-center justify-between gap-2">
-              <h3 className="font-serif text-xl font-bold text-navy">{c.name}</h3>
-              <span className="whitespace-nowrap rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold text-gold">
+              <h3 className="text-lg font-bold">{c.name}</h3>
+              <span className="whitespace-nowrap rounded-full bg-gold/20 px-3 py-1 text-xs font-semibold text-gold-light">
                 {c.tag}
               </span>
             </div>
-            {c.link && (
-              <p className="mt-1 text-xs font-medium text-navy/50">{c.link}</p>
-            )}
+            {c.link && <p className="mt-1 text-xs text-white/40">{c.link}</p>}
 
-            <dl className="mt-4 space-y-4 text-sm">
-              <div>
-                <dt className="font-semibold text-navy/80">{labels.challenge}</dt>
-                <dd className="mt-1 leading-relaxed text-navy/70">
-                  {c.challenge}
-                </dd>
-              </div>
-              <div>
-                <dt className="font-semibold text-navy/80">{labels.solution}</dt>
-                <dd className="mt-1 leading-relaxed text-navy/70">
-                  {c.solution}
-                </dd>
-              </div>
-              <div>
-                <dt className="font-semibold text-navy/80">{labels.result}</dt>
-                <dd className="mt-1 leading-relaxed text-navy/70">{c.result}</dd>
-              </div>
-            </dl>
+            <div className="mt-4 space-y-3 text-sm text-white/80">
+              <p><span className="font-semibold text-white">{labels.challenge}: </span>{c.challenge}</p>
+              <p><span className="font-semibold text-white">{labels.solution}: </span>{c.solution}</p>
+              <p><span className="font-semibold text-white">{labels.result}: </span>{c.result}</p>
+            </div>
           </article>
         ))}
       </div>

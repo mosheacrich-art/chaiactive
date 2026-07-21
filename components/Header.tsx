@@ -19,18 +19,18 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-navy/10 bg-cream/90 backdrop-blur">
-      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3 sm:px-6">
-        <Link href="/" className="font-serif text-xl font-bold tracking-tight text-navy">
+    <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
+      <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
+        <Link href="/" className="text-lg font-bold tracking-tight text-navy">
           Chai Active
         </Link>
 
-        <nav className="hidden items-center gap-6 lg:flex">
+        <nav className="hidden items-center gap-7 lg:flex">
           {links.map((link) => (
             <a
               key={link.key}
               href={link.href}
-              className="text-sm font-medium text-navy/80 transition hover:text-navy"
+              className="text-sm font-medium text-ink/60 transition hover:text-ink"
             >
               {t(link.key)}
             </a>
@@ -41,7 +41,7 @@ export default function Header() {
           <LanguageSwitcher />
           <a
             href="#contacto"
-            className="rounded-full bg-navy px-5 py-2 text-sm font-semibold text-cream transition hover:bg-navy-light"
+            className="rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-navy-light"
           >
             {t("cta")}
           </a>
@@ -53,7 +53,7 @@ export default function Header() {
             type="button"
             onClick={() => setOpen((v) => !v)}
             aria-label={open ? t("closeMenu") : t("openMenu")}
-            className="rounded-full border border-navy/15 p-2 text-navy"
+            className="rounded-full border border-black/10 p-2 text-navy"
           >
             {open ? <X className="size-5" /> : <Menu className="size-5" />}
           </button>
@@ -61,14 +61,14 @@ export default function Header() {
       </div>
 
       {open && (
-        <nav className="border-t border-navy/10 bg-cream lg:hidden">
+        <nav className="border-t border-black/5 bg-white lg:hidden">
           <div className="mx-auto flex max-w-6xl flex-col gap-1 px-4 py-3 sm:px-6">
             {links.map((link) => (
               <a
                 key={link.key}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-2 py-2.5 text-sm font-medium text-navy/80 transition hover:bg-navy/5 hover:text-navy"
+                className="rounded-lg px-2 py-2.5 text-sm font-medium text-ink/70 transition hover:bg-black/5"
               >
                 {t(link.key)}
               </a>
@@ -76,7 +76,7 @@ export default function Header() {
             <a
               href="#contacto"
               onClick={() => setOpen(false)}
-              className="mt-2 rounded-full bg-navy px-5 py-2.5 text-center text-sm font-semibold text-cream"
+              className="mt-2 rounded-full bg-navy px-5 py-2.5 text-center text-sm font-semibold text-white"
             >
               {t("cta")}
             </a>

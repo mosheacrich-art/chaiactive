@@ -5,7 +5,7 @@
   },
   "metadata": {
     "title": "Chai Active — Des logiciels qui donnent vie aux communautés juives",
-    "description": "Nous concevons et développons Kehál Platform et d'autres plateformes numériques sur mesure pour les communautés, synagogues et entreprises juives. Basés à Barcelone."
+    "description": "Kehál Platform et d'autres plateformes sur mesure pour communautés et entreprises juives. Barcelone."
   },
   "skipToContent": "Aller au contenu",
   "nav": {
@@ -26,221 +26,132 @@
     "fr": "Français"
   },
   "hero": {
-    "eyebrow": "Kehál Platform — déjà en service à Jabad Barcelona",
-    "title": "La vie de votre communauté, sur une seule plateforme",
-    "subtitle": "Kehál est l'application de gestion communautaire déjà utilisée par Jabad Barcelona pour organiser horaires, événements, dons, mikvé et bien plus — le tout au même endroit, dans la langue de chaque communauté.",
+    "eyebrow": "Kehál Platform · en service à Jabad Barcelona",
+    "title": "La vie de votre communauté, en une app",
+    "subtitle": "Horaires, événements, dons et mikvé — au même endroit.",
     "ctaPrimary": "Voir la plateforme",
     "ctaSecondary": "Réserver un rendez-vous",
-    "imageAlt": "Écran d'accueil de Kehál Platform, utilisé aujourd'hui par Jabad Barcelona",
-    "trust": "Déjà utilisée réellement. Aucune maquette imaginaire."
+    "imageAlt": "Kehál Platform, utilisée aujourd'hui par Jabad Barcelona",
+    "trust": "En usage réel. Pas une maquette.",
+    "statBadge1": "8+ modules actifs",
+    "statBadge2": "Allumage des bougies · 19h42"
   },
   "queHacemos": {
     "eyebrow": "Ce que nous faisons",
-    "title": "Nous construisons la technologie qui fait vivre votre communauté",
-    "intro": "Chez Chai Active, nous concevons et développons des plateformes numériques sur mesure pour les communautés, synagogues et entreprises juives. Nous ne vendons pas de logiciel générique : nous construisons avec vous, en partant de la façon dont votre communauté vit et fonctionne réellement.",
+    "title": "Une technologie qui donne vie à votre communauté",
+    "intro": "Des plateformes sur mesure pour communautés et entreprises juives.",
     "items": [
-      {
-        "title": "De la proximité, pas un ticket de support",
-        "body": "Nous parlons à des rabbins, des conseils d'administration et des bénévoles, pas seulement à un service informatique. Nous concevons pour ceux qui utiliseront réellement la plateforme chaque jour."
-      },
-      {
-        "title": "Tout dans une langue que vous comprenez",
-        "body": "Espagnol, anglais, hébreu et français, avec l'hébreu mis en page nativement de droite à gauche — pas une traduction ajoutée à la dernière minute."
-      },
-      {
-        "title": "Un partenaire sur le long terme",
-        "body": "Nous restons présents après le lancement : nouvelles fonctionnalités, ajustements et support à mesure que votre communauté grandit."
-      },
-      {
-        "title": "Toute l'application, ou juste ce dont vous avez besoin",
-        "body": "Chaque module de Kehál — mikvé, dons, événements, et le reste — fonctionne aussi séparément. Commencez par l'urgent et grandissez à votre rythme."
-      }
+      { "title": "Proximité réelle", "body": "Nous parlons à des rabbins et bénévoles, pas à un ticket de support." },
+      { "title": "Votre langue", "body": "Espagnol, anglais, hébreu et français — hébreu nativement de droite à gauche." },
+      { "title": "Sur le long terme", "body": "Nous restons après le lancement." },
+      { "title": "Tout, ou par parties", "body": "Chaque module fonctionne aussi seul." }
     ]
   },
   "confianza": {
-    "title": "Des communautés et entreprises qui nous font déjà confiance",
+    "title": "Ils nous font déjà confiance",
     "items": [
-      { "name": "Jabad Barcelona", "role": "Kehál Platform en usage réel" },
-      { "name": "Creative Favours", "role": "Judaïca personnalisée — Londres" },
-      { "name": "Perashapp", "role": "Étude de la paracha hebdomadaire" }
+      { "name": "Jabad Barcelona", "role": "En usage réel" },
+      { "name": "Creative Favours", "role": "Judaïca — Londres" },
+      { "name": "Perashapp", "role": "Étude de la paracha" }
     ]
   },
   "comoLoHacemos": {
     "eyebrow": "Notre méthode",
-    "title": "Un processus pensé pour des données sensibles",
-    "intro": "Nous savons qu'une communauté n'est pas une start-up : il y a une confiance construite depuis des années, et des données qu'il faut protéger. Voici notre façon de travailler :",
+    "title": "Cinq étapes, à vos côtés",
     "steps": [
-      {
-        "n": "01",
-        "title": "Découverte avec la communauté",
-        "body": "Nous rencontrons le rabbin, le conseil ou l'équipe de gestion pour comprendre le quotidien avant d'écrire la moindre ligne de code."
-      },
-      {
-        "n": "02",
-        "title": "Conception sur mesure",
-        "body": "Nous adaptons chaque module — et l'identité même de la communauté — à votre façon de travailler, et non l'inverse."
-      },
-      {
-        "n": "03",
-        "title": "Développement",
-        "body": "Nous construisons avec le même soin que pour notre propre communauté, avec des revues conjointes tout au long du processus."
-      },
-      {
-        "n": "04",
-        "title": "Lancement",
-        "body": "Nous accompagnons le démarrage, formons l'équipe administratrice et résolvons les frictions des premiers jours."
-      },
-      {
-        "n": "05",
-        "title": "Support continu",
-        "body": "Nous restons disponibles après le lancement : maintenance, améliorations et nouvelles fonctionnalités selon les besoins de la communauté."
-      }
+      { "n": "01", "title": "Découverte", "body": "On comprend votre quotidien avant de coder." },
+      { "n": "02", "title": "Conception", "body": "Sur mesure, pas l'inverse." },
+      { "n": "03", "title": "Développement", "body": "Avec le même soin que chez nous." },
+      { "n": "04", "title": "Lancement", "body": "On vous accompagne et forme l'équipe." },
+      { "n": "05", "title": "Support", "body": "On reste là après." }
     ]
   },
   "servicios": {
     "eyebrow": "Services",
-    "title": "Une application au centre, des modules tout autour",
-    "intro": "Kehál Platform réunit tout ce dont une communauté a besoin au quotidien. Et chaque module fonctionne aussi seul.",
-    "standaloneNote": "Également disponible comme module indépendant",
+    "title": "Une app, ou juste le module qu'il vous faut",
+    "standaloneNote": "Chaque module se prend aussi séparément",
     "modules": [
-      {
-        "title": "Accueil / Tableau de bord communautaire",
-        "body": "Salutation personnalisée, date civile et hébraïque affichées ensemble, horaires de la synagogue et événements à venir avec inscription directe."
-      },
-      {
-        "title": "Calendrier hébraïque",
-        "body": "Horaires halakhiques par ville — allumage des bougies, Havdala —, paracha de la semaine, et calendrier mensuel civil et hébraïque combiné."
-      },
-      {
-        "title": "Événements",
-        "body": "Liste avec filtres et plusieurs vues, gestion des places disponibles et inscription directe à chaque activité de la communauté."
-      },
-      {
-        "title": "Mikvé",
-        "body": "Réservation de créneau avec son propre calendrier : nouvelle réservation, mes réservations, et gestion complète depuis le mobile.",
-        "highlight": "Un module que très peu de plateformes savent bien gérer"
-      },
-      {
-        "title": "Dons",
-        "body": "Portail de dons organisé par domaine de la communauté — éducatif, religieux, social — avec suivi des campagnes en cours."
-      },
-      {
-        "title": "Services du cycle de vie juif",
-        "body": "Demandes de démarches et célébrations : Bar/Bat Mitsva, Brit Mila, mariages et enregistrement de la Nahala."
-      },
-      {
-        "title": "Torah et Communauté",
-        "body": "Chiourim audio et vidéo, questions directes au rabbin, et prise de rendez-vous personnel avec le Rav."
-      },
-      {
-        "title": "Jconnect — entreprises et co-work juif",
-        "body": "Annuaire et marketplace des entreprises et professionnels de la communauté : publier une activité, chercher une collaboration, trouver un service de confiance.",
-        "highlight": "Le différenciateur qu'aucune plateforme comparable n'offre aujourd'hui"
-      },
-      {
-        "title": "Inscription des membres",
-        "body": "Parcours d'inscription en 4 étapes — compte, identité, résidence, validation — avec téléversement de pièce d'identité et approbation manuelle de l'administration."
-      }
+      { "title": "Accueil", "body": "Horaires et événements, en un coup d'œil." },
+      { "title": "Calendrier hébraïque", "body": "Paracha de la semaine et horaires par ville." },
+      { "title": "Événements", "body": "Inscription et places en un clic." },
+      { "title": "Mikvé", "body": "Réservation de créneau, simple comme un rendez-vous.", "highlight": "Peu de plateformes le font bien" },
+      { "title": "Dons", "body": "Campagnes par domaine, suivies en direct." },
+      { "title": "Cycle de vie juif", "body": "Bar/Bat Mitsva, Brit Mila, mariages, Nahala." },
+      { "title": "Torah et Communauté", "body": "Chiourim, questions, rendez-vous avec le rabbin." },
+      { "title": "Jconnect", "body": "Annuaire et marketplace d'entreprises juives.", "highlight": "Personne d'autre ne l'offre aujourd'hui" },
+      { "title": "Inscription des membres", "body": "Vérification d'identité et validation manuelle." }
     ]
   },
   "galeria": {
-    "eyebrow": "La plateforme, en conditions réelles",
+    "eyebrow": "En conditions réelles",
     "title": "Voici Kehál aujourd'hui",
-    "intro": "Sans maquettes imaginaires : voici de vraies captures d'écran de la plateforme utilisée chaque jour par la communauté de Jabad Barcelona.",
     "items": [
-      { "image": "kehal-inicio.png", "caption": "Accueil — tableau de bord communautaire" },
+      { "image": "kehal-inicio.png", "caption": "Accueil" },
       { "image": "kehal-calendario-hebreo.png", "caption": "Calendrier hébraïque" },
-      { "image": "kehal-eventos.png", "caption": "Événements et inscriptions" },
+      { "image": "kehal-eventos.png", "caption": "Événements" },
       { "image": "kehal-beit-harav.png", "caption": "Torah et Communauté" },
-      { "image": "kehal-jconnect.png", "caption": "Jconnect — entreprises et communauté" },
-      { "image": "kehal-donativos.png", "caption": "Dons" },
-      { "image": "kehal-admin.png", "caption": "Panneau d'administration" }
+      { "image": "kehal-jconnect.png", "caption": "Jconnect" },
+      { "image": "kehal-donativos.png", "caption": "Dons" }
     ]
   },
   "casos": {
     "eyebrow": "Cas concrets",
-    "title": "De vrais projets, pas des maquettes",
-    "labels": {
-      "challenge": "Défi",
-      "solution": "Solution",
-      "result": "Résultat"
-    },
+    "title": "De vrais projets",
+    "labels": { "challenge": "Défi", "solution": "Solution", "result": "Résultat" },
     "jabad": {
       "name": "Jabad Barcelona",
       "tag": "En usage réel",
-      "challenge": "Jabad Barcelona avait besoin de centraliser la gestion d'une communauté bien vivante — horaires, événements, mikvé, dons et bien plus — sans dépendre de tableurs ni de groupes WhatsApp éparpillés.",
-      "solution": "Nous avons conçu et développé Kehál Platform avec l'équipe de HaRav Dovid Libersohn, module par module, adaptée à la façon dont la communauté travaillait déjà.",
-      "result": "Kehál est aujourd'hui utilisée réellement, avec plus de 8 modules actifs : du calendrier hébraïque à l'annuaire d'entreprises Jconnect."
+      "challenge": "Gestion éparpillée entre WhatsApp et tableurs.",
+      "solution": "Kehál Platform, module par module, avec l'équipe du Rav.",
+      "result": "8+ modules actifs, en usage réel aujourd'hui."
     },
     "creativeFavours": {
       "name": "Creative Favours",
       "tag": "En production",
       "link": "creativefavours.vercel.app",
-      "challenge": "Creative Favours, une entreprise familiale londonienne avec plus de 10 ans d'expérience dans la judaïca personnalisée — kippot, benchers, housses de 'halot, cadeaux de mariage et de bar/bat mitsva — avait besoin d'une boutique en ligne à la hauteur de son savoir-faire artisanal.",
-      "solution": "Nous avons construit un site web et un e-commerce sur mesure en Next.js, pensé pour présenter chaque pièce avec le même soin que celui mis à la fabriquer.",
-      "result": "Une boutique en ligne propre qui reflète plus d'une décennie de savoir-faire familial, sans dépendre de modèles génériques."
+      "challenge": "Une boutique à la hauteur de 10+ ans de savoir-faire.",
+      "solution": "E-commerce sur mesure en Next.js.",
+      "result": "Une boutique propre, sans modèles génériques."
     },
     "perashapp": {
       "name": "Perashapp",
       "tag": "En usage",
       "link": "perashapp.com",
-      "challenge": "Étudier la paracha hebdomadaire en profondeur suppose de suivre l'audio du professeur mot à mot — ce qu'aucun lecteur générique ne fait bien.",
-      "solution": "Nous avons développé Perashapp, avec un audio synchronisé mot à mot avec le texte, et des espaces distincts pour le professeur et l'élève.",
-      "result": "Un outil d'étude déjà opérationnel, avec perashapp.com comme point d'accès pour les professeurs et les élèves."
+      "challenge": "Suivre l'audio du professeur mot à mot.",
+      "solution": "Audio synchronisé, avec espaces professeur et élève.",
+      "result": "Un outil d'étude déjà utilisé."
     }
   },
   "seguridad": {
-    "eyebrow": "Sécurité et confiance",
-    "title": "Les données de votre communauté, traitées avec le soin qu'elles méritent",
-    "intro": "Une communauté n'est pas un CRM commercial : elle gère des pièces d'identité, des données familiales et des informations sensibles. C'est pourquoi la sécurité n'est pas une case cochée à la fin — elle fait partie de la conception dès le premier jour.",
+    "eyebrow": "Sécurité",
+    "title": "Vos données, prises au sérieux",
     "items": [
-      {
-        "title": "Vérification d'identité",
-        "body": "L'inscription des nouveaux membres inclut le téléversement d'une pièce d'identité, pour s'assurer que la personne qui rejoint la communauté est bien celle qu'elle prétend être."
-      },
-      {
-        "title": "Approbation manuelle",
-        "body": "Aucune inscription ne s'active seule : l'administration de la communauté examine et approuve chaque demande, généralement sous 24 à 48 heures."
-      },
-      {
-        "title": "Conformité RGPD",
-        "body": "Le traitement des données personnelles respecte le Règlement Général sur la Protection des Données, avec une base légale claire pour chaque usage de l'information."
-      },
-      {
-        "title": "Chiffrement des documents",
-        "body": "Les documents sensibles sont stockés chiffrés, et non comme des fichiers isolés accessibles à quiconque a accès au système."
-      }
+      { "title": "Vérification d'identité", "body": "Pièce d'identité requise à l'inscription." },
+      { "title": "Approbation manuelle", "body": "Chaque inscription vérifiée sous 24-48h." },
+      { "title": "Conforme RGPD", "body": "Base légale claire pour chaque donnée." },
+      { "title": "Documents chiffrés", "body": "Aucun fichier isolé accessible." }
     ]
   },
   "precios": {
     "eyebrow": "Comment nous collaborons",
-    "title": "L'application complète, ou juste le module dont vous avez besoin aujourd'hui",
-    "intro": "Nous ne travaillons pas avec des offres fermées par paliers. Chaque communauté et chaque entreprise a un point de départ différent, alors nous proposons deux voies :",
+    "title": "L'app complète, ou juste un module",
     "pathApp": {
-      "title": "La plateforme complète",
-      "body": "Tous les modules de Kehál intégrés dans une seule application, avec l'identité de votre communauté et l'accompagnement de Chai Active dès le premier jour.",
-      "items": [
-        "Inscription des membres avec vérification d'identité",
-        "Tous les modules actifs dès le lancement",
-        "Support et évolution continus"
-      ]
+      "title": "Plateforme complète",
+      "body": "Tout Kehál, intégré et accompagné.",
+      "items": ["Vérification d'identité incluse", "Tous les modules dès le jour un", "Support continu"]
     },
     "pathModulo": {
-      "title": "Un module précis",
-      "body": "Vous avez seulement besoin de régler le mikvé, ou de centraliser les dons ? Souscrivez ce module de façon indépendante, sans engagement sur le reste.",
-      "items": [
-        "Mise en œuvre plus rapide et ciblée",
-        "Coût ajusté à ce que vous utilisez réellement",
-        "Possibilité d'ajouter d'autres modules quand vous en aurez besoin"
-      ]
+      "title": "Un module",
+      "body": "Juste ce qu'il vous faut, sans plus d'engagement.",
+      "items": ["Mise en œuvre rapide", "Coût ajusté à l'usage", "Ajoutez-en quand vous voulez"]
     },
-    "note": "Nous ne publions pas de tarifs fixes car chaque projet est différent — parlez-nous du vôtre et nous vous dirons ce qui a du sens.",
+    "note": "Chaque projet est différent — parlons du vôtre.",
     "cta": "Contactez-nous"
   },
   "sobreNosotros": {
     "eyebrow": "À propos",
-    "title": "Chai Active — parce que « 'hai » signifie vie",
-    "body": "Chai Active est née à Barcelone, fondée par Isaac Ayash Belilty, à partir d'une idée simple : la technologie peut aussi être mise au service de la vie communautaire juive, et pas seulement de l'efficacité d'une entreprise. « 'Hai » (חי) signifie vie en hébreu — c'est littéralement notre mission : donner une vie numérique à des communautés et des entreprises qui se sont longtemps soutenues avec beaucoup d'efforts et peu d'outils à la hauteur.",
+    "title": "Chai Active — parce que « 'hai » veut dire vie",
+    "body": "Fondée à Barcelone par Isaac Ayash Belilty. « 'Hai » (חי) signifie vie — c'est notre mission : une vie numérique pour les communautés juives.",
     "founder": {
       "name": "Isaac Ayash Belilty",
       "role": "Fondateur de Chai Active — Barcelone"
@@ -248,31 +159,31 @@
   },
   "contacto": {
     "eyebrow": "Contact",
-    "title": "Parlons de votre communauté ?",
-    "intro": "Dites-nous ce dont votre communauté ou votre entreprise a besoin. Sans engagement, sans jargon technique — juste une conversation normale.",
+    "title": "On en parle ?",
+    "intro": "Sans engagement, sans jargon.",
     "form": {
       "name": "Nom",
       "email": "Email",
       "community": "Communauté ou organisation (facultatif)",
       "message": "Dites-nous comment nous pouvons vous aider",
-      "submit": "Envoyer le message",
-      "sending": "Envoi en cours…",
-      "success": "Merci ! Nous vous répondrons dès que possible.",
-      "error": "Une erreur s'est produite. Réessayez ou écrivez-nous directement à jactive@gmail.com."
+      "submit": "Envoyer",
+      "sending": "Envoi…",
+      "success": "Merci ! Nous répondrons vite.",
+      "error": "Une erreur s'est produite. Réessayez ou écrivez à jactive@gmail.com."
     },
     "calendly": {
-      "title": "Réservez un rendez-vous directement",
-      "body": "Choisissez le créneau qui vous convient le mieux, sans échange d'e-mails.",
-      "cta": "Réserver un rendez-vous",
+      "title": "Réservez directement",
+      "body": "Choisissez le créneau qui vous convient.",
+      "cta": "Réserver",
       "todo": "TODO : remplacer par le vrai lien Calendly"
     },
     "whatsapp": {
-      "title": "Écrivez-nous sur WhatsApp",
+      "title": "WhatsApp",
       "cta": "Ouvrir WhatsApp",
       "todo": "TODO : remplacer par le vrai numéro WhatsApp"
     },
     "email": {
-      "title": "Ou écrivez-nous directement",
+      "title": "Email direct",
       "address": "jactive@gmail.com"
     }
   },

@@ -10,12 +10,7 @@ export default function BrowserFrame({
   priority?: boolean;
 }) {
   return (
-    <div className="overflow-hidden rounded-2xl border border-navy/10 bg-white shadow-2xl shadow-navy/20">
-      <div className="flex items-center gap-1.5 border-b border-navy/10 bg-cream-dark px-3 py-2">
-        <span className="size-2.5 rounded-full bg-gold/60" />
-        <span className="size-2.5 rounded-full bg-gold/40" />
-        <span className="size-2.5 rounded-full bg-gold/20" />
-      </div>
+    <div className="overflow-hidden rounded-2xl shadow-lg shadow-navy/10">
       <Image
         src={`/images/app/${src}`}
         alt={alt}
@@ -23,7 +18,7 @@ export default function BrowserFrame({
         height={1000}
         priority={priority}
         className="h-auto w-full"
-        sizes="(min-width: 1024px) 640px, 100vw"
+        sizes="(min-width: 1024px) 420px, 100vw"
       />
     </div>
   );

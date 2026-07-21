@@ -23,7 +23,7 @@ export default function LegalPage({
         ← Chai Active
       </Link>
 
-      <h1 className="mt-4 font-serif text-3xl font-bold text-navy">
+      <h1 className="mt-4 text-3xl font-extrabold text-navy">
         {t(`${namespace}.title`)}
       </h1>
       <p className="mt-1 text-sm text-navy/50">{t(`${namespace}.updated`)}</p>
@@ -44,7 +44,7 @@ export default function LegalPage({
         {sections.map((section, i) => (
           <section key={i}>
             {section.heading && (
-              <h2 className="font-serif text-lg font-semibold text-navy">
+              <h2 className="text-lg font-bold text-navy">
                 {section.heading}
               </h2>
             )}
