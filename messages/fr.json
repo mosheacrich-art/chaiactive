@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "needsReview": true,
+    "draftNotice": "Traduction provisoire, en attente de relecture humaine."
+  },
+  "metadata": {
+    "title": "Chai Active — Des logiciels qui donnent vie aux communautés juives",
+    "description": "Nous concevons et développons Kehál Platform et d'autres plateformes numériques sur mesure pour les communautés, synagogues et entreprises juives. Basés à Barcelone."
+  },
+  "skipToContent": "Aller au contenu",
+  "nav": {
+    "queHacemos": "Ce que nous faisons",
+    "servicios": "Services",
+    "casos": "Cas concrets",
+    "nosotros": "À propos",
+    "contacto": "Contact",
+    "cta": "Réserver un rendez-vous",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "es": "Castellano",
+    "en": "English",
+    "he": "עברית",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Kehál Platform — déjà en service à Jabad Barcelona",
+    "title": "La vie de votre communauté, sur une seule plateforme",
+    "subtitle": "Kehál est l'application de gestion communautaire déjà utilisée par Jabad Barcelona pour organiser horaires, événements, dons, mikvé et bien plus — le tout au même endroit, dans la langue de chaque communauté.",
+    "ctaPrimary": "Voir la plateforme",
+    "ctaSecondary": "Réserver un rendez-vous",
+    "imageAlt": "Écran d'accueil de Kehál Platform, utilisé aujourd'hui par Jabad Barcelona",
+    "trust": "Déjà utilisée réellement. Aucune maquette imaginaire."
+  },
+  "queHacemos": {
+    "eyebrow": "Ce que nous faisons",
+    "title": "Nous construisons la technologie qui fait vivre votre communauté",
+    "intro": "Chez Chai Active, nous concevons et développons des plateformes numériques sur mesure pour les communautés, synagogues et entreprises juives. Nous ne vendons pas de logiciel générique : nous construisons avec vous, en partant de la façon dont votre communauté vit et fonctionne réellement.",
+    "items": [
+      {
+        "title": "De la proximité, pas un ticket de support",
+        "body": "Nous parlons à des rabbins, des conseils d'administration et des bénévoles, pas seulement à un service informatique. Nous concevons pour ceux qui utiliseront réellement la plateforme chaque jour."
+      },
+      {
+        "title": "Tout dans une langue que vous comprenez",
+        "body": "Espagnol, anglais, hébreu et français, avec l'hébreu mis en page nativement de droite à gauche — pas une traduction ajoutée à la dernière minute."
+      },
+      {
+        "title": "Un partenaire sur le long terme",
+        "body": "Nous restons présents après le lancement : nouvelles fonctionnalités, ajustements et support à mesure que votre communauté grandit."
+      },
+      {
+        "title": "Toute l'application, ou juste ce dont vous avez besoin",
+        "body": "Chaque module de Kehál — mikvé, dons, événements, et le reste — fonctionne aussi séparément. Commencez par l'urgent et grandissez à votre rythme."
+      }
+    ]
+  },
+  "confianza": {
+    "title": "Des communautés et entreprises qui nous font déjà confiance",
+    "items": [
+      { "name": "Jabad Barcelona", "role": "Kehál Platform en usage réel" },
+      { "name": "Creative Favours", "role": "Judaïca personnalisée — Londres" },
+      { "name": "Perashapp", "role": "Étude de la paracha hebdomadaire" }
+    ]
+  },
+  "comoLoHacemos": {
+    "eyebrow": "Notre méthode",
+    "title": "Un processus pensé pour des données sensibles",
+    "intro": "Nous savons qu'une communauté n'est pas une start-up : il y a une confiance construite depuis des années, et des données qu'il faut protéger. Voici notre façon de travailler :",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Découverte avec la communauté",
+        "body": "Nous rencontrons le rabbin, le conseil ou l'équipe de gestion pour comprendre le quotidien avant d'écrire la moindre ligne de code."
+      },
+      {
+        "n": "02",
+        "title": "Conception sur mesure",
+        "body": "Nous adaptons chaque module — et l'identité même de la communauté — à votre façon de travailler, et non l'inverse."
+      },
+      {
+        "n": "03",
+        "title": "Développement",
+        "body": "Nous construisons avec le même soin que pour notre propre communauté, avec des revues conjointes tout au long du processus."
+      },
+      {
+        "n": "04",
+        "title": "Lancement",
+        "body": "Nous accompagnons le démarrage, formons l'équipe administratrice et résolvons les frictions des premiers jours."
+      },
+      {
+        "n": "05",
+        "title": "Support continu",
+        "body": "Nous restons disponibles après le lancement : maintenance, améliorations et nouvelles fonctionnalités selon les besoins de la communauté."
+      }
+    ]
+  },
+  "servicios": {
+    "eyebrow": "Services",
+    "title": "Une application au centre, des modules tout autour",
+    "intro": "Kehál Platform réunit tout ce dont une communauté a besoin au quotidien. Et chaque module fonctionne aussi seul.",
+    "standaloneNote": "Également disponible comme module indépendant",
+    "modules": [
+      {
+        "title": "Accueil / Tableau de bord communautaire",
+        "body": "Salutation personnalisée, date civile et hébraïque affichées ensemble, horaires de la synagogue et événements à venir avec inscription directe."
+      },
+      {
+        "title": "Calendrier hébraïque",
+        "body": "Horaires halakhiques par ville — allumage des bougies, Havdala —, paracha de la semaine, et calendrier mensuel civil et hébraïque combiné."
+      },
+      {
+        "title": "Événements",
+        "body": "Liste avec filtres et plusieurs vues, gestion des places disponibles et inscription directe à chaque activité de la communauté."
+      },
+      {
+        "title": "Mikvé",
+        "body": "Réservation de créneau avec son propre calendrier : nouvelle réservation, mes réservations, et gestion complète depuis le mobile.",
+        "highlight": "Un module que très peu de plateformes savent bien gérer"
+      },
+      {
+        "title": "Dons",
+        "body": "Portail de dons organisé par domaine de la communauté — éducatif, religieux, social — avec suivi des campagnes en cours."
+      },
+      {
+        "title": "Services du cycle de vie juif",
+        "body": "Demandes de démarches et célébrations : Bar/Bat Mitsva, Brit Mila, mariages et enregistrement de la Nahala."
+      },
+      {
+        "title": "Torah et Communauté",
+        "body": "Chiourim audio et vidéo, questions directes au rabbin, et prise de rendez-vous personnel avec le Rav."
+      },
+      {
+        "title": "Jconnect — entreprises et co-work juif",
+        "body": "Annuaire et marketplace des entreprises et professionnels de la communauté : publier une activité, chercher une collaboration, trouver un service de confiance.",
+        "highlight": "Le différenciateur qu'aucune plateforme comparable n'offre aujourd'hui"
+      },
+      {
+        "title": "Inscription des membres",
+        "body": "Parcours d'inscription en 4 étapes — compte, identité, résidence, validation — avec téléversement de pièce d'identité et approbation manuelle de l'administration."
+      }
+    ]
+  },
+  "galeria": {
+    "eyebrow": "La plateforme, en conditions réelles",
+    "title": "Voici Kehál aujourd'hui",
+    "intro": "Sans maquettes imaginaires : voici de vraies captures d'écran de la plateforme utilisée chaque jour par la communauté de Jabad Barcelona.",
+    "items": [
+      { "image": "kehal-inicio.png", "caption": "Accueil — tableau de bord communautaire" },
+      { "image": "kehal-calendario-hebreo.png", "caption": "Calendrier hébraïque" },
+      { "image": "kehal-eventos.png", "caption": "Événements et inscriptions" },
+      { "image": "kehal-beit-harav.png", "caption": "Torah et Communauté" },
+      { "image": "kehal-jconnect.png", "caption": "Jconnect — entreprises et communauté" },
+      { "image": "kehal-donativos.png", "caption": "Dons" },
+      { "image": "kehal-admin.png", "caption": "Panneau d'administration" }
+    ]
+  },
+  "casos": {
+    "eyebrow": "Cas concrets",
+    "title": "De vrais projets, pas des maquettes",
+    "labels": {
+      "challenge": "Défi",
+      "solution": "Solution",
+      "result": "Résultat"
+    },
+    "jabad": {
+      "name": "Jabad Barcelona",
+      "tag": "En usage réel",
+      "challenge": "Jabad Barcelona avait besoin de centraliser la gestion d'une communauté bien vivante — horaires, événements, mikvé, dons et bien plus — sans dépendre de tableurs ni de groupes WhatsApp éparpillés.",
+      "solution": "Nous avons conçu et développé Kehál Platform avec l'équipe de HaRav Dovid Libersohn, module par module, adaptée à la façon dont la communauté travaillait déjà.",
+      "result": "Kehál est aujourd'hui utilisée réellement, avec plus de 8 modules actifs : du calendrier hébraïque à l'annuaire d'entreprises Jconnect."
+    },
+    "creativeFavours": {
+      "name": "Creative Favours",
+      "tag": "En production",
+      "link": "creativefavours.vercel.app",
+      "challenge": "Creative Favours, une entreprise familiale londonienne avec plus de 10 ans d'expérience dans la judaïca personnalisée — kippot, benchers, housses de 'halot, cadeaux de mariage et de bar/bat mitsva — avait besoin d'une boutique en ligne à la hauteur de son savoir-faire artisanal.",
+      "solution": "Nous avons construit un site web et un e-commerce sur mesure en Next.js, pensé pour présenter chaque pièce avec le même soin que celui mis à la fabriquer.",
+      "result": "Une boutique en ligne propre qui reflète plus d'une décennie de savoir-faire familial, sans dépendre de modèles génériques."
+    },
+    "perashapp": {
+      "name": "Perashapp",
+      "tag": "En usage",
+      "link": "perashapp.com",
+      "challenge": "Étudier la paracha hebdomadaire en profondeur suppose de suivre l'audio du professeur mot à mot — ce qu'aucun lecteur générique ne fait bien.",
+      "solution": "Nous avons développé Perashapp, avec un audio synchronisé mot à mot avec le texte, et des espaces distincts pour le professeur et l'élève.",
+      "result": "Un outil d'étude déjà opérationnel, avec perashapp.com comme point d'accès pour les professeurs et les élèves."
+    }
+  },
+  "seguridad": {
+    "eyebrow": "Sécurité et confiance",
+    "title": "Les données de votre communauté, traitées avec le soin qu'elles méritent",
+    "intro": "Une communauté n'est pas un CRM commercial : elle gère des pièces d'identité, des données familiales et des informations sensibles. C'est pourquoi la sécurité n'est pas une case cochée à la fin — elle fait partie de la conception dès le premier jour.",
+    "items": [
+      {
+        "title": "Vérification d'identité",
+        "body": "L'inscription des nouveaux membres inclut le téléversement d'une pièce d'identité, pour s'assurer que la personne qui rejoint la communauté est bien celle qu'elle prétend être."
+      },
+      {
+        "title": "Approbation manuelle",
+        "body": "Aucune inscription ne s'active seule : l'administration de la communauté examine et approuve chaque demande, généralement sous 24 à 48 heures."
+      },
+      {
+        "title": "Conformité RGPD",
+        "body": "Le traitement des données personnelles respecte le Règlement Général sur la Protection des Données, avec une base légale claire pour chaque usage de l'information."
+      },
+      {
+        "title": "Chiffrement des documents",
+        "body": "Les documents sensibles sont stockés chiffrés, et non comme des fichiers isolés accessibles à quiconque a accès au système."
+      }
+    ]
+  },
+  "precios": {
+    "eyebrow": "Comment nous collaborons",
+    "title": "L'application complète, ou juste le module dont vous avez besoin aujourd'hui",
+    "intro": "Nous ne travaillons pas avec des offres fermées par paliers. Chaque communauté et chaque entreprise a un point de départ différent, alors nous proposons deux voies :",
+    "pathApp": {
+      "title": "La plateforme complète",
+      "body": "Tous les modules de Kehál intégrés dans une seule application, avec l'identité de votre communauté et l'accompagnement de Chai Active dès le premier jour.",
+      "items": [
+        "Inscription des membres avec vérification d'identité",
+        "Tous les modules actifs dès le lancement",
+        "Support et évolution continus"
+      ]
+    },
+    "pathModulo": {
+      "title": "Un module précis",
+      "body": "Vous avez seulement besoin de régler le mikvé, ou de centraliser les dons ? Souscrivez ce module de façon indépendante, sans engagement sur le reste.",
+      "items": [
+        "Mise en œuvre plus rapide et ciblée",
+        "Coût ajusté à ce que vous utilisez réellement",
+        "Possibilité d'ajouter d'autres modules quand vous en aurez besoin"
+      ]
+    },
+    "note": "Nous ne publions pas de tarifs fixes car chaque projet est différent — parlez-nous du vôtre et nous vous dirons ce qui a du sens.",
+    "cta": "Contactez-nous"
+  },
+  "sobreNosotros": {
+    "eyebrow": "À propos",
+    "title": "Chai Active — parce que « 'hai » signifie vie",
+    "body": "Chai Active est née à Barcelone, fondée par Isaac Ayash Belilty, à partir d'une idée simple : la technologie peut aussi être mise au service de la vie communautaire juive, et pas seulement de l'efficacité d'une entreprise. « 'Hai » (חי) signifie vie en hébreu — c'est littéralement notre mission : donner une vie numérique à des communautés et des entreprises qui se sont longtemps soutenues avec beaucoup d'efforts et peu d'outils à la hauteur.",
+    "founder": {
+      "name": "Isaac Ayash Belilty",
+      "role": "Fondateur de Chai Active — Barcelone"
+    }
+  },
+  "contacto": {
+    "eyebrow": "Contact",
+    "title": "Parlons de votre communauté ?",
+    "intro": "Dites-nous ce dont votre communauté ou votre entreprise a besoin. Sans engagement, sans jargon technique — juste une conversation normale.",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "community": "Communauté ou organisation (facultatif)",
+      "message": "Dites-nous comment nous pouvons vous aider",
+      "submit": "Envoyer le message",
+      "sending": "Envoi en cours…",
+      "success": "Merci ! Nous vous répondrons dès que possible.",
+      "error": "Une erreur s'est produite. Réessayez ou écrivez-nous directement à jactive@gmail.com."
+    },
+    "calendly": {
+      "title": "Réservez un rendez-vous directement",
+      "body": "Choisissez le créneau qui vous convient le mieux, sans échange d'e-mails.",
+      "cta": "Réserver un rendez-vous",
+      "todo": "TODO : remplacer par le vrai lien Calendly"
+    },
+    "whatsapp": {
+      "title": "Écrivez-nous sur WhatsApp",
+      "cta": "Ouvrir WhatsApp",
+      "todo": "TODO : remplacer par le vrai numéro WhatsApp"
+    },
+    "email": {
+      "title": "Ou écrivez-nous directement",
+      "address": "jactive@gmail.com"
+    }
+  },
+  "footer": {
+    "tagline": "Une technologie qui donne vie aux communautés juives.",
+    "rights": "© {year} Chai Active. Tous droits réservés.",
+    "pendingDomain": "chaiactive.com — nom de domaine en attente d'enregistrement",
+    "legalLinks": {
+      "avisoLegal": "Mentions légales",
+      "privacidad": "Politique de confidentialité",
+      "cookies": "Politique de cookies"
+    }
+  },
+  "legal": {
+    "reviewBanner": "Brouillon de travail. Ce document doit être relu par un professionnel du droit et complété avec les données d'identification réelles de Chai Active avant sa mise en production.",
+    "avisoLegal": {
+      "title": "Mentions légales",
+      "updated": "Dernière mise à jour : date de publication en attente",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Conformément à l'obligation d'information prévue à l'article 10 de la loi espagnole 34/2002 du 11 juillet sur les services de la société de l'information et le commerce électronique (LSSI-CE), les informations suivantes sont fournies : le présent site, ci-après le Site (chaiactive.com), appartient à [Isaac Ayash Belilty / structure juridique de Chai Active], ci-après LE TITULAIRE."
+          ]
+        },
+        {
+          "heading": "Données d'identification",
+          "paragraphs": [
+            "Titulaire : [Isaac Ayash Belilty / Chai Active — forme juridique à confirmer]",
+            "Numéro fiscal : [en attente]",
+            "Adresse : Barcelone, Espagne [adresse complète en attente]",
+            "Email de contact : jactive@gmail.com [en attente de remplacement par contacto@chaiactive.com]",
+            "Activité : conception et développement de logiciels et plateformes numériques pour communautés et organisations juives"
+          ]
+        },
+        {
+          "heading": "Objet",
+          "paragraphs": [
+            "Le Site a pour finalité de présenter les services du TITULAIRE, de montrer les réalisations pour des communautés et entreprises du monde juif, et de faciliter le contact avec des clients potentiels. L'accès au Site est gratuit et ne nécessite pas d'inscription préalable, sauf pour les fonctionnalités qui pourraient l'exiger à l'avenir."
+          ]
+        },
+        {
+          "heading": "Conditions d'utilisation",
+          "paragraphs": [
+            "L'utilisateur s'engage à faire un usage approprié du Site, conformément à la loi, à la morale, à l'ordre public et aux présentes mentions légales, en s'abstenant de toute utilisation susceptible d'empêcher, d'endommager ou de perturber son fonctionnement normal."
+          ]
+        },
+        {
+          "heading": "Propriété intellectuelle et industrielle",
+          "paragraphs": [
+            "Tous les contenus du Site (textes, images, design, logos, et captures d'écran des applications développées par LE TITULAIRE) sont la propriété du TITULAIRE ou sont affichés avec l'autorisation expresse de leurs titulaires respectifs (communautés et entreprises clientes), et sont protégés par la réglementation en matière de propriété intellectuelle et industrielle. Leur reproduction, distribution ou communication publique sans autorisation préalable est interdite."
+          ]
+        },
+        {
+          "heading": "Exclusion de responsabilité",
+          "paragraphs": [
+            "LE TITULAIRE n'est pas responsable des dommages pouvant résulter d'interférences, interruptions, pannes techniques ou déconnexions dans le fonctionnement du Site, ni du contenu de sites tiers accessibles via des liens depuis ce Site."
+          ]
+        },
+        {
+          "heading": "Droit applicable et juridiction",
+          "paragraphs": [
+            "Les présentes conditions sont régies par le droit espagnol. Pour tout litige découlant de l'accès ou de l'utilisation du Site, les parties se soumettent aux tribunaux de Barcelone, sauf disposition contraire de la réglementation applicable."
+          ]
+        }
+      ]
+    },
+    "privacidad": {
+      "title": "Politique de confidentialité",
+      "updated": "Dernière mise à jour : date de publication en attente",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "Conformément au Règlement (UE) 2016/679 du Parlement européen et du Conseil du 27 avril 2016 (RGPD), et à la loi organique espagnole 3/2018 du 5 décembre relative à la protection des données personnelles et à la garantie des droits numériques (LOPDGDD), les informations suivantes sont communiquées :"
+          ]
+        },
+        {
+          "heading": "Responsable du traitement",
+          "paragraphs": [
+            "Identité : [Isaac Ayash Belilty / Chai Active]",
+            "Numéro fiscal : [en attente]",
+            "Adresse : Barcelone, Espagne [en attente]",
+            "Email : jactive@gmail.com [en attente de remplacement par contacto@chaiactive.com]"
+          ]
+        },
+        {
+          "heading": "Quelles données collectons-nous ?",
+          "paragraphs": [
+            "Via le formulaire de contact et/ou la réservation de rendez-vous du Site, nous collectons les données fournies volontairement par l'utilisateur : nom, adresse email, téléphone (facultatif) et le contenu du message ou de la demande. Aucune donnée sensible ni pièce d'identité n'est collectée via ce site corporatif."
+          ]
+        },
+        {
+          "heading": "Dans quel but traitons-nous vos données ?",
+          "paragraphs": [
+            "Pour répondre aux demandes reçues via le formulaire de contact, gérer les réservations de rendez-vous/démonstrations, et, si l'utilisateur y consent expressément, envoyer des communications commerciales liées aux services de Chai Active."
+          ]
+        },
+        {
+          "heading": "Quelle est la base légale du traitement ?",
+          "paragraphs": [
+            "Le consentement de la personne concernée, donné en remplissant et envoyant le formulaire correspondant (art. 6.1.a RGPD)."
+          ]
+        },
+        {
+          "heading": "Combien de temps conservons-nous vos données ?",
+          "paragraphs": [
+            "Les données seront conservées tant que subsiste une relation commerciale ou d'intérêt mutuel, et dans tous les cas pendant les délais légalement établis pour répondre à d'éventuelles responsabilités. En l'absence de réponse ou de suite donnée au contact, elles seront conservées au maximum [ex. 24 mois] avant suppression."
+          ]
+        },
+        {
+          "heading": "À quels destinataires vos données seront-elles communiquées ?",
+          "paragraphs": [
+            "Aucune donnée ne sera cédée à des tiers, sauf obligation légale. Nous pourrons recourir à des prestataires technologiques agissant comme sous-traitants (par exemple : hébergeur/plateforme de déploiement [Vercel], outil de gestion de formulaires/emails, ou outil d'agenda [Calendly]), qui traiteront les données uniquement selon les instructions du TITULAIRE et avec les garanties exigées par le RGPD (y compris, le cas échéant, des clauses de transfert international si le prestataire est situé hors de l'Espace économique européen)."
+          ]
+        },
+        {
+          "heading": "Quels sont vos droits ?",
+          "paragraphs": [
+            "Toute personne a le droit d'obtenir la confirmation que Chai Active traite ou non des données personnelles la concernant, et notamment le droit d'accéder à ses données personnelles, de rectifier des données inexactes ou d'en demander la suppression, ainsi que de demander la limitation, l'opposition ou la portabilité de ses données, en écrivant à jactive@gmail.com [ou contacto@chaiactive.com] en précisant le droit qu'elle souhaite exercer. Elle a également le droit d'introduire une réclamation auprès de l'Agence espagnole de protection des données (www.aepd.es) si elle estime que le traitement n'est pas conforme à la réglementation en vigueur."
+          ]
+        },
+        {
+          "heading": "Mesures de sécurité",
+          "paragraphs": [
+            "LE TITULAIRE adopte les mesures techniques et organisationnelles nécessaires pour garantir la sécurité des données personnelles traitées et éviter leur altération, perte, traitement ou accès non autorisé."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Politique de cookies",
+      "updated": "Dernière mise à jour : date de publication en attente",
+      "sections": [
+        {
+          "heading": "Que sont les cookies ?",
+          "paragraphs": [
+            "Les cookies sont de petits fichiers installés dans le navigateur de l'utilisateur lors de la visite d'un site web, qui permettent notamment de stocker et de récupérer des informations sur les habitudes de navigation ou l'équipement utilisé."
+          ]
+        },
+        {
+          "heading": "Cookies utilisés sur ce Site",
+          "paragraphs": [
+            "Cookies techniques (nécessaires) : indispensables au bon fonctionnement du Site (par exemple, mémoriser la langue sélectionnée). Ils ne nécessitent pas de consentement.",
+            "Cookies analytiques [en attente de confirmation de l'utilisation de Google Analytics ou d'un autre outil] : permettent de quantifier le nombre de visiteurs et d'analyser l'usage du Site, afin d'améliorer les contenus proposés. Ils nécessitent le consentement préalable de l'utilisateur.",
+            "Cookies tiers [en attente de confirmation des outils intégrés, par exemple Calendly pour la réservation de rendez-vous, ou un bouton WhatsApp] : si le Site intègre du contenu tiers, ces prestataires peuvent installer leurs propres cookies conformément à leurs politiques de confidentialité."
+          ]
+        },
+        {
+          "heading": "Gestion des cookies",
+          "paragraphs": [
+            "Lors de la première visite du Site, une bannière de consentement s'affichera, permettant à l'utilisateur d'accepter tous les cookies, de refuser les cookies non essentiels, ou de configurer ses préférences. L'utilisateur peut également supprimer ou bloquer les cookies à tout moment via les paramètres de son navigateur."
+          ]
+        },
+        {
+          "heading": "Plus d'informations",
+          "paragraphs": [
+            "Pour toute question concernant cette politique de cookies, vous pouvez nous écrire à jactive@gmail.com [ou contacto@chaiactive.com]."
+          ]
+        }
+      ]
+    }
+  }
+}

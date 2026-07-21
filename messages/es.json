@@ -1,0 +1,439 @@
+{
+  "meta": {
+    "needsReview": false,
+    "draftNotice": "Traducción provisional pendiente de revisión humana."
+  },
+  "metadata": {
+    "title": "Chai Active — Software con vida para comunidades judías",
+    "description": "Diseñamos y desarrollamos Kehál Platform y otras plataformas digitales a medida para comunidades, sinagogas y negocios judíos. Con sede en Barcelona."
+  },
+  "skipToContent": "Ir al contenido",
+  "nav": {
+    "queHacemos": "Qué hacemos",
+    "servicios": "Servicios",
+    "casos": "Casos de éxito",
+    "nosotros": "Nosotros",
+    "contacto": "Contacto",
+    "cta": "Reservar una reunión",
+    "openMenu": "Abrir menú",
+    "closeMenu": "Cerrar menú"
+  },
+  "languageSwitcher": {
+    "label": "Idioma",
+    "es": "Castellano",
+    "en": "English",
+    "he": "עברית",
+    "fr": "Français"
+  },
+  "hero": {
+    "eyebrow": "Kehál Platform — ya en marcha en Jabad Barcelona",
+    "title": "La vida de tu comunidad, en una sola plataforma",
+    "subtitle": "Kehál es la app de gestión comunitaria que ya usa Jabad Barcelona para organizar horarios, eventos, donativos, el mikvé y mucho más — todo en un mismo lugar, en el idioma de cada comunidad.",
+    "ctaPrimary": "Ver la plataforma",
+    "ctaSecondary": "Reservar una reunión",
+    "imageAlt": "Panel de inicio de Kehál Platform, usado hoy por Jabad Barcelona",
+    "trust": "Ya en uso real. Sin capturas de pantalla imaginarias."
+  },
+  "queHacemos": {
+    "eyebrow": "Qué hacemos",
+    "title": "Construimos la tecnología que sostiene a tu comunidad",
+    "intro": "En Chai Active diseñamos y desarrollamos plataformas digitales a medida para comunidades, sinagogas y negocios judíos. No vendemos software genérico: construimos contigo, entendiendo primero cómo vive y trabaja tu comunidad.",
+    "items": [
+      {
+        "title": "Cercanía, no un ticket de soporte",
+        "body": "Hablamos con rabinos, juntas directivas y voluntarios, no solo con un departamento de IT. Diseñamos pensando en quien de verdad va a usar la plataforma cada día."
+      },
+      {
+        "title": "Todo en un idioma que entiendes",
+        "body": "Castellano, inglés, hebreo y francés, con el hebreo maquetado de derecha a izquierda de forma nativa — no una traducción añadida a última hora."
+      },
+      {
+        "title": "Un socio a largo plazo",
+        "body": "Acompañamos el lanzamiento y seguimos ahí después: nuevas funciones, ajustes y soporte según tu comunidad va creciendo."
+      },
+      {
+        "title": "Todo en una app, o solo lo que necesitas",
+        "body": "Cada módulo de Kehál —mikvé, donativos, eventos, y el resto— funciona también por separado. Empiezas por lo urgente y creces a tu ritmo."
+      }
+    ]
+  },
+  "confianza": {
+    "title": "Comunidades y negocios que ya confían en nosotros",
+    "items": [
+      { "name": "Jabad Barcelona", "role": "Kehál Platform en uso real" },
+      { "name": "Creative Favours", "role": "Judaica personalizada — Londres" },
+      { "name": "Perashapp", "role": "Estudio de la parashá semanal" }
+    ]
+  },
+  "comoLoHacemos": {
+    "eyebrow": "Cómo lo hacemos",
+    "title": "Un proceso pensado para quien trata con datos sensibles",
+    "intro": "Sabemos que una comunidad no es una startup: hay confianza construida durante años y datos que hay que cuidar. Por eso trabajamos así:",
+    "steps": [
+      {
+        "n": "01",
+        "title": "Descubrimiento con la comunidad",
+        "body": "Nos sentamos con el rabino, la junta directiva o el equipo de gestión para entender cómo funciona el día a día antes de escribir una sola línea de código."
+      },
+      {
+        "n": "02",
+        "title": "Diseño a medida",
+        "body": "Adaptamos cada módulo —y la propia identidad de la comunidad— a como ya trabajáis, no al revés."
+      },
+      {
+        "n": "03",
+        "title": "Desarrollo",
+        "body": "Construimos con el mismo cuidado que pondríamos en nuestra propia comunidad, con revisiones conjuntas durante todo el proceso."
+      },
+      {
+        "n": "04",
+        "title": "Lanzamiento",
+        "body": "Acompañamos el arranque, formamos al equipo administrador y resolvemos cualquier fricción de los primeros días."
+      },
+      {
+        "n": "05",
+        "title": "Soporte continuo",
+        "body": "Seguimos disponibles después del lanzamiento: mantenimiento, mejoras y nuevas funciones según la comunidad lo necesite."
+      }
+    ]
+  },
+  "servicios": {
+    "eyebrow": "Servicios",
+    "title": "Una app en el centro, los módulos alrededor",
+    "intro": "Kehál Platform reúne todo lo que una comunidad necesita gestionar en el día a día. Y cada pieza también funciona por su cuenta.",
+    "standaloneNote": "Disponible también como módulo independiente",
+    "modules": [
+      {
+        "title": "Inicio / Panel comunitario",
+        "body": "Saludo personalizado, fecha en calendario civil y hebreo a la vez, horarios de la sinagoga y próximos eventos con inscripción directa."
+      },
+      {
+        "title": "Calendario Hebreo",
+        "body": "Horarios halájicos por ciudad —encendido de velas, Habdalá—, parashá de la semana y calendario mensual civil y hebreo combinado."
+      },
+      {
+        "title": "Eventos",
+        "body": "Listado con filtros y varias vistas, control de aforo e inscripción directa para cada actividad de la comunidad."
+      },
+      {
+        "title": "Mikve",
+        "body": "Reserva de turno con calendario propio: nueva reserva, mis reservas, y gestión completa desde el móvil.",
+        "highlight": "Un módulo que muy pocas plataformas resuelven bien"
+      },
+      {
+        "title": "Donativos",
+        "body": "Portal de donaciones organizado por área de la comunidad — educativa, religiosa, social — con seguimiento de campañas activas."
+      },
+      {
+        "title": "Servicios de ciclo de vida judío",
+        "body": "Solicitud de trámites y celebraciones: Bar/Bat Mitzvah, Brit Milá, bodas y registro de Najalá."
+      },
+      {
+        "title": "Torá y Comunidad",
+        "body": "Shiurim en audio y vídeo, preguntas directas al rabino, y reserva de cita personal con HaRav."
+      },
+      {
+        "title": "Jconnect — negocios y co-work judío",
+        "body": "Directorio y marketplace de negocios y profesionales de la comunidad: publicar un negocio, buscar colaboración, o encontrar un servicio de confianza.",
+        "highlight": "El diferencial que ninguna plataforma similar ofrece hoy"
+      },
+      {
+        "title": "Alta de miembros",
+        "body": "Onboarding en 4 pasos —cuenta, identidad, residencia, revisión— con subida de documento de identidad y aprobación manual de la administración."
+      }
+    ]
+  },
+  "galeria": {
+    "eyebrow": "La plataforma, en la vida real",
+    "title": "Así es Kehál hoy",
+    "intro": "Sin mockups de fantasía: estas son capturas reales de la plataforma que usa cada día la comunidad de Jabad Barcelona.",
+    "items": [
+      { "image": "kehal-inicio.png", "caption": "Inicio — panel comunitario" },
+      { "image": "kehal-calendario-hebreo.png", "caption": "Calendario Hebreo" },
+      { "image": "kehal-eventos.png", "caption": "Eventos e inscripciones" },
+      { "image": "kehal-beit-harav.png", "caption": "Torá y Comunidad" },
+      { "image": "kehal-jconnect.png", "caption": "Jconnect — negocios y comunidad" },
+      { "image": "kehal-donativos.png", "caption": "Donativos" },
+      { "image": "kehal-admin.png", "caption": "Panel de administración" }
+    ]
+  },
+  "casos": {
+    "eyebrow": "Casos de éxito",
+    "title": "Proyectos reales, no maquetas",
+    "labels": {
+      "challenge": "Reto",
+      "solution": "Solución",
+      "result": "Resultado"
+    },
+    "jabad": {
+      "name": "Jabad Barcelona",
+      "tag": "En uso real",
+      "challenge": "Jabad Barcelona necesitaba centralizar en un único lugar la gestión de una comunidad viva: horarios, eventos, mikvé, donativos y mucho más, sin depender de hojas de cálculo ni grupos de WhatsApp dispersos.",
+      "solution": "Diseñamos y desarrollamos Kehál Platform junto al equipo de HaRav Dovid Libersohn, módulo a módulo, adaptada a cómo la comunidad ya trabajaba.",
+      "result": "Hoy Kehál está en uso real, con más de 8 módulos activos: desde el calendario hebreo hasta el directorio de negocios Jconnect."
+    },
+    "creativeFavours": {
+      "name": "Creative Favours",
+      "tag": "En producción",
+      "link": "creativefavours.vercel.app",
+      "challenge": "Creative Favours, un negocio familiar londinense con más de 10 años dedicado a la Judaica personalizada —kipot, benchers, fundas de jalá, regalos de boda y bar/bat mitzvá—, necesitaba una tienda online a la altura de su producto artesanal.",
+      "solution": "Construimos una web y e-commerce a medida en Next.js, pensada para mostrar cada pieza con el mismo cuidado que se pone en hacerla.",
+      "result": "Una tienda online propia que refleja el oficio de más de una década de la familia, sin depender de plantillas genéricas."
+    },
+    "perashapp": {
+      "name": "Perashapp",
+      "tag": "En uso",
+      "link": "perashapp.com",
+      "challenge": "Estudiar la parashá semanal en profundidad requiere seguir el audio del profesor palabra por palabra, algo que ningún reproductor genérico resuelve bien.",
+      "solution": "Desarrollamos Perashapp, con audio sincronizado palabra por palabra con el texto, y paneles diferenciados para profesor y alumno.",
+      "result": "Una herramienta de estudio ya operativa, con perashapp.com como punto de acceso para profesores y alumnos."
+    }
+  },
+  "seguridad": {
+    "eyebrow": "Seguridad y confianza",
+    "title": "Los datos de tu comunidad, tratados con el cuidado que merecen",
+    "intro": "Una comunidad no es un CRM de ventas: gestiona documentos de identidad, datos familiares e información sensible. Por eso la seguridad no es una casilla que marcamos al final — es parte del diseño desde el primer día.",
+    "items": [
+      {
+        "title": "Verificación de identidad",
+        "body": "El alta de nuevos miembros incluye subida de documento de identidad, para asegurar que quien entra en la comunidad es quien dice ser."
+      },
+      {
+        "title": "Aprobación manual",
+        "body": "Ninguna alta se activa sola: la administración de la comunidad revisa y aprueba cada solicitud, normalmente en 24-48 horas."
+      },
+      {
+        "title": "Cumplimiento RGPD",
+        "body": "El tratamiento de datos personales se ajusta al Reglamento General de Protección de Datos, con base legal clara para cada uso de la información."
+      },
+      {
+        "title": "Cifrado de documentos",
+        "body": "Los documentos sensibles se almacenan cifrados, no como archivos sueltos accesibles por cualquiera con acceso al sistema."
+      }
+    ]
+  },
+  "precios": {
+    "eyebrow": "Cómo colaboramos",
+    "title": "La app completa, o solo el módulo que necesitas hoy",
+    "intro": "No trabajamos con paquetes cerrados por niveles. Cada comunidad y cada negocio tiene un punto de partida distinto, así que planteamos dos caminos:",
+    "pathApp": {
+      "title": "La plataforma completa",
+      "body": "Todos los módulos de Kehál integrados en una sola app, con la identidad de tu comunidad y el acompañamiento de Chai Active desde el primer día.",
+      "items": [
+        "Onboarding de miembros con verificación de identidad",
+        "Todos los módulos activos desde el lanzamiento",
+        "Soporte y evolución continuos"
+      ]
+    },
+    "pathModulo": {
+      "title": "Un módulo concreto",
+      "body": "¿Solo necesitas resolver el mikvé, o centralizar los donativos? Contratas ese módulo de forma independiente, sin comprometerte con el resto.",
+      "items": [
+        "Implementación más rápida y acotada",
+        "Coste ajustado a lo que realmente usas",
+        "Posibilidad de sumar más módulos cuando lo necesites"
+      ]
+    },
+    "note": "No publicamos tarifas cerradas porque cada proyecto es distinto — cuéntanos tu caso y te decimos qué tiene sentido.",
+    "cta": "Consúltanos"
+  },
+  "sobreNosotros": {
+    "eyebrow": "Sobre nosotros",
+    "title": "Chai Active — porque \"jai\" significa vida",
+    "body": "Chai Active nace en Barcelona de la mano de Isaac Ayash Belilty, con una idea sencilla: la tecnología también puede ponerse al servicio de la vida comunitaria judía, no solo de la eficiencia de una empresa. \"Jai\" (חי) significa vida en hebreo — y esa es, literalmente, nuestra misión: dar vida digital a comunidades y negocios que durante generaciones se han sostenido con mucho esfuerzo y pocas herramientas a su altura.",
+    "founder": {
+      "name": "Isaac Ayash Belilty",
+      "role": "Fundador de Chai Active — Barcelona"
+    }
+  },
+  "contacto": {
+    "eyebrow": "Contacto",
+    "title": "¿Hablamos de tu comunidad?",
+    "intro": "Cuéntanos qué necesita tu comunidad o tu negocio. Sin compromiso, sin jerga técnica — una conversación normal.",
+    "form": {
+      "name": "Nombre",
+      "email": "Email",
+      "community": "Comunidad u organización (opcional)",
+      "message": "Cuéntanos en qué podemos ayudarte",
+      "submit": "Enviar mensaje",
+      "sending": "Enviando…",
+      "success": "¡Gracias! Te responderemos lo antes posible.",
+      "error": "Algo ha fallado. Prueba de nuevo o escríbenos directamente a jactive@gmail.com."
+    },
+    "calendly": {
+      "title": "Reserva una reunión directamente",
+      "body": "Elige el horario que mejor te encaje, sin ida y vuelta de emails.",
+      "cta": "Reservar reunión",
+      "todo": "TODO: sustituir por el enlace real de Calendly"
+    },
+    "whatsapp": {
+      "title": "Escríbenos por WhatsApp",
+      "cta": "Abrir WhatsApp",
+      "todo": "TODO: sustituir por el número real de WhatsApp"
+    },
+    "email": {
+      "title": "O escríbenos directamente",
+      "address": "jactive@gmail.com"
+    }
+  },
+  "footer": {
+    "tagline": "Tecnología con vida para comunidades judías.",
+    "rights": "© {year} Chai Active. Todos los derechos reservados.",
+    "pendingDomain": "chaiactive.com — dominio pendiente de registro",
+    "legalLinks": {
+      "avisoLegal": "Aviso Legal",
+      "privacidad": "Política de Privacidad",
+      "cookies": "Política de Cookies"
+    }
+  },
+  "legal": {
+    "reviewBanner": "Borrador de trabajo. Este documento debe ser revisado por un profesional (abogado o gestoría) y completado con los datos identificativos reales de Chai Active antes de publicarse en producción.",
+    "avisoLegal": {
+      "title": "Aviso Legal",
+      "updated": "Última actualización: pendiente de fecha de publicación",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "En cumplimiento del deber de información recogido en el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE), se facilitan a continuación los siguientes datos: la presente web, en adelante, Sitio Web (chaiactive.com), es titularidad de [Isaac Ayash Belilty / razón social de Chai Active], en adelante, EL TITULAR."
+          ]
+        },
+        {
+          "heading": "Datos identificativos",
+          "paragraphs": [
+            "Titular: [Isaac Ayash Belilty / Chai Active — forma jurídica pendiente de confirmar]",
+            "NIF/CIF: [pendiente]",
+            "Domicilio: Barcelona, España [dirección completa pendiente]",
+            "Correo electrónico de contacto: jactive@gmail.com [pendiente sustituir por contacto@chaiactive.com]",
+            "Actividad: diseño y desarrollo de software y plataformas digitales para comunidades y organizaciones judías"
+          ]
+        },
+        {
+          "heading": "Objeto",
+          "paragraphs": [
+            "El Sitio Web tiene como finalidad presentar los servicios de EL TITULAR, mostrar trabajos realizados para comunidades y empresas del ámbito judío, y facilitar el contacto con potenciales clientes. El acceso al Sitio Web es gratuito y no requiere registro previo, salvo para las funcionalidades que en el futuro puedan requerirlo."
+          ]
+        },
+        {
+          "heading": "Condiciones de uso",
+          "paragraphs": [
+            "El usuario se compromete a hacer un uso adecuado del Sitio Web, de conformidad con la ley, la moral, el orden público y el presente Aviso Legal, absteniéndose de utilizarlo de forma que pueda impedir, dañar o deteriorar el normal funcionamiento del mismo."
+          ]
+        },
+        {
+          "heading": "Propiedad intelectual e industrial",
+          "paragraphs": [
+            "Todos los contenidos del Sitio Web (textos, imágenes, diseño, logotipos, y capturas de las aplicaciones desarrolladas por EL TITULAR) son propiedad de EL TITULAR o se muestran con la autorización expresa de sus respectivos titulares (comunidades y empresas cliente), y están protegidos por la normativa de propiedad intelectual e industrial. Queda prohibida su reproducción, distribución o comunicación pública sin autorización previa."
+          ]
+        },
+        {
+          "heading": "Exclusión de responsabilidad",
+          "paragraphs": [
+            "EL TITULAR no se hace responsable de los daños y perjuicios que pudieran derivarse de interferencias, interrupciones, fallos técnicos o desconexiones en el funcionamiento del Sitio Web, ni de los contenidos de páginas web de terceros a las que se pueda acceder mediante enlaces desde este Sitio Web."
+          ]
+        },
+        {
+          "heading": "Legislación aplicable y jurisdicción",
+          "paragraphs": [
+            "Las presentes condiciones se rigen por la legislación española. Para cualquier controversia que pudiera derivarse del acceso o uso del Sitio Web, las partes se someten a los Juzgados y Tribunales de Barcelona, salvo que la normativa aplicable disponga otra cosa."
+          ]
+        }
+      ]
+    },
+    "privacidad": {
+      "title": "Política de Privacidad",
+      "updated": "Última actualización: pendiente de fecha de publicación",
+      "sections": [
+        {
+          "heading": "",
+          "paragraphs": [
+            "De conformidad con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016 (RGPD), y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPDGDD), se informa de lo siguiente:"
+          ]
+        },
+        {
+          "heading": "Responsable del tratamiento",
+          "paragraphs": [
+            "Identidad: [Isaac Ayash Belilty / Chai Active]",
+            "NIF/CIF: [pendiente]",
+            "Domicilio: Barcelona, España [pendiente]",
+            "Email: jactive@gmail.com [pendiente sustituir por contacto@chaiactive.com]"
+          ]
+        },
+        {
+          "heading": "¿Qué datos recogemos?",
+          "paragraphs": [
+            "A través del formulario de contacto y/o la reserva de reunión del Sitio Web, recogemos los datos que el usuario facilita voluntariamente: nombre, correo electrónico, teléfono (opcional) y el contenido del mensaje o motivo de la consulta. No se recoge ningún dato sensible ni documento de identidad a través de esta web corporativa."
+          ]
+        },
+        {
+          "heading": "¿Con qué finalidad tratamos tus datos?",
+          "paragraphs": [
+            "Para responder a las consultas recibidas a través del formulario de contacto, gestionar la reserva de reuniones/demos, y, si el usuario lo consiente expresamente, enviar comunicaciones comerciales relacionadas con los servicios de Chai Active."
+          ]
+        },
+        {
+          "heading": "¿Cuál es la legitimación para el tratamiento?",
+          "paragraphs": [
+            "El consentimiento del interesado, prestado al rellenar y enviar el formulario correspondiente (art. 6.1.a RGPD)."
+          ]
+        },
+        {
+          "heading": "¿Por cuánto tiempo conservaremos tus datos?",
+          "paragraphs": [
+            "Los datos se conservarán mientras exista una relación comercial o de interés mutuo, y en todo caso durante los plazos legalmente establecidos para atender eventuales responsabilidades. Si no hay respuesta ni continuidad en el contacto, se conservarán durante un máximo de [ej. 24 meses] antes de ser eliminados."
+          ]
+        },
+        {
+          "heading": "¿A qué destinatarios se comunicarán tus datos?",
+          "paragraphs": [
+            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios/email, o herramienta de agenda [Calendly]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
+          ]
+        },
+        {
+          "heading": "¿Cuáles son tus derechos?",
+          "paragraphs": [
+            "Cualquier persona tiene derecho a obtener confirmación sobre si en Chai Active estamos tratando datos personales que le conciernan, y en particular tiene derecho a acceder a sus datos personales, rectificar los datos inexactos o solicitar su supresión, así como a solicitar la limitación, oposición o portabilidad de sus datos, escribiendo a jactive@gmail.com [o contacto@chaiactive.com] indicando el derecho que desea ejercer. También tiene derecho a presentar una reclamación ante la Agencia Española de Protección de Datos (www.aepd.es) si considera que el tratamiento no se ajusta a la normativa vigente."
+          ]
+        },
+        {
+          "heading": "Medidas de seguridad",
+          "paragraphs": [
+            "EL TITULAR adopta las medidas técnicas y organizativas necesarias para garantizar la seguridad de los datos personales tratados y evitar su alteración, pérdida, tratamiento o acceso no autorizado."
+          ]
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Política de Cookies",
+      "updated": "Última actualización: pendiente de fecha de publicación",
+      "sections": [
+        {
+          "heading": "¿Qué son las cookies?",
+          "paragraphs": [
+            "Las cookies son pequeños archivos que se instalan en el navegador del usuario al visitar un sitio web, y que permiten, entre otras cosas, almacenar y recuperar información sobre los hábitos de navegación o su equipo."
+          ]
+        },
+        {
+          "heading": "Cookies utilizadas en este Sitio Web",
+          "paragraphs": [
+            "Cookies técnicas (necesarias): imprescindibles para el correcto funcionamiento del Sitio Web (por ejemplo, recordar el idioma seleccionado). No requieren consentimiento.",
+            "Cookies analíticas [pendiente confirmar si se usará Google Analytics u otra herramienta]: permiten cuantificar el número de visitantes y analizar el uso que hacen los usuarios del Sitio Web, con el fin de mejorar los contenidos ofrecidos. Requieren consentimiento previo del usuario.",
+            "Cookies de terceros [pendiente confirmar herramientas embebidas, p. ej. Calendly para reservar reuniones, o botón de WhatsApp]: si el Sitio Web incorpora contenido de terceros, estos proveedores pueden instalar sus propias cookies conforme a sus políticas de privacidad."
+          ]
+        },
+        {
+          "heading": "Gestión de cookies",
+          "paragraphs": [
+            "Al acceder al Sitio Web por primera vez, se mostrará un banner de consentimiento donde el usuario podrá aceptar todas las cookies, rechazar las no esenciales, o configurar sus preferencias. El usuario puede además eliminar o bloquear las cookies en cualquier momento a través de la configuración de su navegador."
+          ]
+        },
+        {
+          "heading": "Más información",
+          "paragraphs": [
+            "Para cualquier duda sobre esta Política de Cookies, puede escribirnos a jactive@gmail.com [o contacto@chaiactive.com]."
+          ]
+        }
+      ]
+    }
+  }
+}

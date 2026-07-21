@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chai Active — web corporativa
 
-## Getting Started
+Landing page corporativa de Chai Active (Barcelona), presentando Kehál Platform y el resto de proyectos de la empresa. Next.js 16 (App Router) + Tailwind CSS v4 + next-intl.
 
-First, run the development server:
+## Empezar
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000). El castellano es el idioma por defecto y vive en `/`; el resto de idiomas en `/en`, `/he`, `/fr`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Internacionalización
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `es` (por defecto, sin prefijo), `en`, `he` (RTL), `fr` — gestionado con [next-intl](https://next-intl.dev).
+- Contenido en `messages/{locale}.json`. El castellano está completo y revisado; `en`/`fr`/`he` son traducciones de borrador (`meta.needsReview: true` en cada JSON) — se muestra un aviso automático en las páginas legales, y debe revisarse todo el copy antes de publicar en producción.
+- El hebreo fuerza `dir="rtl"` en `<html>` (ver `app/[locale]/layout.tsx` e `i18n/routing.ts`) y usa una tipografía serif distinta (Frank Ruhl Libre) para los titulares, ya que Playfair Display no soporta glifos hebreos.
 
-## Learn More
+## Decisiones tomadas por defecto (documentadas, no preguntadas una a una)
 
-To learn more about Next.js, take a look at the following resources:
+- **Email del formulario de contacto: [Resend](https://resend.com)** — mismo proveedor que ya usa Creative Favours en este ecosistema. Configura `RESEND_API_KEY` en `.env.local` (ver `.env.example`). Sin esa variable, el formulario responde con error controlado en vez de fallar en silencio.
+- El remitente usa `onboarding@resend.dev` (dominio de pruebas de Resend) porque `chaiactive.com` todavía no está registrado ni verificado en Resend. Cuando haya dominio propio, cambia el `from` en `app/api/contact/route.ts` y verifica el dominio en Resend.
+- Capturas de pantalla de Kehál en `public/images/app/` son reales (Jabad Barcelona), no maquetas. Se muestran en un frame de navegador (no de móvil) porque los originales son capturas de escritorio — un mockup de móvil las habría distorsionado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Pendiente antes de producción
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Dominio**: `chaiactive.com` — pendiente de registrar. Desplegado de momento en un subdominio de Vercel.
+- **Logo**: no hay logo definitivo — el header usa el nombre "Chai Active" en tipografía serif como placeholder.
+- **Calendly**: enlace placeholder en `components/Contacto.tsx` (`CALENDLY_URL`) — sustituir por el real.
+- **WhatsApp**: número placeholder en `components/Contacto.tsx` (`WHATSAPP_URL`) — sustituir por el real.
+- **Email de contacto**: `jactive@gmail.com` en uso; migrar a `contacto@chaiactive.com` cuando exista el dominio (hay que actualizarlo en `messages/*.json` y en `CONTACT_TO_EMAIL`).
+- **Textos legales** (`messages/*.json` → `legal`): son un borrador de trabajo con placeholders `[...]` (NIF/CIF, domicilio, forma jurídica). Deben revisarse por un abogado/gestoría antes de publicar — hay un aviso visible en las tres páginas legales que lo recuerda.
+- **Capturas de Creative Favours y Perashapp**: la sección de casos de éxito no tiene imágenes propias todavía (solo texto) — añadir cuando estén disponibles.
+- Traducciones EN/FR/HE: borrador, pendiente de revisión humana.
+- Analítica (GA/Meta Pixel): no se ha añadido, tal y como se pidió.
 
-## Deploy on Vercel
+## Variables de entorno
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Copia `.env.example` a `.env.local` y rellena:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+RESEND_API_KEY=
+CONTACT_TO_EMAIL=jactive@gmail.com
+```
+
+## Estructura
+
+- `app/[locale]/` — páginas (home + `aviso-legal`, `privacidad`, `cookies`)
+- `app/api/contact/` — endpoint del formulario de contacto (Resend)
+- `components/` — una sección de la landing por componente
+- `messages/` — contenido por idioma
+- `i18n/` — configuración de next-intl (routing, navigation, request config)
+- `proxy.ts` — middleware de enrutado de idioma (renombrado de `middleware.ts` a `proxy.ts` por el cambio de convención en Next.js 16)
