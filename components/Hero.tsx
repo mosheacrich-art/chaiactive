@@ -5,8 +5,8 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative overflow-hidden bg-gradient-to-b from-cream to-white pb-16 pt-14 sm:pb-24 sm:pt-20">
-      <div className="relative mx-auto grid max-w-6xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
+    <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-14 sm:pb-24 sm:pt-20">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
         <div>
           <p className="mb-4 inline-flex rounded-full bg-navy/5 px-4 py-1.5 text-sm font-medium text-navy">
             {t("eyebrow")}

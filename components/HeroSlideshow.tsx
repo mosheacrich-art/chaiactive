@@ -20,7 +20,7 @@ export default function HeroSlideshow() {
   }, []);
 
   return (
-    <div className="relative mx-auto w-full max-w-[420px]">
+    <div className="relative mx-auto w-full max-w-[620px]">
       <div className="relative aspect-[1142/1377] w-full">
         {slides.map((slide, i) => (
           <Image
@@ -29,7 +29,7 @@ export default function HeroSlideshow() {
             alt={slide.alt}
             fill
             priority={i === 0}
-            sizes="(min-width: 1024px) 420px, 90vw"
+            sizes="(min-width: 1024px) 620px, 100vw"
             className={`object-contain transition-opacity duration-700 ${
               i === index ? "opacity-100" : "opacity-0"
             }`}

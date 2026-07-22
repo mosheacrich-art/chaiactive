@@ -25,12 +25,12 @@ export default function Header() {
           Chai Active
         </Link>
 
-        <nav className="hidden items-center gap-7 lg:flex">
+        <nav className="hidden items-center gap-8 lg:flex">
           {links.map((link) => (
             <a
               key={link.key}
               href={link.href}
-              className="text-sm font-medium text-ink/60 transition hover:text-ink"
+              className="text-base font-medium text-ink/60 transition hover:text-ink"
             >
               {t(link.key)}
             </a>
@@ -68,7 +68,7 @@ export default function Header() {
                 key={link.key}
                 href={link.href}
                 onClick={() => setOpen(false)}
-                className="rounded-lg px-2 py-2.5 text-sm font-medium text-ink/70 transition hover:bg-black/5"
+                className="rounded-lg px-2 py-2.5 text-base font-medium text-ink/70 transition hover:bg-black/5"
               >
                 {t(link.key)}
               </a>
