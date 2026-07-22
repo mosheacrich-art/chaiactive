@@ -20,17 +20,17 @@ export default function SobreNosotros() {
 
   return (
     <section id="nosotros" className="bg-cream py-20 sm:py-28">
-      <div className="mx-auto max-w-3xl px-4 sm:px-6">
+      <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="relative overflow-hidden rounded-3xl px-4 py-12 text-center sm:px-8">
           <HebrewPattern />
           <ScrollReveal y={20} className="relative">
             <p className="text-sm font-semibold uppercase tracking-wider text-gold">
               {t("eyebrow")}
             </p>
-            <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
+            <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-navy sm:text-5xl">
               {t("title")}
             </h2>
-            <p className="mx-auto mt-4 max-w-md text-lg text-ink/70">
+            <p className="mx-auto mt-4 max-w-lg text-xl text-ink/70">
               {t("subhead")}
             </p>
           </ScrollReveal>
@@ -60,19 +60,19 @@ export default function SobreNosotros() {
           ))}
         </div>
 
-        <ScrollReveal duration={0.7} className="mt-12">
-          <p className="mx-auto max-w-xl text-center text-2xl font-bold leading-snug text-navy sm:text-3xl">
+        <ScrollReveal duration={0.7} className="mt-16">
+          <p className="mx-auto max-w-3xl text-center text-3xl font-bold leading-snug text-navy sm:text-4xl">
             {t("pullQuote")}
           </p>
         </ScrollReveal>
 
-        <ScrollReveal className="mt-20">
-          <h3 className="text-center text-2xl font-extrabold tracking-tight text-navy">
+        <ScrollReveal className="mt-24">
+          <h3 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
             {t("foundersHeader")}
           </h3>
         </ScrollReveal>
 
-        <div className="mt-8 grid gap-6 sm:grid-cols-2">
+        <div className="mt-10 grid gap-10 sm:grid-cols-2">
           {founders.map((founder, i) => (
             <ScrollReveal key={founder.name} delay={i * 0.09}>
               <FounderCard
@@ -85,8 +85,8 @@ export default function SobreNosotros() {
           ))}
         </div>
 
-        <ScrollReveal className="mt-16">
-          <p className="text-center text-base italic text-ink/50">
+        <ScrollReveal className="mt-20">
+          <p className="mx-auto max-w-2xl text-center text-lg italic text-ink/50">
             {t("finalLine")}
           </p>
         </ScrollReveal>
