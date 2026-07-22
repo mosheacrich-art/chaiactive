@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Menu, X } from "lucide-react";
 import { Link } from "@/i18n/navigation";
@@ -21,8 +22,15 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
-        <Link href="/" className="text-lg font-bold tracking-tight text-navy">
-          Chai Active
+        <Link href="/" aria-label="Chai Active">
+          <Image
+            src="/images/brand/chai-active-icon.png"
+            alt="Chai Active"
+            width={515}
+            height={389}
+            priority
+            className="h-9 w-auto"
+          />
         </Link>
 
         <nav className="hidden items-center gap-8 lg:flex">
