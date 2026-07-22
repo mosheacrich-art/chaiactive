@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import HeroVisual from "./HeroVisual";
 
@@ -27,6 +28,15 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-14 sm:pb-24 sm:pt-20">
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
         <div>
+          <Image
+            src="/images/brand/chai-active-logo.png"
+            alt="Chai Active"
+            width={1015}
+            height={546}
+            priority
+            className="mb-6 h-16 w-auto sm:h-20"
+          />
+
           <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
             {titleLines.map((line, i) => (
               <span
