@@ -1,7 +1,7 @@
 import Image from "next/image";
 
-// TODO: replace with real founder photos. Pass `photoSrc` (a path under
-// /public) once available; until then we render an initials placeholder.
+// Renders an initials avatar when `photoSrc` is omitted, so the card still
+// works before a photo is available.
 export default function FounderCard({
   name,
   role,

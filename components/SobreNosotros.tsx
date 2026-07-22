@@ -7,6 +7,12 @@ import FounderCard from "./about/FounderCard";
 
 type Founder = { name: string; role: string; quote: string };
 
+// Order matches the `founders` array in messages/*.json: Isaac Ayash, Moshe Acrish.
+const FOUNDER_PHOTOS = [
+  "/images/founders/isaac-ayash.png",
+  "/images/founders/moshe-acrish.png",
+];
+
 export default function SobreNosotros() {
   const t = useTranslations("sobreNosotros");
   const paragraphs = t.raw("paragraphs") as string[];
@@ -73,6 +79,7 @@ export default function SobreNosotros() {
                 name={founder.name}
                 role={founder.role}
                 quote={founder.quote}
+                photoSrc={FOUNDER_PHOTOS[i]}
               />
             </ScrollReveal>
           ))}
