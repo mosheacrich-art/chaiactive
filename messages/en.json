@@ -27,27 +27,15 @@
   },
   "hero": {
     "eyebrow": "Kehál Platform · live at Jabad Barcelona",
-    "title": "Your community's life, in one app",
+    "titleLines": [
+      "Incredible communities.",
+      "Outdated tools.",
+      "We're changing that."
+    ],
+    "subtitle": "Technology designed to help Jewish communities spend less time managing and more time connecting.",
     "ctaPrimary": "See the platform",
     "ctaSecondary": "Book a meeting",
-    "trust": "In real use. Not a mockup.",
-    "states": [
-      {
-        "tabLabel": "Events",
-        "leadWord": "Events.",
-        "rest": "Sign up in seconds, capacity always up to date."
-      },
-      {
-        "tabLabel": "Donations",
-        "leadWord": "Donations.",
-        "rest": "Every contribution, straight to the mission."
-      },
-      {
-        "tabLabel": "Mikvah",
-        "leadWord": "Mikvah.",
-        "rest": "Book your slot in under a minute."
-      }
-    ]
+    "tabs": ["Events", "Donations", "Mikvah"]
   },
   "queHacemos": {
     "eyebrow": "What we do",

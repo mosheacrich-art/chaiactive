@@ -27,27 +27,15 @@
   },
   "hero": {
     "eyebrow": "Kehál Platform · en service à Jabad Barcelona",
-    "title": "La vie de votre communauté, en une app",
+    "titleLines": [
+      "Des communautés extraordinaires.",
+      "Des outils dépassés.",
+      "Nous changeons ça."
+    ],
+    "subtitle": "Une technologie pensée pour que les communautés juives passent moins de temps à gérer, et plus de temps à se retrouver.",
     "ctaPrimary": "Voir la plateforme",
     "ctaSecondary": "Réserver un rendez-vous",
-    "trust": "En usage réel. Pas une maquette.",
-    "states": [
-      {
-        "tabLabel": "Événements",
-        "leadWord": "Événements.",
-        "rest": "Inscription en quelques secondes, places toujours à jour."
-      },
-      {
-        "tabLabel": "Dons",
-        "leadWord": "Dons.",
-        "rest": "Chaque don, directement au service de la mission."
-      },
-      {
-        "tabLabel": "Mikvé",
-        "leadWord": "Mikvé.",
-        "rest": "Réservez votre créneau en moins d'une minute."
-      }
-    ]
+    "tabs": ["Événements", "Dons", "Mikvé"]
   },
   "queHacemos": {
     "eyebrow": "Ce que nous faisons",
