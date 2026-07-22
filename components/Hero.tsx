@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import PhoneMockup from "./PhoneMockup";
+import HeroSlideshow from "./HeroSlideshow";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -35,13 +35,7 @@ export default function Hero() {
         </div>
 
         <div>
-          <PhoneMockup
-            src="kehal-inicio.png"
-            alt={t("imageAlt")}
-            badge1={t("statBadge1")}
-            badge2={t("statBadge2")}
-            priority
-          />
+          <HeroSlideshow />
         </div>
       </div>
     </section>
