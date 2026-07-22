@@ -1,8 +1,31 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
-import HeroSlideshow from "./HeroSlideshow";
+import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import HeroVisual from "./HeroVisual";
+
+const AUTO_ADVANCE_MS = 5000;
+
+type HeroState = { tabLabel: string; leadWord: string; rest: string };
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const states = t.raw("states") as HeroState[];
+  const reduceMotion = useReducedMotion();
+
+  const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
+
+  useEffect(() => {
+    if (paused) return;
+    const id = setTimeout(() => {
+      setIndex((i) => (i + 1) % states.length);
+    }, AUTO_ADVANCE_MS);
+    return () => clearTimeout(id);
+  }, [paused, index, states.length]);
+
+  const active = states[index];
 
   return (
     <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-14 sm:pb-24 sm:pt-20">
@@ -14,7 +37,22 @@ export default function Hero() {
           <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight text-navy sm:text-5xl lg:text-6xl">
             {t("title")}
           </h1>
-          <p className="mt-6 max-w-md text-lg text-ink/70">{t("subtitle")}</p>
+
+          <div className="relative mt-6 min-h-[5rem] max-w-md sm:min-h-[3.5rem]">
+            <AnimatePresence mode="sync">
+              <motion.p
+                key={index}
+                className="absolute inset-0 text-lg text-ink/70"
+                initial={{ opacity: reduceMotion ? 1 : 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 0.15 }}
+              >
+                <span className="font-bold text-navy">{active.leadWord}</span>{" "}
+                {active.rest}
+              </motion.p>
+            </AnimatePresence>
+          </div>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <a
@@ -34,9 +72,12 @@ export default function Hero() {
           <p className="mt-6 text-sm text-ink/40">{t("trust")}</p>
         </div>
 
-        <div>
-          <HeroSlideshow />
-        </div>
+        <HeroVisual
+          tabLabels={states.map((s) => s.tabLabel)}
+          activeIndex={index}
+          onSelect={setIndex}
+          onPauseChange={setPaused}
+        />
       </div>
     </section>
   );

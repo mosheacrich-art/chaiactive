@@ -28,10 +28,26 @@
   "hero": {
     "eyebrow": "Kehál Platform · en uso real en Jabad Barcelona",
     "title": "La vida de tu comunidad, en una app",
-    "subtitle": "Horarios, eventos, donativos y mikvé — todo en un solo lugar.",
     "ctaPrimary": "Ver la plataforma",
     "ctaSecondary": "Reservar una reunión",
-    "trust": "En uso real. No es una maqueta."
+    "trust": "En uso real. No es una maqueta.",
+    "states": [
+      {
+        "tabLabel": "Eventos",
+        "leadWord": "Eventos.",
+        "rest": "Inscripción en segundos, aforo siempre al día."
+      },
+      {
+        "tabLabel": "Donativos",
+        "leadWord": "Donativos.",
+        "rest": "Cada aportación, directa a la misión."
+      },
+      {
+        "tabLabel": "Mikvé",
+        "leadWord": "Mikvé.",
+        "rest": "Reserva tu turno en menos de un minuto."
+      }
+    ]
   },
   "queHacemos": {
     "eyebrow": "Qué hacemos",
