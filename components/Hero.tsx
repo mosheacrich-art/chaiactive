@@ -34,7 +34,7 @@ export default function Hero() {
             width={1015}
             height={546}
             priority
-            className="mb-6 h-16 w-auto sm:h-20"
+            className="mb-6 h-24 w-auto sm:h-32"
           />
 
           <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
