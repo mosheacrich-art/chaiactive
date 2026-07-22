@@ -166,18 +166,12 @@
     "title": "More Than an App",
     "subhead": "We're not just building software. We're building stronger Jewish communities.",
     "paragraphs": [
-      "Two young Jews. Two different paths. One shared mission.",
-      "I'm studying Business and Law in Barcelona. My co-founder is studying Computer Science in Israel. While pursuing our own careers, we kept seeing the same challenge: incredible communities relying on outdated tools, scattered communication, and countless hours spent managing things that technology should handle effortlessly.",
-      "We knew there had to be a better way. So we decided to build it.",
-      "Not because we wanted to create another app — but because we believe community leaders should spend less time managing spreadsheets and WhatsApp groups, and more time doing what truly matters: strengthening Jewish life.",
-      "Our platform brings everything together in one place: events, memberships, donations, announcements, classes, registrations, and much more. One home for the entire community.",
-      "But our mission goes beyond technology. We see this as our way of giving back. We have the skills to build solutions, and we believe those skills should serve something bigger than ourselves. We're starting by helping individual communities become stronger, more connected, and better organized. Every community we empower becomes another step toward a stronger global Jewish future."
+      "Two Jews, two different paths, one shared mission. Same problem, wherever we looked: incredible communities running on outdated tools, scattered WhatsApp groups, and hours of unpaid admin work that technology should handle effortlessly.",
+      "So we decided to build it — not another app, but a way to give community leaders their time back. One home for events, memberships, donations, classes, and everything else a kehilá runs on.",
+      "For us, this is how we give back. We're starting community by community, because every kehilá we strengthen is a step toward a stronger Jewish future."
     ],
-    "pathsConverge": {
-      "location1": "Barcelona",
-      "location2": "Israel"
-    },
-    "pullQuote": "Because when communities thrive, Judaism thrives. And that's the future we're working to build.",
+    "anchorCaption": "Barcelona · Israel",
+    "pullQuote": "Because when communities thrive, Judaism thrives.",
     "foundersHeader": "Meet the Founders",
     "founders": [
       {

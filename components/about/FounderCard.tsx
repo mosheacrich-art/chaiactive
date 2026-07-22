@@ -1,3 +1,6 @@
+"use client";
+
+import { useState } from "react";
 import Image from "next/image";
 
 // Renders an initials avatar when `photoSrc` is omitted, so the card still
@@ -13,6 +16,8 @@ export default function FounderCard({
   quote: string;
   photoSrc?: string;
 }) {
+  const [expanded, setExpanded] = useState(false);
+
   const initials = name
     .split(" ")
     .map((word) => word[0])
@@ -23,45 +28,35 @@ export default function FounderCard({
     <Image
       src={photoSrc}
       alt={name}
-      width={160}
-      height={160}
-      className="size-36 rounded-full object-cover sm:size-40"
+      width={128}
+      height={128}
+      className="size-28 shrink-0 rounded-full object-cover"
     />
   ) : (
-    <div className="flex size-36 items-center justify-center rounded-full bg-navy text-4xl font-bold text-white sm:size-40">
+    <div className="flex size-28 shrink-0 items-center justify-center rounded-full bg-navy text-3xl font-bold text-white">
       {initials}
     </div>
   );
 
   return (
-    <div className="rounded-3xl bg-white p-10">
-      {/* Desktop: hover crossfades from photo/name to the quote */}
-      <div className="group relative hidden h-80 md:block">
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-4 text-center transition-opacity duration-300 group-hover:opacity-0">
-          {photo}
-          <div>
-            <p className="text-xl font-bold text-navy">{name}</p>
-            <p className="mt-1 text-base text-ink/60">{role}</p>
-          </div>
-        </div>
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-center opacity-0 transition-opacity duration-300 group-hover:opacity-100">
-          <p className="text-xl italic leading-relaxed text-navy">
-            &ldquo;{quote}&rdquo;
-          </p>
-        </div>
+    <button
+      type="button"
+      onClick={() => setExpanded((v) => !v)}
+      aria-expanded={expanded}
+      className="group flex w-full flex-col items-center gap-4 rounded-3xl bg-white p-8 text-center transition hover:bg-white/80"
+    >
+      {photo}
+      <div>
+        <p className="text-lg font-bold text-navy">{name}</p>
+        <p className="mt-1 text-sm text-ink/60">{role}</p>
       </div>
-
-      {/* Mobile / touch: everything visible at once, no hover required */}
-      <div className="flex flex-col items-center gap-4 text-center md:hidden">
-        {photo}
-        <div>
-          <p className="text-xl font-bold text-navy">{name}</p>
-          <p className="mt-1 text-base text-ink/60">{role}</p>
-        </div>
-        <p className="mt-2 text-lg italic leading-relaxed text-navy/80">
-          &ldquo;{quote}&rdquo;
-        </p>
-      </div>
-    </div>
+      <p
+        className={`text-base italic leading-relaxed text-navy/80 md:group-hover:line-clamp-none ${
+          expanded ? "line-clamp-none" : "line-clamp-2"
+        }`}
+      >
+        &ldquo;{quote}&rdquo;
+      </p>
+    </button>
   );
 }

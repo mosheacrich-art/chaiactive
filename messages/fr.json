@@ -166,18 +166,12 @@
     "title": "Plus qu'une app",
     "subhead": "Nous ne construisons pas seulement un logiciel. Nous construisons des communautés juives plus fortes.",
     "paragraphs": [
-      "Deux jeunes juifs. Deux chemins différents. Une mission commune.",
-      "J'étudie le commerce et le droit à Barcelone. Mon associé étudie l'informatique en Israël. Tout en poursuivant nos propres études, nous voyions sans cesse le même problème : des communautés formidables qui s'appuient sur des outils dépassés, une communication éparpillée, et d'innombrables heures passées à gérer ce que la technologie devrait résoudre sans effort.",
-      "Nous savions qu'il devait exister une meilleure façon de faire. Alors nous avons décidé de la construire.",
-      "Pas parce que nous voulions créer une app de plus — mais parce que nous croyons que les responsables communautaires devraient passer moins de temps sur des tableurs et des groupes WhatsApp, et plus de temps sur l'essentiel : renforcer la vie juive.",
-      "Notre plateforme réunit tout en un seul endroit : événements, adhésions, dons, annonces, cours, inscriptions, et bien plus. Une seule maison pour toute la communauté.",
-      "Mais notre mission dépasse la technologie. Nous y voyons notre façon de rendre quelque chose. Nous avons les compétences pour construire des solutions, et nous croyons qu'elles doivent servir quelque chose de plus grand que nous-mêmes. Nous commençons par aider des communautés à devenir plus fortes, plus connectées et mieux organisées. Chaque communauté que nous aidons est un pas de plus vers un avenir juif mondial plus fort."
+      "Deux juifs, deux chemins différents, une mission commune. Le même problème, partout où nous regardions : des communautés formidables qui s'appuient sur des outils dépassés, des groupes WhatsApp éparpillés, et des heures de travail administratif non rémunéré que la technologie devrait résoudre sans effort.",
+      "Alors nous avons décidé de la construire — pas une app de plus, mais un moyen de rendre leur temps aux responsables communautaires. Une seule maison pour les événements, les adhésions, les dons, les cours, et tout ce sur quoi repose une kehilá.",
+      "Pour nous, c'est notre façon de rendre quelque chose. Nous commençons communauté par communauté, parce que chaque kehilá que nous renforçons est un pas de plus vers un avenir juif plus fort."
     ],
-    "pathsConverge": {
-      "location1": "Barcelone",
-      "location2": "Israël"
-    },
-    "pullQuote": "Parce que quand les communautés prospèrent, le judaïsme prospère. Et c'est l'avenir que nous construisons.",
+    "anchorCaption": "Barcelone · Israël",
+    "pullQuote": "Parce que quand les communautés prospèrent, le judaïsme prospère.",
     "foundersHeader": "Les fondateurs",
     "founders": [
       {

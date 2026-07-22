@@ -31,7 +31,7 @@ export default function HebrewPattern() {
           </text>
         </pattern>
       </defs>
-      <rect width="100%" height="100%" fill="url(#hebrew-pattern)" opacity="0.05" />
+      <rect width="100%" height="100%" fill="url(#hebrew-pattern)" opacity="0.03" />
     </svg>
   );
 }

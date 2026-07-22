@@ -1,9 +1,14 @@
-import { Fragment } from "react";
+import { Playfair_Display } from "next/font/google";
 import { useTranslations } from "next-intl";
 import ScrollReveal from "./about/ScrollReveal";
 import HebrewPattern from "./about/HebrewPattern";
-import PathsConverge from "./about/PathsConverge";
 import FounderCard from "./about/FounderCard";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["700"],
+  display: "swap",
+});
 
 type Founder = { name: string; role: string; quote: string };
 
@@ -36,43 +41,44 @@ export default function SobreNosotros() {
           </ScrollReveal>
         </div>
 
-        <div className="mt-12 flex flex-col items-center gap-6">
-          {paragraphs.map((paragraph, i) => (
-            <Fragment key={paragraph}>
-              <ScrollReveal delay={i * 0.09}>
-                <p
-                  className="mx-auto text-center leading-relaxed text-ink/75"
-                  style={{ maxWidth: "38ch" }}
-                >
-                  {paragraph}
-                </p>
-              </ScrollReveal>
+        <div className="mx-auto mt-14 flex max-w-[480px] flex-col gap-8">
+          <ScrollReveal delay={0}>
+            <p className="text-start text-base leading-[1.6] text-ink/70">
+              {paragraphs[0]}
+            </p>
+            <p className="mt-3 text-start text-xs font-semibold uppercase tracking-widest text-ink/35">
+              {t("anchorCaption")}
+            </p>
+          </ScrollReveal>
 
-              {i === 1 && (
-                <ScrollReveal delay={0.1} className="w-full">
-                  <PathsConverge
-                    location1={t("pathsConverge.location1")}
-                    location2={t("pathsConverge.location2")}
-                  />
-                </ScrollReveal>
-              )}
-            </Fragment>
-          ))}
+          <ScrollReveal delay={0.09}>
+            <p className="text-start text-base leading-[1.6] text-ink/70">
+              {paragraphs[1]}
+            </p>
+          </ScrollReveal>
+
+          <ScrollReveal delay={0.18}>
+            <p className="text-start text-base leading-[1.6] text-ink/70">
+              {paragraphs[2]}
+            </p>
+          </ScrollReveal>
         </div>
 
-        <ScrollReveal duration={0.7} className="mt-16">
-          <p className="mx-auto max-w-3xl text-center text-3xl font-bold leading-snug text-navy sm:text-4xl">
+        <ScrollReveal duration={0.7} className="mt-16 sm:mt-20">
+          <p
+            className={`${playfair.className} mx-auto max-w-2xl text-center text-3xl leading-snug text-navy sm:text-4xl`}
+          >
             {t("pullQuote")}
           </p>
         </ScrollReveal>
 
-        <ScrollReveal className="mt-24">
+        <ScrollReveal className="mt-16 sm:mt-20">
           <h3 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
             {t("foundersHeader")}
           </h3>
         </ScrollReveal>
 
-        <div className="mt-10 grid gap-10 sm:grid-cols-2">
+        <div className="mt-8 grid gap-8 sm:grid-cols-2">
           {founders.map((founder, i) => (
             <ScrollReveal key={founder.name} delay={i * 0.09}>
               <FounderCard
@@ -85,7 +91,7 @@ export default function SobreNosotros() {
           ))}
         </div>
 
-        <ScrollReveal className="mt-20">
+        <ScrollReveal className="mt-12 sm:mt-16">
           <p className="mx-auto max-w-2xl text-center text-lg italic text-ink/50">
             {t("finalLine")}
           </p>
