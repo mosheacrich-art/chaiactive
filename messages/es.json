@@ -9,7 +9,6 @@
   },
   "skipToContent": "Ir al contenido",
   "nav": {
-    "queHacemos": "Qué hacemos",
     "servicios": "Servicios",
     "casos": "Casos de éxito",
     "nosotros": "Nosotros",
@@ -35,29 +34,6 @@
     "ctaPrimary": "Ver la plataforma",
     "ctaSecondary": "Reservar una reunión",
     "tabs": ["Eventos", "Donativos", "Mikvé"]
-  },
-  "queHacemos": {
-    "eyebrow": "Qué hacemos",
-    "title": "Tecnología con vida para tu comunidad",
-    "intro": "Diseñamos plataformas a medida para comunidades y negocios judíos.",
-    "items": [
-      {
-        "title": "Cercanía real",
-        "body": "Hablamos con rabinos y voluntarios, no con un ticket de soporte."
-      },
-      {
-        "title": "Tu idioma",
-        "body": "Castellano, inglés, hebreo y francés — hebreo nativo de derecha a izquierda."
-      },
-      {
-        "title": "A largo plazo",
-        "body": "Seguimos contigo después del lanzamiento."
-      },
-      {
-        "title": "Todo, o por partes",
-        "body": "Cada módulo funciona también por separado."
-      }
-    ]
   },
   "confianza": {
     "title": "Ya confían en nosotros",

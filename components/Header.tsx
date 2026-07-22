@@ -8,7 +8,6 @@ import { Link } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
 const links = [
-  { href: "#que-hacemos", key: "queHacemos" },
   { href: "#servicios", key: "servicios" },
   { href: "#casos", key: "casos" },
   { href: "#nosotros", key: "nosotros" },

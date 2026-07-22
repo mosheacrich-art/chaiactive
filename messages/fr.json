@@ -9,7 +9,6 @@
   },
   "skipToContent": "Aller au contenu",
   "nav": {
-    "queHacemos": "Ce que nous faisons",
     "servicios": "Services",
     "casos": "Cas concrets",
     "nosotros": "À propos",
@@ -35,17 +34,6 @@
     "ctaPrimary": "Voir la plateforme",
     "ctaSecondary": "Réserver un rendez-vous",
     "tabs": ["Événements", "Dons", "Mikvé"]
-  },
-  "queHacemos": {
-    "eyebrow": "Ce que nous faisons",
-    "title": "Une technologie qui donne vie à votre communauté",
-    "intro": "Des plateformes sur mesure pour communautés et entreprises juives.",
-    "items": [
-      { "title": "Proximité réelle", "body": "Nous parlons à des rabbins et bénévoles, pas à un ticket de support." },
-      { "title": "Votre langue", "body": "Espagnol, anglais, hébreu et français — hébreu nativement de droite à gauche." },
-      { "title": "Sur le long terme", "body": "Nous restons après le lancement." },
-      { "title": "Tout, ou par parties", "body": "Chaque module fonctionne aussi seul." }
-    ]
   },
   "confianza": {
     "title": "Ils nous font déjà confiance",

@@ -9,7 +9,6 @@
   },
   "skipToContent": "Skip to content",
   "nav": {
-    "queHacemos": "What we do",
     "servicios": "Services",
     "casos": "Success stories",
     "nosotros": "About us",
@@ -35,17 +34,6 @@
     "ctaPrimary": "See the platform",
     "ctaSecondary": "Book a meeting",
     "tabs": ["Events", "Donations", "Mikvah"]
-  },
-  "queHacemos": {
-    "eyebrow": "What we do",
-    "title": "Technology with life, for your community",
-    "intro": "Custom platforms for Jewish communities and businesses.",
-    "items": [
-      { "title": "Real closeness", "body": "We talk to rabbis and volunteers, not a support ticket." },
-      { "title": "Your language", "body": "Spanish, English, Hebrew and French — Hebrew natively right-to-left." },
-      { "title": "Long-term", "body": "We stay with you after launch." },
-      { "title": "All, or in parts", "body": "Every module also works on its own." }
-    ]
   },
   "confianza": {
     "title": "Already trusted by",

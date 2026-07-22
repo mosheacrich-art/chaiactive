@@ -16,7 +16,6 @@ export default function Footer() {
           </div>
 
           <nav className="flex flex-col gap-2 text-sm">
-            <a href="#que-hacemos" className="text-ink/60 hover:text-navy">{t("nav.queHacemos")}</a>
             <a href="#servicios" className="text-ink/60 hover:text-navy">{t("nav.servicios")}</a>
             <a href="#casos" className="text-ink/60 hover:text-navy">{t("nav.casos")}</a>
             <a href="#contacto" className="text-ink/60 hover:text-navy">{t("nav.contacto")}</a>
