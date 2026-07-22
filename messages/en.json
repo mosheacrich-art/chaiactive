@@ -146,13 +146,36 @@
     "cta": "Get in touch"
   },
   "sobreNosotros": {
-    "eyebrow": "About us",
-    "title": "Chai Active — because \"chai\" means life",
-    "body": "Founded in Barcelona by Isaac Ayash Belilty. \"Chai\" (חי) means life — that's our mission: digital life for Jewish communities.",
-    "founder": {
-      "name": "Isaac Ayash Belilty",
-      "role": "Founder of Chai Active — Barcelona"
-    }
+    "eyebrow": "Our story",
+    "title": "More Than an App",
+    "subhead": "We're not just building software. We're building stronger Jewish communities.",
+    "paragraphs": [
+      "Two young Jews. Two different paths. One shared mission.",
+      "I'm studying Business and Law in Barcelona. My co-founder is studying Computer Science in Israel. While pursuing our own careers, we kept seeing the same challenge: incredible communities relying on outdated tools, scattered communication, and countless hours spent managing things that technology should handle effortlessly.",
+      "We knew there had to be a better way. So we decided to build it.",
+      "Not because we wanted to create another app — but because we believe community leaders should spend less time managing spreadsheets and WhatsApp groups, and more time doing what truly matters: strengthening Jewish life.",
+      "Our platform brings everything together in one place: events, memberships, donations, announcements, classes, registrations, and much more. One home for the entire community.",
+      "But our mission goes beyond technology. We see this as our way of giving back. We have the skills to build solutions, and we believe those skills should serve something bigger than ourselves. We're starting by helping individual communities become stronger, more connected, and better organized. Every community we empower becomes another step toward a stronger global Jewish future."
+    ],
+    "pathsConverge": {
+      "location1": "Barcelona",
+      "location2": "Israel"
+    },
+    "pullQuote": "Because when communities thrive, Judaism thrives. And that's the future we're working to build.",
+    "foundersHeader": "Meet the Founders",
+    "founders": [
+      {
+        "name": "Isaac Ayash",
+        "role": "Business & Law Student — Barcelona, Spain",
+        "quote": "I believe technology should remove obstacles, so community leaders can focus on people."
+      },
+      {
+        "name": "Moshe Acrish",
+        "role": "Computer Science Student — Israel",
+        "quote": "Building technology with purpose, to strengthen Jewish communities around the world."
+      }
+    ],
+    "finalLine": "This isn't just a startup. It's our contribution to the future of Jewish communities worldwide."
   },
   "contacto": {
     "eyebrow": "Contact",
