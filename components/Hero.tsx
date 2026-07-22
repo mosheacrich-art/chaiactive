@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import HeroVisual from "./HeroVisual";
 
 const AUTO_ADVANCE_MS = 5000;
+const TITLE_LINE_COLORS = ["text-navy", "text-navy/40", "text-gold"];
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -26,12 +27,12 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-14 sm:pb-24 sm:pt-20">
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
         <div>
-          <h1 className="text-4xl font-extrabold leading-[1.05] tracking-tight sm:text-5xl lg:text-6xl">
+          <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
             {titleLines.map((line, i) => (
               <span
                 key={line}
-                className={`block ${
-                  i === titleLines.length - 1 ? "text-gold" : "text-navy"
+                className={`block ${i > 0 ? "mt-2 sm:mt-3" : ""} ${
+                  TITLE_LINE_COLORS[i] ?? "text-navy"
                 }`}
               >
                 {line}
