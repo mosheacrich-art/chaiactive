@@ -280,33 +280,33 @@
     "finalLine": "Ce n'est pas seulement une start-up. C'est notre contribution à l'avenir des communautés juives dans le monde."
   },
   "contacto": {
-    "eyebrow": "Contact",
     "title": "On en parle ?",
     "intro": "Sans engagement, sans jargon.",
+    "phoneSubtitle": "Choisissez comment nous contacter.",
+    "tabForm": "Formulaire",
+    "tabWhatsapp": "WhatsApp",
     "form": {
       "name": "Nom",
       "email": "Email",
-      "community": "Communauté ou organisation (facultatif)",
-      "message": "Dites-nous comment nous pouvons vous aider",
+      "community": "Organisation (facultatif)",
+      "message": "Comment pouvons-nous vous aider ?",
       "submit": "Envoyer",
       "sending": "Envoi…",
-      "success": "Merci ! Nous répondrons vite.",
-      "error": "Une erreur s'est produite. Réessayez ou écrivez à jactive@gmail.com."
+      "success": "Envoyé ! Nous répondrons vite.",
+      "error": "Une erreur s'est produite. Écrivez à jactive@gmail.com."
     },
-    "calendly": {
-      "title": "Réservez directement",
-      "body": "Choisissez le créneau qui vous convient.",
-      "cta": "Réserver",
-      "todo": "TODO : remplacer par le vrai lien Calendly"
+    "whatsappPanel": {
+      "title": "Discutez avec nous",
+      "body": "Appuyez sur le bouton pour ouvrir WhatsApp et parler directement avec notre équipe.",
+      "cta": "Ouvrir WhatsApp"
     },
-    "whatsapp": {
-      "title": "WhatsApp",
-      "cta": "Ouvrir WhatsApp",
-      "todo": "TODO : remplacer par le vrai numéro WhatsApp"
+    "floatingWhatsapp": {
+      "title": "Via WhatsApp",
+      "body": "Réponse en quelques minutes"
     },
-    "email": {
-      "title": "Email direct",
-      "address": "jactive@gmail.com"
+    "floatingSent": {
+      "title": "Envoyé",
+      "body": "Réponse sous 24h"
     }
   },
   "footer": {
