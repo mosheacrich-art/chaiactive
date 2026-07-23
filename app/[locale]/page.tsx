@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Confianza from "@/components/Confianza";
 import ComoLoHacemos from "@/components/ComoLoHacemos";
-import Servicios from "@/components/Servicios";
+import ServicesSection from "@/components/ServicesSection";
 import Galeria from "@/components/Galeria";
 import CasosDeExito from "@/components/CasosDeExito";
 import Seguridad from "@/components/Seguridad";
@@ -19,7 +19,7 @@ export default function HomePage() {
         <Hero />
         <Confianza />
         <ComoLoHacemos />
-        <Servicios />
+        <ServicesSection />
         <Galeria />
         <CasosDeExito />
         <Seguridad />

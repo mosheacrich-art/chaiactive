@@ -55,19 +55,148 @@
     ]
   },
   "servicios": {
-    "eyebrow": "Services",
-    "title": "Une app, ou juste le module qu'il vous faut",
-    "standaloneNote": "Chaque module se prend aussi séparément",
-    "modules": [
-      { "title": "Accueil", "body": "Horaires et événements, en un coup d'œil." },
-      { "title": "Calendrier hébraïque", "body": "Paracha de la semaine et horaires par ville." },
-      { "title": "Événements", "body": "Inscription et places en un clic." },
-      { "title": "Mikvé", "body": "Réservation de créneau, simple comme un rendez-vous.", "highlight": "Peu de plateformes le font bien" },
-      { "title": "Dons", "body": "Campagnes par domaine, suivies en direct." },
-      { "title": "Cycle de vie juif", "body": "Bar/Bat Mitsva, Brit Mila, mariages, Nahala." },
-      { "title": "Torah et Communauté", "body": "Chiourim, questions, rendez-vous avec le rabbin." },
-      { "title": "Jconnect", "body": "Annuaire et marketplace d'entreprises juives.", "highlight": "Personne d'autre ne l'offre aujourd'hui" },
-      { "title": "Inscription des membres", "body": "Vérification d'identité et validation manuelle." }
+    "banners": [
+      {
+        "number": "01",
+        "eyebrow": "Nos services",
+        "headline": ["Des apps sur mesure.", "Pour votre communauté."],
+        "description": "Nous créons des applications uniques, avec les fonctionnalités dont vous avez besoin et l'expérience que vous souhaitez. Vous imaginez, nous le réalisons.",
+        "chips": ["Membres", "Événements", "Dons", "Messagerie", "Contenu", "Paiements", "Analytique", "Et bien plus"],
+        "cta": "Découvrir nos services",
+        "asideNote": "Les limites sont vos idées, pas les outils.",
+        "cards": [
+          { "title": "Développement sur mesure", "note": "Chaque communauté est unique. 100% personnalisée." },
+          { "title": "Sécurité et confiance", "note": "Vos données et celles de votre communauté, toujours protégées." },
+          { "title": "Design intuitif", "note": "Des expériences modernes, alignées avec votre identité." },
+          { "title": "Accompagnement continu", "note": "Nous sommes avec vous à chaque étape." }
+        ]
+      },
+      {
+        "number": "02",
+        "eyebrow": "Dons & Collecte de fonds",
+        "headline": ["Faites croître", "les dons."],
+        "description": "Acceptez des dons ponctuels ou récurrents, lancez des campagnes, affectez des fonds spécifiques et gardez votre communauté connectée à chaque cause.",
+        "chips": ["Donner", "Campagnes", "Récurrents", "Fonds", "Reçus"],
+        "cta": "Découvrir plus",
+        "cards": [
+          { "title": "Don reçu", "value": "180,00 €", "note": "Merci pour votre contribution !" },
+          { "title": "Donateurs actifs", "value": "124", "note": "+15 ce mois-ci" },
+          { "title": "Campagne active", "value": "73%", "note": "Fonds Éducation · 7 280 € / 10 000 €" },
+          { "title": "Reçu envoyé", "value": "180,00 €", "note": "David Cohen · 19 juillet 2026" }
+        ]
+      },
+      {
+        "number": "03",
+        "eyebrow": "Calendrier hébraïque",
+        "headline": ["Chaque membre.", "Toujours à jour."],
+        "description": "Dates, horaires de Shabbat, fêtes, paracha et rappels importants, synchronisés automatiquement.",
+        "chips": ["Zmanim", "Fêtes", "Paracha", "Calendrier hébraïque", "Yahrzeit"],
+        "cta": "Explorer le calendrier",
+        "cards": [
+          { "title": "Allumage des bougies", "value": "20h58", "note": "Madrid · Ven, 21 juillet" },
+          { "title": "Paracha", "value": "Matot-Massé", "note": "Nombres 30:2–36:13" },
+          { "title": "Jeûne du 17 Tammouz", "value": "22 juillet", "note": "Jeûne" },
+          { "title": "Prochain Yahrzeit", "value": "Demain", "note": "R' Moshe Cohen (Tammouz 23)" }
+        ]
+      },
+      {
+        "number": "04",
+        "eyebrow": "Gestion des membres",
+        "headline": ["Chaque membre.", "Bien organisé."],
+        "description": "Gérez membres, familles, cotisations, groupes et communication depuis un panneau complet et facile à utiliser.",
+        "chips": ["Membres", "Familles", "Cotisations", "Groupes", "Communication"],
+        "cta": "Gérez votre communauté",
+        "cards": [
+          { "title": "Total membres", "value": "562", "note": "+24 ce mois-ci" },
+          { "title": "Familles", "value": "186", "note": "Dans la communauté" },
+          { "title": "Cotisations à jour", "value": "92%", "note": "+5% vs mois dernier" },
+          { "title": "Groupes actifs", "value": "24", "note": "Des enfants aux adultes" }
+        ]
+      },
+      {
+        "number": "05",
+        "eyebrow": "Rendez-vous au Mikvé",
+        "headline": ["Privé.", "Simple.", "Respectueux."],
+        "description": "Réservez votre visite au mikvé rapidement et en toute sécurité, avec une confidentialité totale et des rappels automatiques.",
+        "chips": ["Réservations", "Disponibilité", "Confidentialité", "Rappels", "Confirmation"],
+        "cta": "Réserver maintenant",
+        "cards": [
+          { "title": "Rendez-vous confirmé", "value": "20h00", "note": "Mardi 21 juillet · On vous attend" },
+          { "title": "Confidentialité totale", "note": "Vos informations toujours sécurisées et confidentielles." },
+          { "title": "Rappel", "note": "Nous vous rappelons 1 heure avant votre rendez-vous." },
+          { "title": "Disponibilité", "note": "Horaires mis à jour en temps réel." }
+        ]
+      },
+      {
+        "number": "06",
+        "eyebrow": "Services communautaires",
+        "headline": ["Chaque moment important.", "Un seul endroit."],
+        "description": "Demandez des services communautaires rapidement et facilement. De la Bar Mitsva aux rendez-vous avec le rabbin, tout dans votre app.",
+        "chips": ["Bar/Bat Mitsva", "Brit Mila", "Mariage", "Nom du bébé", "Alyot", "Rendez-vous avec le rabbin"],
+        "cta": "Demander un service",
+        "cards": [
+          { "title": "Bar Mitsva", "value": "Demande envoyée", "note": "22 juillet 2026" },
+          { "title": "Nom du bébé", "value": "Demande envoyée", "note": "15 août 2026" },
+          { "title": "Rendez-vous avec le rabbin", "value": "Confirmé", "note": "Mardi 22 juillet · 17h30" },
+          { "title": "Mariage", "value": "En cours", "note": "3 septembre 2026" }
+        ]
+      },
+      {
+        "number": "07",
+        "eyebrow": "Événements & Inscriptions",
+        "headline": ["Chaque événement.", "Parfaitement organisé.", "Sans effort."],
+        "description": "Créez, gérez et remplissez vos événements avec une inscription en un clic, un check-in rapide et toutes les informations en temps réel.",
+        "chips": ["Événements", "Inscriptions", "Check-in", "Participants", "Liste d'attente", "Places en temps réel"],
+        "cta": "Explorer les événements",
+        "cards": [
+          { "title": "Dîner de Shabbat", "value": "120/200", "note": "Inscription ouverte" },
+          { "title": "Enfants 6-12 ans", "value": "35/50", "note": "35 inscrits" },
+          { "title": "Check-in rapide", "note": "Scannez le code et enregistrez la présence instantanément." },
+          { "title": "Liste d'attente", "value": "18 personnes", "note": "en attente" }
+        ]
+      },
+      {
+        "number": "08",
+        "eyebrow": "Jconnect",
+        "headline": ["Votre entreprise.", "Connectée à votre communauté."],
+        "description": "Publiez votre entreprise, trouvez des collaborations et développez votre réseau professionnel juif, le tout dans l'app.",
+        "chips": ["Annuaire", "Entreprises", "Professionnels", "Co-Work", "Publier", "Rechercher"],
+        "cta": "Explorer Jconnect",
+        "cards": [
+          { "title": "Entreprise publiée", "value": "Kosher Catering BCN", "note": "Visible par toute la communauté" },
+          { "title": "Nouvelle collaboration", "value": "2 propositions", "note": "Reçues cette semaine" },
+          { "title": "Annuaire actif", "value": "48 entreprises", "note": "Voir l'annuaire" },
+          { "title": "Publier mon entreprise", "note": "Publiez en quelques minutes et touchez toute la communauté." }
+        ]
+      },
+      {
+        "number": "09",
+        "eyebrow": "Torah & Chiourim",
+        "headline": ["Torah.", "Quand vous voulez.", "Où que vous soyez."],
+        "description": "Accédez à des chiourim, des cours et des contenus inspirants pour apprendre, grandir et vous connecter à votre communauté.",
+        "chips": ["Vidéos", "Podcasts", "Cours", "Contenus", "Favoris", "Continuer à regarder"],
+        "cta": "Explorer Torah & Chiourim",
+        "cards": [
+          { "title": "Vidéos", "note": "Explorez des centaines de chiourim vidéo de grands rabbins." },
+          { "title": "Podcasts", "note": "Écoutez des chiourim partout, quand vous voulez." },
+          { "title": "Contenus", "note": "Guides, articles et sources pour continuer à apprendre." },
+          { "title": "Favoris", "note": "Enregistrez vos chiourim et contenus préférés." }
+        ]
+      },
+      {
+        "number": "10",
+        "eyebrow": "Tableau de bord Admin",
+        "headline": ["Gérez tout.", "Depuis un seul endroit."],
+        "description": "Des outils puissants pour les membres, événements, dons, réservations au mikvé, communications et analyses. Tout depuis un tableau de bord centralisé.",
+        "chips": ["Membres", "Événements", "Dons", "Analytique", "Messages", "Paramètres"],
+        "cta": "Explorer le tableau de bord",
+        "cards": [
+          { "title": "Nouveau membre approuvé", "value": "Leah Cohen", "note": "Il y a 5 minutes" },
+          { "title": "Dons", "value": "18 450 €", "note": "+22% vs mois dernier" },
+          { "title": "Message groupé envoyé", "value": "1 248 membres", "note": "" },
+          { "title": "Croissance", "value": "+18%", "note": "vs mois dernier" }
+        ]
+      }
     ]
   },
   "galeria": {

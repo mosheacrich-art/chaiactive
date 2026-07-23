@@ -55,19 +55,148 @@
     ]
   },
   "servicios": {
-    "eyebrow": "Services",
-    "title": "One app, or just the module you need",
-    "standaloneNote": "Every module is also available on its own",
-    "modules": [
-      { "title": "Home", "body": "Schedule and upcoming events, at a glance." },
-      { "title": "Hebrew Calendar", "body": "Weekly parasha and times by city." },
-      { "title": "Events", "body": "Sign-up and capacity in one click." },
-      { "title": "Mikvah", "body": "Slot booking, as easy as an appointment.", "highlight": "Very few platforms get this right" },
-      { "title": "Donations", "body": "Campaigns by area, tracked live." },
-      { "title": "Jewish life-cycle", "body": "Bar/Bat Mitzvah, Brit Milah, weddings, Nachalah." },
-      { "title": "Torah and Community", "body": "Shiurim, questions, and a meeting with the rabbi." },
-      { "title": "Jconnect", "body": "Directory and marketplace for Jewish businesses.", "highlight": "No one else offers this today" },
-      { "title": "Member onboarding", "body": "Identity verification and manual approval." }
+    "banners": [
+      {
+        "number": "01",
+        "eyebrow": "Our Services",
+        "headline": ["Custom apps.", "For your community."],
+        "description": "We build unique applications, with the features you need and the experience you want. You imagine it, we make it real.",
+        "chips": ["Members", "Events", "Donations", "Messaging", "Content", "Payments", "Analytics", "And much more"],
+        "cta": "Discover our services",
+        "asideNote": "The limits are your ideas, not the tools.",
+        "cards": [
+          { "title": "Custom development", "note": "Every community is unique. 100% tailored." },
+          { "title": "Security and trust", "note": "Your community's data, always protected." },
+          { "title": "Intuitive design", "note": "Modern experiences, aligned with your identity." },
+          { "title": "Ongoing support", "note": "We're with you every step of the way." }
+        ]
+      },
+      {
+        "number": "02",
+        "eyebrow": "Donations & Fundraising",
+        "headline": ["Grow", "your donations."],
+        "description": "Accept one-time or recurring donations, launch campaigns, assign specific funds, and keep your community connected to every cause.",
+        "chips": ["Donate", "Campaigns", "Recurring", "Funds", "Receipts"],
+        "cta": "Discover more",
+        "cards": [
+          { "title": "Donation received", "value": "€180.00", "note": "Thank you for your contribution!" },
+          { "title": "Active donors", "value": "124", "note": "+15 this month" },
+          { "title": "Active campaign", "value": "73%", "note": "Education Fund · €7,280 / €10,000" },
+          { "title": "Receipt sent", "value": "€180.00", "note": "David Cohen · July 19, 2026" }
+        ]
+      },
+      {
+        "number": "03",
+        "eyebrow": "Hebrew Calendar",
+        "headline": ["Every member.", "Always up to date."],
+        "description": "Dates, Shabbat times, holidays, parasha and important reminders, synced automatically.",
+        "chips": ["Zmanim", "Holidays", "Parasha", "Hebrew Calendar", "Yahrzeit"],
+        "cta": "Explore calendar",
+        "cards": [
+          { "title": "Candle lighting", "value": "8:58 PM", "note": "Madrid · Fri, July 21" },
+          { "title": "Parasha", "value": "Matot-Masei", "note": "Numbers 30:2–36:13" },
+          { "title": "17th of Tammuz", "value": "July 22", "note": "Fast day" },
+          { "title": "Upcoming Yahrzeit", "value": "Tomorrow", "note": "R' Moshe Cohen (Tammuz 23)" }
+        ]
+      },
+      {
+        "number": "04",
+        "eyebrow": "Member Management",
+        "headline": ["Every member.", "Well organized."],
+        "description": "Manage members, families, dues, groups and communication from one complete, easy-to-use panel.",
+        "chips": ["Members", "Families", "Dues", "Groups", "Communication"],
+        "cta": "Manage your community",
+        "cards": [
+          { "title": "Total members", "value": "562", "note": "+24 this month" },
+          { "title": "Families", "value": "186", "note": "In the community" },
+          { "title": "Dues up to date", "value": "92%", "note": "+5% vs last month" },
+          { "title": "Active groups", "value": "24", "note": "From kids to adults" }
+        ]
+      },
+      {
+        "number": "05",
+        "eyebrow": "Mikvah Appointments",
+        "headline": ["Private.", "Simple.", "Respectful."],
+        "description": "Book your mikvah visit quickly and securely, with total privacy and automatic reminders.",
+        "chips": ["Bookings", "Availability", "Privacy", "Reminders", "Confirmation"],
+        "cta": "Book now",
+        "cards": [
+          { "title": "Appointment confirmed", "value": "8:00 PM", "note": "Tuesday, July 21 · See you there" },
+          { "title": "Total privacy", "note": "Your information always safe and confidential." },
+          { "title": "Reminder", "note": "We'll remind you 1 hour before your appointment." },
+          { "title": "Availability", "note": "Time slots updated in real time." }
+        ]
+      },
+      {
+        "number": "06",
+        "eyebrow": "Community Services",
+        "headline": ["Every important moment.", "One place."],
+        "description": "Request community services quickly and easily. From Bar Mitzvah to meetings with the Rabbi, all in your app.",
+        "chips": ["Bar/Bat Mitzvah", "Brit Milah", "Wedding", "Baby naming", "Aliyot", "Meeting with the Rabbi"],
+        "cta": "Request a service",
+        "cards": [
+          { "title": "Bar Mitzvah", "value": "Request sent", "note": "July 22, 2026" },
+          { "title": "Baby naming", "value": "Request sent", "note": "August 15, 2026" },
+          { "title": "Meeting with the Rabbi", "value": "Confirmed", "note": "Tuesday, July 22 · 5:30 PM" },
+          { "title": "Wedding", "value": "In progress", "note": "September 3, 2026" }
+        ]
+      },
+      {
+        "number": "07",
+        "eyebrow": "Events & Registrations",
+        "headline": ["Every event.", "Perfectly organized.", "Effortlessly."],
+        "description": "Create, manage and fill your events with one-click registration, fast check-in, and real-time information.",
+        "chips": ["Events", "Registrations", "Check-in", "Attendees", "Waitlist", "Real-time capacity"],
+        "cta": "Explore events",
+        "cards": [
+          { "title": "Shabbat dinner", "value": "120/200", "note": "Registration open" },
+          { "title": "Kids 6-12", "value": "35/50", "note": "35 registered" },
+          { "title": "Fast check-in", "note": "Scan the code and log attendance instantly." },
+          { "title": "Waitlist", "value": "18 people", "note": "waiting" }
+        ]
+      },
+      {
+        "number": "08",
+        "eyebrow": "Jconnect",
+        "headline": ["Your business.", "Connected to your community."],
+        "description": "Publish your business, find collaboration and grow your Jewish professional network, all inside the app.",
+        "chips": ["Directory", "Businesses", "Professionals", "Co-Work", "Publish", "Search"],
+        "cta": "Explore Jconnect",
+        "cards": [
+          { "title": "Business published", "value": "Kosher Catering BCN", "note": "Visible to the whole community" },
+          { "title": "New collaboration", "value": "2 proposals", "note": "Received this week" },
+          { "title": "Active directory", "value": "48 businesses", "note": "View directory" },
+          { "title": "Publish my business", "note": "Publish in minutes and reach the whole community." }
+        ]
+      },
+      {
+        "number": "09",
+        "eyebrow": "Torah & Shiurim",
+        "headline": ["Torah.", "Whenever you want.", "Wherever you are."],
+        "description": "Access shiurim, classes and inspiring materials to learn, grow and connect with your community.",
+        "chips": ["Videos", "Podcasts", "Classes", "Materials", "Favorites", "Continue watching"],
+        "cta": "Explore Torah & Shiurim",
+        "cards": [
+          { "title": "Videos", "note": "Explore hundreds of video shiurim from great rabbis." },
+          { "title": "Podcasts", "note": "Listen to shiurim anywhere, whenever you want." },
+          { "title": "Materials", "note": "Guides, articles and sources to keep learning." },
+          { "title": "Favorites", "note": "Save your favorite shiurim and materials." }
+        ]
+      },
+      {
+        "number": "10",
+        "eyebrow": "Admin Dashboard",
+        "headline": ["Manage everything.", "From one place."],
+        "description": "Powerful tools for members, events, donations, mikvah bookings, communications and analytics. All from one central dashboard.",
+        "chips": ["Members", "Events", "Donations", "Analytics", "Messages", "Settings"],
+        "cta": "Explore Admin Dashboard",
+        "cards": [
+          { "title": "New member approved", "value": "Leah Cohen", "note": "5 minutes ago" },
+          { "title": "Donations", "value": "€18,450", "note": "+22% vs last month" },
+          { "title": "Bulk message sent", "value": "1,248 members", "note": "" },
+          { "title": "Growth", "value": "+18%", "note": "vs last month" }
+        ]
+      }
     ]
   },
   "galeria": {
