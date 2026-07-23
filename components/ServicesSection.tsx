@@ -65,10 +65,12 @@ export default function ServicesSection() {
             />
           </div>
         )}
+      </div>
 
-        <div className="mt-10">
-          <ServicesCarousel slides={slides} />
-        </div>
+      {/* Full-bleed, breaks out of the max-w-5xl container above so the
+          slideshow spans the full viewport width. */}
+      <div className="mt-16">
+        <ServicesCarousel slides={slides} />
       </div>
     </section>
   );
