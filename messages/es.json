@@ -213,32 +213,31 @@
     ]
   },
   "casos": {
-    "eyebrow": "Casos de éxito",
-    "title": "Proyectos reales",
-    "labels": { "challenge": "Reto", "solution": "Solución", "result": "Resultado" },
-    "jabad": {
-      "name": "Jabad Barcelona",
-      "tag": "En uso real",
-      "challenge": "Gestión dispersa entre WhatsApp y hojas de cálculo.",
-      "solution": "Kehál Platform, módulo a módulo, junto al equipo del Rav.",
-      "result": "Más de 8 módulos activos, en uso real hoy."
-    },
-    "creativeFavours": {
-      "name": "Creative Favours",
-      "tag": "En producción",
-      "link": "creativefavours.vercel.app",
-      "challenge": "Una tienda a la altura de 10+ años de oficio artesanal.",
-      "solution": "E-commerce a medida en Next.js.",
-      "result": "Una tienda propia, sin plantillas genéricas."
-    },
-    "perashapp": {
-      "name": "Perashapp",
-      "tag": "En uso",
-      "link": "perashapp.com",
-      "challenge": "Seguir el audio del profesor palabra por palabra.",
-      "solution": "Audio sincronizado, con panel de profesor y de alumno.",
-      "result": "Una herramienta de estudio ya en uso."
-    }
+    "title": "Casos de éxito",
+    "photoPending": "Foto pendiente",
+    "slides": [
+      {
+        "name": "Creative Favours",
+        "description": "Construimos una tienda online a medida para este negocio familiar de Judaica en Londres, especializado desde hace más de 10 años en kipot, benchers y fundas de jalá personalizadas. La nueva web lleva todo su catálogo a internet, con navegación por categorías, cuentas de cliente y pedidos directos por WhatsApp.",
+        "quote": "Nuestra nueva web por fin está a la altura de nuestros productos. Los clientes pueden ver todo el catálogo y contactarnos directamente — ha marcado una diferencia real.",
+        "authorName": "[Nombre]",
+        "authorRole": "[Cargo], Creative Favours"
+      },
+      {
+        "name": "Perashapp",
+        "description": "Construimos la plataforma detrás de Perashapp, una herramienta para estudiar la parashá semanal con audio sincronizado palabra por palabra con el texto — incluyendo un panel para el profesor y una experiencia para el alumno pensada para el aprendizaje concentrado.",
+        "quote": "Perashapp cambió la forma en que mis alumnos se relacionan con la parashá. Seguir el audio palabra por palabra los mantiene concentrados de una manera que la lectura sola nunca lograba.",
+        "authorName": "[Nombre]",
+        "authorRole": "[Cargo], Perashapp"
+      },
+      {
+        "name": "Jabad Barcelona",
+        "description": "Construimos Kehál, la app comunitaria todo-en-uno que hoy usa a diario Jabad Barcelona — inscripción a eventos, reservas de mikvé, donativos, contenido de Torá y un directorio de negocios, todo en un mismo lugar.",
+        "quote": "Kehál se ha convertido en parte del día a día de nuestra comunidad. Lo que antes requería cinco grupos de WhatsApp y una hoja de cálculo, ahora pasa en un solo lugar.",
+        "authorName": "[Nombre]",
+        "authorRole": "[Cargo], Jabad Barcelona"
+      }
+    ]
   },
   "seguridad": {
     "eyebrow": "Seguridad",
