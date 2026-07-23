@@ -27,7 +27,7 @@ export default function Contacto() {
         <p className="mt-3 text-ink/60">{t("intro")}</p>
       </div>
 
-      <div className="relative mt-12 flex justify-center py-10">
+      <div className="relative mt-8 flex justify-center py-2">
         <motion.div
           animate={reduceMotion ? undefined : { y: [0, -10, 0] }}
           transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}

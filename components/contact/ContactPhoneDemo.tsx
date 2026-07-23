@@ -51,8 +51,7 @@ export default function ContactPhoneDemo() {
 
   return (
     <div className="flex h-full flex-col px-5 pb-5">
-      <h3 className="text-lg font-extrabold text-navy">{t("title")}</h3>
-      <p className="mt-1 text-xs text-ink/50">{t("phoneSubtitle")}</p>
+      <p className="text-sm font-semibold text-navy">{t("phoneSubtitle")}</p>
 
       <div className="mt-4 flex gap-1 rounded-full bg-white p-1">
         <button
