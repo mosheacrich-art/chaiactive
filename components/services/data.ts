@@ -23,6 +23,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-cover.png", width: 1536, height: 1024 },
       en: { src: "services/row-cover-en.png", width: 1536, height: 1024 },
+      fr: { src: "services/row-cover-fr.png", width: 1536, height: 1024 },
       he: { src: "services/row-cover-he.png", width: 1536, height: 1024 },
     },
   },
@@ -31,6 +32,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-donativos.png", width: 1713, height: 918 },
       en: { src: "services/row-donativos-en.png", width: 1536, height: 1024 },
+      fr: { src: "services/row-donativos-fr.png", width: 1680, height: 936 },
       he: { src: "services/row-donativos-he.png", width: 1715, height: 917 },
     },
   },
@@ -39,6 +41,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-calendario.png", width: 1672, height: 941 },
       en: { src: "services/row-calendario-en.png", width: 1671, height: 941 },
+      fr: { src: "services/row-calendario-fr.png", width: 1672, height: 941 },
       he: { src: "services/row-calendario-he.png", width: 1672, height: 941 },
     },
   },
@@ -47,6 +50,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-miembros.png", width: 1672, height: 941 },
       en: { src: "services/row-miembros-en.png", width: 1670, height: 941 },
+      fr: { src: "services/row-miembros-fr.png", width: 1672, height: 940 },
       he: { src: "services/row-miembros-he.png", width: 1672, height: 941 },
     },
   },
@@ -55,6 +59,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-mikve.png", width: 1672, height: 941 },
       en: { src: "services/row-mikve-en.png", width: 1672, height: 941 },
+      fr: { src: "services/row-mikve-fr.png", width: 1672, height: 941 },
       he: { src: "services/row-mikve-he.png", width: 1672, height: 941 },
     },
   },
@@ -63,6 +68,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-servicios-comunitarios.png", width: 1672, height: 941 },
       en: { src: "services/row-servicios-comunitarios-en.png", width: 1672, height: 941 },
+      fr: { src: "services/row-servicios-comunitarios-fr.png", width: 1672, height: 941 },
       he: { src: "services/row-servicios-comunitarios-he.png", width: 1672, height: 941 },
     },
   },
@@ -71,6 +77,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-eventos.png", width: 1672, height: 941 },
       en: { src: "services/row-eventos-en.png", width: 1672, height: 941 },
+      fr: { src: "services/row-eventos-fr.png", width: 1672, height: 941 },
       he: { src: "services/row-eventos-he.png", width: 1672, height: 941 },
     },
   },
@@ -79,6 +86,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-jconnect.png", width: 1672, height: 941 },
       en: { src: "services/row-jconnect-en.png", width: 1672, height: 941 },
+      fr: { src: "services/row-jconnect-fr.png", width: 1672, height: 941 },
     },
   },
   {
@@ -86,6 +94,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-tora.png", width: 1672, height: 941 },
       en: { src: "services/row-tora-en.png", width: 1672, height: 941 },
+      fr: { src: "services/row-tora-fr.png", width: 1672, height: 941 },
       he: { src: "services/row-tora-he.png", width: 1672, height: 941 },
     },
   },
@@ -94,6 +103,7 @@ export const SERVICES_CONFIG: ServiceRowConfig[] = [
     images: {
       es: { src: "services/row-admin.png", width: 1625, height: 968 },
       en: { src: "services/row-admin-en.png", width: 1620, height: 971 },
+      fr: { src: "services/row-admin-fr.png", width: 1624, height: 969 },
       he: { src: "services/row-admin-he.png", width: 1624, height: 968 },
     },
   },
