@@ -4,8 +4,6 @@ import Confianza from "@/components/Confianza";
 import ComoLoHacemos from "@/components/ComoLoHacemos";
 import ServicesSection from "@/components/ServicesSection";
 import CasosDeExito from "@/components/CasosDeExito";
-import Seguridad from "@/components/Seguridad";
-import Precios from "@/components/Precios";
 import SobreNosotros from "@/components/SobreNosotros";
 import Contacto from "@/components/Contacto";
 import Footer from "@/components/Footer";
@@ -20,8 +18,6 @@ export default function HomePage() {
         <ComoLoHacemos />
         <ServicesSection />
         <CasosDeExito />
-        <Seguridad />
-        <Precios />
         <SobreNosotros />
         <Contacto />
       </main>

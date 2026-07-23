@@ -227,32 +227,6 @@
       }
     ]
   },
-  "seguridad": {
-    "eyebrow": "Seguridad",
-    "title": "Tus datos, cuidados en serio",
-    "items": [
-      { "title": "Verificación de identidad", "body": "Documento de identidad al darte de alta." },
-      { "title": "Aprobación manual", "body": "Cada alta, revisada en 24-48h." },
-      { "title": "Cumplimiento RGPD", "body": "Base legal clara para cada dato." },
-      { "title": "Cifrado de documentos", "body": "Nada de archivos sueltos accesibles." }
-    ]
-  },
-  "precios": {
-    "eyebrow": "Cómo colaboramos",
-    "title": "La app completa, o solo un módulo",
-    "pathApp": {
-      "title": "Plataforma completa",
-      "body": "Todo Kehál, integrado y acompañado.",
-      "items": ["Verificación de identidad incluida", "Todos los módulos desde el día uno", "Soporte continuo"]
-    },
-    "pathModulo": {
-      "title": "Un módulo",
-      "body": "Solo lo que necesitas, sin más compromiso.",
-      "items": ["Implementación rápida", "Coste ajustado al uso", "Amplías cuando quieras"]
-    },
-    "note": "Cada proyecto es distinto — hablemos del tuyo.",
-    "cta": "Consúltanos"
-  },
   "sobreNosotros": {
     "eyebrow": "Nuestra historia",
     "title": "Más que una app",

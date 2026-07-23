@@ -227,32 +227,6 @@
       }
     ]
   },
-  "seguridad": {
-    "eyebrow": "Sécurité",
-    "title": "Vos données, prises au sérieux",
-    "items": [
-      { "title": "Vérification d'identité", "body": "Pièce d'identité requise à l'inscription." },
-      { "title": "Approbation manuelle", "body": "Chaque inscription vérifiée sous 24-48h." },
-      { "title": "Conforme RGPD", "body": "Base légale claire pour chaque donnée." },
-      { "title": "Documents chiffrés", "body": "Aucun fichier isolé accessible." }
-    ]
-  },
-  "precios": {
-    "eyebrow": "Comment nous collaborons",
-    "title": "L'app complète, ou juste un module",
-    "pathApp": {
-      "title": "Plateforme complète",
-      "body": "Tout Kehál, intégré et accompagné.",
-      "items": ["Vérification d'identité incluse", "Tous les modules dès le jour un", "Support continu"]
-    },
-    "pathModulo": {
-      "title": "Un module",
-      "body": "Juste ce qu'il vous faut, sans plus d'engagement.",
-      "items": ["Mise en œuvre rapide", "Coût ajusté à l'usage", "Ajoutez-en quand vous voulez"]
-    },
-    "note": "Chaque projet est différent — parlons du vôtre.",
-    "cta": "Contactez-nous"
-  },
   "sobreNosotros": {
     "eyebrow": "Notre histoire",
     "title": "Plus qu'une app",

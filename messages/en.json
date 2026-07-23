@@ -227,32 +227,6 @@
       }
     ]
   },
-  "seguridad": {
-    "eyebrow": "Security",
-    "title": "Your data, handled seriously",
-    "items": [
-      { "title": "Identity verification", "body": "ID document required to join." },
-      { "title": "Manual approval", "body": "Every sign-up reviewed within 24-48h." },
-      { "title": "GDPR compliant", "body": "Clear legal basis for every use." },
-      { "title": "Encrypted documents", "body": "No loose, exposed files." }
-    ]
-  },
-  "precios": {
-    "eyebrow": "How we work together",
-    "title": "The full app, or just one module",
-    "pathApp": {
-      "title": "Full platform",
-      "body": "All of Kehál, integrated and supported.",
-      "items": ["Identity verification included", "Every module from day one", "Ongoing support"]
-    },
-    "pathModulo": {
-      "title": "One module",
-      "body": "Just what you need, no more commitment.",
-      "items": ["Fast implementation", "Cost matched to use", "Add more anytime"]
-    },
-    "note": "Every project is different — let's talk about yours.",
-    "cta": "Get in touch"
-  },
   "sobreNosotros": {
     "eyebrow": "Our story",
     "title": "More Than an App",
