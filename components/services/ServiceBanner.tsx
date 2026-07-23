@@ -1,10 +1,17 @@
 "use client";
 
 import { forwardRef } from "react";
+import { Playfair_Display } from "next/font/google";
 import { motion, useReducedMotion, type Variants } from "framer-motion";
-import { Lightbulb, type LucideIcon } from "lucide-react";
+import { ArrowRight, Lightbulb, type LucideIcon } from "lucide-react";
 import DeviceStage from "./DeviceStage";
 import type { ServiceCardData } from "./FloatingCard";
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["700"],
+  display: "swap",
+});
 
 export type ServiceBannerProps = {
   id: string;
@@ -55,7 +62,7 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
         tone === "cream" ? "bg-cream" : "bg-white"
       }`}
     >
-      <div className="mx-auto grid w-full max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-2">
+      <div className="mx-auto grid w-full max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[0.85fr_1.15fr]">
         <motion.div
           initial="hidden"
           whileInView="visible"
@@ -63,15 +70,17 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
           variants={textVariants}
         >
           <div className="mb-5 flex items-center gap-3">
-            <span className="flex size-9 items-center justify-center rounded-lg bg-gold text-sm font-bold text-navy-dark">
+            <span className="flex size-11 items-center justify-center rounded-xl bg-gold text-base font-bold text-navy-dark">
               {number}
             </span>
-            <p className="text-sm font-semibold uppercase tracking-widest text-gold">
+            <p className="text-sm font-bold uppercase tracking-[0.15em] text-gold">
               {eyebrow}
             </p>
           </div>
 
-          <h2 className="text-3xl font-extrabold leading-[1.15] tracking-tight sm:text-4xl lg:text-5xl">
+          <h2
+            className={`${playfair.className} text-4xl leading-[1.15] tracking-tight sm:text-5xl`}
+          >
             {headlineLines.map((line, i) => (
               <span
                 key={line}
@@ -84,16 +93,16 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
             ))}
           </h2>
 
-          <p className="mt-5 max-w-md text-lg text-ink/70">{description}</p>
+          <p className="mt-5 max-w-md text-lg text-ink/60">{description}</p>
 
-          <div className="mt-3 h-1 w-10 rounded-full bg-gold" />
+          <div className="mt-4 h-1 w-10 rounded-full bg-gold" />
 
           <div className="mt-6 flex flex-wrap gap-4">
             {chips.map((chip) => {
               const Icon = chip.icon;
               return (
                 <div key={chip.label} className="flex w-16 flex-col items-center gap-2 text-center">
-                  <div className="flex size-11 items-center justify-center rounded-xl bg-white">
+                  <div className="flex size-11 items-center justify-center rounded-xl bg-gold/15">
                     <Icon className="size-5 text-navy" aria-hidden="true" />
                   </div>
                   <span className="text-xs font-medium text-ink/60">{chip.label}</span>
@@ -105,9 +114,10 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
           <div className="mt-8 flex flex-wrap items-center gap-6">
             <a
               href={ctaHref}
-              className="rounded-full bg-navy px-6 py-3 text-sm font-semibold text-white transition hover:bg-navy-light"
+              className="inline-flex items-center gap-2 rounded-full bg-navy px-6 py-3 text-sm font-semibold text-white transition hover:bg-navy-light"
             >
-              {cta} →
+              {cta}
+              <ArrowRight className="size-4" aria-hidden="true" />
             </a>
             {asideNote && (
               <p className="flex max-w-[220px] items-center gap-2 text-sm text-ink/60">
