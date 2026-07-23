@@ -86,6 +86,7 @@ export default function ContactPhoneDemo() {
               name="name"
               type="text"
               required
+              placeholder={t("form.namePlaceholder")}
               onFocus={() => status === "success" && setStatus("idle")}
               className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
             />
@@ -99,6 +100,7 @@ export default function ContactPhoneDemo() {
               name="email"
               type="email"
               required
+              placeholder={t("form.emailPlaceholder")}
               onFocus={() => status === "success" && setStatus("idle")}
               className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
             />
@@ -111,6 +113,7 @@ export default function ContactPhoneDemo() {
               id="phone-community"
               name="community"
               type="text"
+              placeholder={t("form.communityPlaceholder")}
               onFocus={() => status === "success" && setStatus("idle")}
               className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
             />
@@ -124,6 +127,7 @@ export default function ContactPhoneDemo() {
               name="message"
               required
               rows={3}
+              placeholder={t("form.messagePlaceholder")}
               onFocus={() => status === "success" && setStatus("idle")}
               className="w-full resize-none rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
             />

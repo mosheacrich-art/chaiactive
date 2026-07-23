@@ -287,9 +287,13 @@
     "tabWhatsapp": "וואטסאפ",
     "form": {
       "name": "שם",
+      "namePlaceholder": "כתבו את שמכם",
       "email": "אימייל",
+      "emailPlaceholder": "you@email.com",
       "community": "ארגון (אופציונלי)",
+      "communityPlaceholder": "הקהילה או הארגון שלכם",
       "message": "איך נוכל לעזור?",
+      "messagePlaceholder": "כתבו כאן את ההודעה שלכם…",
       "submit": "שליחה",
       "sending": "שולח…",
       "success": "נשלח! נחזור אליכם בקרוב.",

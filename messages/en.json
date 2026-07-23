@@ -287,9 +287,13 @@
     "tabWhatsapp": "WhatsApp",
     "form": {
       "name": "Name",
+      "namePlaceholder": "Type your name",
       "email": "Email",
+      "emailPlaceholder": "you@email.com",
       "community": "Organization (optional)",
+      "communityPlaceholder": "Your community or organization",
       "message": "How can we help?",
+      "messagePlaceholder": "Type your message here…",
       "submit": "Send message",
       "sending": "Sending…",
       "success": "Sent! We'll get back to you soon.",
