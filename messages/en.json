@@ -200,18 +200,6 @@
       }
     ]
   },
-  "galeria": {
-    "eyebrow": "In real life",
-    "title": "This is Kehál today",
-    "items": [
-      { "image": "kehal-inicio.png", "caption": "Home" },
-      { "image": "kehal-calendario-hebreo.png", "caption": "Hebrew Calendar" },
-      { "image": "kehal-eventos.png", "caption": "Events" },
-      { "image": "kehal-beit-harav.png", "caption": "Torah and Community" },
-      { "image": "kehal-jconnect.png", "caption": "Jconnect" },
-      { "image": "kehal-donativos.png", "caption": "Donations" }
-    ]
-  },
   "casos": {
     "title": "Success Stories",
     "photoPending": "Photo pending",

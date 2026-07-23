@@ -200,18 +200,6 @@
       }
     ]
   },
-  "galeria": {
-    "eyebrow": "בחיים האמיתיים",
-    "title": "כך נראית Kehál היום",
-    "items": [
-      { "image": "kehal-inicio.png", "caption": "בית" },
-      { "image": "kehal-calendario-hebreo.png", "caption": "לוח שנה עברי" },
-      { "image": "kehal-eventos.png", "caption": "אירועים" },
-      { "image": "kehal-beit-harav.png", "caption": "תורה וקהילה" },
-      { "image": "kehal-jconnect.png", "caption": "Jconnect" },
-      { "image": "kehal-donativos.png", "caption": "תרומות" }
-    ]
-  },
   "casos": {
     "title": "סיפורי הצלחה",
     "photoPending": "תמונה ממתינה",

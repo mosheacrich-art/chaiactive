@@ -200,18 +200,6 @@
       }
     ]
   },
-  "galeria": {
-    "eyebrow": "En la vida real",
-    "title": "Así es Kehál hoy",
-    "items": [
-      { "image": "kehal-inicio.png", "caption": "Inicio" },
-      { "image": "kehal-calendario-hebreo.png", "caption": "Calendario Hebreo" },
-      { "image": "kehal-eventos.png", "caption": "Eventos" },
-      { "image": "kehal-beit-harav.png", "caption": "Torá y Comunidad" },
-      { "image": "kehal-jconnect.png", "caption": "Jconnect" },
-      { "image": "kehal-donativos.png", "caption": "Donativos" }
-    ]
-  },
   "casos": {
     "title": "Casos de éxito",
     "photoPending": "Foto pendiente",
