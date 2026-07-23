@@ -6,12 +6,16 @@ import { motion, useReducedMotion, type Variants } from "framer-motion";
 export default function ServiceRow({
   id,
   image,
+  width,
+  height,
   title,
   description,
   priority,
 }: {
   id: string;
   image: string;
+  width: number;
+  height: number;
   title: string;
   description: string;
   priority?: boolean;
@@ -30,16 +34,17 @@ export default function ServiceRow({
       whileInView="visible"
       viewport={{ once: true, margin: "-80px" }}
       variants={variants}
-      className="grid overflow-hidden rounded-3xl bg-white shadow-sm sm:grid-cols-[3fr_2fr]"
+      className="grid overflow-hidden rounded-3xl bg-white shadow-sm sm:grid-cols-2"
     >
-      <div className="relative aspect-[4/3] sm:aspect-auto sm:min-h-[460px]">
+      <div className="flex items-center justify-center bg-cream p-4">
         <Image
           src={`/images/${image}`}
           alt={title}
-          fill
+          width={width}
+          height={height}
           priority={priority}
-          sizes="(min-width: 640px) 60vw, 100vw"
-          className="object-cover"
+          sizes="(min-width: 640px) 50vw, 100vw"
+          className="h-auto w-full object-contain"
         />
       </div>
 

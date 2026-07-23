@@ -13,7 +13,7 @@ export default function ServicesSection() {
 
   return (
     <section id="servicios" className="bg-cream py-20 sm:py-28">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+      <div className="mx-auto max-w-4xl px-4 sm:px-6">
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
           {t("sectionTitle")}
         </h2>
@@ -28,6 +28,8 @@ export default function ServicesSection() {
                 key={config.slug}
                 id={`servicio-${config.slug}`}
                 image={config.image}
+                width={config.width}
+                height={config.height}
                 title={text.eyebrow}
                 description={text.description}
                 priority={i === 0}
