@@ -13,14 +13,14 @@ export default function Confianza() {
         <p className="text-center text-sm font-semibold uppercase tracking-wider text-ink/40">
           {t("title")}
         </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-10">
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-16">
           {items.map((item, i) => (
-            <div key={item.name} className="relative h-24 w-24">
+            <div key={item.name} className="relative h-28 w-28">
               <Image
                 src={`/images/${LOGOS[i]}`}
                 alt={item.name}
                 fill
-                sizes="96px"
+                sizes="112px"
                 className="object-contain"
               />
             </div>
