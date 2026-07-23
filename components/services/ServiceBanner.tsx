@@ -26,6 +26,7 @@ export type ServiceBannerProps = {
   device: "phone" | "laptop";
   deviceImage: string;
   cards: (ServiceCardData & { icon: LucideIcon })[];
+  cardsLayout?: "split" | "right";
   tone: "cream" | "white";
 };
 
@@ -43,6 +44,7 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
     device,
     deviceImage,
     cards,
+    cardsLayout,
     tone,
   },
   ref
@@ -128,7 +130,12 @@ const ServiceBanner = forwardRef<HTMLElement, ServiceBannerProps>(function Servi
           </div>
         </motion.div>
 
-        <DeviceStage device={device} deviceImage={deviceImage} cards={cards} />
+        <DeviceStage
+          device={device}
+          deviceImage={deviceImage}
+          cards={cards}
+          cardsLayout={cardsLayout}
+        />
       </div>
     </section>
   );

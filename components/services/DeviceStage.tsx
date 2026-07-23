@@ -14,14 +14,16 @@ export default function DeviceStage({
   device,
   deviceImage,
   cards,
+  cardsLayout = "split",
 }: {
   device: "phone" | "laptop";
   deviceImage: string;
   cards: (ServiceCardData & { icon: LucideIcon })[];
+  cardsLayout?: "split" | "right";
 }) {
   const reduceMotion = useReducedMotion();
-  const leftCards = cards.filter((_, i) => i % 2 === 0);
-  const rightCards = cards.filter((_, i) => i % 2 === 1);
+  const leftCards = cardsLayout === "right" ? [] : cards.filter((_, i) => i % 2 === 0);
+  const rightCards = cardsLayout === "right" ? cards : cards.filter((_, i) => i % 2 === 1);
 
   const deviceVariants: Variants = {
     hidden: { opacity: 0, x: reduceMotion ? 0 : 24 },

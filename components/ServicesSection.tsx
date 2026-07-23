@@ -87,6 +87,7 @@ export default function ServicesSection() {
             device={config.device}
             deviceImage={config.deviceImage}
             cards={config.cardIcons.map((icon, ci) => ({ icon, ...text.cards[ci] }))}
+            cardsLayout={config.cardsLayout}
             tone={i % 2 === 0 ? "cream" : "white"}
           />
         );

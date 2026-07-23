@@ -45,6 +45,7 @@ export type ServiceBannerConfig = {
   deviceImage: string;
   chipIcons: LucideIcon[];
   cardIcons: LucideIcon[];
+  cardsLayout?: "split" | "right";
 };
 
 // Structural data only (icons, device type, image). All display text lives in
@@ -58,6 +59,7 @@ export const SERVICES_CONFIG: ServiceBannerConfig[] = [
     deviceImage: "cover-phone.png",
     chipIcons: [Users, Calendar, Heart, MessageCircle, BookOpen, CreditCard, BarChart3, Sparkles],
     cardIcons: [Code2, ShieldCheck, Sparkles, Headphones],
+    cardsLayout: "right",
   },
   {
     slug: "donativos",
