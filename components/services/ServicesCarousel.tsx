@@ -1,9 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import { AnimatePresence, motion, useReducedMotion, type Variants } from "framer-motion";
 import { ChevronLeft, ChevronRight } from "lucide-react";
+
+const AUTO_ADVANCE_MS = 4000;
 
 export type CarouselSlide = {
   slug: string;
@@ -17,7 +19,16 @@ export type CarouselSlide = {
 
 export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }) {
   const [index, setIndex] = useState(0);
+  const [paused, setPaused] = useState(false);
   const reduceMotion = useReducedMotion();
+
+  useEffect(() => {
+    if (paused) return;
+    const id = setTimeout(() => {
+      setIndex((i) => (i + 1) % slides.length);
+    }, AUTO_ADVANCE_MS);
+    return () => clearTimeout(id);
+  }, [paused, index, slides.length]);
 
   function goTo(i: number) {
     setIndex((i + slides.length) % slides.length);
@@ -32,7 +43,13 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
   };
 
   return (
-    <div className="relative w-full overflow-hidden">
+    <div
+      className="relative w-full overflow-hidden"
+      onMouseEnter={() => setPaused(true)}
+      onMouseLeave={() => setPaused(false)}
+      onFocus={() => setPaused(true)}
+      onBlur={() => setPaused(false)}
+    >
       <button
         type="button"
         onClick={() => goTo(index - 1)}
