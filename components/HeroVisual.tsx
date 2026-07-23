@@ -2,9 +2,22 @@
 
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import Image from "next/image";
+import { useLocale } from "next-intl";
 import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
-const IMAGES = ["mockup-eventos.png", "mockup-donativos.png", "mockup-mikve.png"];
+// `es` is the fallback for any locale without its own mockup yet.
+const IMAGES: { es: string; en?: string; fr?: string; he?: string }[] = [
+  { es: "mockup-eventos.png", en: "mockup-eventos-en.png" },
+  { es: "mockup-donativos.png", en: "mockup-donativos-en.png" },
+  { es: "mockup-mikve.png", en: "mockup-mikve-en.png" },
+];
+
+function pickImage(entry: (typeof IMAGES)[number], locale: string) {
+  if (locale === "en" && entry.en) return entry.en;
+  if (locale === "fr" && entry.fr) return entry.fr;
+  if (locale === "he" && entry.he) return entry.he;
+  return entry.es;
+}
 
 const HOVER_QUERY = "(hover: hover) and (pointer: fine)";
 
@@ -43,6 +56,7 @@ export default function HeroVisual({
 }) {
   const reduceMotion = useReducedMotion();
   const hasHover = useHasHover();
+  const locale = useLocale();
   const containerRef = useRef<HTMLDivElement>(null);
   const [drift, setDrift] = useState({ x: 0, y: 0 });
 
@@ -113,7 +127,7 @@ export default function HeroVisual({
                 transition={{ duration: 0.45, ease: "easeOut" }}
               >
                 <Image
-                  src={`/images/app/${IMAGES[activeIndex]}`}
+                  src={`/images/app/${pickImage(IMAGES[activeIndex], locale)}`}
                   alt={tabLabels[activeIndex]}
                   fill
                   priority={activeIndex === 0}
