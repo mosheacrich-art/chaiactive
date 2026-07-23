@@ -7,9 +7,9 @@ import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
 
 // `es` is the fallback for any locale without its own mockup yet.
 const IMAGES: { es: string; en?: string; fr?: string; he?: string }[] = [
-  { es: "mockup-eventos.png", en: "mockup-eventos-en.png" },
-  { es: "mockup-donativos.png", en: "mockup-donativos-en.png" },
-  { es: "mockup-mikve.png", en: "mockup-mikve-en.png" },
+  { es: "mockup-eventos.png", en: "mockup-eventos-en.png", fr: "mockup-eventos-fr.png" },
+  { es: "mockup-donativos.png", en: "mockup-donativos-en.png", fr: "mockup-donativos-fr.png" },
+  { es: "mockup-mikve.png", en: "mockup-mikve-en.png", fr: "mockup-mikve-fr.png" },
 ];
 
 function pickImage(entry: (typeof IMAGES)[number], locale: string) {
