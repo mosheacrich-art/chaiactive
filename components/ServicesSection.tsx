@@ -1,8 +1,10 @@
 import { useLocale, useTranslations } from "next-intl";
 import ServiceRow from "./services/ServiceRow";
+import ServicesCarousel, { type CarouselSlide } from "./services/ServicesCarousel";
 import { SERVICES_CONFIG, type ServiceRowConfig } from "./services/data";
 
 type BannerText = {
+  number: string;
   eyebrow: string;
   description: string;
 };
@@ -23,6 +25,23 @@ export default function ServicesSection() {
   const [first, ...rest] = SERVICES_CONFIG;
   const firstText = banners[0];
 
+  const slides: CarouselSlide[] = rest
+    .map((config, i) => {
+      const text = banners[i + 1];
+      if (!text) return null;
+      const image = pickImage(config, locale);
+      return {
+        slug: config.slug,
+        image: image.src,
+        width: image.width,
+        height: image.height,
+        title: text.eyebrow,
+        description: text.description,
+        number: text.number,
+      };
+    })
+    .filter((slide): slide is CarouselSlide => slide !== null);
+
   return (
     <section id="servicios" className="bg-cream py-20 sm:py-28">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
@@ -30,8 +49,10 @@ export default function ServicesSection() {
           {t("sectionTitle")}
         </h2>
 
-        <div className="mt-12 flex flex-col gap-6">
-          {first && firstText && (
+        {/* Module 1 is the section's own introduction, so it stays static
+            rather than living inside the swipeable carousel below. */}
+        {first && firstText && (
+          <div className="mt-12">
             <ServiceRow
               id={`servicio-${first.slug}`}
               image={pickImage(first, locale).src}
@@ -42,28 +63,11 @@ export default function ServicesSection() {
               priority
               layout="horizontal"
             />
-          )}
-
-          <div className="grid gap-6 sm:grid-cols-2">
-            {rest.map((config, i) => {
-              const text = banners[i + 1];
-              if (!text) return null;
-              const image = pickImage(config, locale);
-
-              return (
-                <ServiceRow
-                  key={config.slug}
-                  id={`servicio-${config.slug}`}
-                  image={image.src}
-                  width={image.width}
-                  height={image.height}
-                  title={text.eyebrow}
-                  description={text.description}
-                  layout="stacked"
-                />
-              );
-            })}
           </div>
+        )}
+
+        <div className="mt-10">
+          <ServicesCarousel slides={slides} />
         </div>
       </div>
     </section>
