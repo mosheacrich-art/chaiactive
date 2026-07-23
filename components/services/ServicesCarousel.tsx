@@ -57,9 +57,9 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
           animate="visible"
           exit="exit"
           variants={variants}
-          className="flex min-h-[80vh] w-full flex-col items-center justify-center gap-10 px-6 py-16 sm:px-12 lg:flex-row lg:gap-16 lg:px-20"
+          className="flex min-h-[70vh] w-full flex-col items-center gap-8 px-6 py-14 sm:px-10 lg:min-h-[85vh] lg:flex-row lg:justify-center lg:gap-10 lg:px-16"
         >
-          <div className="max-w-lg text-center lg:text-start">
+          <div className="shrink-0 text-center lg:w-[360px] lg:text-start">
             <span className="text-sm font-semibold text-gold">{slide.number}</span>
             <h3 className="mt-2 text-4xl font-extrabold leading-[1.1] text-navy sm:text-5xl">
               {slide.title}
@@ -67,14 +67,14 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
             <p className="mt-6 text-xl text-ink/60">{slide.description}</p>
           </div>
 
-          <div className="w-full max-w-2xl">
+          <div className="flex w-full flex-1 items-center justify-center">
             <Image
               src={`/images/${slide.image}`}
               alt={slide.title}
               width={slide.width}
               height={slide.height}
-              sizes="(min-width: 1024px) 700px, 90vw"
-              className="h-auto w-full object-contain"
+              sizes="(min-width: 1024px) 900px, 92vw"
+              className="h-auto w-full max-w-[900px] object-contain"
             />
           </div>
         </motion.div>
