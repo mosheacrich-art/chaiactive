@@ -8,7 +8,16 @@ export type CasoConfig = {
 };
 
 export const CASOS_CONFIG: CasoConfig[] = [
-  { slug: "creative-favours", logo: "logos/creative-favours.png", photoPending: true },
+  {
+    slug: "creative-favours",
+    logo: "logos/creative-favours.png",
+    photoPending: false,
+    screenshots: [
+      "casos/creative-favours/kippot-personalised.png",
+      "casos/creative-favours/linen-colours.png",
+      "casos/creative-favours/all-fabrics.png",
+    ],
+  },
   {
     slug: "perashapp",
     logo: "logos/perashapp.png",
