@@ -41,7 +41,9 @@
     "items": [
       { "name": "חב״ד ברצלונה", "role": "בשימוש אמיתי" },
       { "name": "Creative Favours", "role": "יודאיקה — לונדון" },
-      { "name": "Perashapp", "role": "לימוד פרשת השבוע" }
+      { "name": "Perashapp", "role": "לימוד פרשת השבוע" },
+      { "name": "Kolel", "role": "תורה" },
+      { "name": "Magen Publishers", "role": "הוצאה לאור" }
     ]
   },
   "comoLoHacemos": {

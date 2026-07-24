@@ -41,7 +41,9 @@
     "items": [
       { "name": "Jabad Barcelona", "role": "In real use" },
       { "name": "Creative Favours", "role": "Judaica — London" },
-      { "name": "Perashapp", "role": "Parasha study" }
+      { "name": "Perashapp", "role": "Parasha study" },
+      { "name": "Kolel", "role": "Torah" },
+      { "name": "Magen Publishers", "role": "Publishing" }
     ]
   },
   "comoLoHacemos": {

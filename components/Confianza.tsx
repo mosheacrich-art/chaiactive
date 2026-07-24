@@ -1,7 +1,13 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-const LOGOS = ["logos/jabad.png", "logos/creative-favours.png", "logos/perashapp.png"];
+const LOGOS = [
+  "logos/jabad.png",
+  "logos/creative-favours.png",
+  "logos/perashapp.png",
+  "logos/kollel.jpeg",
+  "logos/magen-publishers.jpeg",
+];
 
 export default function Confianza() {
   const t = useTranslations("confianza");
