@@ -20,5 +20,16 @@ export const CASOS_CONFIG: CasoConfig[] = [
       "casos/perashapp/tikkun-korim.png",
     ],
   },
-  { slug: "jabad", logo: "logos/jabad.png", photoPending: true },
+  {
+    slug: "jabad",
+    logo: "logos/jabad.png",
+    photoPending: false,
+    screenshots: [
+      "casos/jabad/login.png",
+      "casos/jabad/eventos.png",
+      "casos/jabad/servicios.png",
+      "casos/jabad/donativos.png",
+      "casos/jabad/mikve.png",
+    ],
+  },
 ];
