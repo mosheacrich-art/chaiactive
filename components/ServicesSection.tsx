@@ -44,7 +44,7 @@ export default function ServicesSection() {
 
   return (
     <section id="servicios" className="bg-cream py-20 sm:py-28">
-      <div className="mx-auto max-w-5xl px-4 sm:px-6">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <h2 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
           {t("sectionTitle")}
         </h2>
@@ -61,7 +61,6 @@ export default function ServicesSection() {
               title={firstText.eyebrow}
               description={firstText.description}
               priority
-              layout="horizontal"
             />
           </div>
         )}
