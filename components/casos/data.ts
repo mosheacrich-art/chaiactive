@@ -36,10 +36,11 @@ export const CASOS_CONFIG: CasoConfig[] = [
     photoPending: false,
     screenshots: [
       "casos/jabad/login.png",
+      "casos/jabad/inicio.png",
+      "casos/jabad/calendario.png",
       "casos/jabad/eventos.png",
-      "casos/jabad/servicios.png",
-      "casos/jabad/donativos.png",
       "casos/jabad/mikve.png",
+      "casos/jabad/donativos.png",
     ],
   },
 ];
