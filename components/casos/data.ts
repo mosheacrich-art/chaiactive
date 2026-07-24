@@ -13,6 +13,7 @@ export const CASOS_CONFIG: CasoConfig[] = [
     logo: "logos/creative-favours.png",
     photoPending: false,
     screenshots: [
+      "casos/creative-favours/landing.png",
       "casos/creative-favours/kippot-personalised.png",
       "casos/creative-favours/linen-colours.png",
       "casos/creative-favours/all-fabrics.png",
