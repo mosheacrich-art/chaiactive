@@ -210,22 +210,22 @@
         "name": "Creative Favours",
         "description": "We built a custom e-commerce website for this family-run Judaica business in London, specializing in personalized kippot, benchers, and challah covers for over 10 years. The new site brings their full catalog online with category browsing, customer accounts, and direct WhatsApp ordering.",
         "quote": "Our new website finally looks as good as our products. Customers can browse everything and reach us directly — it's made a real difference.",
-        "authorName": "[Name]",
-        "authorRole": "[Role], Creative Favours"
+        "authorName": "Mimi & Stella",
+        "authorRole": "Founders, Creative Favours"
       },
       {
         "name": "Perashapp",
         "description": "We built the platform behind Perashapp, a tool for studying the weekly parasha with audio synced word-by-word to the text — including a teacher dashboard and a student experience designed for focused learning.",
         "quote": "Perashapp changed how my students engage with the parasha. Following the audio word by word keeps them focused in a way reading alone never did.",
-        "authorName": "[Name]",
-        "authorRole": "[Role], Perashapp"
+        "authorName": "Moshe Acrish",
+        "authorRole": "Founder, Perashapp"
       },
       {
         "name": "Jabad Barcelona",
         "description": "We built Kehál, the all-in-one community app now used daily by Jabad Barcelona — event sign-ups, mikvah bookings, donations, Torah content, and a business directory, all in one place.",
         "quote": "Kehál has become part of how our community runs day to day. What used to take five WhatsApp groups and a spreadsheet now happens in one place.",
-        "authorName": "[Name]",
-        "authorRole": "[Role], Jabad Barcelona"
+        "authorName": "Ha Rav Dovid Libershon",
+        "authorRole": "Chief Rabbi of the Community of Jabad Barcelona"
       }
     ]
   },

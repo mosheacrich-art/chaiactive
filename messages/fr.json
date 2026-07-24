@@ -210,22 +210,22 @@
         "name": "Creative Favours",
         "description": "Nous avons créé un site e-commerce sur mesure pour cette entreprise familiale de judaïca à Londres, spécialisée depuis plus de 10 ans dans les kippot, benchers et housses de 'halot personnalisées. Le nouveau site met en ligne tout leur catalogue, avec navigation par catégories, comptes clients et commandes directes par WhatsApp.",
         "quote": "Notre nouveau site est enfin à la hauteur de nos produits. Les clients peuvent tout parcourir et nous contacter directement — ça a vraiment changé la donne.",
-        "authorName": "[Nom]",
-        "authorRole": "[Fonction], Creative Favours"
+        "authorName": "Mimi & Stella",
+        "authorRole": "Fondatrices, Creative Favours"
       },
       {
         "name": "Perashapp",
         "description": "Nous avons construit la plateforme derrière Perashapp, un outil pour étudier la paracha hebdomadaire avec un audio synchronisé mot à mot avec le texte — avec un espace professeur et une expérience élève pensée pour un apprentissage concentré.",
         "quote": "Perashapp a changé la façon dont mes élèves abordent la paracha. Suivre l'audio mot à mot les garde concentrés comme la lecture seule ne le faisait jamais.",
-        "authorName": "[Nom]",
-        "authorRole": "[Fonction], Perashapp"
+        "authorName": "Moshe Acrish",
+        "authorRole": "Fondateur, Perashapp"
       },
       {
         "name": "Jabad Barcelona",
         "description": "Nous avons construit Kehál, l'application communautaire tout-en-un utilisée chaque jour par Jabad Barcelona — inscriptions aux événements, réservations au mikvé, dons, contenu de Torah et annuaire d'entreprises, le tout au même endroit.",
         "quote": "Kehál fait désormais partie du fonctionnement quotidien de notre communauté. Ce qui prenait cinq groupes WhatsApp et un tableur se fait maintenant en un seul endroit.",
-        "authorName": "[Nom]",
-        "authorRole": "[Fonction], Jabad Barcelona"
+        "authorName": "Ha Rav Dovid Libershon",
+        "authorRole": "Grand Rabbin de la Communauté Jabad Barcelone"
       }
     ]
   },
