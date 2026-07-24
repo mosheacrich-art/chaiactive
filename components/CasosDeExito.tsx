@@ -7,6 +7,7 @@ import { AnimatePresence, motion, useReducedMotion, type Variants } from "framer
 import { ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { CASOS_CONFIG } from "./casos/data";
 import PhotoPlaceholder from "./casos/PhotoPlaceholder";
+import ScreenshotSlideshow from "./casos/ScreenshotSlideshow";
 
 const AUTO_ADVANCE_MS = 6000;
 
@@ -87,7 +88,9 @@ export default function CasosDeExito() {
             >
               <div className="flex flex-col gap-5">
                 <div className="relative aspect-[16/10] overflow-hidden rounded-2xl">
-                  {config.photoPending ? (
+                  {config.screenshots ? (
+                    <ScreenshotSlideshow images={config.screenshots} alt={slide.name} />
+                  ) : config.photoPending ? (
                     <PhotoPlaceholder label={t("photoPending")} />
                   ) : null}
                   <div className="absolute bottom-4 start-4 flex h-12 w-12 items-center justify-center rounded-xl bg-white p-2 shadow-md">
