@@ -254,6 +254,18 @@
     ],
     "finalLine": "Ce n'est pas seulement une start-up. C'est notre contribution à l'avenir des communautés juives dans le monde."
   },
+  "idea": {
+    "headlineLines": ["Une idée ?", "Construisons-la."],
+    "subhead": "Kehál est notre produit phare, mais pas le seul. Nous construisons des outils sur mesure pour des rabbins, des entreprises juives et des responsables communautaires avec une idée qui mérite de devenir réalité. C'est ainsi qu'ont commencé Creative Favours et Perashapp — avec une conversation, pas avec une commande fermée.",
+    "chips": [
+      "Un site pour votre entreprise juive",
+      "Un outil d'étude, comme Perashapp",
+      "Un annuaire pour votre fédération de communautés",
+      "Une app d'événements rien que pour votre yeshiva",
+      "Quelque chose qui n'existe pas encore"
+    ],
+    "cta": "Parlez-nous de votre idée"
+  },
   "contacto": {
     "title": "On en parle ?",
     "intro": "Sans engagement, sans jargon.",
