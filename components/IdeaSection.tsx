@@ -8,7 +8,7 @@ export default function IdeaSection() {
   const chips = t.raw("chips") as string[];
 
   return (
-    <section className="bg-cream py-20 sm:py-28">
+    <section id="idea" className="bg-cream py-20 sm:py-28">
       <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
         <ScrollReveal>
           <h2 className="text-3xl font-extrabold leading-[1.15] tracking-tight sm:text-4xl">

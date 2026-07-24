@@ -11,6 +11,7 @@ const links = [
   { href: "#servicios", key: "servicios" },
   { href: "#casos", key: "casos" },
   { href: "#nosotros", key: "nosotros" },
+  { href: "#idea", key: "idea" },
   { href: "#contacto", key: "contacto" },
 ] as const;
 
