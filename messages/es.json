@@ -55,7 +55,8 @@
     ]
   },
   "servicios": {
-    "sectionTitle": "Todo lo que tu comunidad necesita, en una sola app.",
+    "sectionTitleStart": "Todo lo que tu comunidad necesita,",
+    "sectionTitleEnd": "en una sola app.",
     "banners": [
       {
         "number": "01",

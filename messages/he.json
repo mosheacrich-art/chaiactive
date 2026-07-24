@@ -55,7 +55,8 @@
     ]
   },
   "servicios": {
-    "sectionTitle": "כל מה שהקהילה שלך צריכה, באפליקציה אחת.",
+    "sectionTitleStart": "כל מה שהקהילה שלך צריכה,",
+    "sectionTitleEnd": "באפליקציה אחת.",
     "banners": [
       {
         "number": "01",

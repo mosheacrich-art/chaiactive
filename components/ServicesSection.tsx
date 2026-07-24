@@ -45,8 +45,9 @@ export default function ServicesSection() {
   return (
     <section id="servicios" className="bg-cream py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <h2 className="text-center text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-          {t("sectionTitle")}
+        <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
+          <span className="text-navy">{t("sectionTitleStart")} </span>
+          <span className="text-gold">{t("sectionTitleEnd")}</span>
         </h2>
 
         {/* Module 1 is the section's own introduction, so it stays static
