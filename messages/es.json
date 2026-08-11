@@ -46,17 +46,6 @@
       { "name": "Magen Publishers", "role": "Editorial" }
     ]
   },
-  "comoLoHacemos": {
-    "eyebrow": "Cómo trabajamos",
-    "title": "Cinco pasos, contigo en cada uno",
-    "steps": [
-      { "n": "01", "title": "Descubrimiento", "body": "Entendemos tu día a día antes de programar." },
-      { "n": "02", "title": "Diseño", "body": "A tu medida, no al revés." },
-      { "n": "03", "title": "Desarrollo", "body": "Con el mismo cuidado que en casa." },
-      { "n": "04", "title": "Lanzamiento", "body": "Te acompañamos y formamos al equipo." },
-      { "n": "05", "title": "Soporte", "body": "Seguimos ahí después." }
-    ]
-  },
   "servicios": {
     "sectionTitleStart": "Todo lo que tu comunidad necesita,",
     "sectionTitleEnd": "en una sola app.",

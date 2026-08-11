@@ -46,17 +46,6 @@
       { "name": "Magen Publishers", "role": "Publishing" }
     ]
   },
-  "comoLoHacemos": {
-    "eyebrow": "How we work",
-    "title": "Five steps, with you every step",
-    "steps": [
-      { "n": "01", "title": "Discovery", "body": "We learn your day-to-day before writing code." },
-      { "n": "02", "title": "Design", "body": "Built around you, not the other way around." },
-      { "n": "03", "title": "Development", "body": "The same care as our own community." },
-      { "n": "04", "title": "Launch", "body": "We support the rollout and train your team." },
-      { "n": "05", "title": "Support", "body": "We stay after launch." }
-    ]
-  },
   "servicios": {
     "sectionTitleStart": "Everything your community needs,",
     "sectionTitleEnd": "in one app.",

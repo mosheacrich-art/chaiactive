@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Confianza from "@/components/Confianza";
-import ComoLoHacemos from "@/components/ComoLoHacemos";
 import ServicesSection from "@/components/ServicesSection";
 import CasosDeExito from "@/components/CasosDeExito";
 import SobreNosotros from "@/components/SobreNosotros";
@@ -16,7 +15,6 @@ export default function HomePage() {
       <main>
         <Hero />
         <Confianza />
-        <ComoLoHacemos />
         <ServicesSection />
         <CasosDeExito />
         <SobreNosotros />
