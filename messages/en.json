@@ -820,6 +820,429 @@
       "subtitle": "Diseñamos una app propia para el alumno, el profesorado y las familias: notas, tareas, asistencia y mensajes en un solo sitio, con el calendario hebreo y la vida judía dentro. Estamos en conversaciones con colegios de Barcelona y listos para empezar con colegios piloto.",
       "ctaPrimary": "Cuéntanos cómo es tu colegio",
       "ctaSecondary": "Empecemos con un grupo piloto"
+    },
+    "pilares": {
+      "title": "Tres pilares",
+      "intro": "Lo que hemos aprendido hablando con colegios se resume en tres cosas que una app escolar tiene que hacer bien.",
+      "items": [
+        {
+          "title": "Seguimiento académico continuo",
+          "body": "Notas, tareas y asistencia al día, para que nadie se entere de un problema en la reunión de final de trimestre."
+        },
+        {
+          "title": "Comunicación directa y ordenada",
+          "body": "Mensajes, avisos y autorizaciones en un solo canal, sin depender de correos sueltos ni de grupos de WhatsApp."
+        },
+        {
+          "title": "Identidad y comunidad",
+          "body": "La app lleva el nombre y los colores del colegio, y la vida judía está dentro, no añadida al final."
+        }
+      ]
+    },
+    "perfiles": {
+      "title": "Seis perfiles. Cada uno ve solo lo suyo.",
+      "intro": "Cada persona entra con su cuenta y ve lo que le corresponde. Los roles se pueden combinar: una profesora que también es madre usa una sola cuenta y cambia de vista.",
+      "items": [
+        {
+          "title": "Alumno",
+          "body": "Su horario, sus tareas, sus notas y los mensajes de sus profesores."
+        },
+        {
+          "title": "Familia o tutor legal",
+          "body": "El día a día de cada hijo, avisos, autorizaciones y reuniones."
+        },
+        {
+          "title": "Profesor",
+          "body": "Sus grupos, pasar lista, corregir y comunicarse con alumnos y familias."
+        },
+        {
+          "title": "Tutor o cotutor",
+          "body": "La vista completa de su clase y el seguimiento de cada alumno."
+        },
+        {
+          "title": "Coordinación y jefatura de estudios",
+          "body": "Horarios, sustituciones, calendario de exámenes e informes por etapa."
+        },
+        {
+          "title": "Dirección y administración",
+          "body": "Configuración del colegio, permisos, documentos e indicadores generales."
+        }
+      ],
+      "security": "Mínimo privilegio: nadie ve más de lo que necesita. Y cada acceso a datos de un alumno queda registrado."
+    },
+    "app": {
+      "title": "La app en cinco secciones",
+      "intro": "Una navegación sencilla, con cinco pestañas abajo. Cualquier dato que se consulta a menudo está a dos toques como máximo. Toca las pestañas del móvil para verlo.",
+      "conceptLabel": "Diseño conceptual · datos de ejemplo",
+      "tabs": {
+        "inicio": "Inicio",
+        "materias": "Materias",
+        "calendario": "Calendario",
+        "mensajes": "Mensajes",
+        "ficha": "Mi ficha"
+      },
+      "inicio": {
+        "greeting": "Buenos días, Daniel",
+        "date": "Lunes",
+        "hebrewDate": "10 de Adar",
+        "nextLabel": "Ahora",
+        "next": "Matemáticas · Aula 2.3",
+        "agendaLabel": "Para hoy",
+        "agenda": [
+          "Entregar ejercicios de Física",
+          "Examen de Historia en 3 días"
+        ],
+        "noticeLabel": "Aviso",
+        "notice": "Salida a la Sinagoga Mayor el jueves. Autorización pendiente de firma."
+      },
+      "materias": {
+        "items": [
+          {
+            "name": "Matemáticas",
+            "grade": "7,8",
+            "status": "Provisional"
+          },
+          {
+            "name": "Lengua castellana",
+            "grade": "8,2",
+            "status": "Oficial"
+          },
+          {
+            "name": "Física y Química",
+            "grade": "6,9",
+            "status": "Provisional"
+          },
+          {
+            "name": "Hebreo",
+            "grade": "9,1",
+            "status": "Oficial"
+          },
+          {
+            "name": "Estudios judaicos",
+            "grade": "8,5",
+            "status": "Oficial"
+          }
+        ]
+      },
+      "calendario": {
+        "week": "Esta semana",
+        "days": [
+          {
+            "day": "Lun",
+            "event": "Entrega de Física"
+          },
+          {
+            "day": "Mar",
+            "event": ""
+          },
+          {
+            "day": "Mié",
+            "event": "Examen de Historia"
+          },
+          {
+            "day": "Jue",
+            "event": "Ayuno de Ester"
+          },
+          {
+            "day": "Vie",
+            "event": "Purim: horario especial"
+          }
+        ],
+        "shabat": "Encendido de Shabat en Barcelona: hora calculada por la app"
+      },
+      "mensajes": {
+        "items": [
+          {
+            "from": "Tutora de 1.º de Bachillerato",
+            "text": "Recordad la reunión de familias del jueves.",
+            "meta": "Leído por 2 de 2"
+          },
+          {
+            "from": "Coordinación",
+            "text": "Cambio de aula: Química pasa al laboratorio.",
+            "meta": "Urgente"
+          },
+          {
+            "from": "Profesor de Hebreo",
+            "text": "Muy buen trabajo en la redacción.",
+            "meta": "Ayer"
+          }
+        ]
+      },
+      "ficha": {
+        "name": "Daniel",
+        "course": "1.º de Bachillerato · Ciencias",
+        "rows": [
+          "Datos personales y contactos",
+          "Documentos del curso",
+          "Asistencia del trimestre",
+          "Itinerario y optativas"
+        ]
+      },
+      "tabsInfo": {
+        "inicio": "lo que toca hoy, avisos y pendientes",
+        "materias": "notas, tareas y evolución por materia",
+        "calendario": "horario, exámenes y fechas hebreas",
+        "mensajes": "profesores, tutores y avisos del colegio",
+        "ficha": "datos, documentos y asistencia"
+      }
+    },
+    "modulos": {
+      "title": "Todo lo que pasa en un curso",
+      "intro": "Módulos pensados para el día a día de un colegio. El colegio decide cuáles activa.",
+      "items": [
+        {
+          "title": "Tareas y entregas",
+          "points": [
+            "Entregas con foto desde el móvil",
+            "Rúbricas visibles antes de empezar",
+            "Trabajos en grupo",
+            "Autoevaluación del alumno"
+          ]
+        },
+        {
+          "title": "Notas y boletines",
+          "points": [
+            "Nota provisional y nota oficial, bien separadas",
+            "Evolución por materia a lo largo del curso",
+            "Boletines generados desde la propia app"
+          ]
+        },
+        {
+          "title": "Asistencia",
+          "points": [
+            "Pasar lista en segundos",
+            "Justificar faltas desde la app",
+            "Alertas al tutor cuando algo se repite"
+          ]
+        },
+        {
+          "title": "Horario y calendario",
+          "points": [
+            "Cambios y sustituciones al instante",
+            "Aviso cuando se solapan exámenes",
+            "Sincronización con Google, Apple y Outlook"
+          ]
+        },
+        {
+          "title": "Comunicación",
+          "points": [
+            "Mensajes con historial",
+            "Avisos con niveles de urgencia",
+            "Confirmación de lectura",
+            "Autorizaciones firmadas desde la app"
+          ]
+        },
+        {
+          "title": "Ficha del alumno y documentos",
+          "points": [
+            "Datos, contactos y documentos en un solo sitio",
+            "Acceso según el perfil de cada persona"
+          ]
+        },
+        {
+          "title": "Espacio de familias",
+          "points": [
+            "Varios hijos en una misma cuenta",
+            "Reuniones con reserva de franja",
+            "Todo lo que necesitan firmar o saber"
+          ]
+        }
+      ]
+    },
+    "capaJudia": {
+      "eyebrow": "El diferencial",
+      "title": "La vida judía, dentro de la app",
+      "intro": "Esto es lo que una plataforma escolar genérica no puede darte. El calendario judío no es un añadido: organiza el curso.",
+      "items": [
+        {
+          "title": "Calendario hebreo",
+          "body": "Doble fecha, gregoriana y hebrea, en toda la app."
+        },
+        {
+          "title": "Festividades en el calendario lectivo",
+          "body": "Las festividades ajustan el calendario del curso solas, sin rehacerlo a mano cada año."
+        },
+        {
+          "title": "Horarios de Shabat para Barcelona",
+          "body": "Encendido y salida de Shabat calculados para la ciudad."
+        },
+        {
+          "title": "Avisos de Shabat y festividades",
+          "body": "Si alguien programa un examen o una entrega en Shabat o en una festividad, la app avisa antes de guardarlo."
+        },
+        {
+          "title": "Modo Shabat",
+          "body": "Silencio de notificaciones opcional durante Shabat y un resumen al terminar."
+        },
+        {
+          "title": "Estudios judaicos y hebreo",
+          "body": "Escritura de derecha a izquierda real y nikud en tareas, apuntes y exámenes."
+        },
+        {
+          "title": "Comedor con kashrut",
+          "body": "El menú del comedor con su información de kashrut."
+        },
+        {
+          "title": "Tzedaká y voluntariado",
+          "body": "Campañas de tzedaká y registro de horas de voluntariado."
+        },
+        {
+          "title": "Agenda de la comunidad",
+          "body": "La agenda de la comunidad judía de Barcelona, junto a la del colegio."
+        },
+        {
+          "title": "Cuatro idiomas",
+          "body": "Español, catalán, inglés y hebreo."
+        }
+      ],
+      "note": "Todo es configurable por el colegio y opcional para cada usuario. En un mismo colegio conviven familias con distintos grados de observancia, y la app lo respeta."
+    },
+    "bachillerato": {
+      "title": "Pensado para bachillerato",
+      "label": "En el diseño",
+      "items": [
+        {
+          "title": "Itinerarios y optativas",
+          "body": "Elección de modalidad y optativas con la información clara para alumno y familia."
+        },
+        {
+          "title": "Trabajo de investigación",
+          "body": "Seguimiento por etapas, con fechas, entregas parciales y comentarios del tutor."
+        },
+        {
+          "title": "Preparación de la PAU",
+          "body": "Calendario, materiales y simulacros organizados por materia."
+        },
+        {
+          "title": "Orientación universitaria",
+          "body": "Información sobre grados y universidades, incluida la opción de estudiar en Israel."
+        }
+      ]
+    },
+    "profesorado": {
+      "title": "Para profesorado y dirección",
+      "intro": "Si el profesorado no ahorra tiempo, la app no sirve. Por eso el panel del profesor es lo primero que diseñamos.",
+      "items": [
+        {
+          "title": "Panel del profesor",
+          "body": "Sus grupos, lo pendiente de corregir y lo que pasa hoy, en una pantalla."
+        },
+        {
+          "title": "Corrección ágil",
+          "body": "Corregir, comentar y poner nota sin cambiar de pantalla."
+        },
+        {
+          "title": "Plantillas",
+          "body": "Tareas, rúbricas y avisos reutilizables de un curso a otro."
+        },
+        {
+          "title": "Vista de clase del tutor",
+          "body": "Notas, asistencia y observaciones de toda la clase de un vistazo."
+        },
+        {
+          "title": "Detección de alumnos en riesgo",
+          "body": "Señales tempranas cuando se acumulan faltas, entregas o notas bajas."
+        },
+        {
+          "title": "Constructor de horarios",
+          "body": "Horarios, aulas y sustituciones con avisos de conflicto."
+        },
+        {
+          "title": "Informes exportables",
+          "body": "Informes por alumno, clase o etapa, listos para descargar."
+        },
+        {
+          "title": "Importación masiva",
+          "body": "Alumnos, grupos y profesorado importados desde una hoja de cálculo."
+        }
+      ]
+    },
+    "privacidad": {
+      "title": "Privacidad y seguridad",
+      "intro": "Hablamos de datos de menores. Esto es lo que nos comprometemos a hacer, por escrito, antes de empezar.",
+      "items": [
+        {
+          "title": "Los datos son del colegio",
+          "body": "El colegio es el responsable del tratamiento. Nosotros solo tratamos los datos siguiendo sus instrucciones."
+        },
+        {
+          "title": "RGPD y LOPDGDD",
+          "body": "Diseñado para cumplir el Reglamento General de Protección de Datos y la ley española."
+        },
+        {
+          "title": "Alojamiento en la UE",
+          "body": "Los datos se guardan en servidores dentro de la Unión Europea."
+        },
+        {
+          "title": "Cifrado",
+          "body": "Información cifrada en tránsito y en reposo."
+        },
+        {
+          "title": "Verificación en dos pasos",
+          "body": "Obligatoria para profesorado y administración."
+        },
+        {
+          "title": "Datos sensibles separados",
+          "body": "La información más delicada se guarda aparte y con acceso más restringido."
+        },
+        {
+          "title": "Evaluación de impacto",
+          "body": "Antes del lanzamiento, por tratarse de datos de menores."
+        },
+        {
+          "title": "Sin publicidad ni entrenamiento de modelos",
+          "body": "Los datos no se usan para publicidad ni para entrenar modelos de inteligencia artificial."
+        },
+        {
+          "title": "Exportación libre",
+          "body": "El colegio puede exportar todos sus datos cuando quiera."
+        }
+      ]
+    },
+    "futuro": {
+      "title": "Hacia dónde puede crecer",
+      "intro": "Ampliaciones que hemos pensado para más adelante. No forman parte del primer piloto.",
+      "items": [
+        "Asistente de estudio con IA, bajo control del colegio",
+        "Red de exalumnos",
+        "Carnet digital con código QR",
+        "Extensión a infantil, primaria y ESO",
+        "Pagos",
+        "Firma electrónica"
+      ]
+    },
+    "empezamos": {
+      "title": "Cómo empezamos",
+      "intro": "Sin cambiarlo todo de golpe. Empezamos pequeño, aprendemos con vosotros y crecemos cuando funciona.",
+      "steps": [
+        {
+          "title": "Reunión con la dirección",
+          "body": "Entendemos cómo funciona vuestro colegio y qué os quita más tiempo."
+        },
+        {
+          "title": "Piloto con un primer curso",
+          "body": "Arrancamos con un curso o una etapa concreta."
+        },
+        {
+          "title": "Formación breve del profesorado",
+          "body": "Sesiones cortas y prácticas, sin manuales eternos."
+        },
+        {
+          "title": "Soporte durante el primer año",
+          "body": "Estamos cerca para resolver dudas y ajustar lo que haga falta."
+        },
+        {
+          "title": "Ampliación a todo el colegio",
+          "body": "Cuando el piloto funciona, lo extendemos al resto de cursos."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Cuéntanos cómo es tu colegio",
+      "body": "Estamos en conversaciones con colegios de Barcelona y buscamos colegios piloto. Si os interesa, hablemos.",
+      "primary": "Cuéntanos cómo es tu colegio",
+      "secondary": "Empecemos con un grupo piloto"
     }
   },
   "empresas": {
