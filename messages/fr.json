@@ -29,29 +29,14 @@
     "fr": "Français"
   },
   "hero": {
-    "titleStart": "Une technologie vivante.",
-    "titleEnd": "Pour les communautés, les écoles et les entreprises.",
-    "subtitle": "Nous sommes une entreprise technologique de Barcelone aux racines juives. Nous créons des outils numériques sur mesure qui ressemblent à ceux qui les utilisent et allègent le travail de ceux qui les gèrent.",
-    "selectorTitle": "Par où commencer ?",
-    "cards": {
-      "comunidad": {
-        "title": "Je suis une communauté",
-        "body": "Kehál, l'appli de votre kehila : membres, calendrier hébraïque, événements, mikvé, dons et Torah, avec le nom et les couleurs de votre communauté.",
-        "note": "Utilisée par Habad Barcelone",
-        "cta": "Découvrir Kehál"
-      },
-      "colegio": {
-        "title": "Je suis une école ou une institution",
-        "body": "Une appli dédiée aux élèves, aux enseignants et aux familles, avec le suivi scolaire, la communication et la vie juive au même endroit.",
-        "note": "Nous cherchons des écoles pilotes",
-        "cta": "Voir la proposition"
-      },
-      "empresa": {
-        "title": "Je suis une entreprise",
-        "body": "Sites web, boutiques en ligne, pages de lancement, applis et outils internes conçus pour votre activité.",
-        "note": "Tous secteurs",
-        "cta": "Voir ce que nous faisons"
-      }
+    "title": "Une technologie vivante.",
+    "subtitle": "Des outils numériques sur mesure pour les communautés, les écoles et les entreprises. Depuis Barcelone, avec des racines juives.",
+    "ctaPrimary": "Parlons-en",
+    "ctaSecondary": "Voir les projets",
+    "collage": {
+      "jabad": "Écran d'accueil de Kehál chez Habad Barcelone, avec horaires de prière, raccourcis et prochains événements",
+      "shevat": "Page d'accueil du site de Shevat",
+      "phone": "Écran des événements de Kehál sur un téléphone"
     }
   },
   "servicios": {
@@ -1396,6 +1381,23 @@
         "title": "Transformation numérique sur mesure",
         "body": "Nous réalisons des sites institutionnels, des boutiques en ligne, des pages de lancement avec liste d'attente et des outils internes pour des entreprises de tous secteurs. Aussi bien pour un promoteur immobilier que pour une marque de café en canette.",
         "cta": "Voir les services pour entreprises"
+      }
+    }
+  },
+  "audiences": {
+    "title": "Qui êtes-vous ?",
+    "cards": {
+      "comunidad": {
+        "title": "Je suis une communauté",
+        "line": "Une appli au nom et à la vie de votre kehila."
+      },
+      "colegio": {
+        "title": "Je suis une école ou une institution",
+        "line": "La vie scolaire et la vie juive, dans une seule appli."
+      },
+      "empresa": {
+        "title": "Je suis une entreprise",
+        "line": "Sites, boutiques et outils faits sur mesure."
       }
     }
   }

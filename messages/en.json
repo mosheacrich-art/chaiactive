@@ -29,29 +29,14 @@
     "fr": "Français"
   },
   "hero": {
-    "titleStart": "Technology with life.",
-    "titleEnd": "For communities, schools and businesses.",
-    "subtitle": "We are a Barcelona technology company with Jewish roots. We build custom digital tools that look like the people who use them and take work off the people who run them.",
-    "selectorTitle": "Where shall we start?",
-    "cards": {
-      "comunidad": {
-        "title": "I'm a community",
-        "body": "Kehál, the app for your kehilla: members, Hebrew calendar, events, mikveh, donations and Torah, with your community's name and colours.",
-        "note": "In use at Chabad Barcelona",
-        "cta": "See Kehál"
-      },
-      "colegio": {
-        "title": "I'm a school or institution",
-        "body": "A dedicated app for students, teachers and families, with academic tracking, communication and Jewish life in one place.",
-        "note": "Looking for pilot schools",
-        "cta": "See the proposal"
-      },
-      "empresa": {
-        "title": "I'm a business",
-        "body": "Websites, online shops, launch pages, apps and internal tools built for your business.",
-        "note": "Any sector",
-        "cta": "See what we do"
-      }
+    "title": "Technology with life.",
+    "subtitle": "Custom digital tools for communities, schools and businesses. From Barcelona, with Jewish roots.",
+    "ctaPrimary": "Let's talk",
+    "ctaSecondary": "See projects",
+    "collage": {
+      "jabad": "Kehál home screen at Chabad Barcelona, with prayer times, shortcuts and upcoming events",
+      "shevat": "Home page of the Shevat website",
+      "phone": "Kehál events screen on a phone"
     }
   },
   "servicios": {
@@ -1396,6 +1381,23 @@
         "title": "Custom digital transformation",
         "body": "We build corporate websites, online shops, launch pages with waitlists and internal tools for businesses in any sector. Just as much for a property developer as for a canned coffee brand.",
         "cta": "See services for business"
+      }
+    }
+  },
+  "audiences": {
+    "title": "Who are you?",
+    "cards": {
+      "comunidad": {
+        "title": "I'm a community",
+        "line": "An app with your kehilla's name and life."
+      },
+      "colegio": {
+        "title": "I'm a school or institution",
+        "line": "School life and Jewish life, in one app."
+      },
+      "empresa": {
+        "title": "I'm a business",
+        "line": "Websites, shops and tools made to measure."
       }
     }
   }

@@ -29,29 +29,14 @@
     "fr": "Français"
   },
   "hero": {
-    "titleStart": "Tecnología con vida.",
-    "titleEnd": "Para comunidades, colegios y empresas.",
-    "subtitle": "Somos una empresa de tecnología de Barcelona con raíces judías. Construimos herramientas digitales a medida que se parecen a quien las usa y le quitan trabajo a quien las gestiona.",
-    "selectorTitle": "¿Por dónde empezamos?",
-    "cards": {
-      "comunidad": {
-        "title": "Soy una comunidad",
-        "body": "Kehál, la app de tu kehilá: miembros, calendario hebreo, eventos, mikvé, donativos y Torá, con el nombre y los colores de tu comunidad.",
-        "note": "En uso en Jabad Barcelona",
-        "cta": "Ver Kehál"
-      },
-      "colegio": {
-        "title": "Soy un colegio o institución",
-        "body": "Una app propia para alumnos, profesorado y familias, con el seguimiento académico, la comunicación y la vida judía en un solo sitio.",
-        "note": "Buscamos colegios piloto",
-        "cta": "Ver la propuesta"
-      },
-      "empresa": {
-        "title": "Soy una empresa",
-        "body": "Webs, tiendas online, landings de lanzamiento, apps y herramientas internas hechas a medida para tu negocio.",
-        "note": "Cualquier sector",
-        "cta": "Ver qué hacemos"
-      }
+    "title": "Tecnología con vida.",
+    "subtitle": "Herramientas digitales a medida para comunidades, colegios y empresas. Desde Barcelona, con raíces judías.",
+    "ctaPrimary": "Hablemos",
+    "ctaSecondary": "Ver proyectos",
+    "collage": {
+      "jabad": "Pantalla de inicio de Kehál en Jabad Barcelona, con horarios de rezo, accesos rápidos y próximos eventos",
+      "shevat": "Página de inicio de la web de Shevat",
+      "phone": "Pantalla de eventos de Kehál en un móvil"
     }
   },
   "servicios": {
@@ -1396,6 +1381,23 @@
         "title": "Transformación digital a medida",
         "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
         "cta": "Ver servicios para empresas"
+      }
+    }
+  },
+  "audiences": {
+    "title": "¿Quién eres?",
+    "cards": {
+      "comunidad": {
+        "title": "Soy una comunidad",
+        "line": "Una app con el nombre y la vida de tu kehilá."
+      },
+      "colegio": {
+        "title": "Soy un colegio o institución",
+        "line": "La vida escolar y la vida judía, en una sola app."
+      },
+      "empresa": {
+        "title": "Soy una empresa",
+        "line": "Webs, tiendas y herramientas hechas a tu medida."
       }
     }
   }

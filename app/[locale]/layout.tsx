@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Assistant, Frank_Ruhl_Libre } from "next/font/google";
+import { Assistant, Frank_Ruhl_Libre, Playfair_Display } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
@@ -10,6 +10,14 @@ import "../globals.css";
 const assistant = Assistant({
   subsets: ["latin", "hebrew"],
   variable: "--font-body",
+  display: "swap",
+});
+
+// Latin headings (h1/h2): serif display, applied in globals.css.
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  weight: ["600", "700", "800"],
+  variable: "--font-display-serif",
   display: "swap",
 });
 
@@ -57,7 +65,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} data-scroll-behavior="smooth">
-      <body className={`${assistant.variable} ${frankRuhl.variable} bg-white text-ink antialiased`}>
+      <body className={`${assistant.variable} ${frankRuhl.variable} ${playfair.variable} bg-white text-ink antialiased`}>
         <script
           type="application/ld+json"
           // Organization + WebSite structured data for search engines.
