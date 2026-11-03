@@ -451,25 +451,68 @@
   },
   "casos": {
     "title": "Cas concrets",
-    "photoPending": "Photo en attente",
-    "slides": [
-      {
+    "intro": "Proyectos reales, publicados y en uso. Contamos lo que hicimos y lo que se puede comprobar.",
+    "labels": {
+      "reto": "Reto",
+      "solucion": "Solución",
+      "resultado": "Resultado"
+    },
+    "screenshotPending": "Captura pendiente",
+    "screenshotAlt": "Capturas de {name}",
+    "opensNewTab": "(se abre en una pestaña nueva)",
+    "testimoniosTitle": "Lo que dicen",
+    "items": {
+      "jabad": {
+        "name": "Jabad Barcelona",
+        "sector": "Comunidad judía",
+        "reto": "Reunir en un solo sitio la vida de una comunidad grande: miembros, eventos, mikvé, donativos y calendario.",
+        "solucion": "Kehál, web y app de comunidad con acceso de miembros, solicitud de alta y panel para el equipo.",
+        "resultado": "En uso en bcnkehila.com: +250 miembros en la app, de una comunidad de más de 750."
+      },
+      "shevat": {
+        "name": "Shevat",
+        "sector": "Promotora y constructora · Barcelona y Madrid",
+        "reto": "Presentar las promociones de la empresa y convertir las visitas en contactos.",
+        "solucion": "Web con páginas de promociones y ubicaciones, ficha de cada promoción, dossier por correo y formulario por pasos con elección de canal: llamada, email o WhatsApp.",
+        "resultado": "Publicada en shevat.eu, con animaciones de entrada en toda la web."
+      },
+      "better-coffee": {
+        "name": "Better Coffee",
+        "sector": "Café frío funcional en lata",
+        "reto": "Presentar una marca nueva y captar a sus primeros clientes antes del lanzamiento.",
+        "solucion": "Web de lanzamiento con selector de sabor y formato, suscripción, lista de espera, comparativa y preguntas frecuentes.",
+        "resultado": "Publicada en better-coffee.vercel.app, también en español."
+      },
+      "creative-favours": {
         "name": "Creative Favours",
-        "description": "Nous avons créé un site e-commerce sur mesure pour cette entreprise familiale de judaïca à Londres, spécialisée depuis plus de 10 ans dans les kippot, benchers et housses de 'halot personnalisées. Le nouveau site met en ligne tout leur catalogue, avec navigation par catégories, comptes clients et commandes directes par WhatsApp.",
+        "sector": "Kipot y judaica personalizada",
+        "reto": "Llevar a internet todo el catálogo de una marca de kipot y judaica personalizada.",
+        "solucion": "Web a medida con catálogo por categorías, cuentas de cliente y pedidos directos por WhatsApp.",
+        "resultado": "Publicada en creativefavours.vercel.app."
+      },
+      "perashapp": {
+        "name": "Perashapp",
+        "sector": "Estudio de la parashá",
+        "reto": "Ayudar a estudiar la parashá semanal siguiendo la lectura junto al texto.",
+        "solucion": "Herramienta con audio sincronizado palabra por palabra con el texto, con panel para el profesor y vista para el alumno.",
+        "resultado": "En línea en perashapp.com."
+      }
+    },
+    "testimonios": [
+      {
+        "slug": "creative-favours",
         "quote": "Notre nouveau site est enfin à la hauteur de nos produits. Les clients peuvent tout parcourir et nous contacter directement — ça a vraiment changé la donne.",
         "authorName": "Mimi & Stella",
         "authorRole": "Fondatrices, Creative Favours"
       },
       {
-        "name": "Perashapp",
-        "description": "Nous avons construit la plateforme derrière Perashapp, un outil pour étudier la paracha hebdomadaire avec un audio synchronisé mot à mot avec le texte — avec un espace professeur et une expérience élève pensée pour un apprentissage concentré.",
+        "slug": "perashapp",
         "quote": "Perashapp a changé la façon dont mes élèves abordent la paracha. Suivre l'audio mot à mot les garde concentrés comme la lecture seule ne le faisait jamais.",
         "authorName": "Moshe Acrish",
         "authorRole": "Fondateur, Perashapp"
       },
       {
-        "name": "Jabad Barcelona",
-        "description": "Nous avons construit Kehál, l'application communautaire tout-en-un utilisée chaque jour par Jabad Barcelona — inscriptions aux événements, réservations au mikvé, dons, contenu de Torah et annuaire d'entreprises, le tout au même endroit.",
+        "slug": "jabad",
         "quote": "Kehál fait désormais partie du fonctionnement quotidien de notre communauté. Ce qui prenait cinq groupes WhatsApp et un tableur se fait maintenant en un seul endroit.",
         "authorName": "Ha Rav Dovid Libershon",
         "authorRole": "Grand Rabbin de la Communauté Jabad Barcelone"
@@ -1256,6 +1299,80 @@
       "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
       "ctaPrimary": "Cuéntanos tu proyecto",
       "ctaSecondary": "Ver proyectos"
+    },
+    "servicios": {
+      "title": "Lo que hacemos para empresas",
+      "intro": "Cada proyecto empieza por entender tu negocio. Después elegimos la herramienta que tiene sentido, no la que está de moda.",
+      "items": [
+        {
+          "title": "Web corporativa",
+          "body": "Una web que explica bien qué haces y transmite quién eres, fácil de actualizar."
+        },
+        {
+          "title": "E-commerce",
+          "body": "Tienda online a medida con catálogo, carrito, cuentas de cliente y pagos."
+        },
+        {
+          "title": "Landing de lanzamiento",
+          "body": "Una página para presentar un producto nuevo y reunir una lista de espera antes de salir."
+        },
+        {
+          "title": "Apps y herramientas a medida",
+          "body": "Aplicaciones y herramientas internas para lo que hoy hacéis con hojas de cálculo."
+        },
+        {
+          "title": "Formularios y flujos de contacto",
+          "body": "Formularios por pasos que llevan cada contacto al canal adecuado: email, llamada o WhatsApp."
+        },
+        {
+          "title": "Multilingüe",
+          "body": "Tu web en los idiomas de tus clientes, incluido el hebreo con escritura de derecha a izquierda."
+        },
+        {
+          "title": "SEO",
+          "body": "Estructura, velocidad y contenidos pensados para que te encuentren en Google."
+        }
+      ]
+    },
+    "sectores": {
+      "title": "Sectores con los que trabajamos",
+      "items": [
+        "Promotora inmobiliaria",
+        "Marca de alimentación y bebida",
+        "Notaría",
+        "Marca de judaica",
+        "Tienda online"
+      ]
+    },
+    "proceso": {
+      "title": "Cómo trabajamos",
+      "steps": [
+        {
+          "title": "Conversación",
+          "body": "Nos cuentas tu negocio, tus clientes y qué quieres conseguir. Sin compromiso."
+        },
+        {
+          "title": "Diseño",
+          "body": "Te enseñamos cómo se verá antes de escribir una línea de código."
+        },
+        {
+          "title": "Desarrollo",
+          "body": "Lo construimos y lo vas viendo avanzar, con versiones que puedes probar."
+        },
+        {
+          "title": "Lanzamiento y soporte",
+          "body": "Lo publicamos y seguimos a tu lado para ajustes, mejoras y dudas."
+        }
+      ]
+    },
+    "casos": {
+      "title": "Algunos proyectos",
+      "intro": "Empresas y marcas para las que hemos construido su presencia digital."
+    },
+    "cta": {
+      "title": "¿Tienes un proyecto en mente?",
+      "body": "Cuéntanoslo con tus palabras. Te respondemos nosotros, no un formulario automático.",
+      "button": "Hablemos"
     }
   },
   "queHacemos": {

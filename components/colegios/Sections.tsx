@@ -119,7 +119,6 @@ export function CapaJudia() {
     <section id="vida-judia" className="relative scroll-mt-20 overflow-hidden bg-navy py-24 sm:py-32">
       <span
         aria-hidden="true"
-        dir="rtl"
         className="font-hebrew pointer-events-none absolute -bottom-16 start-[-1rem] select-none text-[18rem] leading-none text-white/[0.04]"
       >
         לוח

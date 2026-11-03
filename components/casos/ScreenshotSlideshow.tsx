@@ -18,7 +18,7 @@ export default function ScreenshotSlideshow({
 
   // No auto-advance for users who asked for reduced motion.
   useEffect(() => {
-    if (reduceMotion) return;
+    if (reduceMotion || images.length < 2) return;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % images.length);
     }, ADVANCE_MS);
@@ -44,6 +44,7 @@ export default function ScreenshotSlideshow({
         </motion.div>
       </AnimatePresence>
 
+      {images.length > 1 && (
       <div className="absolute inset-x-0 bottom-2 z-10 flex justify-center gap-1">
         {images.map((src, i) => (
           <button
@@ -62,6 +63,7 @@ export default function ScreenshotSlideshow({
           </button>
         ))}
       </div>
+      )}
     </div>
   );
 }

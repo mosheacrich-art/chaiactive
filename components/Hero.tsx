@@ -20,7 +20,6 @@ export default function Hero() {
       <span
         aria-hidden="true"
         className="font-hebrew pointer-events-none absolute -top-10 end-[-2rem] select-none text-[16rem] leading-none text-gold/10 sm:text-[22rem]"
-        dir="rtl"
       >
         חי
       </span>

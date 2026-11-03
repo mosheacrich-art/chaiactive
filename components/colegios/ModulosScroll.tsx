@@ -66,7 +66,7 @@ export default function ModulosScroll() {
                 ref={(el) => {
                   refs.current[i] = el;
                 }}
-                className={`scroll-mt-28 rounded-3xl border p-7 transition-colors sm:p-10 lg:min-h-[45vh] ${
+                className={`scroll-mt-28 rounded-3xl border p-7 transition-colors sm:p-10 lg:min-h-[30vh] ${
                   active === i ? "border-navy/20 bg-cream" : "border-navy/10 bg-white"
                 }`}
               >
