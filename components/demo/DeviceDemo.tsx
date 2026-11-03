@@ -57,11 +57,13 @@ function useViewportHeight() {
   );
 }
 
-function withShowcase(url: string, lang: string) {
+function withShowcase(url: string, lang: string, as: "member" | "admin") {
   try {
     const u = new URL(url);
     u.searchParams.set("showcase", "1");
     u.searchParams.set("lang", lang);
+    // Start already inside the app (member home), not on the login screen.
+    u.searchParams.set("as", as);
     return u.toString();
   } catch {
     return url;
@@ -74,12 +76,19 @@ export default function DeviceDemo({
   badge,
   devices = ["phone", "laptop"],
   maxPhoneHeight = 760,
+  as = "member",
+  bare = false,
+  eager = false,
 }: {
   src: string;
   title: string;
-  badge: string;
+  badge?: string;
   devices?: Device[];
   maxPhoneHeight?: number;
+  as?: "member" | "admin";
+  /** Phone only, no controls or badge (used inside the home hero). */
+  bare?: boolean;
+  eager?: boolean;
 }) {
   const t = useTranslations("demo");
   const [device, setDevice] = useState<Device>(devices[0]);
@@ -91,7 +100,7 @@ export default function DeviceDemo({
 
   // The demo speaks es/en: Spanish visitors get Spanish, everyone else English.
   const locale = useLocale();
-  const url = withShowcase(src, locale === "es" ? "es" : "en");
+  const url = withShowcase(src, locale === "es" ? "es" : "en", as);
 
   // Full device sizes, then the scale that fits the available box.
   const phoneW = PHONE.screenW + PHONE.bezel * 2;
@@ -101,7 +110,7 @@ export default function DeviceDemo({
   const natW = device === "phone" ? phoneW : laptopW;
   const natH = device === "phone" ? phoneH : laptopH;
   // Leave room for the sticky header and the controls above the device.
-  const fitH = Math.max(480, viewportH - 150);
+  const fitH = bare ? maxPhoneHeight : Math.max(480, viewportH - 150);
   const maxH = device === "phone" ? Math.min(maxPhoneHeight, fitH) : fitH;
   const scale = boxWidth ? Math.min(1, boxWidth / natW, maxH / natH) : 0;
 
@@ -114,7 +123,7 @@ export default function DeviceDemo({
       key={`${device}-${reloadKey}`}
       src={url}
       title={title}
-      loading="lazy"
+      loading={eager ? "eager" : "lazy"}
       sandbox="allow-scripts allow-same-origin allow-forms allow-popups allow-popups-to-escape-sandbox allow-modals"
       referrerPolicy="strict-origin-when-cross-origin"
       className={`block border-0 bg-white ${blocked ? "pointer-events-none" : ""}`}
@@ -129,6 +138,7 @@ export default function DeviceDemo({
   return (
     <div className="flex flex-col items-center">
       {/* Controls */}
+      {!bare && (
       <div className="mb-6 flex flex-wrap items-center justify-center gap-3">
         {devices.length > 1 && (
           <div role="group" aria-label={t("deviceLabel")} className="flex rounded-full bg-navy/5 p-1">
@@ -169,6 +179,7 @@ export default function DeviceDemo({
           {t("fullscreen")}
         </a>
       </div>
+      )}
 
       {/* Device, scaled to fit. The wrapper reserves the scaled size. */}
       <div ref={boxRef} className="w-full">
@@ -247,9 +258,11 @@ export default function DeviceDemo({
         </div>
       </div>
 
-      <p className="mt-6 rounded-full bg-gold/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gold-dark">
-        {badge}
-      </p>
+      {badge && (
+        <p className="mt-6 rounded-full bg-gold/15 px-4 py-1.5 text-xs font-semibold uppercase tracking-wider text-gold-dark">
+          {badge}
+        </p>
+      )}
     </div>
   );
 }

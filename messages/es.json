@@ -35,8 +35,8 @@
     "ctaSecondary": "Ver proyectos",
     "collage": {
       "jabad": "Pantalla de inicio de Kehál en Jabad Barcelona, con horarios de rezo, accesos rápidos y próximos eventos",
-      "shevat": "Página de inicio de la web de Shevat",
-      "phone": "Pantalla de eventos de Kehál en un móvil"
+      "phone": "Demo en vivo de Kehál en un iPhone",
+      "live": "Demo en vivo · pruébala"
     }
   },
   "servicios": {
