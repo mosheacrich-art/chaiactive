@@ -16,12 +16,14 @@ export default function ScreenshotSlideshow({
   const [index, setIndex] = useState(0);
   const reduceMotion = useReducedMotion();
 
+  // No auto-advance for users who asked for reduced motion.
   useEffect(() => {
+    if (reduceMotion) return;
     const id = setInterval(() => {
       setIndex((i) => (i + 1) % images.length);
     }, ADVANCE_MS);
     return () => clearInterval(id);
-  }, [images.length]);
+  }, [images.length, reduceMotion]);
 
   return (
     <div className="relative h-full w-full bg-white">
@@ -42,14 +44,22 @@ export default function ScreenshotSlideshow({
         </motion.div>
       </AnimatePresence>
 
-      <div className="absolute bottom-3 start-1/2 z-10 flex -translate-x-1/2 gap-1.5">
+      <div className="absolute inset-x-0 bottom-2 z-10 flex justify-center gap-1">
         {images.map((src, i) => (
-          <span
+          <button
             key={src}
-            className={`h-1.5 w-1.5 rounded-full transition-colors ${
-              i === index ? "bg-navy" : "bg-navy/20"
-            }`}
-          />
+            type="button"
+            onClick={() => setIndex(i)}
+            aria-label={`${alt} ${i + 1}/${images.length}`}
+            aria-current={i === index}
+            className="flex size-6 items-center justify-center rounded-full"
+          >
+            <span
+              className={`h-1.5 w-1.5 rounded-full transition-colors ${
+                i === index ? "bg-navy" : "bg-navy/25"
+              }`}
+            />
+          </button>
         ))}
       </div>
     </div>

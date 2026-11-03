@@ -22,8 +22,11 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
   // preselects that option when clicked. `?interes=colegio` in the URL works too,
   // so the selector can be preset from outside the site.
   useEffect(() => {
+    // Deferred so it runs after hydration (the server can't see the query string).
     const fromQuery = new URLSearchParams(window.location.search).get("interes");
-    if (isInterest(fromQuery)) setInterest(fromQuery);
+    const timer = window.setTimeout(() => {
+      if (isInterest(fromQuery)) setInterest(fromQuery);
+    }, 0);
 
     function onClick(event: MouseEvent) {
       const link = (event.target as HTMLElement | null)?.closest<HTMLElement>("[data-interest]");
@@ -34,7 +37,10 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
       }
     }
     document.addEventListener("click", onClick);
-    return () => document.removeEventListener("click", onClick);
+    return () => {
+      window.clearTimeout(timer);
+      document.removeEventListener("click", onClick);
+    };
   }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {

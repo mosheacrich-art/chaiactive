@@ -43,7 +43,7 @@ export default function ServicesSection() {
     .filter((slide): slide is CarouselSlide => slide !== null);
 
   return (
-    <section id="servicios" className="bg-cream py-20 sm:py-28">
+    <section id="servicios" className="scroll-mt-20 bg-white py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <h2 className="text-center text-3xl font-extrabold tracking-tight sm:text-4xl">
           <span className="text-navy">{t("sectionTitleStart")} </span>

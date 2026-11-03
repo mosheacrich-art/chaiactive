@@ -742,6 +742,71 @@
         "Donativos",
         "Mikvé"
       ]
+    },
+    "modulos": {
+      "title": "Toda la app, o solo lo que necesitas",
+      "intro": "Kehál está hecha por módulos. Podéis empezar con eventos y donativos y añadir el mikvé o el directorio más adelante. Cada módulo funciona por sí solo y todos comparten los mismos miembros.",
+      "items": [
+        {
+          "title": "Membresía",
+          "body": "Alta de miembros con verificación de identidad y aprobación manual del equipo. Nadie entra sin que la comunidad lo sepa."
+        },
+        {
+          "title": "Calendario hebreo",
+          "body": "Fechas hebreas, festividades, parashá de la semana y horarios halájicos de tu ciudad, siempre al día."
+        },
+        {
+          "title": "Eventos con aforo",
+          "body": "Inscripción en un clic, plazas limitadas y lista de asistentes para el equipo, sin hojas de cálculo."
+        },
+        {
+          "title": "Mikvé",
+          "body": "Reserva de citas con discreción y privacidad, y la disponibilidad que marca la comunidad."
+        },
+        {
+          "title": "Donativos por área",
+          "body": "Cada donativo va al área que elige quien dona: educación, kashrut, ayuda social o lo que defináis."
+        },
+        {
+          "title": "Ciclo de vida",
+          "body": "Solicitudes de Bar y Bat Mitzvá, Brit Milá, bodas y Najalá, con el seguimiento en un solo sitio."
+        },
+        {
+          "title": "Torá y shiurim",
+          "body": "Clases, materiales y contenido de Torá para aprender durante la semana."
+        },
+        {
+          "title": "Jconnect",
+          "body": "Directorio Jewish Business & Co-Work: los miembros publican su negocio y encuentran con quién colaborar."
+        },
+        {
+          "title": "Panel de administración",
+          "body": "Miembros, eventos, donativos, reservas y comunicaciones gestionados desde un único panel."
+        }
+      ]
+    },
+    "identidad": {
+      "title": "Con la identidad de tu comunidad",
+      "body": "No es una app genérica con vuestro logo pegado. Elegimos juntos el nombre, los colores, el logo, los idiomas y lo que aparece en la pantalla de inicio, para que cada miembro sienta que la app es de su comunidad.",
+      "nameLabel": "Prueba con el nombre de tu comunidad",
+      "namePlaceholder": "Tu comunidad",
+      "colorLabel": "Color",
+      "langLabel": "Idioma",
+      "sampleLabel": "Vista de ejemplo"
+    },
+    "caso": {
+      "eyebrow": "Caso real",
+      "title": "Jabad Barcelona",
+      "body": "Kehál es la web y la app de la comunidad de Jabad Barcelona, en bcnkehila.com. Los miembros entran con su cuenta, quien todavía no lo es solicita acceso y el equipo lo aprueba. Eventos, mikvé, donativos y calendario, en un solo sitio.",
+      "stat": "+250",
+      "statLabel": "miembros en la app, de una comunidad de más de 750",
+      "link": "Visitar bcnkehila.com",
+      "screenshotAlt": "Capturas de la app de Jabad Barcelona"
+    },
+    "cta": {
+      "title": "¿Hablamos de tu comunidad?",
+      "body": "Cuéntanos cómo os organizáis hoy y te enseñamos Kehál con vuestro nombre y vuestros colores.",
+      "button": "Hablemos"
     }
   },
   "colegios": {
