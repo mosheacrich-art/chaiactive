@@ -751,7 +751,7 @@
       "eyebrow": "For Jewish communities",
       "title": "Your community's life, in an app that carries its name.",
       "subtitle": "Kehál brings membership, the Hebrew calendar, events, mikveh, donations and Torah together in one place, with your kehilla's colours, logo and languages. The whole app, or just the modules you need.",
-      "ctaPrimary": "See what's included",
+      "ctaPrimary": "Try the demo",
       "ctaSecondary": "Talk to us about your community",
       "tabs": [
         "Events",
@@ -823,6 +823,12 @@
       "title": "Shall we talk about your community?",
       "body": "Tell us how you organise things today and we'll show you Kehál with your name and colours.",
       "button": "Let's talk"
+    },
+    "demo": {
+      "title": "Try it yourself",
+      "intro": "This is the real app, with a sample community. Log in as a member or as an admin and move around it as you would on your phone.",
+      "badge": "Interactive demo · fictitious data",
+      "frameTitle": "Kehál interactive demo"
     }
   },
   "colegios": {
@@ -1370,7 +1376,7 @@
       "label": "For communities",
       "title": "Your community, in one app.",
       "body": "Members, events, mikveh, donations and the Hebrew calendar, with your kehilla's name and colours.",
-      "cta": "Discover Kehál",
+      "cta": "Try the live demo",
       "alt": "Community events in Kehál at Chabad Barcelona"
     },
     "colegios": {
@@ -1450,5 +1456,13 @@
   },
   "closing": {
     "quote": "Technology, when it's done well, leaves more time for life."
+  },
+  "demo": {
+    "deviceLabel": "Device",
+    "phone": "Phone",
+    "laptop": "Computer",
+    "reset": "Restart",
+    "fullscreen": "Full screen",
+    "tapToTry": "Tap to try it"
   }
 }

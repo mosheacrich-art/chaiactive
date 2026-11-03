@@ -60,6 +60,16 @@ Hoy el remitente es `onboarding@resend.dev`, que solo entrega a la cuenta dueña
 1. En Resend → Domains, añade `chaiactive.com` y crea en el DNS los registros que indique (SPF, DKIM y, opcional, DMARC).
 2. Cuando aparezca como *Verified*, define en Vercel `RESEND_FROM="Chai Active <hola@chaiactive.com>"` y vuelve a desplegar.
 
+## Demos interactivas (iPhone / portátil)
+
+`components/demo/DeviceDemo.tsx` muestra una demo real dentro de un iPhone o un portátil dibujados, como el simulador de Xcode. Se usa en `/comunidades#demo`.
+
+- URLs en `NEXT_PUBLIC_KEHAL_DEMO_URL` (por defecto `https://chaiactive-demo.vercel.app/`) y `NEXT_PUBLIC_SCHOOL_DEMO_URL` (vacía hasta que exista la de colegios).
+- La web añade `?showcase=1&lang=es|en`. La demo (repo `appcomunidaddemo`) usa `showcase=1` para conservar su navegación dentro del iframe, y `lang` para el idioma inicial.
+- Requisitos de cualquier demo: que se pueda incrustar (sin `X-Frame-Options` ni `frame-ancestors` restrictivo), que entienda `?showcase=1` y que use **solo datos ficticios**.
+- El iframe va en `sandbox` sin `allow-top-navigation`: la demo nunca puede sacar al visitante de chaiactive.com.
+- En pantallas táctiles, la demo no captura el dedo hasta que se toca "Toca para probarla", para que la página siga haciendo scroll.
+
 ## Formulario de contacto
 
 El selector "¿Qué te interesa?" (Comunidad / Colegio / Empresa / Otra cosa) llega en el asunto y el cuerpo del email. Se preselecciona:

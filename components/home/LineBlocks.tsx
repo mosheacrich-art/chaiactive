@@ -19,7 +19,7 @@ function LineBlock({
   tone,
 }: {
   block: Block;
-  href: "/comunidades" | "/colegios" | "/empresas";
+  href: "/colegios" | "/empresas" | { pathname: "/comunidades"; hash: string };
   visual: ReactNode;
   flip?: boolean;
   tone: "cream" | "white" | "navy";
@@ -64,7 +64,7 @@ export default function LineBlocks() {
     <>
       <LineBlock
         tone="cream"
-        href="/comunidades"
+        href={{ pathname: "/comunidades", hash: "demo" }}
         block={t.raw("comunidades") as Block}
         visual={
           <BrowserShot

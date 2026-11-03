@@ -6,6 +6,7 @@ import ServicesSection from "@/components/ServicesSection";
 import Modulos from "@/components/comunidades/Modulos";
 import Identidad from "@/components/comunidades/Identidad";
 import CasoJabad from "@/components/comunidades/CasoJabad";
+import DemoSection from "@/components/comunidades/DemoSection";
 import CtaBand from "@/components/layout/CtaBand";
 import { ContactLink } from "@/components/layout/Buttons";
 
@@ -22,6 +23,7 @@ export default async function ComunidadesPage({ params }: { params: Promise<{ lo
   return (
     <PageShell interest="comunidad">
       <ComunidadesHero />
+      <DemoSection />
       <CasoJabad />
       <ServicesSection />
       <Modulos />

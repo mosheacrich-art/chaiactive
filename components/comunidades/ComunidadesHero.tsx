@@ -31,7 +31,7 @@ export default function ComunidadesHero() {
       subtitle={t("subtitle")}
       actions={
         <>
-          <a href="#servicios" className={buttonPrimary}>{t("ctaPrimary")}</a>
+          <a href="#demo" className={buttonPrimary}>{t("ctaPrimary")}</a>
           <ContactLink interest="comunidad" variant="secondary">{t("ctaSecondary")}</ContactLink>
         </>
       }

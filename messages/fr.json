@@ -751,7 +751,7 @@
       "eyebrow": "Pour les communautés juives",
       "title": "La vie de votre communauté, dans une appli qui porte son nom.",
       "subtitle": "Kehál réunit adhésions, calendrier hébraïque, événements, mikvé, dons et Torah au même endroit, aux couleurs, avec le logo et dans les langues de votre kehila. L'appli complète, ou seulement les modules dont vous avez besoin.",
-      "ctaPrimary": "Voir ce qu'elle comprend",
+      "ctaPrimary": "Essayer la démo",
       "ctaSecondary": "Parlons de votre communauté",
       "tabs": [
         "Événements",
@@ -823,6 +823,12 @@
       "title": "Et si nous parlions de votre communauté ?",
       "body": "Racontez-nous comment vous vous organisez aujourd'hui et nous vous montrerons Kehál à votre nom et à vos couleurs.",
       "button": "Parlons-en"
+    },
+    "demo": {
+      "title": "Essayez-la vous-même",
+      "intro": "C'est la vraie appli, avec une communauté d'exemple. Entrez comme membre ou comme administrateur et naviguez comme sur votre téléphone.",
+      "badge": "Démo interactive · données fictives",
+      "frameTitle": "Démo interactive de Kehál"
     }
   },
   "colegios": {
@@ -1370,7 +1376,7 @@
       "label": "Pour les communautés",
       "title": "Votre communauté, dans une seule appli.",
       "body": "Membres, événements, mikvé, dons et calendrier hébraïque, au nom et aux couleurs de votre kehila.",
-      "cta": "Découvrir Kehál",
+      "cta": "Essayer la démo en direct",
       "alt": "Événements de la communauté dans Kehál, chez Habad Barcelone"
     },
     "colegios": {
@@ -1450,5 +1456,13 @@
   },
   "closing": {
     "quote": "La technologie, quand elle est bien faite, laisse plus de temps pour la vie."
+  },
+  "demo": {
+    "deviceLabel": "Appareil",
+    "phone": "Mobile",
+    "laptop": "Ordinateur",
+    "reset": "Recommencer",
+    "fullscreen": "Plein écran",
+    "tapToTry": "Touchez pour l'essayer"
   }
 }

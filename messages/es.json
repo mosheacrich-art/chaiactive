@@ -751,7 +751,7 @@
       "eyebrow": "Para comunidades judías",
       "title": "La vida de tu comunidad, en una app que lleva su nombre.",
       "subtitle": "Kehál reúne membresía, calendario hebreo, eventos, mikvé, donativos y Torá en un solo sitio, con los colores, el logo y los idiomas de tu kehilá. Toda la app o solo los módulos que necesitas.",
-      "ctaPrimary": "Ver qué incluye",
+      "ctaPrimary": "Probar la demo",
       "ctaSecondary": "Hablemos de tu comunidad",
       "tabs": [
         "Eventos",
@@ -823,6 +823,12 @@
       "title": "¿Hablamos de tu comunidad?",
       "body": "Cuéntanos cómo os organizáis hoy y te enseñamos Kehál con vuestro nombre y vuestros colores.",
       "button": "Hablemos"
+    },
+    "demo": {
+      "title": "Pruébala tú mismo",
+      "intro": "Esta es la app de verdad, con una comunidad de ejemplo. Entra como miembro o como administrador y muévete por ella como en tu móvil.",
+      "badge": "Demo interactiva · datos ficticios",
+      "frameTitle": "Demo interactiva de Kehál"
     }
   },
   "colegios": {
@@ -1370,7 +1376,7 @@
       "label": "Para comunidades",
       "title": "Tu comunidad, en una sola app.",
       "body": "Miembros, eventos, mikvé, donativos y calendario hebreo, con el nombre y los colores de tu kehilá.",
-      "cta": "Conocer Kehál",
+      "cta": "Probar la demo en vivo",
       "alt": "Eventos de la comunidad en Kehál, en Jabad Barcelona"
     },
     "colegios": {
@@ -1450,5 +1456,13 @@
   },
   "closing": {
     "quote": "La tecnología, cuando está bien hecha, deja más tiempo para la vida."
+  },
+  "demo": {
+    "deviceLabel": "Dispositivo",
+    "phone": "Móvil",
+    "laptop": "Ordenador",
+    "reset": "Reiniciar",
+    "fullscreen": "Pantalla completa",
+    "tapToTry": "Toca para probarla"
   }
 }
