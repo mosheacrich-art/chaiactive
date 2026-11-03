@@ -32,12 +32,7 @@
     "title": "Une technologie vivante.",
     "subtitle": "Des outils numériques sur mesure pour les communautés, les écoles et les entreprises. Depuis Barcelone, avec des racines juives.",
     "ctaPrimary": "Parlons-en",
-    "ctaSecondary": "Voir les projets",
-    "collage": {
-      "jabad": "Écran d'accueil de Kehál chez Habad Barcelone, avec horaires de prière, raccourcis et prochains événements",
-      "phone": "Démo en direct de Kehál sur un iPhone",
-      "live": "Démo en direct · essayez-la"
-    }
+    "ctaSecondary": "Voir les projets"
   },
   "servicios": {
     "sectionTitleStart": "Tout ce dont votre communauté a besoin,",
@@ -1464,5 +1459,24 @@
     "reset": "Recommencer",
     "fullscreen": "Plein écran",
     "tapToTry": "Touchez pour l'essayer"
+  },
+  "showcase": {
+    "label": "Projets",
+    "hint": "Choisissez un projet et essayez-le : ce sont les vrais sites et applis, en direct.",
+    "tap": "Touchez pour l'utiliser",
+    "desktopTitle": "{name} sur ordinateur",
+    "mobileTitle": "{name} sur mobile",
+    "screenshotsAlt": "Captures de {name}",
+    "seeCase": "Voir le cas",
+    "openSite": "Ouvrir le site",
+    "demoNote": "Démo avec données fictives",
+    "screenshotsNote": "Ce site ne peut pas être intégré ; voici des captures réelles.",
+    "items": {
+      "kehal": "L'appli des communautés juives",
+      "shevat": "Promoteur et constructeur · Barcelone et Madrid",
+      "better-coffee": "Café froid fonctionnel en canette",
+      "creative-favours": "Kippot et judaïca personnalisés",
+      "perashapp": "Étude de la paracha avec audio synchronisé"
+    }
   }
 }

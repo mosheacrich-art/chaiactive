@@ -32,12 +32,7 @@
     "title": "Tecnología con vida.",
     "subtitle": "Herramientas digitales a medida para comunidades, colegios y empresas. Desde Barcelona, con raíces judías.",
     "ctaPrimary": "Hablemos",
-    "ctaSecondary": "Ver proyectos",
-    "collage": {
-      "jabad": "Pantalla de inicio de Kehál en Jabad Barcelona, con horarios de rezo, accesos rápidos y próximos eventos",
-      "phone": "Demo en vivo de Kehál en un iPhone",
-      "live": "Demo en vivo · pruébala"
-    }
+    "ctaSecondary": "Ver proyectos"
   },
   "servicios": {
     "sectionTitleStart": "Todo lo que tu comunidad necesita,",
@@ -1464,5 +1459,24 @@
     "reset": "Reiniciar",
     "fullscreen": "Pantalla completa",
     "tapToTry": "Toca para probarla"
+  },
+  "showcase": {
+    "label": "Proyectos",
+    "hint": "Elige un proyecto y pruébalo: son las webs y apps reales, en vivo.",
+    "tap": "Toca para usarla",
+    "desktopTitle": "{name} en ordenador",
+    "mobileTitle": "{name} en móvil",
+    "screenshotsAlt": "Capturas de {name}",
+    "seeCase": "Ver caso",
+    "openSite": "Abrir web",
+    "demoNote": "Demo con datos ficticios",
+    "screenshotsNote": "Esta web no permite mostrarse incrustada; aquí ves capturas reales.",
+    "items": {
+      "kehal": "La app para comunidades judías",
+      "shevat": "Promotora y constructora · Barcelona y Madrid",
+      "better-coffee": "Café frío funcional en lata",
+      "creative-favours": "Kipot y judaica personalizada",
+      "perashapp": "Estudio de la parashá con audio sincronizado"
+    }
   }
 }

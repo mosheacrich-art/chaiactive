@@ -32,12 +32,7 @@
     "title": "Technology with life.",
     "subtitle": "Custom digital tools for communities, schools and businesses. From Barcelona, with Jewish roots.",
     "ctaPrimary": "Let's talk",
-    "ctaSecondary": "See projects",
-    "collage": {
-      "jabad": "Kehál home screen at Chabad Barcelona, with prayer times, shortcuts and upcoming events",
-      "phone": "Live Kehál demo on an iPhone",
-      "live": "Live demo · try it"
-    }
+    "ctaSecondary": "See projects"
   },
   "servicios": {
     "sectionTitleStart": "Everything your community needs,",
@@ -1464,5 +1459,24 @@
     "reset": "Restart",
     "fullscreen": "Full screen",
     "tapToTry": "Tap to try it"
+  },
+  "showcase": {
+    "label": "Projects",
+    "hint": "Pick a project and try it: these are the real websites and apps, live.",
+    "tap": "Tap to use it",
+    "desktopTitle": "{name} on desktop",
+    "mobileTitle": "{name} on mobile",
+    "screenshotsAlt": "Screenshots of {name}",
+    "seeCase": "See case",
+    "openSite": "Open site",
+    "demoNote": "Demo with fictitious data",
+    "screenshotsNote": "This site can't be shown embedded; these are real screenshots.",
+    "items": {
+      "kehal": "The app for Jewish communities",
+      "shevat": "Property developer and builder · Barcelona and Madrid",
+      "better-coffee": "Functional canned cold coffee",
+      "creative-favours": "Personalised kippot and Judaica",
+      "perashapp": "Parasha study with synced audio"
+    }
   }
 }

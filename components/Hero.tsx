@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { ArrowRight } from "lucide-react";
 import { buttonPrimary, buttonSecondary } from "./layout/Buttons";
-import HeroCollage from "./home/HeroCollage";
+import ProjectShowcase from "./home/ProjectShowcase";
 
 export default function Hero() {
   const t = useTranslations("hero");
@@ -20,7 +20,7 @@ export default function Hero() {
             {t("ctaSecondary")}
           </a>
         </div>
-        <HeroCollage />
+        <ProjectShowcase />
       </div>
     </section>
   );

@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useSyncExternalStore } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { ExternalLink, Laptop, RotateCcw, Smartphone, Hand } from "lucide-react";
+import IPhoneFrame, { IPHONE } from "./IPhoneFrame";
 
 // A live demo app inside a drawn iPhone or laptop, like the Xcode simulator:
 // the iframe is the real app, fully interactive, scaled to fit the page.
@@ -17,7 +18,6 @@ import { ExternalLink, Laptop, RotateCcw, Smartphone, Hand } from "lucide-react"
 type Device = "phone" | "laptop";
 
 // Native sizes (CSS px) of each device; everything is scaled from these.
-const PHONE = { screenW: 393, screenH: 852, bezel: 13, status: 54, home: 30 };
 const LAPTOP = { screenW: 1280, screenH: 800, bezel: 16, base: 22 };
 
 const COARSE = "(pointer: coarse)";
@@ -103,8 +103,8 @@ export default function DeviceDemo({
   const url = withShowcase(src, locale === "es" ? "es" : "en", as);
 
   // Full device sizes, then the scale that fits the available box.
-  const phoneW = PHONE.screenW + PHONE.bezel * 2;
-  const phoneH = PHONE.screenH + PHONE.bezel * 2;
+  const phoneW = IPHONE.width;
+  const phoneH = IPHONE.height;
   const laptopW = LAPTOP.screenW + LAPTOP.bezel * 2;
   const laptopH = LAPTOP.screenH + LAPTOP.bezel * 2 + LAPTOP.base;
   const natW = device === "phone" ? phoneW : laptopW;
@@ -129,7 +129,7 @@ export default function DeviceDemo({
       className={`block border-0 bg-white ${blocked ? "pointer-events-none" : ""}`}
       style={
         device === "phone"
-          ? { width: PHONE.screenW, height: PHONE.screenH - PHONE.status - PHONE.home }
+          ? { width: IPHONE.screenW, height: IPHONE.contentH }
           : { width: LAPTOP.screenW, height: LAPTOP.screenH }
       }
     />
@@ -191,36 +191,7 @@ export default function DeviceDemo({
               dir="ltr"
             >
               {device === "phone" ? (
-                <div
-                  className="relative bg-[#16181d] shadow-[0_40px_80px_-30px_rgba(18,32,63,0.5)]"
-                  style={{ width: phoneW, height: phoneH, padding: PHONE.bezel, borderRadius: 64 }}
-                >
-                  {/* Side buttons */}
-                  <span aria-hidden="true" className="absolute -start-[3px] top-[170px] h-[34px] w-[3px] rounded-s bg-[#2a2d33]" />
-                  <span aria-hidden="true" className="absolute -start-[3px] top-[230px] h-[62px] w-[3px] rounded-s bg-[#2a2d33]" />
-                  <span aria-hidden="true" className="absolute -start-[3px] top-[305px] h-[62px] w-[3px] rounded-s bg-[#2a2d33]" />
-                  <span aria-hidden="true" className="absolute -end-[3px] top-[250px] h-[100px] w-[3px] rounded-e bg-[#2a2d33]" />
-                  <div className="relative h-full w-full overflow-hidden bg-white" style={{ borderRadius: 52 }}>
-                    {/* Status bar with Dynamic Island */}
-                    <div
-                      aria-hidden="true"
-                      className="relative flex items-center justify-between bg-white px-8 text-[15px] font-semibold text-black"
-                      style={{ height: PHONE.status }}
-                    >
-                      <span>9:41</span>
-                      <span className="absolute start-1/2 top-[11px] h-[34px] w-[122px] -translate-x-1/2 rounded-full bg-black" />
-                      <span className="flex items-center gap-1.5">
-                        <svg width="18" height="12" viewBox="0 0 18 12" fill="currentColor"><rect x="0" y="8" width="3" height="4" rx="1"/><rect x="5" y="5" width="3" height="7" rx="1"/><rect x="10" y="2.5" width="3" height="9.5" rx="1"/><rect x="15" y="0" width="3" height="12" rx="1"/></svg>
-                        <svg width="25" height="12" viewBox="0 0 25 12" fill="none"><rect x="0.5" y="0.5" width="21" height="11" rx="3.5" stroke="currentColor" opacity=".4"/><rect x="2" y="2" width="18" height="8" rx="2" fill="currentColor"/><rect x="23" y="4" width="1.5" height="4" rx=".75" fill="currentColor" opacity=".4"/></svg>
-                      </span>
-                    </div>
-                    {frame}
-                    {/* Home indicator */}
-                    <div aria-hidden="true" className="flex items-center justify-center bg-white" style={{ height: PHONE.home }}>
-                      <span className="h-[5px] w-[134px] rounded-full bg-black" />
-                    </div>
-                  </div>
-                </div>
+                <IPhoneFrame>{frame}</IPhoneFrame>
               ) : (
                 <div style={{ width: laptopW }}>
                   <div
