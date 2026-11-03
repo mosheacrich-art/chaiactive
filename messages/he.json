@@ -445,7 +445,6 @@
     "screenshotPending": "צילום מסך בקרוב",
     "screenshotAlt": "צילומי מסך של {name}",
     "opensNewTab": "(נפתח בלשונית חדשה)",
-    "testimoniosTitle": "מה אומרים עלינו",
     "items": {
       "jabad": {
         "name": "חב״ד ברצלונה",
@@ -482,27 +481,7 @@
         "solucion": "כלי עם שמע שמסונכרן מילה במילה לטקסט, לוח למורה ותצוגה לתלמיד.",
         "resultado": "באוויר ב-perashapp.com."
       }
-    },
-    "testimonios": [
-      {
-        "slug": "creative-favours",
-        "quote": "האתר החדש שלנו סוף סוף נראה ברמה של המוצרים שלנו. לקוחות יכולים לעיין בהכול וליצור איתנו קשר ישירות — זה עשה הבדל אמיתי.",
-        "authorName": "Mimi & Stella",
-        "authorRole": "מייסדות, Creative Favours"
-      },
-      {
-        "slug": "perashapp",
-        "quote": "Perashapp שינה את האופן שבו התלמידים שלי מתחברים לפרשה. מעקב אחר האודיו מילה במילה שומר עליהם ממוקדים בצורה שקריאה לבד מעולם לא השיגה.",
-        "authorName": "Moshe Acrish",
-        "authorRole": "מייסד, Perashapp"
-      },
-      {
-        "slug": "jabad",
-        "quote": "Kehál הפכה לחלק מהאופן שבו הקהילה שלנו מתנהלת יום-יום. מה שדרש בעבר חמש קבוצות וואטסאפ וגיליון אלקטרוני, קורה עכשיו במקום אחד.",
-        "authorName": "Ha Rav Dovid Libershon",
-        "authorRole": "רב ראשי של קהילת חב״ד ברצלונה"
-      }
-    ]
+    }
   },
   "sobreNosotros": {
     "eyebrow": "הסיפור שלנו",
@@ -1451,5 +1430,13 @@
         }
       ]
     }
+  },
+  "projectStrip": {
+    "label": "פרויקטים שבנינו"
+  },
+  "stats": {
+    "value": "+250",
+    "label": "חברים באפליקציה, מתוך קהילה של יותר מ-750",
+    "source": "חב״ד ברצלונה"
   }
 }

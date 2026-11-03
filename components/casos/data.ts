@@ -66,11 +66,3 @@ export const CASOS_CONFIG: CasoConfig[] = [
     ],
   },
 ];
-
-// Testimonials only appear once the person quoted has approved the text.
-// TODO(permisos): pedir aprobación escrita de cada cita antes de poner approved: true.
-export const TESTIMONIOS_APPROVED: Record<string, boolean> = {
-  "creative-favours": false,
-  perashapp: false,
-  jabad: false,
-};

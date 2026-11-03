@@ -76,7 +76,7 @@ El selector "¿Qué te interesa?" (Comunidad / Colegio / Empresa / Otra cosa) ll
 
 Solo datos verificables: nada de cifras sacadas del marketing del cliente.
 
-**Testimonios**: los textos están en `casos.testimonios`, pero solo se muestran si su `slug` está a `true` en `TESTIMONIOS_APPROVED` (`components/casos/data.ts`). No los actives sin aprobación escrita de la persona citada.
+**Testimonios**: la web no muestra citas de clientes, por decisión de diseño. Si algún día se añaden, que sea solo con aprobación escrita de la persona citada.
 
 ## Cómo añadir un idioma
 
@@ -90,6 +90,7 @@ Solo datos verificables: nada de cifras sacadas del marketing del cliente.
 - **Colegios**: es un producto que ofrecemos y hemos diseñado, no una app en uso. Nada de cifras de usuarios ni capturas reales. Los mockups llevan "Diseño conceptual". No se nombra a ningún colegio como cliente.
 - **Kehál / Jabad**: "+250 miembros en la app, de una comunidad de más de 750". No usar "+500" ni "desde 1999".
 - No inventar métricas, clientes, testimonios ni funcionalidades.
+- Cifras: solo las confirmadas (`components/home/StatStrip.tsx`).
 
 ## Pendiente antes de dar por cerrada la web
 

@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import { CASOS_CONFIG } from "./casos/data";
 import CasoCard from "./casos/CasoCard";
-import Testimonios from "./casos/Testimonios";
 
 export default function CasosDeExito() {
   const t = useTranslations("casos");
@@ -22,7 +21,6 @@ export default function CasosDeExito() {
           ))}
         </ul>
 
-        <Testimonios />
       </div>
     </section>
   );

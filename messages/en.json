@@ -445,7 +445,6 @@
     "screenshotPending": "Screenshot pending",
     "screenshotAlt": "Screenshots of {name}",
     "opensNewTab": "(opens in a new tab)",
-    "testimoniosTitle": "What they say",
     "items": {
       "jabad": {
         "name": "Chabad Barcelona",
@@ -482,27 +481,7 @@
         "solucion": "A tool with audio synced word by word to the text, a teacher dashboard and a student view.",
         "resultado": "Live at perashapp.com."
       }
-    },
-    "testimonios": [
-      {
-        "slug": "creative-favours",
-        "quote": "Our new website finally looks as good as our products. Customers can browse everything and reach us directly — it's made a real difference.",
-        "authorName": "Mimi & Stella",
-        "authorRole": "Founders, Creative Favours"
-      },
-      {
-        "slug": "perashapp",
-        "quote": "Perashapp changed how my students engage with the parasha. Following the audio word by word keeps them focused in a way reading alone never did.",
-        "authorName": "Moshe Acrish",
-        "authorRole": "Founder, Perashapp"
-      },
-      {
-        "slug": "jabad",
-        "quote": "Kehál has become part of how our community runs day to day. What used to take five WhatsApp groups and a spreadsheet now happens in one place.",
-        "authorName": "Ha Rav Dovid Libershon",
-        "authorRole": "Chief Rabbi of the Community of Jabad Barcelona"
-      }
-    ]
+    }
   },
   "sobreNosotros": {
     "eyebrow": "Our story",
@@ -1451,5 +1430,13 @@
         }
       ]
     }
+  },
+  "projectStrip": {
+    "label": "Projects we have built"
+  },
+  "stats": {
+    "value": "250+",
+    "label": "members on the app, out of a community of more than 750",
+    "source": "Chabad Barcelona"
   }
 }
