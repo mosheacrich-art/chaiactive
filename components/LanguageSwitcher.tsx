@@ -50,7 +50,7 @@ export default function LanguageSwitcher() {
                   type="button"
                   onClick={() => switchTo(code)}
                   className={`block w-full px-4 py-2 text-start text-sm transition hover:bg-navy/5 ${
-                    code === locale ? "font-semibold text-gold" : "text-navy"
+                    code === locale ? "font-semibold text-gold-dark" : "text-navy"
                   }`}
                 >
                   {t(code)}

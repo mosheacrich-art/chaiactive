@@ -46,7 +46,7 @@ export default function SobreNosotros() {
             <p className="text-start text-base leading-[1.6] text-ink/70">
               {paragraphs[0]}
             </p>
-            <p className="mt-3 text-start text-xs font-semibold uppercase tracking-widest text-ink/35">
+            <p className="mt-3 text-start text-xs font-semibold uppercase tracking-widest text-ink/65">
               {t("anchorCaption")}
             </p>
           </ScrollReveal>
@@ -92,7 +92,7 @@ export default function SobreNosotros() {
         </div>
 
         <ScrollReveal className="mt-12 sm:mt-16">
-          <p className="mx-auto max-w-2xl text-center text-lg italic text-ink/50">
+          <p className="mx-auto max-w-2xl text-center text-lg italic text-ink/65">
             {t("finalLine")}
           </p>
         </ScrollReveal>

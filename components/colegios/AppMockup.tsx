@@ -77,7 +77,7 @@ export default function AppMockup() {
                 tabIndex={active ? 0 : -1}
                 onClick={() => setTab(key)}
                 className={`flex flex-col items-center gap-1 rounded-lg py-1 text-[10px] font-semibold transition ${
-                  active ? "text-navy" : "text-ink/50"
+                  active ? "text-navy" : "text-ink/65"
                 }`}
               >
                 <Icon className={`size-5 ${active ? "text-gold-dark" : ""}`} aria-hidden="true" />
@@ -95,7 +95,9 @@ export default function AppMockup() {
 }
 
 function Card({ children, className = "" }: { children: React.ReactNode; className?: string }) {
-  return <div className={`rounded-2xl bg-white p-3.5 shadow-sm ${className}`}>{children}</div>;
+  // Background defaults to white unless the caller passes its own bg-*.
+  const bg = /(^|\s)bg-/.test(className) ? "" : "bg-white";
+  return <div className={`rounded-2xl p-3.5 shadow-sm ${bg} ${className}`}>{children}</div>;
 }
 
 function Inicio() {
@@ -105,7 +107,7 @@ function Inicio() {
     <div className="space-y-3">
       <div>
         <p className="text-lg font-extrabold text-navy">{t("greeting")}</p>
-        <p className="text-xs text-ink/60">
+        <p className="text-xs text-ink/70">
           {t("date")} · <span className="text-gold-dark">{t("hebrewDate")}</span>
         </p>
       </div>
@@ -114,7 +116,7 @@ function Inicio() {
         <p className="mt-1 text-sm font-bold">{t("next")}</p>
       </Card>
       <Card>
-        <p className="text-[10px] font-semibold uppercase tracking-wider text-ink/50">{t("agendaLabel")}</p>
+        <p className="text-[10px] font-semibold uppercase tracking-wider text-ink/65">{t("agendaLabel")}</p>
         <ul className="mt-2 space-y-1.5">
           {agenda.map((item) => (
             <li key={item} className="flex items-center gap-2 text-xs text-ink/80">
@@ -145,7 +147,7 @@ function Materias() {
         <Card key={m.name} className="flex items-center justify-between">
           <div>
             <p className="text-sm font-semibold text-navy">{m.name}</p>
-            <p className="text-[10px] text-ink/50">{m.status}</p>
+            <p className="text-[10px] text-ink/65">{m.status}</p>
           </div>
           <span className="text-lg font-extrabold text-navy">{m.grade}</span>
         </Card>
@@ -160,10 +162,10 @@ function Calendario() {
   return (
     <div className="space-y-2">
       <p className="text-lg font-extrabold text-navy">{t("tabs.calendario")}</p>
-      <p className="text-xs text-ink/60">{t("calendario.week")}</p>
+      <p className="text-xs text-ink/70">{t("calendario.week")}</p>
       {days.map((d) => (
         <Card key={d.day} className="flex items-center gap-3 py-2.5">
-          <span className="w-8 text-xs font-bold text-ink/50">{d.day}</span>
+          <span className="w-8 text-xs font-bold text-ink/65">{d.day}</span>
           <span className={`text-xs ${d.event ? "font-semibold text-navy" : "text-ink/30"}`}>{d.event || "·"}</span>
         </Card>
       ))}
@@ -202,7 +204,7 @@ function Ficha() {
         </span>
         <div>
           <p className="text-base font-extrabold text-navy">{t("name")}</p>
-          <p className="text-[11px] text-ink/60">{t("course")}</p>
+          <p className="text-[11px] text-ink/70">{t("course")}</p>
         </div>
       </div>
       <div className="divide-y divide-navy/5 overflow-hidden rounded-2xl bg-white shadow-sm">

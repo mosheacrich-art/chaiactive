@@ -87,7 +87,7 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
             aria-selected={tab === "form"}
             onClick={() => setTab("form")}
             className={`flex-1 rounded-full py-2 text-xs font-semibold transition focus-visible:outline-2 focus-visible:outline-gold ${
-              tab === "form" ? "bg-navy text-white" : "text-ink/60"
+              tab === "form" ? "bg-navy text-white" : "text-ink/70"
             }`}
           >
             {t("tabForm")}
@@ -98,7 +98,7 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
             aria-selected={tab === "whatsapp"}
             onClick={() => setTab("whatsapp")}
             className={`flex-1 rounded-full py-2 text-xs font-semibold transition focus-visible:outline-2 focus-visible:outline-gold ${
-              tab === "whatsapp" ? "bg-[#128C4A] text-white" : "text-ink/60"
+              tab === "whatsapp" ? "bg-[#128C4A] text-white" : "text-ink/70"
             }`}
           >
             {t("tabWhatsapp")}
@@ -190,7 +190,7 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
           </span>
           <div>
             <p className="text-base font-extrabold text-navy">{t("whatsappPanel.title")}</p>
-            <p className="mt-1.5 text-xs leading-relaxed text-ink/60">{t("whatsappPanel.body")}</p>
+            <p className="mt-1.5 text-xs leading-relaxed text-ink/70">{t("whatsappPanel.body")}</p>
           </div>
           <a
             href={WHATSAPP_URL}

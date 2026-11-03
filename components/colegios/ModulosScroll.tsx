@@ -47,7 +47,7 @@ export default function ModulosScroll() {
                     className={`-ms-px block border-s-2 py-2 ps-5 text-[15px] transition ${
                       active === i
                         ? "border-gold font-bold text-navy"
-                        : "border-transparent text-ink/60 hover:text-navy"
+                        : "border-transparent text-ink/70 hover:text-navy"
                     }`}
                   >
                     {item.title}

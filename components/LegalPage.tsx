@@ -18,7 +18,7 @@ export default function LegalPage({
     <article className="mx-auto max-w-3xl px-4 py-16 sm:px-6">
       <Link
         href="/"
-        className="text-sm font-medium text-navy/60 hover:text-navy"
+        className="text-sm font-medium text-navy/75 hover:text-navy"
       >
         ← Chai Active
       </Link>
@@ -26,7 +26,7 @@ export default function LegalPage({
       <h1 className="mt-4 text-3xl font-extrabold text-navy">
         {t(`${namespace}.title`)}
       </h1>
-      <p className="mt-1 text-sm text-navy/50">{t(`${namespace}.updated`)}</p>
+      <p className="mt-1 text-sm text-navy/75">{t(`${namespace}.updated`)}</p>
 
       <div className="mt-6 flex gap-3 rounded-xl border border-gold/40 bg-gold/10 p-4 text-sm text-navy/80">
         <AlertTriangle className="mt-0.5 size-5 shrink-0 text-gold" aria-hidden="true" />
@@ -35,7 +35,7 @@ export default function LegalPage({
 
       {needsReview && (
         <div className="mt-3 flex gap-3 rounded-xl border border-navy/15 bg-navy/5 p-4 text-sm text-navy/70">
-          <AlertTriangle className="mt-0.5 size-5 shrink-0 text-navy/50" aria-hidden="true" />
+          <AlertTriangle className="mt-0.5 size-5 shrink-0 text-navy/75" aria-hidden="true" />
           <p>{meta("draftNotice")}</p>
         </div>
       )}

@@ -4,20 +4,20 @@
     "draftNotice": "Draft translation pending human review."
   },
   "metadata": {
-    "title": "Chai Active — Software with life for Jewish communities",
-    "description": "Kehál Platform and other custom platforms for Jewish communities and businesses. Barcelona."
+    "title": "Chai Active: technology with life for communities, schools and businesses",
+    "description": "A Barcelona technology company with Jewish roots. Apps for Jewish communities, a dedicated app for Jewish schools and custom digital transformation for businesses."
   },
   "skipToContent": "Skip to content",
   "nav": {
-    "label": "Navegación principal",
-    "skip": "Ir al contenido",
-    "comunidades": "Comunidades",
-    "colegios": "Colegios",
-    "empresas": "Empresas",
-    "casos": "Success stories",
+    "label": "Main navigation",
+    "skip": "Skip to content",
+    "comunidades": "Communities",
+    "colegios": "Schools",
+    "empresas": "Business",
+    "casos": "Projects",
     "nosotros": "About us",
     "contacto": "Contact",
-    "cta": "Book a meeting",
+    "cta": "Let's talk",
     "openMenu": "Open menu",
     "closeMenu": "Close menu"
   },
@@ -29,28 +29,28 @@
     "fr": "Français"
   },
   "hero": {
-    "titleStart": "Tecnología con vida.",
-    "titleEnd": "Para comunidades, colegios y empresas.",
-    "subtitle": "Technology designed to help Jewish communities spend less time managing and more time connecting.",
-    "selectorTitle": "¿Por dónde empezamos?",
+    "titleStart": "Technology with life.",
+    "titleEnd": "For communities, schools and businesses.",
+    "subtitle": "We are a Barcelona technology company with Jewish roots. We build custom digital tools that look like the people who use them and take work off the people who run them.",
+    "selectorTitle": "Where shall we start?",
     "cards": {
       "comunidad": {
-        "title": "Soy una comunidad",
-        "body": "Kehál, la app de tu kehilá: miembros, calendario hebreo, eventos, mikvé, donativos y Torá, con el nombre y los colores de tu comunidad.",
-        "note": "En uso en Jabad Barcelona",
-        "cta": "Ver Kehál"
+        "title": "I'm a community",
+        "body": "Kehál, the app for your kehilla: members, Hebrew calendar, events, mikveh, donations and Torah, with your community's name and colours.",
+        "note": "In use at Chabad Barcelona",
+        "cta": "See Kehál"
       },
       "colegio": {
-        "title": "Soy un colegio o institución",
-        "body": "Una app propia para alumnos, profesorado y familias, con el seguimiento académico, la comunicación y la vida judía en un solo sitio.",
-        "note": "Buscamos colegios piloto",
-        "cta": "Ver la propuesta"
+        "title": "I'm a school or institution",
+        "body": "A dedicated app for students, teachers and families, with academic tracking, communication and Jewish life in one place.",
+        "note": "Looking for pilot schools",
+        "cta": "See the proposal"
       },
       "empresa": {
-        "title": "Soy una empresa",
-        "body": "Webs, tiendas online, landings de lanzamiento, apps y herramientas internas hechas a medida para tu negocio.",
-        "note": "Cualquier sector",
-        "cta": "Ver qué hacemos"
+        "title": "I'm a business",
+        "body": "Websites, online shops, launch pages, apps and internal tools built for your business.",
+        "note": "Any sector",
+        "cta": "See what we do"
       }
     }
   },
@@ -60,12 +60,12 @@
     "banners": [
       {
         "number": "01",
-        "eyebrow": "Our Services",
+        "eyebrow": "Kehál, made to measure",
         "headline": [
           "Custom apps.",
           "For your community."
         ],
-        "description": "We build unique applications, with the features you need and the experience you want. You imagine it, we make it real.",
+        "description": "An app with the features your community needs and the experience you want for your members. You tell us how you work and we build it.",
         "chips": [
           "Members",
           "Events",
@@ -99,7 +99,7 @@
       },
       {
         "number": "02",
-        "eyebrow": "Donations & Fundraising",
+        "eyebrow": "Donations and campaigns",
         "headline": [
           "Grow",
           "your donations."
@@ -216,7 +216,7 @@
       },
       {
         "number": "05",
-        "eyebrow": "Mikvah Appointments",
+        "eyebrow": "Mikveh appointments",
         "headline": [
           "Private.",
           "Simple.",
@@ -293,7 +293,7 @@
       },
       {
         "number": "07",
-        "eyebrow": "Events & Registrations",
+        "eyebrow": "Events and sign-ups",
         "headline": [
           "Every event.",
           "Perfectly organized.",
@@ -372,7 +372,7 @@
       },
       {
         "number": "09",
-        "eyebrow": "Torah & Shiurim",
+        "eyebrow": "Torah and shiurim",
         "headline": [
           "Torah.",
           "Whenever you want.",
@@ -409,7 +409,7 @@
       },
       {
         "number": "10",
-        "eyebrow": "Admin Dashboard",
+        "eyebrow": "Admin dashboard",
         "headline": [
           "Manage everything.",
           "From one place."
@@ -450,52 +450,52 @@
     ]
   },
   "casos": {
-    "title": "Success Stories",
-    "intro": "Proyectos reales, publicados y en uso. Contamos lo que hicimos y lo que se puede comprobar.",
+    "title": "Success stories",
+    "intro": "Real projects, live and in use. We tell you what we did and what you can check for yourself.",
     "labels": {
-      "reto": "Reto",
-      "solucion": "Solución",
-      "resultado": "Resultado"
+      "reto": "Challenge",
+      "solucion": "Solution",
+      "resultado": "Result"
     },
-    "screenshotPending": "Captura pendiente",
-    "screenshotAlt": "Capturas de {name}",
-    "opensNewTab": "(se abre en una pestaña nueva)",
-    "testimoniosTitle": "Lo que dicen",
+    "screenshotPending": "Screenshot pending",
+    "screenshotAlt": "Screenshots of {name}",
+    "opensNewTab": "(opens in a new tab)",
+    "testimoniosTitle": "What they say",
     "items": {
       "jabad": {
-        "name": "Jabad Barcelona",
-        "sector": "Comunidad judía",
-        "reto": "Reunir en un solo sitio la vida de una comunidad grande: miembros, eventos, mikvé, donativos y calendario.",
-        "solucion": "Kehál, web y app de comunidad con acceso de miembros, solicitud de alta y panel para el equipo.",
-        "resultado": "En uso en bcnkehila.com: +250 miembros en la app, de una comunidad de más de 750."
+        "name": "Chabad Barcelona",
+        "sector": "Jewish community",
+        "reto": "Bring the life of a large community into one place: members, events, mikveh, donations and the calendar.",
+        "solucion": "Kehál, a community website and app with member login, access requests and a dashboard for the team.",
+        "resultado": "In use at bcnkehila.com: 250+ members on the app, out of a community of more than 750."
       },
       "shevat": {
         "name": "Shevat",
-        "sector": "Promotora y constructora · Barcelona y Madrid",
-        "reto": "Presentar las promociones de la empresa y convertir las visitas en contactos.",
-        "solucion": "Web con páginas de promociones y ubicaciones, ficha de cada promoción, dossier por correo y formulario por pasos con elección de canal: llamada, email o WhatsApp.",
-        "resultado": "Publicada en shevat.eu, con animaciones de entrada en toda la web."
+        "sector": "Property developer and builder · Barcelona and Madrid",
+        "reto": "Present the company's developments and turn visits into enquiries.",
+        "solucion": "A website with a page for each development, a brochure sent by email and a step-by-step contact form where the client chooses the channel: call, email or WhatsApp.",
+        "resultado": "Live at shevat.eu, with entrance animations and a page for each development and location."
       },
       "better-coffee": {
         "name": "Better Coffee",
-        "sector": "Café frío funcional en lata",
-        "reto": "Presentar una marca nueva y captar a sus primeros clientes antes del lanzamiento.",
-        "solucion": "Web de lanzamiento con selector de sabor y formato, suscripción, lista de espera, comparativa y preguntas frecuentes.",
-        "resultado": "Publicada en better-coffee.vercel.app, también en español."
+        "sector": "Functional canned cold coffee",
+        "reto": "Present a new brand and win its first customers before launch.",
+        "solucion": "A launch website with flavour and format selector, subscription, waitlist, comparison and FAQ.",
+        "resultado": "Live at better-coffee.vercel.app, also in Spanish."
       },
       "creative-favours": {
         "name": "Creative Favours",
-        "sector": "Kipot y judaica personalizada",
-        "reto": "Llevar a internet todo el catálogo de una marca de kipot y judaica personalizada.",
-        "solucion": "Web a medida con catálogo por categorías, cuentas de cliente y pedidos directos por WhatsApp.",
-        "resultado": "Publicada en creativefavours.vercel.app."
+        "sector": "Personalised kippot and Judaica",
+        "reto": "Take the full catalogue of a personalised kippot and Judaica brand online.",
+        "solucion": "A custom website with a catalogue by category, customer accounts and direct orders via WhatsApp.",
+        "resultado": "Live at creativefavours.vercel.app."
       },
       "perashapp": {
         "name": "Perashapp",
-        "sector": "Estudio de la parashá",
-        "reto": "Ayudar a estudiar la parashá semanal siguiendo la lectura junto al texto.",
-        "solucion": "Herramienta con audio sincronizado palabra por palabra con el texto, con panel para el profesor y vista para el alumno.",
-        "resultado": "En línea en perashapp.com."
+        "sector": "Parasha study",
+        "reto": "Help people study the weekly parasha by following the reading alongside the text.",
+        "solucion": "A tool with audio synced word by word to the text, a teacher dashboard and a student view.",
+        "resultado": "Live at perashapp.com."
       }
     },
     "testimonios": [
@@ -521,19 +521,19 @@
   },
   "sobreNosotros": {
     "eyebrow": "Our story",
-    "title": "More Than an App",
-    "subhead": "We're not just building software. We're building stronger Jewish communities.",
+    "title": "More than software",
+    "subhead": "We build technology with life, so communities, schools and businesses can spend their time on what matters.",
     "paragraphs": [
-      "Two Jews, two different paths, one shared mission. Same problem, wherever we looked: incredible communities running on outdated tools, scattered WhatsApp groups, and hours of unpaid admin work that technology should handle effortlessly.",
-      "So we decided to build it — not another app, but a way to give community leaders their time back. One home for events, memberships, donations, classes, and everything else a kehilá runs on.",
-      "For us, this is how we give back. We're starting community by community, because every kehilá we strengthen is a step toward a stronger Jewish future."
+      "Two Jews, two different paths and one shared idea. Wherever we looked we saw the same thing: extraordinary communities held together by scattered WhatsApp groups, spreadsheets and hours of volunteer work that technology should handle effortlessly.",
+      "That's where we started, with Kehál, the community app that Chabad Barcelona uses today. Along the way, businesses with the same need to get organised and grow called us: a kippah brand, a parasha study tool, a property developer, a coffee brand. And Jewish schools brought us their own challenge.",
+      "Today we work across all three areas with the same approach: listen first, build to measure and stay alongside you after launch. For us it is also a way of giving something back to the community that shaped us."
     ],
     "anchorCaption": "Barcelona · Israel",
     "pullQuote": "Because when communities thrive, Judaism thrives.",
     "foundersHeader": "Meet the Founders",
     "founders": [
       {
-        "name": "Isaac Ayash",
+        "name": "Isaac Ayash Belilty",
         "role": "Business & Law Student — Barcelona, Spain",
         "quote": "I believe technology should remove obstacles, so community leaders can focus on people."
       },
@@ -543,26 +543,26 @@
         "quote": "Building technology with purpose, to strengthen Jewish communities around the world."
       }
     ],
-    "finalLine": "This isn't just a startup. It's our contribution to the future of Jewish communities worldwide."
+    "finalLine": "It isn't just a company. It's our way of contributing to Jewish communities and to anyone who wants to build something with us."
   },
   "idea": {
     "headlineLines": [
-      "Have an idea?",
+      "Got an idea?",
       "Let's build it."
     ],
-    "subhead": "Kehál is our flagship product, but not the only one. We build custom tools for rabbis, Jewish businesses and community leaders with an idea worth making real. That's how Creative Favours and Perashapp started — with a conversation, not a fixed request.",
+    "subhead": "Some of our best projects started with a conversation, not a fixed brief. If you have something that doesn't exist yet, we'd love to think it through with you.",
     "chips": [
-      "A website for your Jewish business",
+      "A website for your business",
+      "An online shop",
       "A study tool, like Perashapp",
-      "A directory for your federation of communities",
-      "An events app just for your yeshiva",
+      "An internal tool for your team",
       "Something that doesn't exist yet"
     ],
     "cta": "Tell us your idea"
   },
   "contacto": {
-    "title": "Shall we talk?",
-    "intro": "No sales pitch. No confusing tech talk. Just us.",
+    "title": "Let's talk",
+    "intro": "No sales pitch and no jargon. Tell us what you're working on and we'll look at it together.",
     "phoneSubtitle": "Choose how you'd rather reach us.",
     "tabForm": "Form",
     "tabWhatsapp": "WhatsApp",
@@ -571,21 +571,21 @@
       "namePlaceholder": "Type your name",
       "email": "Email",
       "emailPlaceholder": "you@email.com",
-      "community": "Organization (optional)",
-      "communityPlaceholder": "Your community or organization",
+      "community": "Community, school or company (optional)",
+      "communityPlaceholder": "Where are you writing from?",
       "message": "How can we help?",
       "messagePlaceholder": "Type your message here…",
       "submit": "Send message",
       "sending": "Sending…",
       "success": "Sent! We'll get back to you soon.",
-      "error": "Something went wrong. Email us at jactive@gmail.com.",
-      "interest": "¿Qué te interesa?",
-      "interestPlaceholder": "Elige una opción",
+      "error": "Something went wrong. Write to us at {email}.",
+      "interest": "What are you interested in?",
+      "interestPlaceholder": "Choose an option",
       "interests": {
-        "comunidad": "Comunidad",
-        "colegio": "Colegio o institución",
-        "empresa": "Empresa",
-        "otra": "Otra cosa"
+        "comunidad": "Community",
+        "colegio": "School or institution",
+        "empresa": "Business",
+        "otra": "Something else"
       }
     },
     "whatsappPanel": {
@@ -595,20 +595,20 @@
     },
     "floatingWhatsapp": {
       "title": "Via WhatsApp",
-      "body": "Response in minutes"
+      "body": "You talk directly to us"
     },
     "floatingSent": {
       "title": "Sent",
-      "body": "We reply within 24h"
+      "body": "We reply personally"
     },
     "channels": {
-      "whatsapp": "Escríbenos directamente",
+      "whatsapp": "Write to us directly",
       "emailLabel": "Email"
     },
-    "orForm": "O déjanos un mensaje aquí y te escribimos nosotros."
+    "orForm": "Or leave us a message here and we'll write back."
   },
   "footer": {
-    "tagline": "Technology with life, for Jewish communities.",
+    "tagline": "Technology with life for communities, schools and businesses.",
     "rights": "© {year} Chai Active. All rights reserved.",
     "legalLinks": {
       "avisoLegal": "Legal Notice",
@@ -616,8 +616,8 @@
       "cookies": "Cookie Policy"
     },
     "location": "Barcelona",
-    "navLabel": "Secciones",
-    "legalLabel": "Información legal"
+    "navLabel": "Sections",
+    "legalLabel": "Legal information"
   },
   "legal": {
     "reviewBanner": "Working draft. This document must be reviewed by a legal professional and completed with Chai Active's real identification details before going live in production.",
@@ -719,7 +719,7 @@
         {
           "heading": "Who will your data be shared with?",
           "paragraphs": [
-            "Data will not be shared with third parties, except where legally required. We may rely on technology providers acting as data processors (for example: a hosting/deployment provider [Vercel], an email/form management tool, or a scheduling tool [Calendly]), who will process data only under THE OWNER's instructions and with the guarantees required by the GDPR (including, where applicable, international transfer clauses if the provider is outside the European Economic Area)."
+            "Data will not be shared with third parties, except where legally required. We may rely on technology providers acting as data processors (for example: a hosting/deployment provider [Vercel], or an email/form management tool [Resend]), who will process data only under THE OWNER's instructions and with the guarantees required by the GDPR (including, where applicable, international transfer clauses if the provider is outside the European Economic Area)."
           ]
         },
         {
@@ -751,7 +751,7 @@
           "paragraphs": [
             "Technical (necessary) cookies: essential for the Website to function correctly (for example, remembering the selected language). These do not require consent.",
             "Analytics cookies [pending confirmation of whether Google Analytics or another tool will be used]: allow us to measure visitor numbers and analyze how users use the Website, in order to improve the content offered. These require prior user consent.",
-            "Third-party cookies [pending confirmation of embedded tools, e.g. Calendly for booking meetings, or a WhatsApp button]: if the Website includes third-party content, those providers may install their own cookies in accordance with their privacy policies."
+            "Third-party cookies: the Website does not include third-party content that installs cookies. The WhatsApp link only opens the WhatsApp app or website when the user clicks it, and from then on WhatsApp's privacy policy applies. [Review if any external tool is added in the future.]"
           ]
         },
         {
@@ -771,631 +771,631 @@
   },
   "comunidades": {
     "meta": {
-      "title": "Kehál, la app para comunidades judías | Chai Active",
-      "description": "Kehál: membresía, calendario hebreo, eventos, mikvé, donativos, servicios de ciclo de vida y Torá en una app con la identidad de tu comunidad. En uso en Jabad Barcelona."
+      "title": "Kehál, the app for Jewish communities | Chai Active",
+      "description": "Kehál: membership, Hebrew calendar, events, mikveh, donations, life-cycle services and Torah in one app with your community's identity. In use at Chabad Barcelona."
     },
     "hero": {
-      "eyebrow": "Para comunidades judías",
-      "title": "La vida de tu comunidad, en una app que lleva su nombre.",
-      "subtitle": "Kehál reúne membresía, calendario hebreo, eventos, mikvé, donativos y Torá en un solo sitio, con los colores, el logo y los idiomas de tu kehilá. Toda la app o solo los módulos que necesitas.",
-      "ctaPrimary": "Ver qué incluye",
-      "ctaSecondary": "Hablemos de tu comunidad",
+      "eyebrow": "For Jewish communities",
+      "title": "Your community's life, in an app that carries its name.",
+      "subtitle": "Kehál brings membership, the Hebrew calendar, events, mikveh, donations and Torah together in one place, with your kehilla's colours, logo and languages. The whole app, or just the modules you need.",
+      "ctaPrimary": "See what's included",
+      "ctaSecondary": "Talk to us about your community",
       "tabs": [
-        "Eventos",
-        "Donativos",
-        "Mikvé"
+        "Events",
+        "Donations",
+        "Mikveh"
       ]
     },
     "modulos": {
-      "title": "Toda la app, o solo lo que necesitas",
-      "intro": "Kehál está hecha por módulos. Podéis empezar con eventos y donativos y añadir el mikvé o el directorio más adelante. Cada módulo funciona por sí solo y todos comparten los mismos miembros.",
+      "title": "The whole app, or just what you need",
+      "intro": "Kehál is built from modules. You can start with events and donations and add the mikveh or the directory later. Each module works on its own and they all share the same members.",
       "items": [
         {
-          "title": "Membresía",
-          "body": "Alta de miembros con verificación de identidad y aprobación manual del equipo. Nadie entra sin que la comunidad lo sepa."
+          "title": "Membership",
+          "body": "Member sign-up with identity verification and manual approval by the team. Nobody joins without the community knowing."
         },
         {
-          "title": "Calendario hebreo",
-          "body": "Fechas hebreas, festividades, parashá de la semana y horarios halájicos de tu ciudad, siempre al día."
+          "title": "Hebrew calendar",
+          "body": "Hebrew dates, holidays, the weekly parasha and halachic times for your city, always up to date."
         },
         {
-          "title": "Eventos con aforo",
-          "body": "Inscripción en un clic, plazas limitadas y lista de asistentes para el equipo, sin hojas de cálculo."
+          "title": "Events with capacity",
+          "body": "One-click sign-up, limited places and an attendee list for the team, no spreadsheets."
         },
         {
-          "title": "Mikvé",
-          "body": "Reserva de citas con discreción y privacidad, y la disponibilidad que marca la comunidad."
+          "title": "Mikveh",
+          "body": "Appointment booking with discretion and privacy, on the schedule the community sets."
         },
         {
-          "title": "Donativos por área",
-          "body": "Cada donativo va al área que elige quien dona: educación, kashrut, ayuda social o lo que defináis."
+          "title": "Donations by area",
+          "body": "Each donation goes to the area the donor chooses: education, kashrut, welfare or whatever you define."
         },
         {
-          "title": "Ciclo de vida",
-          "body": "Solicitudes de Bar y Bat Mitzvá, Brit Milá, bodas y Najalá, con el seguimiento en un solo sitio."
+          "title": "Life cycle",
+          "body": "Requests for Bar and Bat Mitzvah, Brit Milah, weddings and Nachala, tracked in one place."
         },
         {
-          "title": "Torá y shiurim",
-          "body": "Clases, materiales y contenido de Torá para aprender durante la semana."
+          "title": "Torah and shiurim",
+          "body": "Classes, materials and Torah content to learn during the week."
         },
         {
           "title": "Jconnect",
-          "body": "Directorio Jewish Business & Co-Work: los miembros publican su negocio y encuentran con quién colaborar."
+          "body": "Jewish Business & Co-Work directory: members list their business and find people to work with."
         },
         {
-          "title": "Panel de administración",
-          "body": "Miembros, eventos, donativos, reservas y comunicaciones gestionados desde un único panel."
+          "title": "Admin dashboard",
+          "body": "Members, events, donations, bookings and communications managed from a single dashboard."
         }
       ]
     },
     "identidad": {
-      "title": "Con la identidad de tu comunidad",
-      "body": "No es una app genérica con vuestro logo pegado. Elegimos juntos el nombre, los colores, el logo, los idiomas y lo que aparece en la pantalla de inicio, para que cada miembro sienta que la app es de su comunidad.",
-      "nameLabel": "Prueba con el nombre de tu comunidad",
-      "namePlaceholder": "Tu comunidad",
-      "colorLabel": "Color",
-      "langLabel": "Idioma",
-      "sampleLabel": "Vista de ejemplo"
+      "title": "With your community's identity",
+      "body": "It isn't a generic app with your logo stuck on. Together we choose the name, colours, logo, languages and what appears on the home screen, so every member feels the app belongs to their community.",
+      "nameLabel": "Try your community's name",
+      "namePlaceholder": "Your community",
+      "colorLabel": "Colour",
+      "langLabel": "Language",
+      "sampleLabel": "Sample preview"
     },
     "caso": {
-      "eyebrow": "Caso real",
-      "title": "Jabad Barcelona",
-      "body": "Kehál es la web y la app de la comunidad de Jabad Barcelona, en bcnkehila.com. Los miembros entran con su cuenta, quien todavía no lo es solicita acceso y el equipo lo aprueba. Eventos, mikvé, donativos y calendario, en un solo sitio.",
-      "stat": "+250",
-      "statLabel": "miembros en la app, de una comunidad de más de 750",
-      "link": "Visitar bcnkehila.com",
-      "screenshotAlt": "Capturas de la app de Jabad Barcelona"
+      "eyebrow": "Real case",
+      "title": "Chabad Barcelona",
+      "body": "Kehál is the website and app of the Chabad Barcelona community, at bcnkehila.com. Members log in with their account, newcomers request access and the team approves it. Events, mikveh, donations and the calendar, all in one place.",
+      "stat": "250+",
+      "statLabel": "members on the app, out of a community of more than 750",
+      "link": "Visit bcnkehila.com",
+      "screenshotAlt": "Screenshots of the Chabad Barcelona app"
     },
     "cta": {
-      "title": "¿Hablamos de tu comunidad?",
-      "body": "Cuéntanos cómo os organizáis hoy y te enseñamos Kehál con vuestro nombre y vuestros colores.",
-      "button": "Hablemos"
+      "title": "Shall we talk about your community?",
+      "body": "Tell us how you organise things today and we'll show you Kehál with your name and colours.",
+      "button": "Let's talk"
     }
   },
   "colegios": {
     "meta": {
-      "title": "Una app propia para colegios judíos | Chai Active",
-      "description": "Seguimiento académico, comunicación con familias y vida judía integrada en una app con la identidad de tu colegio. Buscamos colegios piloto."
+      "title": "A dedicated app for Jewish schools | Chai Active",
+      "description": "Academic tracking, communication with families and Jewish life built into an app with your school's identity. We are looking for pilot schools."
     },
     "hero": {
-      "eyebrow": "Para colegios judíos",
-      "title": "La vida escolar de un colegio judío, en una sola app con su identidad.",
-      "subtitle": "Diseñamos una app propia para el alumno, el profesorado y las familias: notas, tareas, asistencia y mensajes en un solo sitio, con el calendario hebreo y la vida judía dentro. Estamos en conversaciones con colegios de Barcelona y listos para empezar con colegios piloto.",
-      "ctaPrimary": "Cuéntanos cómo es tu colegio",
-      "ctaSecondary": "Empecemos con un grupo piloto"
+      "eyebrow": "For Jewish schools",
+      "title": "School life at a Jewish school, in one app with its own identity.",
+      "subtitle": "We have designed a dedicated app for students, teachers and families: grades, homework, attendance and messages in one place, with the Hebrew calendar and Jewish life built in. We are in conversations with schools in Barcelona and ready to start with pilot schools.",
+      "ctaPrimary": "Tell us about your school",
+      "ctaSecondary": "Let's start with a pilot group"
     },
     "pilares": {
-      "title": "Tres pilares",
-      "intro": "Lo que hemos aprendido hablando con colegios se resume en tres cosas que una app escolar tiene que hacer bien.",
+      "title": "Three pillars",
+      "intro": "What we have learned from talking with schools comes down to three things a school app has to do well.",
       "items": [
         {
-          "title": "Seguimiento académico continuo",
-          "body": "Notas, tareas y asistencia al día, para que nadie se entere de un problema en la reunión de final de trimestre."
+          "title": "Continuous academic tracking",
+          "body": "Grades, homework and attendance up to date, so nobody discovers a problem at the end-of-term meeting."
         },
         {
-          "title": "Comunicación directa y ordenada",
-          "body": "Mensajes, avisos y autorizaciones en un solo canal, sin depender de correos sueltos ni de grupos de WhatsApp."
+          "title": "Direct, organised communication",
+          "body": "Messages, notices and permission slips in one channel, without relying on stray emails or WhatsApp groups."
         },
         {
-          "title": "Identidad y comunidad",
-          "body": "La app lleva el nombre y los colores del colegio, y la vida judía está dentro, no añadida al final."
+          "title": "Identity and community",
+          "body": "The app carries the school's name and colours, and Jewish life is built in, not bolted on at the end."
         }
       ]
     },
     "perfiles": {
-      "title": "Seis perfiles. Cada uno ve solo lo suyo.",
-      "intro": "Cada persona entra con su cuenta y ve lo que le corresponde. Los roles se pueden combinar: una profesora que también es madre usa una sola cuenta y cambia de vista.",
+      "title": "Six profiles. Each sees only what is theirs.",
+      "intro": "Everyone logs in with their own account and sees what applies to them. Roles can be combined: a teacher who is also a mother uses one account and switches view.",
       "items": [
         {
-          "title": "Alumno",
-          "body": "Su horario, sus tareas, sus notas y los mensajes de sus profesores."
+          "title": "Student",
+          "body": "Their timetable, homework, grades and messages from their teachers."
         },
         {
-          "title": "Familia o tutor legal",
-          "body": "El día a día de cada hijo, avisos, autorizaciones y reuniones."
+          "title": "Family or legal guardian",
+          "body": "Each child's day to day, notices, permission slips and meetings."
         },
         {
-          "title": "Profesor",
-          "body": "Sus grupos, pasar lista, corregir y comunicarse con alumnos y familias."
+          "title": "Teacher",
+          "body": "Their groups, taking the register, marking and talking to students and families."
         },
         {
-          "title": "Tutor o cotutor",
-          "body": "La vista completa de su clase y el seguimiento de cada alumno."
+          "title": "Form tutor or co-tutor",
+          "body": "The full view of their class and the progress of each student."
         },
         {
-          "title": "Coordinación y jefatura de estudios",
-          "body": "Horarios, sustituciones, calendario de exámenes e informes por etapa."
+          "title": "Coordination and head of studies",
+          "body": "Timetables, cover, exam calendar and reports by stage."
         },
         {
-          "title": "Dirección y administración",
-          "body": "Configuración del colegio, permisos, documentos e indicadores generales."
+          "title": "Leadership and administration",
+          "body": "School settings, permissions, documents and overall indicators."
         }
       ],
-      "security": "Mínimo privilegio: nadie ve más de lo que necesita. Y cada acceso a datos de un alumno queda registrado."
+      "security": "Least privilege: nobody sees more than they need. And every access to a student's data is logged."
     },
     "app": {
-      "title": "La app en cinco secciones",
-      "intro": "Una navegación sencilla, con cinco pestañas abajo. Cualquier dato que se consulta a menudo está a dos toques como máximo. Toca las pestañas del móvil para verlo.",
-      "conceptLabel": "Diseño conceptual · datos de ejemplo",
+      "title": "The app in five sections",
+      "intro": "Simple navigation with five tabs at the bottom. Anything people check often is two taps away at most. Tap the tabs on the phone to see it.",
+      "conceptLabel": "Concept design · sample data",
       "tabs": {
-        "inicio": "Inicio",
-        "materias": "Materias",
-        "calendario": "Calendario",
-        "mensajes": "Mensajes",
-        "ficha": "Mi ficha"
+        "inicio": "Home",
+        "materias": "Subjects",
+        "calendario": "Calendar",
+        "mensajes": "Messages",
+        "ficha": "My profile"
       },
       "inicio": {
-        "greeting": "Buenos días, Daniel",
-        "date": "Lunes",
-        "hebrewDate": "10 de Adar",
-        "nextLabel": "Ahora",
-        "next": "Matemáticas · Aula 2.3",
-        "agendaLabel": "Para hoy",
+        "greeting": "Good morning, Daniel",
+        "date": "Monday",
+        "hebrewDate": "10 Adar",
+        "nextLabel": "Now",
+        "next": "Maths · Room 2.3",
+        "agendaLabel": "For today",
         "agenda": [
-          "Entregar ejercicios de Física",
-          "Examen de Historia en 3 días"
+          "Hand in Physics exercises",
+          "History exam in 3 days"
         ],
-        "noticeLabel": "Aviso",
-        "notice": "Salida a la Sinagoga Mayor el jueves. Autorización pendiente de firma."
+        "noticeLabel": "Notice",
+        "notice": "Trip to the Great Synagogue on Thursday. Permission slip awaiting signature."
       },
       "materias": {
         "items": [
           {
-            "name": "Matemáticas",
-            "grade": "7,8",
+            "name": "Maths",
+            "grade": "7.8",
             "status": "Provisional"
           },
           {
-            "name": "Lengua castellana",
-            "grade": "8,2",
-            "status": "Oficial"
+            "name": "Spanish language",
+            "grade": "8.2",
+            "status": "Official"
           },
           {
-            "name": "Física y Química",
-            "grade": "6,9",
+            "name": "Physics and Chemistry",
+            "grade": "6.9",
             "status": "Provisional"
           },
           {
-            "name": "Hebreo",
-            "grade": "9,1",
-            "status": "Oficial"
+            "name": "Hebrew",
+            "grade": "9.1",
+            "status": "Official"
           },
           {
-            "name": "Estudios judaicos",
-            "grade": "8,5",
-            "status": "Oficial"
+            "name": "Jewish studies",
+            "grade": "8.5",
+            "status": "Official"
           }
         ]
       },
       "calendario": {
-        "week": "Esta semana",
+        "week": "This week",
         "days": [
           {
-            "day": "Lun",
-            "event": "Entrega de Física"
+            "day": "Mon",
+            "event": "Physics hand-in"
           },
           {
-            "day": "Mar",
+            "day": "Tue",
             "event": ""
           },
           {
-            "day": "Mié",
-            "event": "Examen de Historia"
+            "day": "Wed",
+            "event": "History exam"
           },
           {
-            "day": "Jue",
-            "event": "Ayuno de Ester"
+            "day": "Thu",
+            "event": "Fast of Esther"
           },
           {
-            "day": "Vie",
-            "event": "Purim: horario especial"
+            "day": "Fri",
+            "event": "Purim: special timetable"
           }
         ],
-        "shabat": "Encendido de Shabat en Barcelona: hora calculada por la app"
+        "shabat": "Shabbat candle lighting in Barcelona: time calculated by the app"
       },
       "mensajes": {
         "items": [
           {
-            "from": "Tutora de 1.º de Bachillerato",
-            "text": "Recordad la reunión de familias del jueves.",
-            "meta": "Leído por 2 de 2"
+            "from": "Year 12 form tutor",
+            "text": "Remember the parents' meeting on Thursday.",
+            "meta": "Read by 2 of 2"
           },
           {
-            "from": "Coordinación",
-            "text": "Cambio de aula: Química pasa al laboratorio.",
-            "meta": "Urgente"
+            "from": "Coordination",
+            "text": "Room change: Chemistry moves to the lab.",
+            "meta": "Urgent"
           },
           {
-            "from": "Profesor de Hebreo",
-            "text": "Muy buen trabajo en la redacción.",
-            "meta": "Ayer"
+            "from": "Hebrew teacher",
+            "text": "Very good work on the essay.",
+            "meta": "Yesterday"
           }
         ]
       },
       "ficha": {
         "name": "Daniel",
-        "course": "1.º de Bachillerato · Ciencias",
+        "course": "Year 12 · Sciences",
         "rows": [
-          "Datos personales y contactos",
-          "Documentos del curso",
-          "Asistencia del trimestre",
-          "Itinerario y optativas"
+          "Personal details and contacts",
+          "Course documents",
+          "Attendance this term",
+          "Pathway and electives"
         ]
       },
       "tabsInfo": {
-        "inicio": "lo que toca hoy, avisos y pendientes",
-        "materias": "notas, tareas y evolución por materia",
-        "calendario": "horario, exámenes y fechas hebreas",
-        "mensajes": "profesores, tutores y avisos del colegio",
-        "ficha": "datos, documentos y asistencia"
+        "inicio": "what's on today, notices and to-dos",
+        "materias": "grades, homework and progress by subject",
+        "calendario": "timetable, exams and Hebrew dates",
+        "mensajes": "teachers, tutors and school notices",
+        "ficha": "details, documents and attendance"
       }
     },
     "modulos": {
-      "title": "Todo lo que pasa en un curso",
-      "intro": "Módulos pensados para el día a día de un colegio. El colegio decide cuáles activa.",
+      "title": "Everything that happens in a school year",
+      "intro": "Modules designed for a school's day to day. The school decides which ones to switch on.",
       "items": [
         {
-          "title": "Tareas y entregas",
+          "title": "Homework and hand-ins",
           "points": [
-            "Entregas con foto desde el móvil",
-            "Rúbricas visibles antes de empezar",
-            "Trabajos en grupo",
-            "Autoevaluación del alumno"
+            "Hand in with a photo from the phone",
+            "Rubrics visible before starting",
+            "Group projects",
+            "Student self-assessment"
           ]
         },
         {
-          "title": "Notas y boletines",
+          "title": "Grades and reports",
           "points": [
-            "Nota provisional y nota oficial, bien separadas",
-            "Evolución por materia a lo largo del curso",
-            "Boletines generados desde la propia app"
+            "Provisional and official grades, clearly separated",
+            "Progress by subject across the year",
+            "Reports generated from the app itself"
           ]
         },
         {
-          "title": "Asistencia",
+          "title": "Attendance",
           "points": [
-            "Pasar lista en segundos",
-            "Justificar faltas desde la app",
-            "Alertas al tutor cuando algo se repite"
+            "Take the register in seconds",
+            "Justify absences from the app",
+            "Alerts to the tutor when something repeats"
           ]
         },
         {
-          "title": "Horario y calendario",
+          "title": "Timetable and calendar",
           "points": [
-            "Cambios y sustituciones al instante",
-            "Aviso cuando se solapan exámenes",
-            "Sincronización con Google, Apple y Outlook"
+            "Changes and cover in real time",
+            "Warning when exams overlap",
+            "Sync with Google, Apple and Outlook"
           ]
         },
         {
-          "title": "Comunicación",
+          "title": "Communication",
           "points": [
-            "Mensajes con historial",
-            "Avisos con niveles de urgencia",
-            "Confirmación de lectura",
-            "Autorizaciones firmadas desde la app"
+            "Messages with history",
+            "Notices with urgency levels",
+            "Read receipts",
+            "Permission slips signed in the app"
           ]
         },
         {
-          "title": "Ficha del alumno y documentos",
+          "title": "Student record and documents",
           "points": [
-            "Datos, contactos y documentos en un solo sitio",
-            "Acceso según el perfil de cada persona"
+            "Details, contacts and documents in one place",
+            "Access according to each person's profile"
           ]
         },
         {
-          "title": "Espacio de familias",
+          "title": "Family space",
           "points": [
-            "Varios hijos en una misma cuenta",
-            "Reuniones con reserva de franja",
-            "Todo lo que necesitan firmar o saber"
+            "Several children in one account",
+            "Meetings with slot booking",
+            "Everything they need to sign or know"
           ]
         }
       ]
     },
     "capaJudia": {
-      "eyebrow": "El diferencial",
-      "title": "La vida judía, dentro de la app",
-      "intro": "Esto es lo que una plataforma escolar genérica no puede darte. El calendario judío no es un añadido: organiza el curso.",
+      "eyebrow": "What makes it different",
+      "title": "Jewish life, inside the app",
+      "intro": "This is what a generic school platform cannot give you. The Jewish calendar is not an add-on: it shapes the school year.",
       "items": [
         {
-          "title": "Calendario hebreo",
-          "body": "Doble fecha, gregoriana y hebrea, en toda la app."
+          "title": "Hebrew calendar",
+          "body": "Dual dates, Gregorian and Hebrew, throughout the app."
         },
         {
-          "title": "Festividades en el calendario lectivo",
-          "body": "Las festividades ajustan el calendario del curso solas, sin rehacerlo a mano cada año."
+          "title": "Holidays in the school calendar",
+          "body": "Holidays adjust the school calendar automatically, without redoing it by hand every year."
         },
         {
-          "title": "Horarios de Shabat para Barcelona",
-          "body": "Encendido y salida de Shabat calculados para la ciudad."
+          "title": "Shabbat times for Barcelona",
+          "body": "Candle lighting and the end of Shabbat calculated for the city."
         },
         {
-          "title": "Avisos de Shabat y festividades",
-          "body": "Si alguien programa un examen o una entrega en Shabat o en una festividad, la app avisa antes de guardarlo."
+          "title": "Shabbat and holiday warnings",
+          "body": "If someone schedules an exam or a hand-in on Shabbat or a holiday, the app warns them before saving."
         },
         {
-          "title": "Modo Shabat",
-          "body": "Silencio de notificaciones opcional durante Shabat y un resumen al terminar."
+          "title": "Shabbat mode",
+          "body": "Optional silencing of notifications during Shabbat and a summary afterwards."
         },
         {
-          "title": "Estudios judaicos y hebreo",
-          "body": "Escritura de derecha a izquierda real y nikud en tareas, apuntes y exámenes."
+          "title": "Jewish studies and Hebrew",
+          "body": "Real right-to-left writing and nikud in homework, notes and exams."
         },
         {
-          "title": "Comedor con kashrut",
-          "body": "El menú del comedor con su información de kashrut."
+          "title": "Kosher canteen",
+          "body": "The canteen menu with its kashrut information."
         },
         {
-          "title": "Tzedaká y voluntariado",
-          "body": "Campañas de tzedaká y registro de horas de voluntariado."
+          "title": "Tzedakah and volunteering",
+          "body": "Tzedakah campaigns and a log of volunteering hours."
         },
         {
-          "title": "Agenda de la comunidad",
-          "body": "La agenda de la comunidad judía de Barcelona, junto a la del colegio."
+          "title": "Community calendar",
+          "body": "The Barcelona Jewish community's calendar alongside the school's."
         },
         {
-          "title": "Cuatro idiomas",
-          "body": "Español, catalán, inglés y hebreo."
+          "title": "Four languages",
+          "body": "Spanish, Catalan, English and Hebrew."
         }
       ],
-      "note": "Todo es configurable por el colegio y opcional para cada usuario. En un mismo colegio conviven familias con distintos grados de observancia, y la app lo respeta."
+      "note": "Everything can be configured by the school and is optional for each user. Families with different levels of observance share the same school, and the app respects that."
     },
     "bachillerato": {
-      "title": "Pensado para bachillerato",
-      "label": "En el diseño",
+      "title": "Designed for the final two years (Bachillerato)",
+      "label": "In the design",
       "items": [
         {
-          "title": "Itinerarios y optativas",
-          "body": "Elección de modalidad y optativas con la información clara para alumno y familia."
+          "title": "Pathways and electives",
+          "body": "Choosing a track and electives with clear information for students and families."
         },
         {
-          "title": "Trabajo de investigación",
-          "body": "Seguimiento por etapas, con fechas, entregas parciales y comentarios del tutor."
+          "title": "Research project",
+          "body": "Tracked in stages, with dates, partial hand-ins and tutor feedback."
         },
         {
-          "title": "Preparación de la PAU",
-          "body": "Calendario, materiales y simulacros organizados por materia."
+          "title": "University entrance exam prep (PAU)",
+          "body": "Calendar, materials and mock exams organised by subject."
         },
         {
-          "title": "Orientación universitaria",
-          "body": "Información sobre grados y universidades, incluida la opción de estudiar en Israel."
+          "title": "University guidance",
+          "body": "Information on degrees and universities, including the option of studying in Israel."
         }
       ]
     },
     "profesorado": {
-      "title": "Para profesorado y dirección",
-      "intro": "Si el profesorado no ahorra tiempo, la app no sirve. Por eso el panel del profesor es lo primero que diseñamos.",
+      "title": "For teachers and leadership",
+      "intro": "If teachers don't save time, the app is useless. That's why the teacher dashboard is the first thing we designed.",
       "items": [
         {
-          "title": "Panel del profesor",
-          "body": "Sus grupos, lo pendiente de corregir y lo que pasa hoy, en una pantalla."
+          "title": "Teacher dashboard",
+          "body": "Their groups, what needs marking and what's happening today, on one screen."
         },
         {
-          "title": "Corrección ágil",
-          "body": "Corregir, comentar y poner nota sin cambiar de pantalla."
+          "title": "Fast marking",
+          "body": "Mark, comment and grade without switching screens."
         },
         {
-          "title": "Plantillas",
-          "body": "Tareas, rúbricas y avisos reutilizables de un curso a otro."
+          "title": "Templates",
+          "body": "Reusable homework, rubrics and notices from one year to the next."
         },
         {
-          "title": "Vista de clase del tutor",
-          "body": "Notas, asistencia y observaciones de toda la clase de un vistazo."
+          "title": "Tutor's class view",
+          "body": "Grades, attendance and notes for the whole class at a glance."
         },
         {
-          "title": "Detección de alumnos en riesgo",
-          "body": "Señales tempranas cuando se acumulan faltas, entregas o notas bajas."
+          "title": "Spotting students at risk",
+          "body": "Early signals when absences, missed hand-ins or low grades pile up."
         },
         {
-          "title": "Constructor de horarios",
-          "body": "Horarios, aulas y sustituciones con avisos de conflicto."
+          "title": "Timetable builder",
+          "body": "Timetables, rooms and cover with conflict warnings."
         },
         {
-          "title": "Informes exportables",
-          "body": "Informes por alumno, clase o etapa, listos para descargar."
+          "title": "Exportable reports",
+          "body": "Reports by student, class or stage, ready to download."
         },
         {
-          "title": "Importación masiva",
-          "body": "Alumnos, grupos y profesorado importados desde una hoja de cálculo."
+          "title": "Bulk import",
+          "body": "Students, groups and staff imported from a spreadsheet."
         }
       ]
     },
     "privacidad": {
-      "title": "Privacidad y seguridad",
-      "intro": "Hablamos de datos de menores. Esto es lo que nos comprometemos a hacer, por escrito, antes de empezar.",
+      "title": "Privacy and security",
+      "intro": "We are talking about children's data. This is what we commit to, in writing, before we start.",
       "items": [
         {
-          "title": "Los datos son del colegio",
-          "body": "El colegio es el responsable del tratamiento. Nosotros solo tratamos los datos siguiendo sus instrucciones."
+          "title": "The data belongs to the school",
+          "body": "The school is the data controller. We only process data on its instructions."
         },
         {
-          "title": "RGPD y LOPDGDD",
-          "body": "Diseñado para cumplir el Reglamento General de Protección de Datos y la ley española."
+          "title": "GDPR and LOPDGDD",
+          "body": "Designed to comply with the General Data Protection Regulation and Spanish law."
         },
         {
-          "title": "Alojamiento en la UE",
-          "body": "Los datos se guardan en servidores dentro de la Unión Europea."
+          "title": "Hosted in the EU",
+          "body": "Data is stored on servers inside the European Union."
         },
         {
-          "title": "Cifrado",
-          "body": "Información cifrada en tránsito y en reposo."
+          "title": "Encryption",
+          "body": "Information encrypted in transit and at rest."
         },
         {
-          "title": "Verificación en dos pasos",
-          "body": "Obligatoria para profesorado y administración."
+          "title": "Two-step verification",
+          "body": "Mandatory for teachers and administration."
         },
         {
-          "title": "Datos sensibles separados",
-          "body": "La información más delicada se guarda aparte y con acceso más restringido."
+          "title": "Sensitive data kept separate",
+          "body": "The most delicate information is stored apart, with more restricted access."
         },
         {
-          "title": "Evaluación de impacto",
-          "body": "Antes del lanzamiento, por tratarse de datos de menores."
+          "title": "Impact assessment",
+          "body": "Before launch, because it involves children's data."
         },
         {
-          "title": "Sin publicidad ni entrenamiento de modelos",
-          "body": "Los datos no se usan para publicidad ni para entrenar modelos de inteligencia artificial."
+          "title": "No advertising or model training",
+          "body": "The data is not used for advertising or to train artificial intelligence models."
         },
         {
-          "title": "Exportación libre",
-          "body": "El colegio puede exportar todos sus datos cuando quiera."
+          "title": "Free export",
+          "body": "The school can export all its data whenever it wants."
         }
       ]
     },
     "futuro": {
-      "title": "Hacia dónde puede crecer",
-      "intro": "Ampliaciones que hemos pensado para más adelante. No forman parte del primer piloto.",
+      "title": "Where it could grow",
+      "intro": "Extensions we have in mind for later. They are not part of the first pilot.",
       "items": [
-        "Asistente de estudio con IA, bajo control del colegio",
-        "Red de exalumnos",
-        "Carnet digital con código QR",
-        "Extensión a infantil, primaria y ESO",
-        "Pagos",
-        "Firma electrónica"
+        "AI study assistant, under the school's control",
+        "Alumni network",
+        "Digital ID card with QR code",
+        "Extension to nursery, primary and lower secondary",
+        "Payments",
+        "Electronic signature"
       ]
     },
     "empezamos": {
-      "title": "Cómo empezamos",
-      "intro": "Sin cambiarlo todo de golpe. Empezamos pequeño, aprendemos con vosotros y crecemos cuando funciona.",
+      "title": "How we start",
+      "intro": "No changing everything at once. We start small, learn with you and grow once it works.",
       "steps": [
         {
-          "title": "Reunión con la dirección",
-          "body": "Entendemos cómo funciona vuestro colegio y qué os quita más tiempo."
+          "title": "Meeting with leadership",
+          "body": "We understand how your school works and what takes up most of your time."
         },
         {
-          "title": "Piloto con un primer curso",
-          "body": "Arrancamos con un curso o una etapa concreta."
+          "title": "Pilot with one year group",
+          "body": "We start with one year group or a specific stage."
         },
         {
-          "title": "Formación breve del profesorado",
-          "body": "Sesiones cortas y prácticas, sin manuales eternos."
+          "title": "Short teacher training",
+          "body": "Short, practical sessions, no endless manuals."
         },
         {
-          "title": "Soporte durante el primer año",
-          "body": "Estamos cerca para resolver dudas y ajustar lo que haga falta."
+          "title": "Support during the first year",
+          "body": "We stay close to answer questions and adjust whatever is needed."
         },
         {
-          "title": "Ampliación a todo el colegio",
-          "body": "Cuando el piloto funciona, lo extendemos al resto de cursos."
+          "title": "Rollout to the whole school",
+          "body": "Once the pilot works, we extend it to the other year groups."
         }
       ]
     },
     "cta": {
-      "title": "Cuéntanos cómo es tu colegio",
-      "body": "Estamos en conversaciones con colegios de Barcelona y buscamos colegios piloto. Si os interesa, hablemos.",
-      "primary": "Cuéntanos cómo es tu colegio",
-      "secondary": "Empecemos con un grupo piloto"
+      "title": "Tell us about your school",
+      "body": "We are in conversations with schools in Barcelona and are looking for pilot schools. If you're interested, let's talk.",
+      "primary": "Tell us about your school",
+      "secondary": "Let's start with a pilot group"
     }
   },
   "empresas": {
     "meta": {
-      "title": "Webs, e-commerce y apps a medida para empresas | Chai Active",
-      "description": "Transformación digital a medida desde Barcelona: webs corporativas, tiendas online, landings de lanzamiento, apps y herramientas internas. Multilingüe y con SEO."
+      "title": "Custom websites, e-commerce and apps for business | Chai Active",
+      "description": "Custom digital transformation from Barcelona: corporate websites, online shops, launch pages, apps and internal tools. Multilingual and SEO-ready."
     },
     "hero": {
-      "eyebrow": "Para empresas",
-      "title": "Tu negocio, con una presencia digital que se parezca a él.",
-      "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
-      "ctaPrimary": "Cuéntanos tu proyecto",
-      "ctaSecondary": "Ver proyectos"
+      "eyebrow": "For business",
+      "title": "Your business, with a digital presence that looks like it.",
+      "subtitle": "Websites, online shops, apps and internal tools built to measure, no templates. For a property developer, a coffee brand or a kippah shop: we listen to how you work and build it with you.",
+      "ctaPrimary": "Tell us about your project",
+      "ctaSecondary": "See projects"
     },
     "servicios": {
-      "title": "Lo que hacemos para empresas",
-      "intro": "Cada proyecto empieza por entender tu negocio. Después elegimos la herramienta que tiene sentido, no la que está de moda.",
+      "title": "What we do for businesses",
+      "intro": "Every project starts by understanding your business. Then we choose the tool that makes sense, not the one that's in fashion.",
       "items": [
         {
-          "title": "Web corporativa",
-          "body": "Una web que explica bien qué haces y transmite quién eres, fácil de actualizar."
+          "title": "Corporate website",
+          "body": "A website that clearly explains what you do and conveys who you are, easy to update."
         },
         {
           "title": "E-commerce",
-          "body": "Tienda online a medida con catálogo, carrito, cuentas de cliente y pagos."
+          "body": "A custom online shop with catalogue, cart, customer accounts and payments."
         },
         {
-          "title": "Landing de lanzamiento",
-          "body": "Una página para presentar un producto nuevo y reunir una lista de espera antes de salir."
+          "title": "Launch page",
+          "body": "A page to present a new product and build a waitlist before you go live."
         },
         {
-          "title": "Apps y herramientas a medida",
-          "body": "Aplicaciones y herramientas internas para lo que hoy hacéis con hojas de cálculo."
+          "title": "Custom apps and tools",
+          "body": "Applications and internal tools for what you do in spreadsheets today."
         },
         {
-          "title": "Formularios y flujos de contacto",
-          "body": "Formularios por pasos que llevan cada contacto al canal adecuado: email, llamada o WhatsApp."
+          "title": "Forms and contact flows",
+          "body": "Step-by-step forms that send each lead to the right channel: email, phone call or WhatsApp."
         },
         {
-          "title": "Multilingüe",
-          "body": "Tu web en los idiomas de tus clientes, incluido el hebreo con escritura de derecha a izquierda."
+          "title": "Multilingual",
+          "body": "Your website in your customers' languages, including Hebrew with right-to-left text."
         },
         {
           "title": "SEO",
-          "body": "Estructura, velocidad y contenidos pensados para que te encuentren en Google."
+          "body": "Structure, speed and content designed so people find you on Google."
         }
       ]
     },
     "sectores": {
-      "title": "Sectores con los que trabajamos",
+      "title": "Sectors we work with",
       "items": [
-        "Promotora inmobiliaria",
-        "Marca de alimentación y bebida",
-        "Notaría",
-        "Marca de judaica",
-        "Tienda online"
+        "Property developer",
+        "Food and drink brand",
+        "Notary office",
+        "Judaica brand",
+        "Online shop"
       ]
     },
     "proceso": {
-      "title": "Cómo trabajamos",
+      "title": "How we work",
       "steps": [
         {
-          "title": "Conversación",
-          "body": "Nos cuentas tu negocio, tus clientes y qué quieres conseguir. Sin compromiso."
+          "title": "Conversation",
+          "body": "You tell us about your business, your customers and what you want to achieve. No commitment."
         },
         {
-          "title": "Diseño",
-          "body": "Te enseñamos cómo se verá antes de escribir una línea de código."
+          "title": "Design",
+          "body": "We show you how it will look before writing a line of code."
         },
         {
-          "title": "Desarrollo",
-          "body": "Lo construimos y lo vas viendo avanzar, con versiones que puedes probar."
+          "title": "Development",
+          "body": "We build it and you watch it progress, with versions you can try."
         },
         {
-          "title": "Lanzamiento y soporte",
-          "body": "Lo publicamos y seguimos a tu lado para ajustes, mejoras y dudas."
+          "title": "Launch and support",
+          "body": "We publish it and stay with you for tweaks, improvements and questions."
         }
       ]
     },
     "casos": {
-      "title": "Algunos proyectos",
-      "intro": "Empresas y marcas para las que hemos construido su presencia digital."
+      "title": "Some projects",
+      "intro": "Companies and brands whose digital presence we have built."
     },
     "cta": {
-      "title": "¿Tienes un proyecto en mente?",
-      "body": "Cuéntanoslo con tus palabras. Te respondemos nosotros, no un formulario automático.",
-      "button": "Hablemos"
+      "title": "Got a project in mind?",
+      "body": "Tell us in your own words. You'll hear back from us, not from an automated form.",
+      "button": "Let's talk"
     }
   },
   "queHacemos": {
-    "title": "Qué hacemos",
-    "intro": "Chai significa vida en hebreo. Creemos que la buena tecnología apenas se nota: quita trabajo, ordena lo que estaba disperso y deja más tiempo para las personas. Trabajamos en tres líneas, con el mismo cuidado en las tres.",
+    "title": "What we do",
+    "intro": "Chai means life in Hebrew. We believe good technology barely shows: it removes work, brings order to what was scattered and leaves more time for people. We work in three areas, with the same care in all three.",
     "lines": {
       "comunidades": {
-        "label": "Comunidades judías",
-        "title": "Una app para la vida de tu comunidad",
-        "body": "Damos a cada comunidad su propia app. Los miembros se inscriben a eventos, reservan el mikvé, donan y consultan los horarios de Shabat; el equipo lo gestiona todo desde un panel, en lugar de cinco grupos de WhatsApp y una hoja de cálculo.",
-        "cta": "Descubrir Kehál"
+        "label": "Jewish communities",
+        "title": "An app for the life of your community",
+        "body": "We give each community its own app. Members sign up for events, book the mikveh, donate and check Shabbat times; the team runs everything from one dashboard instead of five WhatsApp groups and a spreadsheet.",
+        "cta": "Discover Kehál"
       },
       "colegios": {
-        "label": "Colegios judíos",
-        "title": "La app escolar con la identidad de tu colegio",
-        "body": "Diseñamos una app para colegios judíos con notas, tareas, asistencia y mensajes con las familias, y con el calendario hebreo, el modo Shabat y los estudios judaicos dentro. Cada perfil ve solo lo suyo.",
-        "cta": "Ver la propuesta para colegios"
+        "label": "Jewish schools",
+        "title": "The school app with your school's identity",
+        "body": "We have designed an app for Jewish schools with grades, homework, attendance and messages with families, and with the Hebrew calendar, Shabbat mode and Jewish studies built in. Each profile sees only what is theirs.",
+        "cta": "See the proposal for schools"
       },
       "empresas": {
-        "label": "Empresas",
-        "title": "Transformación digital a medida",
-        "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
-        "cta": "Ver servicios para empresas"
+        "label": "Business",
+        "title": "Custom digital transformation",
+        "body": "We build corporate websites, online shops, launch pages with waitlists and internal tools for businesses in any sector. Just as much for a property developer as for a canned coffee brand.",
+        "cta": "See services for business"
       }
     }
   }

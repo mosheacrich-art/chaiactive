@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
+import { useReducedMotion } from "framer-motion";
 import HeroVisual from "@/components/HeroVisual";
 import PageHero from "@/components/layout/PageHero";
 import { ContactLink, buttonPrimary } from "@/components/layout/Buttons";
@@ -14,12 +15,13 @@ export default function ComunidadesHero() {
   const tabs = t.raw("tabs") as string[];
   const [index, setIndex] = useState(0);
   const [paused, setPaused] = useState(false);
+  const reduceMotion = useReducedMotion();
 
   useEffect(() => {
-    if (paused) return;
+    if (paused || reduceMotion) return;
     const id = setTimeout(() => setIndex((i) => (i + 1) % tabs.length), AUTO_ADVANCE_MS);
     return () => clearTimeout(id);
-  }, [paused, index, tabs.length]);
+  }, [paused, reduceMotion, index, tabs.length]);
 
   return (
     <PageHero

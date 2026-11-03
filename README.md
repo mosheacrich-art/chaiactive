@@ -1,54 +1,100 @@
-# Chai Active — web corporativa
+# Chai Active: web corporativa
 
-Landing page corporativa de Chai Active (Barcelona), presentando Kehál Platform y el resto de proyectos de la empresa. Next.js 16 (App Router) + Tailwind CSS v4 + next-intl.
+Web de Chai Active (Barcelona), empresa de tecnología con raíces judías que trabaja en tres líneas: **comunidades** (Kehál), **colegios** (app escolar en diseño, buscamos pilotos) y **empresas** (transformación digital a medida).
+
+Next.js 16 (App Router) · Tailwind CSS v4 · next-intl (es/en/he/fr, RTL) · Framer Motion · Resend · Vercel.
 
 ## Empezar
 
 ```bash
 npm install
+cp .env.example .env.local   # y rellena las variables
 npm run dev
 ```
 
-Abre [http://localhost:3000](http://localhost:3000). El castellano es el idioma por defecto y vive en `/`; el resto de idiomas en `/en`, `/he`, `/fr`.
+Abre [http://localhost:3000](http://localhost:3000). El castellano es el idioma por defecto y vive sin prefijo; el resto en `/en`, `/he`, `/fr`.
 
-## Internacionalización
+## Rutas
 
-- `es` (por defecto, sin prefijo), `en`, `he` (RTL), `fr` — gestionado con [next-intl](https://next-intl.dev).
-- Contenido en `messages/{locale}.json`. El castellano está completo y revisado; `en`/`fr`/`he` son traducciones de borrador (`meta.needsReview: true` en cada JSON) — se muestra un aviso automático en las páginas legales, y debe revisarse todo el copy antes de publicar en producción.
-- El hebreo fuerza `dir="rtl"` en `<html>` (ver `app/[locale]/layout.tsx` e `i18n/routing.ts`) y usa una tipografía serif distinta (Frank Ruhl Libre) para los titulares, ya que Playfair Display no soporta glifos hebreos.
+| Ruta interna | es | en | fr | he |
+| --- | --- | --- | --- | --- |
+| `/` | `/` | `/en` | `/fr` | `/he` |
+| `/comunidades` | `/comunidades` | `/en/communities` | `/fr/communautes` | `/he/comunidades` |
+| `/colegios` | `/colegios` | `/en/schools` | `/fr/ecoles` | `/he/colegios` |
+| `/empresas` | `/empresas` | `/en/business` | `/fr/entreprises` | `/he/empresas` |
+| `/aviso-legal`, `/privacidad`, `/cookies` | igual en todos los idiomas, con su prefijo | | | |
 
-## Decisiones tomadas por defecto (documentadas, no preguntadas una a una)
+Los slugs están en `i18n/routing.ts` (`pathnames`). El hebreo usa los slugs en castellano a propósito: las URLs con caracteres hebreos se vuelven ilegibles al compartirlas.
 
-- **Email del formulario de contacto: [Resend](https://resend.com)** — mismo proveedor que ya usa Creative Favours en este ecosistema. Configura `RESEND_API_KEY` en `.env.local` (ver `.env.example`). Sin esa variable, el formulario responde con error controlado en vez de fallar en silencio.
-- El remitente usa `onboarding@resend.dev` (dominio de pruebas de Resend) porque `chaiactive.com` todavía no está registrado ni verificado en Resend. Cuando haya dominio propio, cambia el `from` en `app/api/contact/route.ts` y verifica el dominio en Resend.
-- Capturas de pantalla de Kehál en `public/images/app/` son reales (Jabad Barcelona), no maquetas. Se muestran en un frame de navegador (no de móvil) porque los originales son capturas de escritorio — un mockup de móvil las habría distorsionado.
-
-## Pendiente antes de producción
-
-- **Dominio**: `chaiactive.com` — pendiente de registrar. Desplegado de momento en un subdominio de Vercel.
-- **Logo**: no hay logo definitivo — el header usa el nombre "Chai Active" en tipografía serif como placeholder.
-- **Calendly**: enlace placeholder en `components/Contacto.tsx` (`CALENDLY_URL`) — sustituir por el real.
-- **WhatsApp**: número placeholder en `components/Contacto.tsx` (`WHATSAPP_URL`) — sustituir por el real.
-- **Email de contacto**: `jactive@gmail.com` en uso; migrar a `contacto@chaiactive.com` cuando exista el dominio (hay que actualizarlo en `messages/*.json` y en `CONTACT_TO_EMAIL`).
-- **Textos legales** (`messages/*.json` → `legal`): son un borrador de trabajo con placeholders `[...]` (NIF/CIF, domicilio, forma jurídica). Deben revisarse por un abogado/gestoría antes de publicar — hay un aviso visible en las tres páginas legales que lo recuerda.
-- **Capturas de Creative Favours y Perashapp**: la sección de casos de éxito no tiene imágenes propias todavía (solo texto) — añadir cuando estén disponibles.
-- Traducciones EN/FR/HE: borrador, pendiente de revisión humana.
-- Analítica (GA/Meta Pixel): no se ha añadido, tal y como se pidió.
-
-## Variables de entorno
-
-Copia `.env.example` a `.env.local` y rellena:
-
-```
-RESEND_API_KEY=
-CONTACT_TO_EMAIL=jactive@gmail.com
-```
+`/sitemap.xml` y `/robots.txt` se generan desde `app/sitemap.ts` y `app/robots.ts`.
 
 ## Estructura
 
-- `app/[locale]/` — páginas (home + `aviso-legal`, `privacidad`, `cookies`)
-- `app/api/contact/` — endpoint del formulario de contacto (Resend)
-- `components/` — una sección de la landing por componente
-- `messages/` — contenido por idioma
-- `i18n/` — configuración de next-intl (routing, navigation, request config)
-- `proxy.ts` — middleware de enrutado de idioma (renombrado de `middleware.ts` a `proxy.ts` por el cambio de convención en Next.js 16)
+- `app/[locale]/`: páginas (home, `comunidades`, `colegios`, `empresas` y las tres legales)
+- `app/api/contact/`: endpoint del formulario (Resend)
+- `components/layout/`: marco común (`PageShell`, `PageHero`, `CtaBand`, botones)
+- `components/home/`, `comunidades/`, `colegios/`, `empresas/`: secciones de cada página
+- `components/casos/`: casos de éxito (`data.ts`) y testimonios
+- `lib/contact.ts`: canales de contacto y opciones de "¿Qué te interesa?"
+- `lib/seo.ts`: metadata por página (canonical, hreflang, Open Graph)
+- `messages/{locale}.json`: todos los textos
+- `proxy.ts`: enrutado de idioma de next-intl y redirección 308 de `*.vercel.app` (solo producción) a `chaiactive.com`. En Next.js 16 `middleware.ts` pasa a llamarse `proxy.ts`.
+
+## Variables de entorno
+
+| Variable | Para qué |
+| --- | --- |
+| `RESEND_API_KEY` | Envío del formulario. Sin ella, el formulario responde con un error controlado. |
+| `CONTACT_TO_EMAIL` | Bandeja que recibe los mensajes. Por defecto `jactive@gmail.com`. |
+| `RESEND_FROM` | Remitente. Vacío = `onboarding@resend.dev` (pruebas de Resend). |
+| `NEXT_PUBLIC_WHATSAPP_URL` | Enlace `https://wa.me/34…`. Vacío = no se muestra WhatsApp en la web. |
+| `NEXT_PUBLIC_CONTACT_EMAIL` | Email público visible en la web. |
+| `NEXT_PUBLIC_SITE_URL` | URL canónica. Por defecto `https://www.chaiactive.com`. |
+
+Las `NEXT_PUBLIC_*` se incrustan al compilar: tras cambiarlas en Vercel hay que volver a desplegar.
+
+### Resend: verificar el dominio
+
+Hoy el remitente es `onboarding@resend.dev`, que solo entrega a la cuenta dueña de Resend. Para enviar como `@chaiactive.com`:
+
+1. En Resend → Domains, añade `chaiactive.com` y crea en el DNS los registros que indique (SPF, DKIM y, opcional, DMARC).
+2. Cuando aparezca como *Verified*, define en Vercel `RESEND_FROM="Chai Active <hola@chaiactive.com>"` y vuelve a desplegar.
+
+## Formulario de contacto
+
+El selector "¿Qué te interesa?" (Comunidad / Colegio / Empresa / Otra cosa) llega en el asunto y el cuerpo del email. Se preselecciona:
+
+- en cada página según su línea (`PageShell interest="colegio"`),
+- al pulsar cualquier botón `ContactLink` con `interest`,
+- con `?interes=colegio` en la URL.
+
+## Cómo añadir un caso de éxito
+
+1. Añade la entrada en `components/casos/data.ts` (`slug`, `url`, `line`, `logo` opcional, `screenshots`).
+2. Añade `casos.items.<slug>` con `name`, `sector`, `reto`, `solucion`, `resultado` en los cuatro `messages/*.json`.
+3. Pon las capturas en `public/images/casos/<slug>/`. Sin capturas se muestra un marcador "Captura pendiente".
+
+Solo datos verificables: nada de cifras sacadas del marketing del cliente.
+
+**Testimonios**: los textos están en `casos.testimonios`, pero solo se muestran si su `slug` está a `true` en `TESTIMONIOS_APPROVED` (`components/casos/data.ts`). No los actives sin aprobación escrita de la persona citada.
+
+## Cómo añadir un idioma
+
+1. Añade el código a `locales` en `i18n/routing.ts` (y a `rtlLocales` si se escribe de derecha a izquierda).
+2. Añade su slug en cada entrada de `pathnames`.
+3. Crea `messages/<código>.json` copiando `es.json` y traduciendo. Pon `meta.needsReview: true` hasta que lo revise una persona nativa.
+4. Añade su nombre a `languageSwitcher` en todos los `messages/*.json`.
+
+## Reglas de contenido
+
+- **Colegios**: es un producto que ofrecemos y hemos diseñado, no una app en uso. Nada de cifras de usuarios ni capturas reales. Los mockups llevan "Diseño conceptual". No se nombra a ningún colegio como cliente.
+- **Kehál / Jabad**: "+250 miembros en la app, de una comunidad de más de 750". No usar "+500" ni "desde 1999".
+- No inventar métricas, clientes, testimonios ni funcionalidades.
+
+## Pendiente antes de dar por cerrada la web
+
+- **Textos legales** (`messages/*.json` → `legal`): borrador de trabajo. Faltan **NIF/CIF, domicilio social y forma jurídica** (marcados con `[...]`). Deben revisarlos un gestor o abogado. Hay un aviso visible en las tres páginas legales.
+- **Traducciones en/fr/he**: borrador (`meta.needsReview: true`), pendiente de revisión humana, sobre todo el hebreo.
+- **WhatsApp**: definir `NEXT_PUBLIC_WHATSAPP_URL` con el número real.
+- **Email**: migrar `jactive@gmail.com` a una dirección `@chaiactive.com` cuando el dominio esté verificado en Resend.
+- Analítica (GA/Meta Pixel): no se ha añadido.

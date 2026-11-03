@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import { Assistant, Frank_Ruhl_Libre } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
+import { pageMetadata } from "@/lib/seo";
 import { notFound } from "next/navigation";
-import { routing, isRtl, type Locale } from "@/i18n/routing";
+import { routing, isRtl, SITE_URL, type Locale } from "@/i18n/routing";
 import "../globals.css";
 
 const assistant = Assistant({
@@ -31,20 +32,9 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "metadata" });
-
   return {
-    title: t("title"),
-    description: t("description"),
-    metadataBase: new URL("https://chaiactive.vercel.app"),
-    alternates: {
-      languages: {
-        es: "/",
-        en: "/en",
-        he: "/he",
-        fr: "/fr",
-      },
-    },
+    metadataBase: new URL(SITE_URL),
+    ...(await pageMetadata(locale, "/", "metadata")),
   };
 }
 
@@ -62,11 +52,44 @@ export default async function LocaleLayout({
   }
 
   setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "metadata" });
   const dir = isRtl(locale) ? "rtl" : "ltr";
 
   return (
     <html lang={locale} dir={dir} data-scroll-behavior="smooth">
       <body className={`${assistant.variable} ${frankRuhl.variable} bg-white text-ink antialiased`}>
+        <script
+          type="application/ld+json"
+          // Organization + WebSite structured data for search engines.
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@graph": [
+                {
+                  "@type": "Organization",
+                  "@id": `${SITE_URL}/#organization`,
+                  name: "Chai Active",
+                  url: SITE_URL,
+                  logo: `${SITE_URL}/images/brand/chai-active-icon.png`,
+                  description: t("description"),
+                  address: { "@type": "PostalAddress", addressLocality: "Barcelona", addressCountry: "ES" },
+                  founder: [
+                    { "@type": "Person", name: "Isaac Ayash Belilty" },
+                    { "@type": "Person", name: "Moshe Acrish" },
+                  ],
+                },
+                {
+                  "@type": "WebSite",
+                  "@id": `${SITE_URL}/#website`,
+                  url: SITE_URL,
+                  name: "Chai Active",
+                  inLanguage: ["es", "en", "he", "fr"],
+                  publisher: { "@id": `${SITE_URL}/#organization` },
+                },
+              ],
+            }),
+          }}
+        />
         <NextIntlClientProvider locale={locale as Locale}>
           {children}
         </NextIntlClientProvider>

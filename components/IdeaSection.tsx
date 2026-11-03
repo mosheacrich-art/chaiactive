@@ -14,7 +14,7 @@ export default function IdeaSection() {
         <ScrollReveal>
           <h2 className="text-3xl font-extrabold leading-[1.15] tracking-tight sm:text-4xl">
             <span className="block text-navy">{headlineLines[0]}</span>
-            <span className="block text-gold">{headlineLines[1]}</span>
+            <span className="block text-gold-dark">{headlineLines[1]}</span>
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg text-ink/70">{t("subhead")}</p>
         </ScrollReveal>

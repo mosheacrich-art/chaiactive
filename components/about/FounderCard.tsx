@@ -48,7 +48,7 @@ export default function FounderCard({
       {photo}
       <div>
         <p className="text-lg font-bold text-navy">{name}</p>
-        <p className="mt-1 text-sm text-ink/60">{role}</p>
+        <p className="mt-1 text-sm text-ink/70">{role}</p>
       </div>
       <p
         className={`text-base italic leading-relaxed text-navy/80 md:group-hover:line-clamp-none ${

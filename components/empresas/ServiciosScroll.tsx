@@ -42,7 +42,7 @@ export default function ServiciosScroll() {
             >
               <div className="flex items-center justify-between">
                 <Icon className="size-8 text-gold-light" aria-hidden="true" />
-                <span className="text-sm font-semibold text-white/50">{String(i + 1).padStart(2, "0")}</span>
+                <span className="text-sm font-semibold text-white/75">{String(i + 1).padStart(2, "0")}</span>
               </div>
               <div className="mt-14">
                 <h3 className="text-2xl font-bold">{item.title}</h3>

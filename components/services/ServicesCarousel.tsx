@@ -23,12 +23,12 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
   const reduceMotion = useReducedMotion();
 
   useEffect(() => {
-    if (paused) return;
+    if (paused || reduceMotion) return;
     const id = setTimeout(() => {
       setIndex((i) => (i + 1) % slides.length);
     }, AUTO_ADVANCE_MS);
     return () => clearTimeout(id);
-  }, [paused, index, slides.length]);
+  }, [paused, reduceMotion, index, slides.length]);
 
   function goTo(i: number) {
     setIndex((i + slides.length) % slides.length);
@@ -56,7 +56,7 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
         aria-label="Previous"
         className="absolute start-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-3 shadow-md transition hover:bg-cream sm:start-6"
       >
-        <ChevronLeft className="size-6 text-navy" aria-hidden="true" />
+        <ChevronLeft className="size-6 text-navy rtl:rotate-180" aria-hidden="true" />
       </button>
       <button
         type="button"
@@ -64,7 +64,7 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
         aria-label="Next"
         className="absolute end-2 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white p-3 shadow-md transition hover:bg-cream sm:end-6"
       >
-        <ChevronRight className="size-6 text-navy" aria-hidden="true" />
+        <ChevronRight className="size-6 text-navy rtl:rotate-180" aria-hidden="true" />
       </button>
 
       <AnimatePresence mode="wait">
@@ -77,11 +77,11 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
           className="flex min-h-[70vh] w-full flex-col items-center gap-8 px-6 py-14 sm:px-10 lg:min-h-[85vh] lg:flex-row lg:justify-center lg:gap-10 lg:px-16"
         >
           <div className="shrink-0 text-center lg:w-[360px] lg:text-start">
-            <span className="text-sm font-semibold text-gold">{slide.number}</span>
+            <span className="text-sm font-semibold text-gold-dark">{slide.number}</span>
             <h3 className="mt-2 text-4xl font-extrabold leading-[1.1] text-navy sm:text-5xl">
               {slide.title}
             </h3>
-            <p className="mt-6 text-xl text-ink/60">{slide.description}</p>
+            <p className="mt-6 text-xl text-ink/70">{slide.description}</p>
           </div>
 
           <div className="flex w-full flex-1 items-center justify-center">

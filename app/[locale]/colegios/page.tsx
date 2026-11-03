@@ -1,5 +1,6 @@
 import { setRequestLocale, getTranslations } from "next-intl/server";
 import PageShell from "@/components/layout/PageShell";
+import { pageMetadata } from "@/lib/seo";
 import PageHero from "@/components/layout/PageHero";
 import CtaBand from "@/components/layout/CtaBand";
 import { ContactLink } from "@/components/layout/Buttons";
@@ -19,6 +20,11 @@ import {
 // Honesty rule for this page: the school app is a product we offer and have
 // designed, not one in use. No usage figures, no real screenshots, no school
 // named as a client. Mockups carry the "Diseño conceptual" label.
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  return pageMetadata(locale, "/colegios", "colegios.meta");
+}
+
 export default async function ColegiosPage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   setRequestLocale(locale);

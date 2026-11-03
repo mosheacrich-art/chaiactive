@@ -719,7 +719,7 @@
         {
           "heading": "¿A qué destinatarios se comunicarán tus datos?",
           "paragraphs": [
-            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios/email, o herramienta de agenda [Calendly]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
+            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios y envío de email [Resend]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
           ]
         },
         {
@@ -751,7 +751,7 @@
           "paragraphs": [
             "Cookies técnicas (necesarias): imprescindibles para el correcto funcionamiento del Sitio Web (por ejemplo, recordar el idioma seleccionado). No requieren consentimiento.",
             "Cookies analíticas [pendiente confirmar si se usará Google Analytics u otra herramienta]: permiten cuantificar el número de visitantes y analizar el uso que hacen los usuarios del Sitio Web, con el fin de mejorar los contenidos ofrecidos. Requieren consentimiento previo del usuario.",
-            "Cookies de terceros [pendiente confirmar herramientas embebidas, p. ej. Calendly para reservar reuniones, o botón de WhatsApp]: si el Sitio Web incorpora contenido de terceros, estos proveedores pueden instalar sus propias cookies conforme a sus políticas de privacidad."
+            "Cookies de terceros: el Sitio Web no incorpora contenido de terceros que instale cookies. El enlace a WhatsApp solo abre la aplicación o la web de WhatsApp cuando el usuario lo pulsa, y desde ese momento se aplica la política de privacidad de WhatsApp. [Revisar si en el futuro se añade alguna herramienta externa.]"
           ]
         },
         {

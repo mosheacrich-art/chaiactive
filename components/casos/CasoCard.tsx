@@ -36,7 +36,7 @@ export default function CasoCard({ config, compact = false }: { config: CasoConf
         <dl className={`mt-4 flex-1 space-y-3 ${compact ? "text-sm" : "text-[15px]"}`}>
           {(["reto", "solucion", "resultado"] as const).map((key) => (
             <div key={key}>
-              <dt className="text-xs font-bold uppercase tracking-wider text-ink/60">{t(`labels.${key}`)}</dt>
+              <dt className="text-xs font-bold uppercase tracking-wider text-ink/70">{t(`labels.${key}`)}</dt>
               <dd className="mt-0.5 leading-relaxed text-ink/75">{text[key]}</dd>
             </div>
           ))}

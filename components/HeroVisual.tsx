@@ -174,7 +174,7 @@ export default function HeroVisual({
             className={`rounded-full border px-4 py-1.5 text-sm font-medium transition ${
               i === activeIndex
                 ? "border-gold bg-gold/10 text-navy"
-                : "border-transparent text-ink/40 hover:text-ink/70"
+                : "border-transparent text-ink/65 hover:text-ink/70"
             }`}
           >
             {label}

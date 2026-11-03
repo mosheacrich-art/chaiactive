@@ -14,7 +14,8 @@ export function isRtl(locale: string) {
   return rtlLocales.includes(locale as Locale);
 }
 
-export const SITE_URL = "https://chaiactive.com";
+// Canonical host: the bare domain 308-redirects to www (Vercel domain config).
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || "https://www.chaiactive.com").replace(/\/$/, "");
 
 // Localised slugs. Keys are the internal route (the folder name under
 // app/[locale]/); values are what each language shows in the URL.

@@ -50,7 +50,7 @@ export default function ServiceRow({
 
       <div className="flex flex-col justify-center p-10 sm:p-16">
         <h3 className="text-3xl font-bold text-navy sm:text-4xl">{title}</h3>
-        <p className="mt-5 max-w-lg text-xl text-ink/60">{description}</p>
+        <p className="mt-5 max-w-lg text-xl text-ink/70">{description}</p>
       </div>
     </motion.div>
   );

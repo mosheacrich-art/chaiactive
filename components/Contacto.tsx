@@ -31,7 +31,7 @@ export default function Contacto({ defaultInterest }: { defaultInterest?: Intere
             </span>
             <span>
               <span className="block text-sm font-bold text-navy">WhatsApp</span>
-              <span className="block text-xs text-ink/60">{t("channels.whatsapp")}</span>
+              <span className="block text-xs text-ink/70">{t("channels.whatsapp")}</span>
             </span>
           </a>
         )}
@@ -44,12 +44,12 @@ export default function Contacto({ defaultInterest }: { defaultInterest?: Intere
           </span>
           <span>
             <span className="block text-sm font-bold text-navy">{t("channels.emailLabel")}</span>
-            <span className="block text-xs text-ink/60" dir="ltr">{CONTACT_EMAIL}</span>
+            <span className="block text-xs text-ink/70" dir="ltr">{CONTACT_EMAIL}</span>
           </span>
         </a>
       </div>
 
-      <p className="mt-10 text-center text-sm font-medium text-ink/60">{t("orForm")}</p>
+      <p className="mt-10 text-center text-sm font-medium text-ink/70">{t("orForm")}</p>
 
       <div className="relative mt-4 flex justify-center py-2">
         {WHATSAPP_URL && (
@@ -77,7 +77,7 @@ export default function Contacto({ defaultInterest }: { defaultInterest?: Intere
             <Check className="size-3.5 text-gold-dark" aria-hidden="true" />
           </span>
           <p className="mt-2 text-sm font-bold text-navy">{t("floatingSent.title")}</p>
-          <p className="mt-0.5 text-xs text-ink/60">{t("floatingSent.body")}</p>
+          <p className="mt-0.5 text-xs text-ink/70">{t("floatingSent.body")}</p>
         </motion.div>
 
         <PhoneFrame>

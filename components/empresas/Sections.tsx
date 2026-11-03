@@ -11,7 +11,7 @@ export function Sectores() {
   return (
     <section className="py-14">
       <div className="mx-auto max-w-6xl px-4 text-center sm:px-6">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-ink/60">{t("title")}</h2>
+        <h2 className="text-sm font-semibold uppercase tracking-wider text-ink/70">{t("title")}</h2>
         <ul className="mt-5 flex flex-wrap justify-center gap-3">
           {items.map((item) => (
             <li key={item} className="rounded-full border border-navy/15 px-5 py-2.5 text-sm font-medium text-navy">

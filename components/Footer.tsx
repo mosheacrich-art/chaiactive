@@ -13,8 +13,8 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-8 text-center sm:flex-row sm:items-start sm:justify-between sm:text-start">
           <div className="max-w-xs">
             <p className="text-lg font-bold text-navy">Chai Active</p>
-            <p className="mt-1 text-sm text-ink/60">{t("footer.tagline")}</p>
-            <p className="mt-1 text-sm text-ink/60">{t("footer.location")}</p>
+            <p className="mt-1 text-sm text-ink/70">{t("footer.tagline")}</p>
+            <p className="mt-1 text-sm text-ink/70">{t("footer.location")}</p>
           </div>
 
           <nav aria-label={t("footer.navLabel")} className="flex flex-col gap-2 text-sm">
@@ -38,7 +38,7 @@ export default function Footer() {
           </nav>
         </div>
 
-        <p className="mt-10 border-t border-black/5 pt-6 text-center text-xs text-ink/50">
+        <p className="mt-10 border-t border-black/5 pt-6 text-center text-xs text-ink/65">
           {t("footer.rights", { year })}
         </p>
       </div>

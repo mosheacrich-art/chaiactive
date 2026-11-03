@@ -31,7 +31,7 @@ export default function QueHacemos() {
                 <ScrollReveal delay={i * 0.06} className="grid gap-3 py-8 sm:grid-cols-[3.5rem_1fr]">
                   <span className="text-sm font-semibold text-gold-dark">0{i + 1}</span>
                   <div>
-                    <p className="text-xs font-semibold uppercase tracking-wider text-ink/60">{line.label}</p>
+                    <p className="text-xs font-semibold uppercase tracking-wider text-ink/70">{line.label}</p>
                     <h3 className="mt-1 text-2xl font-bold text-navy">{line.title}</h3>
                     <p className="mt-3 leading-relaxed text-ink/70">{line.body}</p>
                     <Link

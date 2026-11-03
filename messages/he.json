@@ -4,22 +4,22 @@
     "draftNotice": "תרגום טיוטה, ממתין לבדיקה אנושית."
   },
   "metadata": {
-    "title": "Chai Active — תוכנה עם חיים לקהילות יהודיות",
-    "description": "‏Kehál Platform ופלטפורמות נוספות בהתאמה אישית לקהילות ועסקים יהודיים. ברצלונה."
+    "title": "Chai Active: טכנולוגיה עם חיים לקהילות, לבתי ספר ולעסקים",
+    "description": "חברת טכנולוגיה מברצלונה עם שורשים יהודיים. אפליקציות לקהילות יהודיות, אפליקציה ייעודית לבתי ספר יהודיים וטרנספורמציה דיגיטלית בהתאמה אישית לעסקים."
   },
   "skipToContent": "מעבר לתוכן",
   "nav": {
-    "label": "Navegación principal",
-    "skip": "Ir al contenido",
-    "comunidades": "Comunidades",
-    "colegios": "Colegios",
-    "empresas": "Empresas",
-    "casos": "סיפורי הצלחה",
-    "nosotros": "אודותינו",
-    "contacto": "צור קשר",
-    "cta": "קביעת פגישה",
-    "openMenu": "פתיחת התפריט",
-    "closeMenu": "סגירת התפריט"
+    "label": "ניווט ראשי",
+    "skip": "דלגו לתוכן",
+    "comunidades": "קהילות",
+    "colegios": "בתי ספר",
+    "empresas": "עסקים",
+    "casos": "פרויקטים",
+    "nosotros": "עלינו",
+    "contacto": "צרו קשר",
+    "cta": "בואו נדבר",
+    "openMenu": "פתיחת תפריט",
+    "closeMenu": "סגירת תפריט"
   },
   "languageSwitcher": {
     "label": "שפה",
@@ -29,43 +29,43 @@
     "fr": "Français"
   },
   "hero": {
-    "titleStart": "Tecnología con vida.",
-    "titleEnd": "Para comunidades, colegios y empresas.",
-    "subtitle": "טכנולוגיה שנועדה לעזור לקהילות יהודיות להשקיע פחות זמן בניהול, ויותר זמן בחיבור.",
-    "selectorTitle": "¿Por dónde empezamos?",
+    "titleStart": "טכנולוגיה עם חיים.",
+    "titleEnd": "לקהילות, לבתי ספר ולעסקים.",
+    "subtitle": "אנחנו חברת טכנולוגיה מברצלונה עם שורשים יהודיים. אנחנו בונים כלים דיגיטליים בהתאמה אישית, שדומים למי שמשתמש בהם וחוסכים עבודה למי שמנהל אותם.",
+    "selectorTitle": "מאיפה נתחיל?",
     "cards": {
       "comunidad": {
-        "title": "Soy una comunidad",
-        "body": "Kehál, la app de tu kehilá: miembros, calendario hebreo, eventos, mikvé, donativos y Torá, con el nombre y los colores de tu comunidad.",
-        "note": "En uso en Jabad Barcelona",
-        "cta": "Ver Kehál"
+        "title": "אני קהילה",
+        "body": "Kehál, האפליקציה של הקהילה שלכם: חברים, לוח שנה עברי, אירועים, מקווה, תרומות ותורה, עם השם והצבעים של הקהילה.",
+        "note": "בשימוש בחב״ד ברצלונה",
+        "cta": "להכיר את Kehál"
       },
       "colegio": {
-        "title": "Soy un colegio o institución",
-        "body": "Una app propia para alumnos, profesorado y familias, con el seguimiento académico, la comunicación y la vida judía en un solo sitio.",
-        "note": "Buscamos colegios piloto",
-        "cta": "Ver la propuesta"
+        "title": "אני בית ספר או מוסד",
+        "body": "אפליקציה ייעודית לתלמידים, למורים ולמשפחות, עם מעקב לימודי, תקשורת וחיים יהודיים במקום אחד.",
+        "note": "מחפשים בתי ספר לפיילוט",
+        "cta": "לראות את ההצעה"
       },
       "empresa": {
-        "title": "Soy una empresa",
-        "body": "Webs, tiendas online, landings de lanzamiento, apps y herramientas internas hechas a medida para tu negocio.",
-        "note": "Cualquier sector",
-        "cta": "Ver qué hacemos"
+        "title": "אני עסק",
+        "body": "אתרים, חנויות אונליין, דפי השקה, אפליקציות וכלים פנימיים שנבנים במיוחד לעסק שלכם.",
+        "note": "כל תחום",
+        "cta": "מה אנחנו עושים"
       }
     }
   },
   "servicios": {
-    "sectionTitleStart": "כל מה שהקהילה שלך צריכה,",
+    "sectionTitleStart": "כל מה שהקהילה שלכם צריכה,",
     "sectionTitleEnd": "באפליקציה אחת.",
     "banners": [
       {
         "number": "01",
-        "eyebrow": "השירותים שלנו",
+        "eyebrow": "Kehál בהתאמה אישית",
         "headline": [
           "אפליקציות בהתאמה אישית.",
           "לקהילה שלך."
         ],
-        "description": "אנחנו בונים אפליקציות ייחודיות, עם הפונקציות שאתם צריכים והחוויה שאתם רוצים. אתם מדמיינים, אנחנו הופכים את זה למציאות.",
+        "description": "אפליקציה עם הפונקציות שהקהילה שלכם צריכה והחוויה שאתם רוצים לתת לחברים. אתם מספרים לנו איך אתם עובדים, ואנחנו בונים אותה.",
         "chips": [
           "חברים",
           "אירועים",
@@ -99,7 +99,7 @@
       },
       {
         "number": "02",
-        "eyebrow": "תרומות וגיוס כספים",
+        "eyebrow": "תרומות וקמפיינים",
         "headline": [
           "הגדילו",
           "את התרומות."
@@ -409,7 +409,7 @@
       },
       {
         "number": "10",
-        "eyebrow": "לוח בקרה לניהול",
+        "eyebrow": "לוח ניהול",
         "headline": [
           "נהלו הכול.",
           "ממקום אחד."
@@ -451,51 +451,51 @@
   },
   "casos": {
     "title": "סיפורי הצלחה",
-    "intro": "Proyectos reales, publicados y en uso. Contamos lo que hicimos y lo que se puede comprobar.",
+    "intro": "פרויקטים אמיתיים, באוויר ובשימוש. אנחנו מספרים מה עשינו ומה אפשר לבדוק.",
     "labels": {
-      "reto": "Reto",
-      "solucion": "Solución",
-      "resultado": "Resultado"
+      "reto": "האתגר",
+      "solucion": "הפתרון",
+      "resultado": "התוצאה"
     },
-    "screenshotPending": "Captura pendiente",
-    "screenshotAlt": "Capturas de {name}",
-    "opensNewTab": "(se abre en una pestaña nueva)",
-    "testimoniosTitle": "Lo que dicen",
+    "screenshotPending": "צילום מסך בקרוב",
+    "screenshotAlt": "צילומי מסך של {name}",
+    "opensNewTab": "(נפתח בלשונית חדשה)",
+    "testimoniosTitle": "מה אומרים עלינו",
     "items": {
       "jabad": {
-        "name": "Jabad Barcelona",
-        "sector": "Comunidad judía",
-        "reto": "Reunir en un solo sitio la vida de una comunidad grande: miembros, eventos, mikvé, donativos y calendario.",
-        "solucion": "Kehál, web y app de comunidad con acceso de miembros, solicitud de alta y panel para el equipo.",
-        "resultado": "En uso en bcnkehila.com: +250 miembros en la app, de una comunidad de más de 750."
+        "name": "חב״ד ברצלונה",
+        "sector": "קהילה יהודית",
+        "reto": "לרכז במקום אחד את החיים של קהילה גדולה: חברים, אירועים, מקווה, תרומות ולוח שנה.",
+        "solucion": "Kehál, אתר ואפליקציה לקהילה עם כניסת חברים, בקשת הצטרפות ולוח ניהול לצוות.",
+        "resultado": "בשימוש ב-bcnkehila.com: יותר מ-250 חברים באפליקציה, מתוך קהילה של יותר מ-750."
       },
       "shevat": {
         "name": "Shevat",
-        "sector": "Promotora y constructora · Barcelona y Madrid",
-        "reto": "Presentar las promociones de la empresa y convertir las visitas en contactos.",
-        "solucion": "Web con páginas de promociones y ubicaciones, ficha de cada promoción, dossier por correo y formulario por pasos con elección de canal: llamada, email o WhatsApp.",
-        "resultado": "Publicada en shevat.eu, con animaciones de entrada en toda la web."
+        "sector": "יזמות ובנייה · ברצלונה ומדריד",
+        "reto": "להציג את הפרויקטים של החברה ולהפוך ביקורים לפניות.",
+        "solucion": "אתר עם דף לכל פרויקט, חוברת שנשלחת במייל וטופס יצירת קשר בשלבים שבו הלקוח בוחר ערוץ: שיחה, מייל או וואטסאפ.",
+        "resultado": "באוויר ב-shevat.eu, עם אנימציות כניסה ודף לכל פרויקט ולכל מיקום."
       },
       "better-coffee": {
         "name": "Better Coffee",
-        "sector": "Café frío funcional en lata",
-        "reto": "Presentar una marca nueva y captar a sus primeros clientes antes del lanzamiento.",
-        "solucion": "Web de lanzamiento con selector de sabor y formato, suscripción, lista de espera, comparativa y preguntas frecuentes.",
-        "resultado": "Publicada en better-coffee.vercel.app, también en español."
+        "sector": "קפה קר פונקציונלי בפחית",
+        "reto": "להציג מותג חדש ולגייס את הלקוחות הראשונים לפני ההשקה.",
+        "solucion": "אתר השקה עם בחירת טעם ואריזה, מנוי, רשימת המתנה, השוואה ושאלות נפוצות.",
+        "resultado": "באוויר ב-better-coffee.vercel.app, גם בספרדית."
       },
       "creative-favours": {
         "name": "Creative Favours",
-        "sector": "Kipot y judaica personalizada",
-        "reto": "Llevar a internet todo el catálogo de una marca de kipot y judaica personalizada.",
-        "solucion": "Web a medida con catálogo por categorías, cuentas de cliente y pedidos directos por WhatsApp.",
-        "resultado": "Publicada en creativefavours.vercel.app."
+        "sector": "כיפות ויודאיקה בהתאמה אישית",
+        "reto": "להעלות לרשת את כל הקטלוג של מותג כיפות ויודאיקה בהתאמה אישית.",
+        "solucion": "אתר בהתאמה אישית עם קטלוג לפי קטגוריות, חשבונות לקוח והזמנות ישירות בוואטסאפ.",
+        "resultado": "באוויר ב-creativefavours.vercel.app."
       },
       "perashapp": {
         "name": "Perashapp",
-        "sector": "Estudio de la parashá",
-        "reto": "Ayudar a estudiar la parashá semanal siguiendo la lectura junto al texto.",
-        "solucion": "Herramienta con audio sincronizado palabra por palabra con el texto, con panel para el profesor y vista para el alumno.",
-        "resultado": "En línea en perashapp.com."
+        "sector": "לימוד פרשת השבוע",
+        "reto": "לעזור ללמוד את פרשת השבוע תוך מעקב אחרי הקריאה לצד הטקסט.",
+        "solucion": "כלי עם שמע שמסונכרן מילה במילה לטקסט, לוח למורה ותצוגה לתלמיד.",
+        "resultado": "באוויר ב-perashapp.com."
       }
     },
     "testimonios": [
@@ -521,19 +521,19 @@
   },
   "sobreNosotros": {
     "eyebrow": "הסיפור שלנו",
-    "title": "יותר מאפליקציה",
-    "subhead": "אנחנו לא רק בונים תוכנה. אנחנו בונים קהילות יהודיות חזקות יותר.",
+    "title": "יותר מתוכנה",
+    "subhead": "אנחנו בונים טכנולוגיה עם חיים, כדי שקהילות, בתי ספר ועסקים יקדישו את הזמן שלהם למה שחשוב.",
     "paragraphs": [
-      "שני יהודים, שני מסלולים שונים, שליחות משותפת אחת. אותה בעיה, לאן שלא הבטנו: קהילות מדהימות שנשענות על כלים מיושנים, קבוצות וואטסאפ מפוזרות, ושעות של עבודה מנהלית ללא תשלום שהטכנולוגיה אמורה לפתור בקלות.",
-      "אז החלטנו לבנות אותה — לא עוד אפליקציה, אלא דרך להחזיר את הזמן למנהיגי קהילה. בית אחד לאירועים, חברויות, תרומות, שיעורים וכל מה שקהילה מתנהלת סביבו.",
-      "בשבילנו, זו הדרך שלנו להחזיר משהו. אנחנו מתחילים קהילה אחר קהילה, כי כל קהילה שאנחנו מחזקים היא עוד צעד לעבר עתיד יהודי חזק יותר."
+      "שני יהודים, שתי דרכים שונות ורעיון אחד. לאן שלא הסתכלנו ראינו את אותו הדבר: קהילות יוצאות דופן שמחזיקות מעמד בעזרת קבוצות וואטסאפ מפוזרות, גיליונות אלקטרוניים ושעות של עבודה התנדבותית שהטכנולוגיה הייתה צריכה לפתור בקלות.",
+      "התחלנו משם, עם Kehál, אפליקציית הקהילה שחב״ד ברצלונה משתמשת בה היום. בדרך פנו אלינו עסקים עם אותו צורך להתארגן ולגדול: מותג כיפות, כלי ללימוד הפרשה, יזם נדל״ן, מותג קפה. ובתי הספר היהודיים הציבו בפנינו אתגר משלהם.",
+      "היום אנחנו עובדים בשלושת התחומים באותה גישה: קודם מקשיבים, בונים בהתאמה אישית ונשארים לצדכם גם אחרי ההשקה. בשבילנו זו גם דרך להחזיר משהו לקהילה שגידלה אותנו."
     ],
     "anchorCaption": "ברצלונה · ישראל",
     "pullQuote": "כי כשקהילות משגשגות, היהדות משגשגת.",
     "foundersHeader": "הקמים",
     "founders": [
       {
-        "name": "יצחק איאש",
+        "name": "Isaac Ayash Belilty",
         "role": "סטודנט למנהל עסקים ומשפטים — ברצלונה, ספרד",
         "quote": "אני מאמין שטכנולוגיה צריכה להסיר מכשולים, כדי שמנהיגי קהילה יוכלו להתמקד באנשים."
       },
@@ -543,26 +543,26 @@
         "quote": "בונה טכנולוגיה עם מטרה, כדי לחזק קהילות יהודיות ברחבי העולם."
       }
     ],
-    "finalLine": "זו לא רק סטארטאפ. זו התרומה שלנו לעתיד הקהילות היהודיות ברחבי העולם."
+    "finalLine": "זו לא רק חברה. זו הדרך שלנו לתרום משהו לקהילות היהודיות ולכל מי שרוצה לבנות איתנו משהו."
   },
   "idea": {
     "headlineLines": [
-      "יש לך רעיון?",
+      "יש לכם רעיון?",
       "בואו נבנה אותו."
     ],
-    "subhead": "‏Kehál הוא המוצר הדגל שלנו, אבל לא היחיד. אנחנו בונים כלים בהתאמה אישית לרבנים, עסקים יהודיים ומנהיגי קהילה עם רעיון ששווה להפוך למציאות. כך התחילו Creative Favours ו-Perashapp — עם שיחה, לא עם הזמנה סגורה.",
+    "subhead": "כמה מהפרויקטים הטובים ביותר שלנו התחילו בשיחה, לא בהזמנה סגורה. אם יש לכם משהו שעוד לא קיים, נשמח לחשוב עליו יחד איתכם.",
     "chips": [
-      "אתר לעסק היהודי שלך",
+      "אתר לעסק שלכם",
+      "חנות אונליין",
       "כלי לימוד, כמו Perashapp",
-      "מדריך לפדרציית הקהילות שלך",
-      "אפליקציית אירועים ליבשיבה שלך בלבד",
-      "משהו שעדיין לא קיים"
+      "כלי פנימי לצוות שלכם",
+      "משהו שעוד לא קיים"
     ],
-    "cta": "ספרו לנו על הרעיון שלכם"
+    "cta": "ספרו לנו על הרעיון"
   },
   "contacto": {
-    "title": "נדבר?",
-    "intro": "בלי דיבורי מכירות. בלי ז'רגון טכני. רק אנחנו.",
+    "title": "בואו נדבר",
+    "intro": "בלי נאומי מכירה ובלי ז׳רגון. ספרו לנו על מה אתם עובדים ונבחן את זה יחד.",
     "phoneSubtitle": "בחרו איך תרצו ליצור איתנו קשר.",
     "tabForm": "טופס",
     "tabWhatsapp": "וואטסאפ",
@@ -571,21 +571,21 @@
       "namePlaceholder": "כתבו את שמכם",
       "email": "אימייל",
       "emailPlaceholder": "you@email.com",
-      "community": "ארגון (אופציונלי)",
-      "communityPlaceholder": "הקהילה או הארגון שלכם",
+      "community": "קהילה, בית ספר או חברה (לא חובה)",
+      "communityPlaceholder": "מאיפה אתם כותבים לנו?",
       "message": "איך נוכל לעזור?",
       "messagePlaceholder": "כתבו כאן את ההודעה שלכם…",
       "submit": "שליחה",
       "sending": "שולח…",
       "success": "נשלח! נחזור אליכם בקרוב.",
-      "error": "משהו השתבש. כתבו ל-jactive@gmail.com.",
-      "interest": "¿Qué te interesa?",
-      "interestPlaceholder": "Elige una opción",
+      "error": "משהו השתבש. כתבו לנו ל-{email}.",
+      "interest": "מה מעניין אתכם?",
+      "interestPlaceholder": "בחרו אפשרות",
       "interests": {
-        "comunidad": "Comunidad",
-        "colegio": "Colegio o institución",
-        "empresa": "Empresa",
-        "otra": "Otra cosa"
+        "comunidad": "קהילה",
+        "colegio": "בית ספר או מוסד",
+        "empresa": "עסק",
+        "otra": "משהו אחר"
       }
     },
     "whatsappPanel": {
@@ -595,29 +595,29 @@
     },
     "floatingWhatsapp": {
       "title": "דרך וואטסאפ",
-      "body": "מענה תוך דקות"
+      "body": "מדברים ישירות איתנו"
     },
     "floatingSent": {
       "title": "נשלח",
-      "body": "עונים תוך 24 שעות"
+      "body": "אנחנו עונים באופן אישי"
     },
     "channels": {
-      "whatsapp": "Escríbenos directamente",
-      "emailLabel": "Email"
+      "whatsapp": "כתבו לנו ישירות",
+      "emailLabel": "מייל"
     },
-    "orForm": "O déjanos un mensaje aquí y te escribimos nosotros."
+    "orForm": "או השאירו לנו הודעה כאן ונחזור אליכם."
   },
   "footer": {
-    "tagline": "טכנולוגיה עם חיים, לקהילות יהודיות.",
+    "tagline": "טכנולוגיה עם חיים לקהילות, לבתי ספר ולעסקים.",
     "rights": "© {year} Chai Active. כל הזכויות שמורות.",
     "legalLinks": {
       "avisoLegal": "הודעה משפטית",
       "privacidad": "מדיניות פרטיות",
       "cookies": "מדיניות עוגיות"
     },
-    "location": "Barcelona",
-    "navLabel": "Secciones",
-    "legalLabel": "Información legal"
+    "location": "ברצלונה",
+    "navLabel": "חלקי האתר",
+    "legalLabel": "מידע משפטי"
   },
   "legal": {
     "reviewBanner": "טיוטת עבודה. מסמך זה חייב לעבור בדיקה של איש מקצוע משפטי ולהיות מושלם עם פרטי הזיהוי האמיתיים של Chai Active לפני פרסום באתר החי.",
@@ -719,7 +719,7 @@
         {
           "heading": "למי יימסר המידע שלך?",
           "paragraphs": [
-            "המידע לא יימסר לצדדים שלישיים, למעט חובה חוקית. ייתכן שנעשה שימוש בספקי טכנולוגיה הפועלים כמעבדי מידע (למשל: ספק אחסון/פריסה [Vercel], כלי לניהול טפסים/אימייל, או כלי יומן [Calendly]), אשר יעבדו את המידע רק לפי הוראות הבעלים ובכפוף לערבויות הנדרשות על ידי ה-GDPR (כולל, במידת הצורך, סעיפי העברה בין-לאומית אם הספק נמצא מחוץ לאזור הכלכלי האירופי)."
+            "המידע לא יימסר לצדדים שלישיים, למעט חובה חוקית. ייתכן שנעשה שימוש בספקי טכנולוגיה הפועלים כמעבדי מידע (למשל: ספק אחסון/פריסה [Vercel], או כלי לניהול טפסים ושליחת אימייל [Resend]), אשר יעבדו את המידע רק לפי הוראות הבעלים ובכפוף לערבויות הנדרשות על ידי ה-GDPR (כולל, במידת הצורך, סעיפי העברה בין-לאומית אם הספק נמצא מחוץ לאזור הכלכלי האירופי)."
           ]
         },
         {
@@ -751,7 +751,7 @@
           "paragraphs": [
             "עוגיות טכניות (נחוצות): הכרחיות לתפקוד התקין של האתר (למשל, זכירת השפה שנבחרה). אינן דורשות הסכמה.",
             "עוגיות אנליטיות [ממתין לאישור האם ייעשה שימוש ב-Google Analytics או בכלי אחר]: מאפשרות לכמת את מספר המבקרים ולנתח את אופן השימוש של המשתמשים באתר, במטרה לשפר את התכנים המוצעים. דורשות הסכמה מוקדמת של המשתמש.",
-            "עוגיות של צד שלישי [ממתין לאישור הכלים המוטמעים, למשל Calendly לקביעת פגישות, או כפתור וואטסאפ]: אם האתר משלב תוכן של צד שלישי, ספקים אלה עשויים להתקין עוגיות משלהם בהתאם למדיניות הפרטיות שלהם."
+            "עוגיות של צד שלישי: האתר אינו משלב תוכן של צד שלישי שמתקין עוגיות. הקישור לוואטסאפ רק פותח את האפליקציה או את האתר של וואטסאפ כאשר המשתמש לוחץ עליו, ומאותו רגע חלה מדיניות הפרטיות של וואטסאפ. [לבדוק מחדש אם יתווסף בעתיד כלי חיצוני.]"
           ]
         },
         {
@@ -771,631 +771,631 @@
   },
   "comunidades": {
     "meta": {
-      "title": "Kehál, la app para comunidades judías | Chai Active",
-      "description": "Kehál: membresía, calendario hebreo, eventos, mikvé, donativos, servicios de ciclo de vida y Torá en una app con la identidad de tu comunidad. En uso en Jabad Barcelona."
+      "title": "Kehál, האפליקציה לקהילות יהודיות | Chai Active",
+      "description": "Kehál: חברות, לוח שנה עברי, אירועים, מקווה, תרומות, אירועי מעגל החיים ותורה באפליקציה עם הזהות של הקהילה שלכם. בשימוש בחב״ד ברצלונה."
     },
     "hero": {
-      "eyebrow": "Para comunidades judías",
-      "title": "La vida de tu comunidad, en una app que lleva su nombre.",
-      "subtitle": "Kehál reúne membresía, calendario hebreo, eventos, mikvé, donativos y Torá en un solo sitio, con los colores, el logo y los idiomas de tu kehilá. Toda la app o solo los módulos que necesitas.",
-      "ctaPrimary": "Ver qué incluye",
-      "ctaSecondary": "Hablemos de tu comunidad",
+      "eyebrow": "לקהילות יהודיות",
+      "title": "חיי הקהילה שלכם, באפליקציה שנושאת את שמה.",
+      "subtitle": "Kehál מרכזת חברות, לוח שנה עברי, אירועים, מקווה, תרומות ותורה במקום אחד, בצבעים, עם הלוגו ובשפות של הקהילה שלכם. כל האפליקציה, או רק המודולים שאתם צריכים.",
+      "ctaPrimary": "מה כלול",
+      "ctaSecondary": "בואו נדבר על הקהילה שלכם",
       "tabs": [
-        "Eventos",
-        "Donativos",
-        "Mikvé"
+        "אירועים",
+        "תרומות",
+        "מקווה"
       ]
     },
     "modulos": {
-      "title": "Toda la app, o solo lo que necesitas",
-      "intro": "Kehál está hecha por módulos. Podéis empezar con eventos y donativos y añadir el mikvé o el directorio más adelante. Cada módulo funciona por sí solo y todos comparten los mismos miembros.",
+      "title": "כל האפליקציה, או רק מה שצריך",
+      "intro": "Kehál בנויה ממודולים. אפשר להתחיל עם אירועים ותרומות ולהוסיף את המקווה או את המדריך מאוחר יותר. כל מודול עובד לבד, וכולם חולקים את אותם חברים.",
       "items": [
         {
-          "title": "Membresía",
-          "body": "Alta de miembros con verificación de identidad y aprobación manual del equipo. Nadie entra sin que la comunidad lo sepa."
+          "title": "חברות",
+          "body": "הרשמת חברים עם אימות זהות ואישור ידני של הצוות. אף אחד לא נכנס בלי שהקהילה יודעת."
         },
         {
-          "title": "Calendario hebreo",
-          "body": "Fechas hebreas, festividades, parashá de la semana y horarios halájicos de tu ciudad, siempre al día."
+          "title": "לוח שנה עברי",
+          "body": "תאריכים עבריים, חגים, פרשת השבוע וזמנים הלכתיים לעיר שלכם, תמיד מעודכנים."
         },
         {
-          "title": "Eventos con aforo",
-          "body": "Inscripción en un clic, plazas limitadas y lista de asistentes para el equipo, sin hojas de cálculo."
+          "title": "אירועים עם מכסה",
+          "body": "הרשמה בלחיצה, מקומות מוגבלים ורשימת משתתפים לצוות, בלי גיליונות אלקטרוניים."
         },
         {
-          "title": "Mikvé",
-          "body": "Reserva de citas con discreción y privacidad, y la disponibilidad que marca la comunidad."
+          "title": "מקווה",
+          "body": "קביעת תורים בדיסקרטיות ובפרטיות, לפי הזמינות שהקהילה קובעת."
         },
         {
-          "title": "Donativos por área",
-          "body": "Cada donativo va al área que elige quien dona: educación, kashrut, ayuda social o lo que defináis."
+          "title": "תרומות לפי תחום",
+          "body": "כל תרומה הולכת לתחום שהתורם בוחר: חינוך, כשרות, עזרה סוציאלית או מה שתגדירו."
         },
         {
-          "title": "Ciclo de vida",
-          "body": "Solicitudes de Bar y Bat Mitzvá, Brit Milá, bodas y Najalá, con el seguimiento en un solo sitio."
+          "title": "מעגל החיים",
+          "body": "בקשות לבר ובת מצווה, ברית מילה, חתונות ונחלה, עם מעקב במקום אחד."
         },
         {
-          "title": "Torá y shiurim",
-          "body": "Clases, materiales y contenido de Torá para aprender durante la semana."
+          "title": "תורה ושיעורים",
+          "body": "שיעורים, חומרים ותוכן תורני ללימוד במהלך השבוע."
         },
         {
           "title": "Jconnect",
-          "body": "Directorio Jewish Business & Co-Work: los miembros publican su negocio y encuentran con quién colaborar."
+          "body": "מדריך Jewish Business & Co-Work: החברים מפרסמים את העסק שלהם ומוצאים שותפים לעבודה."
         },
         {
-          "title": "Panel de administración",
-          "body": "Miembros, eventos, donativos, reservas y comunicaciones gestionados desde un único panel."
+          "title": "לוח ניהול",
+          "body": "חברים, אירועים, תרומות, הזמנות ותקשורת, מנוהלים מלוח בקרה אחד."
         }
       ]
     },
     "identidad": {
-      "title": "Con la identidad de tu comunidad",
-      "body": "No es una app genérica con vuestro logo pegado. Elegimos juntos el nombre, los colores, el logo, los idiomas y lo que aparece en la pantalla de inicio, para que cada miembro sienta que la app es de su comunidad.",
-      "nameLabel": "Prueba con el nombre de tu comunidad",
-      "namePlaceholder": "Tu comunidad",
-      "colorLabel": "Color",
-      "langLabel": "Idioma",
-      "sampleLabel": "Vista de ejemplo"
+      "title": "עם הזהות של הקהילה שלכם",
+      "body": "זו לא אפליקציה גנרית עם הלוגו שלכם מודבק עליה. יחד אנחנו בוחרים את השם, הצבעים, הלוגו, השפות ומה שמופיע במסך הבית, כדי שכל חבר ירגיש שהאפליקציה שייכת לקהילה שלו.",
+      "nameLabel": "נסו עם שם הקהילה שלכם",
+      "namePlaceholder": "הקהילה שלכם",
+      "colorLabel": "צבע",
+      "langLabel": "שפה",
+      "sampleLabel": "תצוגה לדוגמה"
     },
     "caso": {
-      "eyebrow": "Caso real",
-      "title": "Jabad Barcelona",
-      "body": "Kehál es la web y la app de la comunidad de Jabad Barcelona, en bcnkehila.com. Los miembros entran con su cuenta, quien todavía no lo es solicita acceso y el equipo lo aprueba. Eventos, mikvé, donativos y calendario, en un solo sitio.",
+      "eyebrow": "מקרה אמיתי",
+      "title": "חב״ד ברצלונה",
+      "body": "Kehál היא האתר והאפליקציה של קהילת חב״ד ברצלונה, בכתובת bcnkehila.com. החברים נכנסים עם החשבון שלהם, מי שעדיין לא חבר מבקש גישה והצוות מאשר. אירועים, מקווה, תרומות ולוח שנה, במקום אחד.",
       "stat": "+250",
-      "statLabel": "miembros en la app, de una comunidad de más de 750",
-      "link": "Visitar bcnkehila.com",
-      "screenshotAlt": "Capturas de la app de Jabad Barcelona"
+      "statLabel": "חברים באפליקציה, מתוך קהילה של יותר מ-750",
+      "link": "לבקר ב-bcnkehila.com",
+      "screenshotAlt": "צילומי מסך של האפליקציה של חב״ד ברצלונה"
     },
     "cta": {
-      "title": "¿Hablamos de tu comunidad?",
-      "body": "Cuéntanos cómo os organizáis hoy y te enseñamos Kehál con vuestro nombre y vuestros colores.",
-      "button": "Hablemos"
+      "title": "נדבר על הקהילה שלכם?",
+      "body": "ספרו לנו איך אתם מתארגנים היום, ונראה לכם את Kehál עם השם והצבעים שלכם.",
+      "button": "בואו נדבר"
     }
   },
   "colegios": {
     "meta": {
-      "title": "Una app propia para colegios judíos | Chai Active",
-      "description": "Seguimiento académico, comunicación con familias y vida judía integrada en una app con la identidad de tu colegio. Buscamos colegios piloto."
+      "title": "אפליקציה ייעודית לבתי ספר יהודיים | Chai Active",
+      "description": "מעקב לימודי, תקשורת עם המשפחות וחיים יהודיים בתוך אפליקציה עם הזהות של בית הספר שלכם. אנחנו מחפשים בתי ספר לפיילוט."
     },
     "hero": {
-      "eyebrow": "Para colegios judíos",
-      "title": "La vida escolar de un colegio judío, en una sola app con su identidad.",
-      "subtitle": "Diseñamos una app propia para el alumno, el profesorado y las familias: notas, tareas, asistencia y mensajes en un solo sitio, con el calendario hebreo y la vida judía dentro. Estamos en conversaciones con colegios de Barcelona y listos para empezar con colegios piloto.",
-      "ctaPrimary": "Cuéntanos cómo es tu colegio",
-      "ctaSecondary": "Empecemos con un grupo piloto"
+      "eyebrow": "לבתי ספר יהודיים",
+      "title": "חיי בית הספר היהודי, באפליקציה אחת עם הזהות שלו.",
+      "subtitle": "תכננו אפליקציה ייעודית לתלמידים, למורים ולמשפחות: ציונים, שיעורי בית, נוכחות והודעות במקום אחד, עם הלוח העברי והחיים היהודיים בפנים. אנחנו בשיחות עם בתי ספר בברצלונה ומוכנים להתחיל עם בתי ספר לפיילוט.",
+      "ctaPrimary": "ספרו לנו על בית הספר שלכם",
+      "ctaSecondary": "נתחיל עם קבוצת פיילוט"
     },
     "pilares": {
-      "title": "Tres pilares",
-      "intro": "Lo que hemos aprendido hablando con colegios se resume en tres cosas que una app escolar tiene que hacer bien.",
+      "title": "שלושה עמודי תווך",
+      "intro": "מה שלמדנו משיחות עם בתי ספר מסתכם בשלושה דברים שאפליקציה בית ספרית חייבת לעשות טוב.",
       "items": [
         {
-          "title": "Seguimiento académico continuo",
-          "body": "Notas, tareas y asistencia al día, para que nadie se entere de un problema en la reunión de final de trimestre."
+          "title": "מעקב לימודי רציף",
+          "body": "ציונים, שיעורי בית ונוכחות מעודכנים, כדי שאף אחד לא יגלה בעיה רק באסיפה של סוף המחצית."
         },
         {
-          "title": "Comunicación directa y ordenada",
-          "body": "Mensajes, avisos y autorizaciones en un solo canal, sin depender de correos sueltos ni de grupos de WhatsApp."
+          "title": "תקשורת ישירה ומסודרת",
+          "body": "הודעות, עדכונים ואישורים בערוץ אחד, בלי להיות תלויים במיילים מפוזרים או בקבוצות וואטסאפ."
         },
         {
-          "title": "Identidad y comunidad",
-          "body": "La app lleva el nombre y los colores del colegio, y la vida judía está dentro, no añadida al final."
+          "title": "זהות וקהילה",
+          "body": "האפליקציה נושאת את השם והצבעים של בית הספר, והחיים היהודיים נמצאים בפנים, לא נוספים בסוף."
         }
       ]
     },
     "perfiles": {
-      "title": "Seis perfiles. Cada uno ve solo lo suyo.",
-      "intro": "Cada persona entra con su cuenta y ve lo que le corresponde. Los roles se pueden combinar: una profesora que también es madre usa una sola cuenta y cambia de vista.",
+      "title": "שישה פרופילים. כל אחד רואה רק את שלו.",
+      "intro": "כל אחד נכנס עם החשבון שלו ורואה את מה שרלוונטי לו. אפשר לשלב תפקידים: מורה שהיא גם אמא משתמשת בחשבון אחד ומחליפה תצוגה.",
       "items": [
         {
-          "title": "Alumno",
-          "body": "Su horario, sus tareas, sus notas y los mensajes de sus profesores."
+          "title": "תלמיד",
+          "body": "מערכת השעות, שיעורי הבית, הציונים וההודעות מהמורים."
         },
         {
-          "title": "Familia o tutor legal",
-          "body": "El día a día de cada hijo, avisos, autorizaciones y reuniones."
+          "title": "משפחה או אפוטרופוס",
+          "body": "היום-יום של כל ילד, עדכונים, אישורים ופגישות."
         },
         {
-          "title": "Profesor",
-          "body": "Sus grupos, pasar lista, corregir y comunicarse con alumnos y familias."
+          "title": "מורה",
+          "body": "הקבוצות שלו, בדיקת נוכחות, בדיקת עבודות ותקשורת עם תלמידים ומשפחות."
         },
         {
-          "title": "Tutor o cotutor",
-          "body": "La vista completa de su clase y el seguimiento de cada alumno."
+          "title": "מחנך או מחנך משנה",
+          "body": "תמונה מלאה של הכיתה ומעקב אחרי כל תלמיד."
         },
         {
-          "title": "Coordinación y jefatura de estudios",
-          "body": "Horarios, sustituciones, calendario de exámenes e informes por etapa."
+          "title": "רכזים והנהלה פדגוגית",
+          "body": "מערכת שעות, מילוי מקום, לוח מבחנים ודוחות לפי שכבה."
         },
         {
-          "title": "Dirección y administración",
-          "body": "Configuración del colegio, permisos, documentos e indicadores generales."
+          "title": "הנהלה ומזכירות",
+          "body": "הגדרות בית הספר, הרשאות, מסמכים ומדדים כלליים."
         }
       ],
-      "security": "Mínimo privilegio: nadie ve más de lo que necesita. Y cada acceso a datos de un alumno queda registrado."
+      "security": "הרשאה מינימלית: אף אחד לא רואה יותר ממה שהוא צריך. וכל גישה לנתונים של תלמיד נרשמת."
     },
     "app": {
-      "title": "La app en cinco secciones",
-      "intro": "Una navegación sencilla, con cinco pestañas abajo. Cualquier dato que se consulta a menudo está a dos toques como máximo. Toca las pestañas del móvil para verlo.",
-      "conceptLabel": "Diseño conceptual · datos de ejemplo",
+      "title": "האפליקציה בחמישה חלקים",
+      "intro": "ניווט פשוט, עם חמש לשוניות בתחתית. כל מידע שבודקים לעיתים קרובות נמצא במרחק שתי נגיעות לכל היותר. געו בלשוניות בטלפון כדי לראות.",
+      "conceptLabel": "עיצוב קונספט · נתונים לדוגמה",
       "tabs": {
-        "inicio": "Inicio",
-        "materias": "Materias",
-        "calendario": "Calendario",
-        "mensajes": "Mensajes",
-        "ficha": "Mi ficha"
+        "inicio": "בית",
+        "materias": "מקצועות",
+        "calendario": "לוח שנה",
+        "mensajes": "הודעות",
+        "ficha": "הפרופיל שלי"
       },
       "inicio": {
-        "greeting": "Buenos días, Daniel",
-        "date": "Lunes",
-        "hebrewDate": "10 de Adar",
-        "nextLabel": "Ahora",
-        "next": "Matemáticas · Aula 2.3",
-        "agendaLabel": "Para hoy",
+        "greeting": "בוקר טוב, דניאל",
+        "date": "יום שני",
+        "hebrewDate": "י׳ באדר",
+        "nextLabel": "עכשיו",
+        "next": "מתמטיקה · כיתה 2.3",
+        "agendaLabel": "להיום",
         "agenda": [
-          "Entregar ejercicios de Física",
-          "Examen de Historia en 3 días"
+          "להגיש תרגילים בפיזיקה",
+          "מבחן בהיסטוריה בעוד 3 ימים"
         ],
-        "noticeLabel": "Aviso",
-        "notice": "Salida a la Sinagoga Mayor el jueves. Autorización pendiente de firma."
+        "noticeLabel": "עדכון",
+        "notice": "יציאה לבית הכנסת הגדול ביום חמישי. האישור ממתין לחתימה."
       },
       "materias": {
         "items": [
           {
-            "name": "Matemáticas",
-            "grade": "7,8",
-            "status": "Provisional"
+            "name": "מתמטיקה",
+            "grade": "7.8",
+            "status": "זמני"
           },
           {
-            "name": "Lengua castellana",
-            "grade": "8,2",
-            "status": "Oficial"
+            "name": "ספרדית",
+            "grade": "8.2",
+            "status": "סופי"
           },
           {
-            "name": "Física y Química",
-            "grade": "6,9",
-            "status": "Provisional"
+            "name": "פיזיקה וכימיה",
+            "grade": "6.9",
+            "status": "זמני"
           },
           {
-            "name": "Hebreo",
-            "grade": "9,1",
-            "status": "Oficial"
+            "name": "עברית",
+            "grade": "9.1",
+            "status": "סופי"
           },
           {
-            "name": "Estudios judaicos",
-            "grade": "8,5",
-            "status": "Oficial"
+            "name": "לימודי יהדות",
+            "grade": "8.5",
+            "status": "סופי"
           }
         ]
       },
       "calendario": {
-        "week": "Esta semana",
+        "week": "השבוע",
         "days": [
           {
-            "day": "Lun",
-            "event": "Entrega de Física"
+            "day": "ב׳",
+            "event": "הגשה בפיזיקה"
           },
           {
-            "day": "Mar",
+            "day": "ג׳",
             "event": ""
           },
           {
-            "day": "Mié",
-            "event": "Examen de Historia"
+            "day": "ד׳",
+            "event": "מבחן בהיסטוריה"
           },
           {
-            "day": "Jue",
-            "event": "Ayuno de Ester"
+            "day": "ה׳",
+            "event": "תענית אסתר"
           },
           {
-            "day": "Vie",
-            "event": "Purim: horario especial"
+            "day": "ו׳",
+            "event": "פורים: מערכת מיוחדת"
           }
         ],
-        "shabat": "Encendido de Shabat en Barcelona: hora calculada por la app"
+        "shabat": "הדלקת נרות שבת בברצלונה: שעה שהאפליקציה מחשבת"
       },
       "mensajes": {
         "items": [
           {
-            "from": "Tutora de 1.º de Bachillerato",
-            "text": "Recordad la reunión de familias del jueves.",
-            "meta": "Leído por 2 de 2"
+            "from": "המחנכת של כיתה י״א",
+            "text": "תזכורת: אסיפת הורים ביום חמישי.",
+            "meta": "נקרא על ידי 2 מתוך 2"
           },
           {
-            "from": "Coordinación",
-            "text": "Cambio de aula: Química pasa al laboratorio.",
-            "meta": "Urgente"
+            "from": "רכזות",
+            "text": "שינוי חדר: כימיה עוברת למעבדה.",
+            "meta": "דחוף"
           },
           {
-            "from": "Profesor de Hebreo",
-            "text": "Muy buen trabajo en la redacción.",
-            "meta": "Ayer"
+            "from": "המורה לעברית",
+            "text": "עבודה טובה מאוד בחיבור.",
+            "meta": "אתמול"
           }
         ]
       },
       "ficha": {
-        "name": "Daniel",
-        "course": "1.º de Bachillerato · Ciencias",
+        "name": "דניאל",
+        "course": "כיתה י״א · מגמה מדעית",
         "rows": [
-          "Datos personales y contactos",
-          "Documentos del curso",
-          "Asistencia del trimestre",
-          "Itinerario y optativas"
+          "פרטים אישיים ואנשי קשר",
+          "מסמכי השנה",
+          "נוכחות במחצית",
+          "מסלול ומקצועות בחירה"
         ]
       },
       "tabsInfo": {
-        "inicio": "lo que toca hoy, avisos y pendientes",
-        "materias": "notas, tareas y evolución por materia",
-        "calendario": "horario, exámenes y fechas hebreas",
-        "mensajes": "profesores, tutores y avisos del colegio",
-        "ficha": "datos, documentos y asistencia"
+        "inicio": "מה יש היום, עדכונים ומשימות",
+        "materias": "ציונים, שיעורי בית והתקדמות לפי מקצוע",
+        "calendario": "מערכת שעות, מבחנים ותאריכים עבריים",
+        "mensajes": "מורים, מחנכים ועדכוני בית הספר",
+        "ficha": "פרטים, מסמכים ונוכחות"
       }
     },
     "modulos": {
-      "title": "Todo lo que pasa en un curso",
-      "intro": "Módulos pensados para el día a día de un colegio. El colegio decide cuáles activa.",
+      "title": "כל מה שקורה בשנת לימודים",
+      "intro": "מודולים שתוכננו ליום-יום של בית ספר. בית הספר מחליט אילו להפעיל.",
       "items": [
         {
-          "title": "Tareas y entregas",
+          "title": "שיעורי בית והגשות",
           "points": [
-            "Entregas con foto desde el móvil",
-            "Rúbricas visibles antes de empezar",
-            "Trabajos en grupo",
-            "Autoevaluación del alumno"
+            "הגשה בצילום מהטלפון",
+            "מחוונים גלויים לפני שמתחילים",
+            "עבודות קבוצתיות",
+            "הערכה עצמית של התלמיד"
           ]
         },
         {
-          "title": "Notas y boletines",
+          "title": "ציונים ותעודות",
           "points": [
-            "Nota provisional y nota oficial, bien separadas",
-            "Evolución por materia a lo largo del curso",
-            "Boletines generados desde la propia app"
+            "ציון זמני וציון סופי, מופרדים בבירור",
+            "התקדמות לפי מקצוע לאורך השנה",
+            "תעודות שמופקות מתוך האפליקציה"
           ]
         },
         {
-          "title": "Asistencia",
+          "title": "נוכחות",
           "points": [
-            "Pasar lista en segundos",
-            "Justificar faltas desde la app",
-            "Alertas al tutor cuando algo se repite"
+            "בדיקת נוכחות בשניות",
+            "הצדקת היעדרויות מתוך האפליקציה",
+            "התראות למחנך כשמשהו חוזר על עצמו"
           ]
         },
         {
-          "title": "Horario y calendario",
+          "title": "מערכת שעות ולוח שנה",
           "points": [
-            "Cambios y sustituciones al instante",
-            "Aviso cuando se solapan exámenes",
-            "Sincronización con Google, Apple y Outlook"
+            "שינויים ומילוי מקום בזמן אמת",
+            "התראה כשמבחנים חופפים",
+            "סנכרון עם Google, Apple ו-Outlook"
           ]
         },
         {
-          "title": "Comunicación",
+          "title": "תקשורת",
           "points": [
-            "Mensajes con historial",
-            "Avisos con niveles de urgencia",
-            "Confirmación de lectura",
-            "Autorizaciones firmadas desde la app"
+            "הודעות עם היסטוריה",
+            "עדכונים לפי רמת דחיפות",
+            "אישור קריאה",
+            "אישורים שנחתמים באפליקציה"
           ]
         },
         {
-          "title": "Ficha del alumno y documentos",
+          "title": "תיק תלמיד ומסמכים",
           "points": [
-            "Datos, contactos y documentos en un solo sitio",
-            "Acceso según el perfil de cada persona"
+            "פרטים, אנשי קשר ומסמכים במקום אחד",
+            "גישה לפי הפרופיל של כל אחד"
           ]
         },
         {
-          "title": "Espacio de familias",
+          "title": "מרחב המשפחות",
           "points": [
-            "Varios hijos en una misma cuenta",
-            "Reuniones con reserva de franja",
-            "Todo lo que necesitan firmar o saber"
+            "כמה ילדים בחשבון אחד",
+            "פגישות עם הזמנת משבצת זמן",
+            "כל מה שצריך לחתום או לדעת"
           ]
         }
       ]
     },
     "capaJudia": {
-      "eyebrow": "El diferencial",
-      "title": "La vida judía, dentro de la app",
-      "intro": "Esto es lo que una plataforma escolar genérica no puede darte. El calendario judío no es un añadido: organiza el curso.",
+      "eyebrow": "מה שמבדיל אותנו",
+      "title": "החיים היהודיים, בתוך האפליקציה",
+      "intro": "את זה פלטפורמה בית ספרית גנרית לא יכולה לתת. הלוח היהודי הוא לא תוספת: הוא מארגן את השנה.",
       "items": [
         {
-          "title": "Calendario hebreo",
-          "body": "Doble fecha, gregoriana y hebrea, en toda la app."
+          "title": "לוח שנה עברי",
+          "body": "תאריך כפול, לועזי ועברי, בכל האפליקציה."
         },
         {
-          "title": "Festividades en el calendario lectivo",
-          "body": "Las festividades ajustan el calendario del curso solas, sin rehacerlo a mano cada año."
+          "title": "חגים בלוח שנת הלימודים",
+          "body": "החגים מעדכנים את לוח השנה לבד, בלי לבנות אותו מחדש ידנית בכל שנה."
         },
         {
-          "title": "Horarios de Shabat para Barcelona",
-          "body": "Encendido y salida de Shabat calculados para la ciudad."
+          "title": "זמני שבת לברצלונה",
+          "body": "הדלקת נרות וצאת השבת מחושבים לעיר."
         },
         {
-          "title": "Avisos de Shabat y festividades",
-          "body": "Si alguien programa un examen o una entrega en Shabat o en una festividad, la app avisa antes de guardarlo."
+          "title": "התראות שבת וחג",
+          "body": "אם מישהו קובע מבחן או הגשה בשבת או בחג, האפליקציה מתריעה לפני השמירה."
         },
         {
-          "title": "Modo Shabat",
-          "body": "Silencio de notificaciones opcional durante Shabat y un resumen al terminar."
+          "title": "מצב שבת",
+          "body": "השתקת התראות בשבת, לפי בחירה, וסיכום אחריה."
         },
         {
-          "title": "Estudios judaicos y hebreo",
-          "body": "Escritura de derecha a izquierda real y nikud en tareas, apuntes y exámenes."
+          "title": "לימודי יהדות ועברית",
+          "body": "כתיבה אמיתית מימין לשמאל וניקוד בשיעורי בית, סיכומים ומבחנים."
         },
         {
-          "title": "Comedor con kashrut",
-          "body": "El menú del comedor con su información de kashrut."
+          "title": "חדר אוכל כשר",
+          "body": "תפריט חדר האוכל עם מידע על הכשרות."
         },
         {
-          "title": "Tzedaká y voluntariado",
-          "body": "Campañas de tzedaká y registro de horas de voluntariado."
+          "title": "צדקה והתנדבות",
+          "body": "קמפיינים של צדקה ורישום שעות התנדבות."
         },
         {
-          "title": "Agenda de la comunidad",
-          "body": "La agenda de la comunidad judía de Barcelona, junto a la del colegio."
+          "title": "לוח הקהילה",
+          "body": "לוח האירועים של הקהילה היהודית בברצלונה, לצד זה של בית הספר."
         },
         {
-          "title": "Cuatro idiomas",
-          "body": "Español, catalán, inglés y hebreo."
+          "title": "ארבע שפות",
+          "body": "ספרדית, קטלאנית, אנגלית ועברית."
         }
       ],
-      "note": "Todo es configurable por el colegio y opcional para cada usuario. En un mismo colegio conviven familias con distintos grados de observancia, y la app lo respeta."
+      "note": "הכול ניתן להגדרה על ידי בית הספר ואופציונלי לכל משתמש. באותו בית ספר לומדות משפחות עם רמות שמירה שונות, והאפליקציה מכבדת את זה."
     },
     "bachillerato": {
-      "title": "Pensado para bachillerato",
-      "label": "En el diseño",
+      "title": "מותאם לתיכון (Bachillerato)",
+      "label": "בתכנון",
       "items": [
         {
-          "title": "Itinerarios y optativas",
-          "body": "Elección de modalidad y optativas con la información clara para alumno y familia."
+          "title": "מגמות ומקצועות בחירה",
+          "body": "בחירת מגמה ומקצועות בחירה עם מידע ברור לתלמיד ולמשפחה."
         },
         {
-          "title": "Trabajo de investigación",
-          "body": "Seguimiento por etapas, con fechas, entregas parciales y comentarios del tutor."
+          "title": "עבודת חקר",
+          "body": "מעקב בשלבים, עם תאריכים, הגשות ביניים והערות של המנחה."
         },
         {
-          "title": "Preparación de la PAU",
-          "body": "Calendario, materiales y simulacros organizados por materia."
+          "title": "הכנה למבחני הכניסה (PAU)",
+          "body": "לוח זמנים, חומרים ומבחני דמה מאורגנים לפי מקצוע."
         },
         {
-          "title": "Orientación universitaria",
-          "body": "Información sobre grados y universidades, incluida la opción de estudiar en Israel."
+          "title": "הכוונה לאוניברסיטה",
+          "body": "מידע על תארים ואוניברסיטאות, כולל האפשרות ללמוד בישראל."
         }
       ]
     },
     "profesorado": {
-      "title": "Para profesorado y dirección",
-      "intro": "Si el profesorado no ahorra tiempo, la app no sirve. Por eso el panel del profesor es lo primero que diseñamos.",
+      "title": "למורים ולהנהלה",
+      "intro": "אם המורים לא חוסכים זמן, האפליקציה לא שווה. לכן לוח המורה הוא הדבר הראשון שתכננו.",
       "items": [
         {
-          "title": "Panel del profesor",
-          "body": "Sus grupos, lo pendiente de corregir y lo que pasa hoy, en una pantalla."
+          "title": "לוח המורה",
+          "body": "הקבוצות, מה שמחכה לבדיקה ומה שקורה היום, במסך אחד."
         },
         {
-          "title": "Corrección ágil",
-          "body": "Corregir, comentar y poner nota sin cambiar de pantalla."
+          "title": "בדיקה מהירה",
+          "body": "לבדוק, להעיר ולתת ציון בלי להחליף מסך."
         },
         {
-          "title": "Plantillas",
-          "body": "Tareas, rúbricas y avisos reutilizables de un curso a otro."
+          "title": "תבניות",
+          "body": "שיעורי בית, מחוונים ועדכונים לשימוש חוזר משנה לשנה."
         },
         {
-          "title": "Vista de clase del tutor",
-          "body": "Notas, asistencia y observaciones de toda la clase de un vistazo."
+          "title": "תצוגת כיתה למחנך",
+          "body": "ציונים, נוכחות והערות של כל הכיתה במבט אחד."
         },
         {
-          "title": "Detección de alumnos en riesgo",
-          "body": "Señales tempranas cuando se acumulan faltas, entregas o notas bajas."
+          "title": "זיהוי תלמידים בסיכון",
+          "body": "סימנים מוקדמים כשמצטברים היעדרויות, הגשות חסרות או ציונים נמוכים."
         },
         {
-          "title": "Constructor de horarios",
-          "body": "Horarios, aulas y sustituciones con avisos de conflicto."
+          "title": "בניית מערכת שעות",
+          "body": "מערכת שעות, כיתות ומילוי מקום עם התראות על התנגשויות."
         },
         {
-          "title": "Informes exportables",
-          "body": "Informes por alumno, clase o etapa, listos para descargar."
+          "title": "דוחות לייצוא",
+          "body": "דוחות לפי תלמיד, כיתה או שכבה, מוכנים להורדה."
         },
         {
-          "title": "Importación masiva",
-          "body": "Alumnos, grupos y profesorado importados desde una hoja de cálculo."
+          "title": "ייבוא מרוכז",
+          "body": "תלמידים, קבוצות ומורים מיובאים מגיליון אלקטרוני."
         }
       ]
     },
     "privacidad": {
-      "title": "Privacidad y seguridad",
-      "intro": "Hablamos de datos de menores. Esto es lo que nos comprometemos a hacer, por escrito, antes de empezar.",
+      "title": "פרטיות ואבטחה",
+      "intro": "מדובר בנתונים של קטינים. זה מה שאנחנו מתחייבים לו, בכתב, לפני שמתחילים.",
       "items": [
         {
-          "title": "Los datos son del colegio",
-          "body": "El colegio es el responsable del tratamiento. Nosotros solo tratamos los datos siguiendo sus instrucciones."
+          "title": "הנתונים שייכים לבית הספר",
+          "body": "בית הספר הוא האחראי על עיבוד הנתונים. אנחנו מעבדים אותם רק לפי הנחיותיו."
         },
         {
-          "title": "RGPD y LOPDGDD",
-          "body": "Diseñado para cumplir el Reglamento General de Protección de Datos y la ley española."
+          "title": "GDPR ו-LOPDGDD",
+          "body": "מתוכנן לעמוד בתקנה הכללית להגנת מידע ובחוק הספרדי."
         },
         {
-          "title": "Alojamiento en la UE",
-          "body": "Los datos se guardan en servidores dentro de la Unión Europea."
+          "title": "אחסון באיחוד האירופי",
+          "body": "הנתונים נשמרים בשרתים בתוך האיחוד האירופי."
         },
         {
-          "title": "Cifrado",
-          "body": "Información cifrada en tránsito y en reposo."
+          "title": "הצפנה",
+          "body": "מידע מוצפן בהעברה ובאחסון."
         },
         {
-          "title": "Verificación en dos pasos",
-          "body": "Obligatoria para profesorado y administración."
+          "title": "אימות דו-שלבי",
+          "body": "חובה למורים ולהנהלה."
         },
         {
-          "title": "Datos sensibles separados",
-          "body": "La información más delicada se guarda aparte y con acceso más restringido."
+          "title": "נתונים רגישים בנפרד",
+          "body": "המידע הרגיש ביותר נשמר בנפרד, עם גישה מוגבלת יותר."
         },
         {
-          "title": "Evaluación de impacto",
-          "body": "Antes del lanzamiento, por tratarse de datos de menores."
+          "title": "הערכת השפעה",
+          "body": "לפני ההשקה, כי מדובר בנתונים של קטינים."
         },
         {
-          "title": "Sin publicidad ni entrenamiento de modelos",
-          "body": "Los datos no se usan para publicidad ni para entrenar modelos de inteligencia artificial."
+          "title": "בלי פרסום ובלי אימון מודלים",
+          "body": "הנתונים לא משמשים לפרסום ולא לאימון מודלים של בינה מלאכותית."
         },
         {
-          "title": "Exportación libre",
-          "body": "El colegio puede exportar todos sus datos cuando quiera."
+          "title": "ייצוא חופשי",
+          "body": "בית הספר יכול לייצא את כל הנתונים שלו מתי שירצה."
         }
       ]
     },
     "futuro": {
-      "title": "Hacia dónde puede crecer",
-      "intro": "Ampliaciones que hemos pensado para más adelante. No forman parte del primer piloto.",
+      "title": "לאן זה יכול לגדול",
+      "intro": "הרחבות שחשבנו עליהן להמשך. הן לא חלק מהפיילוט הראשון.",
       "items": [
-        "Asistente de estudio con IA, bajo control del colegio",
-        "Red de exalumnos",
-        "Carnet digital con código QR",
-        "Extensión a infantil, primaria y ESO",
-        "Pagos",
-        "Firma electrónica"
+        "עוזר לימוד מבוסס בינה מלאכותית, בשליטת בית הספר",
+        "רשת בוגרים",
+        "כרטיס תלמיד דיגיטלי עם קוד QR",
+        "הרחבה לגן, ליסודי ולחטיבת הביניים",
+        "תשלומים",
+        "חתימה אלקטרונית"
       ]
     },
     "empezamos": {
-      "title": "Cómo empezamos",
-      "intro": "Sin cambiarlo todo de golpe. Empezamos pequeño, aprendemos con vosotros y crecemos cuando funciona.",
+      "title": "איך מתחילים",
+      "intro": "בלי לשנות הכול בבת אחת. מתחילים בקטן, לומדים יחד איתכם וגדלים כשזה עובד.",
       "steps": [
         {
-          "title": "Reunión con la dirección",
-          "body": "Entendemos cómo funciona vuestro colegio y qué os quita más tiempo."
+          "title": "פגישה עם ההנהלה",
+          "body": "אנחנו מבינים איך בית הספר שלכם עובד ומה גוזל לכם הכי הרבה זמן."
         },
         {
-          "title": "Piloto con un primer curso",
-          "body": "Arrancamos con un curso o una etapa concreta."
+          "title": "פיילוט עם שכבה ראשונה",
+          "body": "מתחילים עם שכבה אחת או שלב מסוים."
         },
         {
-          "title": "Formación breve del profesorado",
-          "body": "Sesiones cortas y prácticas, sin manuales eternos."
+          "title": "הדרכה קצרה למורים",
+          "body": "מפגשים קצרים ומעשיים, בלי מדריכים אינסופיים."
         },
         {
-          "title": "Soporte durante el primer año",
-          "body": "Estamos cerca para resolver dudas y ajustar lo que haga falta."
+          "title": "ליווי בשנה הראשונה",
+          "body": "אנחנו בסביבה כדי לענות על שאלות ולהתאים מה שצריך."
         },
         {
-          "title": "Ampliación a todo el colegio",
-          "body": "Cuando el piloto funciona, lo extendemos al resto de cursos."
+          "title": "הרחבה לכל בית הספר",
+          "body": "כשהפיילוט עובד, מרחיבים אותו לשאר השכבות."
         }
       ]
     },
     "cta": {
-      "title": "Cuéntanos cómo es tu colegio",
-      "body": "Estamos en conversaciones con colegios de Barcelona y buscamos colegios piloto. Si os interesa, hablemos.",
-      "primary": "Cuéntanos cómo es tu colegio",
-      "secondary": "Empecemos con un grupo piloto"
+      "title": "ספרו לנו על בית הספר שלכם",
+      "body": "אנחנו בשיחות עם בתי ספר בברצלונה ומחפשים בתי ספר לפיילוט. אם זה מעניין אתכם, בואו נדבר.",
+      "primary": "ספרו לנו על בית הספר שלכם",
+      "secondary": "נתחיל עם קבוצת פיילוט"
     }
   },
   "empresas": {
     "meta": {
-      "title": "Webs, e-commerce y apps a medida para empresas | Chai Active",
-      "description": "Transformación digital a medida desde Barcelona: webs corporativas, tiendas online, landings de lanzamiento, apps y herramientas internas. Multilingüe y con SEO."
+      "title": "אתרים, חנויות אונליין ואפליקציות בהתאמה אישית לעסקים | Chai Active",
+      "description": "טרנספורמציה דיגיטלית בהתאמה אישית מברצלונה: אתרי תדמית, חנויות אונליין, דפי השקה, אפליקציות וכלים פנימיים. רב-לשוני ומותאם ל-SEO."
     },
     "hero": {
-      "eyebrow": "Para empresas",
-      "title": "Tu negocio, con una presencia digital que se parezca a él.",
-      "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
-      "ctaPrimary": "Cuéntanos tu proyecto",
-      "ctaSecondary": "Ver proyectos"
+      "eyebrow": "לעסקים",
+      "title": "העסק שלכם, עם נוכחות דיגיטלית שדומה לו.",
+      "subtitle": "אתרים, חנויות אונליין, אפליקציות וכלים פנימיים בהתאמה אישית, בלי תבניות. ליזם נדל״ן, למותג קפה או לחנות כיפות: אנחנו מקשיבים לאיך שאתם עובדים ובונים את זה יחד איתכם.",
+      "ctaPrimary": "ספרו לנו על הפרויקט",
+      "ctaSecondary": "לראות פרויקטים"
     },
     "servicios": {
-      "title": "Lo que hacemos para empresas",
-      "intro": "Cada proyecto empieza por entender tu negocio. Después elegimos la herramienta que tiene sentido, no la que está de moda.",
+      "title": "מה אנחנו עושים לעסקים",
+      "intro": "כל פרויקט מתחיל בהבנת העסק שלכם. אחר כך בוחרים את הכלי שהגיוני, לא את זה שבאופנה.",
       "items": [
         {
-          "title": "Web corporativa",
-          "body": "Una web que explica bien qué haces y transmite quién eres, fácil de actualizar."
+          "title": "אתר תדמית",
+          "body": "אתר שמסביר היטב מה אתם עושים ומעביר מי אתם, וקל לעדכן אותו."
         },
         {
-          "title": "E-commerce",
-          "body": "Tienda online a medida con catálogo, carrito, cuentas de cliente y pagos."
+          "title": "חנות אונליין",
+          "body": "חנות בהתאמה אישית עם קטלוג, עגלה, חשבונות לקוח ותשלומים."
         },
         {
-          "title": "Landing de lanzamiento",
-          "body": "Una página para presentar un producto nuevo y reunir una lista de espera antes de salir."
+          "title": "דף השקה",
+          "body": "דף להצגת מוצר חדש ולאיסוף רשימת המתנה לפני היציאה לשוק."
         },
         {
-          "title": "Apps y herramientas a medida",
-          "body": "Aplicaciones y herramientas internas para lo que hoy hacéis con hojas de cálculo."
+          "title": "אפליקציות וכלים בהתאמה אישית",
+          "body": "אפליקציות וכלים פנימיים למה שאתם עושים היום בגיליונות אלקטרוניים."
         },
         {
-          "title": "Formularios y flujos de contacto",
-          "body": "Formularios por pasos que llevan cada contacto al canal adecuado: email, llamada o WhatsApp."
+          "title": "טפסים ותהליכי יצירת קשר",
+          "body": "טפסים בשלבים שמפנים כל פנייה לערוץ הנכון: מייל, שיחה או וואטסאפ."
         },
         {
-          "title": "Multilingüe",
-          "body": "Tu web en los idiomas de tus clientes, incluido el hebreo con escritura de derecha a izquierda."
+          "title": "רב-לשוני",
+          "body": "האתר שלכם בשפות של הלקוחות, כולל עברית מימין לשמאל."
         },
         {
           "title": "SEO",
-          "body": "Estructura, velocidad y contenidos pensados para que te encuentren en Google."
+          "body": "מבנה, מהירות ותוכן שנועדו לכך שימצאו אתכם בגוגל."
         }
       ]
     },
     "sectores": {
-      "title": "Sectores con los que trabajamos",
+      "title": "תחומים שאנחנו עובדים איתם",
       "items": [
-        "Promotora inmobiliaria",
-        "Marca de alimentación y bebida",
-        "Notaría",
-        "Marca de judaica",
-        "Tienda online"
+        "יזם נדל״ן",
+        "מותג מזון ומשקאות",
+        "משרד נוטריון",
+        "מותג יודאיקה",
+        "חנות אונליין"
       ]
     },
     "proceso": {
-      "title": "Cómo trabajamos",
+      "title": "איך אנחנו עובדים",
       "steps": [
         {
-          "title": "Conversación",
-          "body": "Nos cuentas tu negocio, tus clientes y qué quieres conseguir. Sin compromiso."
+          "title": "שיחה",
+          "body": "אתם מספרים לנו על העסק, על הלקוחות ועל מה שאתם רוצים להשיג. בלי התחייבות."
         },
         {
-          "title": "Diseño",
-          "body": "Te enseñamos cómo se verá antes de escribir una línea de código."
+          "title": "עיצוב",
+          "body": "אנחנו מראים לכם איך זה ייראה לפני שכותבים שורת קוד אחת."
         },
         {
-          "title": "Desarrollo",
-          "body": "Lo construimos y lo vas viendo avanzar, con versiones que puedes probar."
+          "title": "פיתוח",
+          "body": "אנחנו בונים ואתם רואים את ההתקדמות, עם גרסאות שאפשר לנסות."
         },
         {
-          "title": "Lanzamiento y soporte",
-          "body": "Lo publicamos y seguimos a tu lado para ajustes, mejoras y dudas."
+          "title": "השקה וליווי",
+          "body": "אנחנו מעלים לאוויר ונשארים לצדכם לשינויים, לשיפורים ולשאלות."
         }
       ]
     },
     "casos": {
-      "title": "Algunos proyectos",
-      "intro": "Empresas y marcas para las que hemos construido su presencia digital."
+      "title": "כמה פרויקטים",
+      "intro": "חברות ומותגים שבנינו להם את הנוכחות הדיגיטלית."
     },
     "cta": {
-      "title": "¿Tienes un proyecto en mente?",
-      "body": "Cuéntanoslo con tus palabras. Te respondemos nosotros, no un formulario automático.",
-      "button": "Hablemos"
+      "title": "יש לכם פרויקט בראש?",
+      "body": "ספרו לנו במילים שלכם. אנחנו עונים, לא טופס אוטומטי.",
+      "button": "בואו נדבר"
     }
   },
   "queHacemos": {
-    "title": "Qué hacemos",
-    "intro": "Chai significa vida en hebreo. Creemos que la buena tecnología apenas se nota: quita trabajo, ordena lo que estaba disperso y deja más tiempo para las personas. Trabajamos en tres líneas, con el mismo cuidado en las tres.",
+    "title": "מה אנחנו עושים",
+    "intro": "חי פירושו חיים. אנחנו מאמינים שטכנולוגיה טובה כמעט לא מורגשת: היא חוסכת עבודה, מסדרת את מה שהיה מפוזר ומשאירה יותר זמן לאנשים. אנחנו עובדים בשלושה תחומים, באותה הקפדה בכולם.",
     "lines": {
       "comunidades": {
-        "label": "Comunidades judías",
-        "title": "Una app para la vida de tu comunidad",
-        "body": "Damos a cada comunidad su propia app. Los miembros se inscriben a eventos, reservan el mikvé, donan y consultan los horarios de Shabat; el equipo lo gestiona todo desde un panel, en lugar de cinco grupos de WhatsApp y una hoja de cálculo.",
-        "cta": "Descubrir Kehál"
+        "label": "קהילות יהודיות",
+        "title": "אפליקציה לחיי הקהילה שלכם",
+        "body": "אנחנו נותנים לכל קהילה אפליקציה משלה. החברים נרשמים לאירועים, קובעים תור למקווה, תורמים ובודקים את זמני השבת; הצוות מנהל הכול מלוח בקרה אחד, במקום חמש קבוצות וואטסאפ וגיליון אלקטרוני.",
+        "cta": "להכיר את Kehál"
       },
       "colegios": {
-        "label": "Colegios judíos",
-        "title": "La app escolar con la identidad de tu colegio",
-        "body": "Diseñamos una app para colegios judíos con notas, tareas, asistencia y mensajes con las familias, y con el calendario hebreo, el modo Shabat y los estudios judaicos dentro. Cada perfil ve solo lo suyo.",
-        "cta": "Ver la propuesta para colegios"
+        "label": "בתי ספר יהודיים",
+        "title": "אפליקציית בית הספר, עם הזהות של בית הספר שלכם",
+        "body": "תכננו אפליקציה לבתי ספר יהודיים עם ציונים, שיעורי בית, נוכחות והודעות למשפחות, ועם הלוח העברי, מצב שבת ולימודי יהדות בפנים. כל פרופיל רואה רק את מה ששייך לו.",
+        "cta": "לראות את ההצעה לבתי ספר"
       },
       "empresas": {
-        "label": "Empresas",
-        "title": "Transformación digital a medida",
-        "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
-        "cta": "Ver servicios para empresas"
+        "label": "עסקים",
+        "title": "טרנספורמציה דיגיטלית בהתאמה אישית",
+        "body": "אנחנו בונים אתרי תדמית, חנויות אונליין, דפי השקה עם רשימת המתנה וכלים פנימיים לעסקים מכל תחום. גם ליזם נדל״ן וגם למותג קפה בפחית.",
+        "cta": "שירותים לעסקים"
       }
     }
   }

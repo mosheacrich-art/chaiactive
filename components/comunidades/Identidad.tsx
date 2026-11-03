@@ -57,7 +57,7 @@ export default function Identidad() {
                 maxLength={32}
                 onChange={(e) => setName(e.target.value)}
                 placeholder={t("namePlaceholder")}
-                className="mt-2 w-full rounded-xl border border-white/20 bg-white/10 px-4 py-2.5 text-white placeholder:text-white/50 outline-none focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/50"
+                className="mt-2 w-full rounded-xl border border-white/20 bg-white/10 px-4 py-2.5 text-white placeholder:text-white/60 outline-none focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/50"
               />
             </div>
 
@@ -130,7 +130,7 @@ export default function Identidad() {
               })}
             </ul>
           </div>
-          <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-white/60">{t("sampleLabel")}</p>
+          <p className="mt-4 text-xs font-semibold uppercase tracking-wider text-white/75">{t("sampleLabel")}</p>
         </div>
       </div>
     </section>

@@ -33,7 +33,7 @@ export default function Hero() {
           <p className="mt-6 max-w-2xl text-lg text-ink/70 sm:text-xl">{t("subtitle")}</p>
         </div>
 
-        <h2 className="mt-14 text-sm font-semibold uppercase tracking-wider text-ink/60">
+        <h2 className="mt-14 text-sm font-semibold uppercase tracking-wider text-ink/70">
           {t("selectorTitle")}
         </h2>
         <ul className="mt-4 grid gap-4 md:grid-cols-3">
