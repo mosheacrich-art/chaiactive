@@ -18,7 +18,7 @@ export default function CasoJabad() {
   return (
     <section className="bg-cream py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[1.15fr_0.85fr]">
-        <ScrollReveal className="relative aspect-[4/3] overflow-hidden rounded-3xl bg-white shadow-lg shadow-navy/10">
+        <ScrollReveal className="shot relative aspect-[4/3] bg-white">
           <ScreenshotSlideshow images={SCREENSHOTS} alt={t("screenshotAlt")} />
         </ScrollReveal>
 

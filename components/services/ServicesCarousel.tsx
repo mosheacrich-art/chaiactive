@@ -91,7 +91,7 @@ export default function ServicesCarousel({ slides }: { slides: CarouselSlide[] }
               width={slide.width}
               height={slide.height}
               sizes="(min-width: 1024px) 900px, 92vw"
-              className="h-auto w-full max-w-[900px] object-contain"
+              className="shot h-auto w-full max-w-[900px] object-contain"
             />
           </div>
         </motion.div>

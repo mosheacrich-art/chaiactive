@@ -15,7 +15,7 @@ export default function CasoCard({ config, compact = false }: { config: CasoConf
   const host = config.url.replace(/^https?:\/\//, "");
 
   return (
-    <article className="flex h-full flex-col overflow-hidden rounded-3xl border border-navy/10 bg-white shadow-sm">
+    <article className="shot flex h-full flex-col bg-white ring-1 ring-navy/10">
       <div className="relative aspect-[4/3] bg-cream">
         {config.screenshots.length > 0 ? (
           <ScreenshotSlideshow images={config.screenshots} alt={t("screenshotAlt", { name: text.name })} />

@@ -29,7 +29,7 @@ export default function PageHero({
           <h1 className="mt-4 text-4xl font-extrabold leading-[1.1] tracking-tight text-navy sm:text-5xl lg:text-[3.4rem]">
             {title}
           </h1>
-          <p className={`mt-6 text-lg text-ink/70 ${visual ? "max-w-lg" : "mx-auto max-w-2xl"}`}>
+          <p className={`mt-6 text-lg text-ink/70 ${visual ? "max-w-[34rem]" : "mx-auto max-w-[38rem]"}`}>
             {subtitle}
           </p>
           {actions && (

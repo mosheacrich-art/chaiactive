@@ -34,7 +34,7 @@ export default function ServiceRow({
       whileInView="visible"
       viewport={{ once: true, margin: "-80px" }}
       variants={variants}
-      className="grid h-full overflow-hidden rounded-3xl bg-white shadow-sm sm:grid-cols-2"
+      className="shot grid h-full bg-white sm:grid-cols-2"
     >
       <div className="flex items-center justify-center bg-cream p-6 sm:p-8">
         <Image

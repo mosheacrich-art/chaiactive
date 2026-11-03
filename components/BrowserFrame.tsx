@@ -10,7 +10,7 @@ export default function BrowserFrame({
   priority?: boolean;
 }) {
   return (
-    <div className="overflow-hidden rounded-2xl shadow-lg shadow-navy/10">
+    <div className="shot">
       <Image
         src={`/images/app/${src}`}
         alt={alt}
