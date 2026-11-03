@@ -580,8 +580,17 @@
       "cookies": "Cookie Policy"
     },
     "location": "Barcelona",
-    "navLabel": "Sections",
-    "legalLabel": "Legal information"
+    "legalLabel": "Legal information",
+    "cols": {
+      "empresa": "Company",
+      "kehal": "Kehál",
+      "modulos": "Modules",
+      "propuesta": "The proposal",
+      "vidaJudia": "Jewish life",
+      "privacidad": "Privacy",
+      "servicios": "Services",
+      "proyectos": "Projects"
+    }
   },
   "legal": {
     "reviewBanner": "Working draft. This document must be reviewed by a legal professional and completed with Chai Active's real identification details before going live in production.",
@@ -1438,5 +1447,8 @@
     "value": "250+",
     "label": "members on the app, out of a community of more than 750",
     "source": "Chabad Barcelona"
+  },
+  "closing": {
+    "quote": "Technology, when it's done well, leaves more time for life."
   }
 }

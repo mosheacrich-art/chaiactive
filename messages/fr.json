@@ -580,8 +580,17 @@
       "cookies": "Politique de cookies"
     },
     "location": "Barcelone",
-    "navLabel": "Sections",
-    "legalLabel": "Informations légales"
+    "legalLabel": "Informations légales",
+    "cols": {
+      "empresa": "Entreprise",
+      "kehal": "Kehál",
+      "modulos": "Modules",
+      "propuesta": "La proposition",
+      "vidaJudia": "Vie juive",
+      "privacidad": "Confidentialité",
+      "servicios": "Services",
+      "proyectos": "Projets"
+    }
   },
   "legal": {
     "reviewBanner": "Brouillon de travail. Ce document doit être relu par un professionnel du droit et complété avec les données d'identification réelles de Chai Active avant sa mise en production.",
@@ -1438,5 +1447,8 @@
     "value": "+250",
     "label": "membres sur l'appli, sur une communauté de plus de 750",
     "source": "Habad Barcelone"
+  },
+  "closing": {
+    "quote": "La technologie, quand elle est bien faite, laisse plus de temps pour la vie."
   }
 }

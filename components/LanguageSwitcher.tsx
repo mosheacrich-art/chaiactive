@@ -6,7 +6,7 @@ import { Globe } from "lucide-react";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { locales } from "@/i18n/routing";
 
-export default function LanguageSwitcher() {
+export default function LanguageSwitcher({ placement = "down" }: { placement?: "down" | "up" }) {
   const t = useTranslations("languageSwitcher");
   const locale = useLocale();
   const pathname = usePathname();
@@ -43,7 +43,7 @@ export default function LanguageSwitcher() {
             className="fixed inset-0 z-40 cursor-default"
             onClick={() => setOpen(false)}
           />
-          <ul className="absolute end-0 top-full z-50 mt-2 w-40 overflow-hidden rounded-xl border border-navy/10 bg-cream shadow-lg">
+          <ul className={`absolute end-0 z-50 w-40 ${placement === "up" ? "bottom-full mb-2" : "top-full mt-2"} overflow-hidden rounded-xl border border-navy/10 bg-cream shadow-lg`}>
             {locales.map((code) => (
               <li key={code}>
                 <button

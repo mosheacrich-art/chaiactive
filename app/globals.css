@@ -52,12 +52,21 @@ html[dir="rtl"] body {
   color: var(--color-navy-dark);
 }
 
-/* Serif display for the big headings; Hebrew overrides below. */
-h1,
-h2,
-.font-display {
-  font-family: var(--font-display-serif), Georgia, serif;
-  letter-spacing: -0.01em;
+@layer base {
+  /* Serif display for the big headings; Hebrew overrides below. */
+  h1,
+  h2,
+  .font-display {
+    font-family: var(--font-display-serif), Georgia, serif;
+    letter-spacing: -0.01em;
+  }
+
+  html[dir="rtl"] h1,
+  html[dir="rtl"] h2,
+  html[dir="rtl"] h3,
+  html[dir="rtl"] .font-display {
+    font-family: var(--font-hebrew-serif), serif;
+  }
 }
 
 @utility shot {
@@ -66,12 +75,7 @@ h2,
   overflow: hidden;
 }
 
-html[dir="rtl"] h1,
-html[dir="rtl"] h2,
-html[dir="rtl"] h3,
-html[dir="rtl"] .font-display {
-  font-family: var(--font-hebrew-serif), serif;
-}
+
 
 /* Visible keyboard focus everywhere, even on elements without their own style. */
 :focus-visible {

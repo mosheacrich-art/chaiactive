@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ClosingQuote from "./ClosingQuote";
 import Contacto from "@/components/Contacto";
 import type { Interest } from "@/lib/contact";
 
@@ -19,6 +20,7 @@ export default function PageShell({
       <main id="contenido">
         {children}
         <Contacto defaultInterest={interest} />
+        <ClosingQuote />
       </main>
       <Footer />
     </>

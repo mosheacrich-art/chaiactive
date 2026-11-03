@@ -580,8 +580,17 @@
       "cookies": "Política de Cookies"
     },
     "location": "Barcelona",
-    "navLabel": "Secciones",
-    "legalLabel": "Información legal"
+    "legalLabel": "Información legal",
+    "cols": {
+      "empresa": "Empresa",
+      "kehal": "Kehál",
+      "modulos": "Módulos",
+      "propuesta": "La propuesta",
+      "vidaJudia": "Vida judía",
+      "privacidad": "Privacidad",
+      "servicios": "Servicios",
+      "proyectos": "Proyectos"
+    }
   },
   "legal": {
     "reviewBanner": "Borrador de trabajo. Este documento debe ser revisado por un profesional (abogado o gestoría) y completado con los datos identificativos reales de Chai Active antes de publicarse en producción.",
@@ -1438,5 +1447,8 @@
     "value": "+250",
     "label": "miembros en la app, de una comunidad de más de 750",
     "source": "Jabad Barcelona"
+  },
+  "closing": {
+    "quote": "La tecnología, cuando está bien hecha, deja más tiempo para la vida."
   }
 }
