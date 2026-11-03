@@ -29,44 +29,30 @@
     "fr": "Français"
   },
   "hero": {
-    "titleLines": [
-      "Comunidades extraordinarias.",
-      "Herramientas anticuadas.",
-      "Cambiemos eso."
-    ],
-    "subtitle": "Tecnología pensada para que las comunidades judías dediquen menos tiempo a gestionar y más tiempo a conectar.",
-    "ctaPrimary": "Ver la plataforma",
-    "ctaSecondary": "Reservar una reunión",
-    "tabs": [
-      "Eventos",
-      "Donativos",
-      "Mikvé"
-    ]
-  },
-  "confianza": {
-    "title": "Ya confían en nosotros",
-    "items": [
-      {
-        "name": "Jabad Barcelona",
-        "role": "En uso real"
+    "titleStart": "Tecnología con vida.",
+    "titleEnd": "Para comunidades, colegios y empresas.",
+    "subtitle": "Somos una empresa de tecnología de Barcelona con raíces judías. Construimos herramientas digitales a medida que se parecen a quien las usa y le quitan trabajo a quien las gestiona.",
+    "selectorTitle": "¿Por dónde empezamos?",
+    "cards": {
+      "comunidad": {
+        "title": "Soy una comunidad",
+        "body": "Kehál, la app de tu kehilá: miembros, calendario hebreo, eventos, mikvé, donativos y Torá, con el nombre y los colores de tu comunidad.",
+        "note": "En uso en Jabad Barcelona",
+        "cta": "Ver Kehál"
       },
-      {
-        "name": "Creative Favours",
-        "role": "Judaica — Londres"
+      "colegio": {
+        "title": "Soy un colegio o institución",
+        "body": "Una app propia para alumnos, profesorado y familias, con el seguimiento académico, la comunicación y la vida judía en un solo sitio.",
+        "note": "Buscamos colegios piloto",
+        "cta": "Ver la propuesta"
       },
-      {
-        "name": "Perashapp",
-        "role": "Estudio de la parashá"
-      },
-      {
-        "name": "Kolel",
-        "role": "Torá"
-      },
-      {
-        "name": "Magen Publishers",
-        "role": "Editorial"
+      "empresa": {
+        "title": "Soy una empresa",
+        "body": "Webs, tiendas online, landings de lanzamiento, apps y herramientas internas hechas a medida para tu negocio.",
+        "note": "Cualquier sector",
+        "cta": "Ver qué hacemos"
       }
-    ]
+    }
   },
   "servicios": {
     "sectionTitleStart": "Todo lo que tu comunidad necesita,",
@@ -492,19 +478,19 @@
   },
   "sobreNosotros": {
     "eyebrow": "Nuestra historia",
-    "title": "Más que una app",
-    "subhead": "No solo construimos software. Construimos comunidades judías más fuertes.",
+    "title": "Más que software",
+    "subhead": "Construimos tecnología con vida, para que comunidades, colegios y empresas dediquen su tiempo a lo que importa.",
     "paragraphs": [
-      "Dos judíos, dos caminos distintos, una misión compartida. El mismo problema allá donde mirábamos: comunidades extraordinarias sosteniéndose con herramientas anticuadas, grupos de WhatsApp dispersos y horas de trabajo administrativo no remunerado que la tecnología debería resolver sin esfuerzo.",
-      "Así que decidimos construirla — no otra app más, sino una forma de devolverle el tiempo a quienes lideran una comunidad. Un único hogar para eventos, membresías, donativos, clases y todo lo demás que sostiene a una kehilá.",
-      "Para nosotros, esta es nuestra forma de devolver algo. Empezamos comunidad a comunidad, porque cada kehilá que fortalecemos es un paso hacia un futuro judío más fuerte."
+      "Dos judíos, dos caminos distintos y una misma idea. Allá donde mirábamos veíamos lo mismo: comunidades extraordinarias sosteniéndose con grupos de WhatsApp dispersos, hojas de cálculo y horas de trabajo voluntario que la tecnología debería resolver sin esfuerzo.",
+      "Empezamos por ahí, con Kehál, la app de comunidad que hoy usa Jabad Barcelona. Por el camino nos llamaron negocios con la misma necesidad de ordenar y crecer: una marca de kipot, una herramienta para estudiar la parashá, una promotora, una marca de café. Y los colegios judíos nos plantearon su propio reto.",
+      "Hoy trabajamos en las tres líneas con el mismo criterio: escuchar primero, construir a medida y quedarnos al lado después del lanzamiento. Para nosotros también es una forma de devolver algo a la comunidad que nos ha formado."
     ],
     "anchorCaption": "Barcelona · Israel",
     "pullQuote": "Porque cuando las comunidades prosperan, el judaísmo prospera.",
     "foundersHeader": "Los fundadores",
     "founders": [
       {
-        "name": "Isaac Ayash",
+        "name": "Isaac Ayash Belilty",
         "role": "Estudiante de Empresariales y Derecho — Barcelona, España",
         "quote": "Creo que la tecnología debe eliminar obstáculos, para que quienes lideran una comunidad puedan centrarse en las personas."
       },
@@ -514,7 +500,7 @@
         "quote": "Construyo tecnología con propósito, para fortalecer comunidades judías en todo el mundo."
       }
     ],
-    "finalLine": "Esto no es solo una startup. Es nuestra contribución al futuro de las comunidades judías en todo el mundo."
+    "finalLine": "No es solo una empresa. Es nuestra manera de aportar algo a las comunidades judías y a cualquiera que quiera construir algo con nosotros."
   },
   "idea": {
     "headlineLines": [
@@ -782,6 +768,30 @@
       "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
       "ctaPrimary": "Cuéntanos tu proyecto",
       "ctaSecondary": "Ver proyectos"
+    }
+  },
+  "queHacemos": {
+    "title": "Qué hacemos",
+    "intro": "Chai significa vida en hebreo. Creemos que la buena tecnología apenas se nota: quita trabajo, ordena lo que estaba disperso y deja más tiempo para las personas. Trabajamos en tres líneas, con el mismo cuidado en las tres.",
+    "lines": {
+      "comunidades": {
+        "label": "Comunidades judías",
+        "title": "Una app para la vida de tu comunidad",
+        "body": "Damos a cada comunidad su propia app. Los miembros se inscriben a eventos, reservan el mikvé, donan y consultan los horarios de Shabat; el equipo lo gestiona todo desde un panel, en lugar de cinco grupos de WhatsApp y una hoja de cálculo.",
+        "cta": "Descubrir Kehál"
+      },
+      "colegios": {
+        "label": "Colegios judíos",
+        "title": "La app escolar con la identidad de tu colegio",
+        "body": "Diseñamos una app para colegios judíos con notas, tareas, asistencia y mensajes con las familias, y con el calendario hebreo, el modo Shabat y los estudios judaicos dentro. Cada perfil ve solo lo suyo.",
+        "cta": "Ver la propuesta para colegios"
+      },
+      "empresas": {
+        "label": "Empresas",
+        "title": "Transformación digital a medida",
+        "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
+        "cta": "Ver servicios para empresas"
+      }
     }
   }
 }

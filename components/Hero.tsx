@@ -1,79 +1,71 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
-import HeroVisual from "./HeroVisual";
+import { ArrowRight, Briefcase, GraduationCap, Users } from "lucide-react";
+import { Link } from "@/i18n/navigation";
 
-const AUTO_ADVANCE_MS = 5000;
-const TITLE_LINE_COLORS = ["text-navy", "text-navy/40", "text-gold"];
+const AUDIENCES = [
+  { key: "comunidad", href: "/comunidades", Icon: Users },
+  { key: "colegio", href: "/colegios", Icon: GraduationCap },
+  { key: "empresa", href: "/empresas", Icon: Briefcase },
+] as const;
+
+type Card = { title: string; body: string; note: string; cta: string };
 
 export default function Hero() {
   const t = useTranslations("hero");
-  const titleLines = t.raw("titleLines") as string[];
-  const tabs = t.raw("tabs") as string[];
-
-  const [index, setIndex] = useState(0);
-  const [paused, setPaused] = useState(false);
-
-  useEffect(() => {
-    if (paused) return;
-    const id = setTimeout(() => {
-      setIndex((i) => (i + 1) % tabs.length);
-    }, AUTO_ADVANCE_MS);
-    return () => clearTimeout(id);
-  }, [paused, index, tabs.length]);
+  const cards = t.raw("cards") as Record<(typeof AUDIENCES)[number]["key"], Card>;
 
   return (
-    <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-14 sm:pb-24 sm:pt-20">
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 sm:px-6 lg:grid-cols-[1fr_1.15fr]">
-        <div>
-          <Image
-            src="/images/brand/chai-active-logo.png"
-            alt="Chai Active"
-            width={1015}
-            height={546}
-            priority
-            className="mb-6 h-24 w-auto sm:h-32"
-          />
+    <section className="relative overflow-hidden bg-[#f7f1ec] pb-16 pt-16 sm:pb-24 sm:pt-24">
+      {/* "חי" (chai, life): the idea behind the name, as a quiet backdrop. */}
+      <span
+        aria-hidden="true"
+        className="font-hebrew pointer-events-none absolute -top-10 end-[-2rem] select-none text-[16rem] leading-none text-gold/10 sm:text-[22rem]"
+        dir="rtl"
+      >
+        חי
+      </span>
 
-          <h1 className="text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
-            {titleLines.map((line, i) => (
-              <span
-                key={line}
-                className={`block ${i > 0 ? "mt-2 sm:mt-3" : ""} ${
-                  TITLE_LINE_COLORS[i] ?? "text-navy"
-                }`}
-              >
-                {line}
-              </span>
-            ))}
+      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
+        <div className="max-w-3xl">
+          <h1 className="text-4xl font-extrabold leading-[1.08] tracking-tight sm:text-6xl">
+            <span className="block text-navy">{t("titleStart")}</span>
+            <span className="mt-2 block text-gold-dark">{t("titleEnd")}</span>
           </h1>
-
-          <p className="mt-6 max-w-md text-lg text-ink/70">{t("subtitle")}</p>
-
-          <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <a
-              href="#servicios"
-              className="rounded-full bg-navy px-6 py-3 text-center text-sm font-semibold text-white transition hover:bg-navy-light"
-            >
-              {t("ctaPrimary")}
-            </a>
-            <a
-              href="#contacto"
-              className="rounded-full border border-navy/15 px-6 py-3 text-center text-sm font-semibold text-navy transition hover:bg-navy/5"
-            >
-              {t("ctaSecondary")}
-            </a>
-          </div>
+          <p className="mt-6 max-w-2xl text-lg text-ink/70 sm:text-xl">{t("subtitle")}</p>
         </div>
 
-        <HeroVisual
-          tabLabels={tabs}
-          activeIndex={index}
-          onSelect={setIndex}
-          onPauseChange={setPaused}
-        />
+        <h2 className="mt-14 text-sm font-semibold uppercase tracking-wider text-ink/60">
+          {t("selectorTitle")}
+        </h2>
+        <ul className="mt-4 grid gap-4 md:grid-cols-3">
+          {AUDIENCES.map(({ key, href, Icon }) => {
+            const card = cards[key];
+            return (
+              <li key={key}>
+                <Link
+                  href={href}
+                  className="group flex h-full flex-col rounded-3xl border border-navy/10 bg-white p-6 shadow-sm transition hover:-translate-y-0.5 hover:border-navy/25 hover:shadow-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold motion-reduce:transition-none motion-reduce:hover:translate-y-0 sm:p-7"
+                >
+                  <span className="flex size-12 items-center justify-center rounded-2xl bg-navy text-white">
+                    <Icon className="size-6" aria-hidden="true" />
+                  </span>
+                  <span className="mt-5 text-xl font-bold text-navy">{card.title}</span>
+                  <span className="mt-2 flex-1 text-[15px] leading-relaxed text-ink/70">{card.body}</span>
+                  <span className="mt-4 text-xs font-semibold uppercase tracking-wider text-gold-dark">
+                    {card.note}
+                  </span>
+                  <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-navy">
+                    {card.cta}
+                    <ArrowRight
+                      className="size-4 transition group-hover:translate-x-1 motion-reduce:transition-none rtl:rotate-180 rtl:group-hover:-translate-x-1"
+                      aria-hidden="true"
+                    />
+                  </span>
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </div>
     </section>
   );

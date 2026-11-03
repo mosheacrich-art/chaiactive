@@ -25,6 +25,7 @@
   --color-ink: var(--color-ink);
 
   --font-sans: var(--font-body), sans-serif;
+  --font-hebrew: var(--font-hebrew-serif), serif;
 }
 
 html {
@@ -45,4 +46,31 @@ html[dir="rtl"] body {
 ::selection {
   background: var(--color-gold);
   color: var(--color-navy-dark);
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] .font-display {
+  font-family: var(--font-hebrew-serif), serif;
+}
+
+/* Visible keyboard focus everywhere, even on elements without their own style. */
+:focus-visible {
+  outline: 2px solid var(--color-gold);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

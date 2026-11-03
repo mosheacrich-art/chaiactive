@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Assistant } from "next/font/google";
+import { Assistant, Frank_Ruhl_Libre } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -9,6 +9,15 @@ import "../globals.css";
 const assistant = Assistant({
   subsets: ["latin", "hebrew"],
   variable: "--font-body",
+  display: "swap",
+});
+
+// Hebrew headings: Playfair has no Hebrew glyphs, so RTL uses Frank Ruhl Libre
+// (applied in globals.css under html[dir="rtl"]).
+const frankRuhl = Frank_Ruhl_Libre({
+  subsets: ["hebrew", "latin"],
+  weight: ["500", "700", "900"],
+  variable: "--font-hebrew-serif",
   display: "swap",
 });
 
@@ -57,7 +66,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} data-scroll-behavior="smooth">
-      <body className={`${assistant.variable} bg-white text-ink antialiased`}>
+      <body className={`${assistant.variable} ${frankRuhl.variable} bg-white text-ink antialiased`}>
         <NextIntlClientProvider locale={locale as Locale}>
           {children}
         </NextIntlClientProvider>

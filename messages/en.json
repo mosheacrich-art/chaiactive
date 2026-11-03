@@ -29,44 +29,30 @@
     "fr": "Français"
   },
   "hero": {
-    "titleLines": [
-      "Incredible communities.",
-      "Outdated tools.",
-      "Let's change that."
-    ],
+    "titleStart": "Tecnología con vida.",
+    "titleEnd": "Para comunidades, colegios y empresas.",
     "subtitle": "Technology designed to help Jewish communities spend less time managing and more time connecting.",
-    "ctaPrimary": "See the platform",
-    "ctaSecondary": "Book a meeting",
-    "tabs": [
-      "Events",
-      "Donations",
-      "Mikvah"
-    ]
-  },
-  "confianza": {
-    "title": "Already trusted by",
-    "items": [
-      {
-        "name": "Jabad Barcelona",
-        "role": "In real use"
+    "selectorTitle": "¿Por dónde empezamos?",
+    "cards": {
+      "comunidad": {
+        "title": "Soy una comunidad",
+        "body": "Kehál, la app de tu kehilá: miembros, calendario hebreo, eventos, mikvé, donativos y Torá, con el nombre y los colores de tu comunidad.",
+        "note": "En uso en Jabad Barcelona",
+        "cta": "Ver Kehál"
       },
-      {
-        "name": "Creative Favours",
-        "role": "Judaica — London"
+      "colegio": {
+        "title": "Soy un colegio o institución",
+        "body": "Una app propia para alumnos, profesorado y familias, con el seguimiento académico, la comunicación y la vida judía en un solo sitio.",
+        "note": "Buscamos colegios piloto",
+        "cta": "Ver la propuesta"
       },
-      {
-        "name": "Perashapp",
-        "role": "Parasha study"
-      },
-      {
-        "name": "Kolel",
-        "role": "Torah"
-      },
-      {
-        "name": "Magen Publishers",
-        "role": "Publishing"
+      "empresa": {
+        "title": "Soy una empresa",
+        "body": "Webs, tiendas online, landings de lanzamiento, apps y herramientas internas hechas a medida para tu negocio.",
+        "note": "Cualquier sector",
+        "cta": "Ver qué hacemos"
       }
-    ]
+    }
   },
   "servicios": {
     "sectionTitleStart": "Everything your community needs,",
@@ -782,6 +768,30 @@
       "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
       "ctaPrimary": "Cuéntanos tu proyecto",
       "ctaSecondary": "Ver proyectos"
+    }
+  },
+  "queHacemos": {
+    "title": "Qué hacemos",
+    "intro": "Chai significa vida en hebreo. Creemos que la buena tecnología apenas se nota: quita trabajo, ordena lo que estaba disperso y deja más tiempo para las personas. Trabajamos en tres líneas, con el mismo cuidado en las tres.",
+    "lines": {
+      "comunidades": {
+        "label": "Comunidades judías",
+        "title": "Una app para la vida de tu comunidad",
+        "body": "Damos a cada comunidad su propia app. Los miembros se inscriben a eventos, reservan el mikvé, donan y consultan los horarios de Shabat; el equipo lo gestiona todo desde un panel, en lugar de cinco grupos de WhatsApp y una hoja de cálculo.",
+        "cta": "Descubrir Kehál"
+      },
+      "colegios": {
+        "label": "Colegios judíos",
+        "title": "La app escolar con la identidad de tu colegio",
+        "body": "Diseñamos una app para colegios judíos con notas, tareas, asistencia y mensajes con las familias, y con el calendario hebreo, el modo Shabat y los estudios judaicos dentro. Cada perfil ve solo lo suyo.",
+        "cta": "Ver la propuesta para colegios"
+      },
+      "empresas": {
+        "label": "Empresas",
+        "title": "Transformación digital a medida",
+        "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
+        "cta": "Ver servicios para empresas"
+      }
     }
   }
 }

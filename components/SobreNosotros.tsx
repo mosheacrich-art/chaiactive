@@ -24,12 +24,12 @@ export default function SobreNosotros() {
   const founders = t.raw("founders") as Founder[];
 
   return (
-    <section id="nosotros" className="bg-cream py-20 sm:py-28">
+    <section id="nosotros" className="scroll-mt-20 bg-cream py-20 sm:py-28">
       <div className="mx-auto max-w-5xl px-4 sm:px-6">
         <div className="relative overflow-hidden rounded-3xl px-4 py-12 text-center sm:px-8">
           <HebrewPattern />
           <ScrollReveal y={20} className="relative">
-            <p className="text-sm font-semibold uppercase tracking-wider text-gold">
+            <p className="text-sm font-semibold uppercase tracking-wider text-gold-dark">
               {t("eyebrow")}
             </p>
             <h2 className="mt-3 text-4xl font-extrabold tracking-tight text-navy sm:text-5xl">
@@ -66,7 +66,7 @@ export default function SobreNosotros() {
 
         <ScrollReveal duration={0.7} className="mt-16 sm:mt-20">
           <p
-            className={`${playfair.className} mx-auto max-w-2xl text-center text-3xl leading-snug text-navy sm:text-4xl`}
+            className={`${playfair.className} font-display mx-auto max-w-2xl text-center text-3xl leading-snug text-navy sm:text-4xl`}
           >
             {t("pullQuote")}
           </p>
