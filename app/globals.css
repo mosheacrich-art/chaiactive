@@ -8,6 +8,8 @@
   --color-cream-dark: #eeece5;
   --color-gold: #c1932f;
   --color-gold-light: #d9b45c;
+  /* Darker gold for small text on white/cream: passes WCAG AA (≈5:1). */
+  --color-gold-dark: #8a6516;
   --color-ink: #1c1a15;
 }
 
@@ -19,6 +21,7 @@
   --color-cream-dark: var(--color-cream-dark);
   --color-gold: var(--color-gold);
   --color-gold-light: var(--color-gold-light);
+  --color-gold-dark: var(--color-gold-dark);
   --color-ink: var(--color-ink);
 
   --font-sans: var(--font-body), sans-serif;

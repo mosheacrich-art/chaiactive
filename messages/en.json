@@ -9,10 +9,13 @@
   },
   "skipToContent": "Skip to content",
   "nav": {
-    "servicios": "Services",
+    "label": "Navegación principal",
+    "skip": "Ir al contenido",
+    "comunidades": "Comunidades",
+    "colegios": "Colegios",
+    "empresas": "Empresas",
     "casos": "Success stories",
     "nosotros": "About us",
-    "idea": "Personalized favours",
     "contacto": "Contact",
     "cta": "Book a meeting",
     "openMenu": "Open menu",
@@ -34,16 +37,35 @@
     "subtitle": "Technology designed to help Jewish communities spend less time managing and more time connecting.",
     "ctaPrimary": "See the platform",
     "ctaSecondary": "Book a meeting",
-    "tabs": ["Events", "Donations", "Mikvah"]
+    "tabs": [
+      "Events",
+      "Donations",
+      "Mikvah"
+    ]
   },
   "confianza": {
     "title": "Already trusted by",
     "items": [
-      { "name": "Jabad Barcelona", "role": "In real use" },
-      { "name": "Creative Favours", "role": "Judaica — London" },
-      { "name": "Perashapp", "role": "Parasha study" },
-      { "name": "Kolel", "role": "Torah" },
-      { "name": "Magen Publishers", "role": "Publishing" }
+      {
+        "name": "Jabad Barcelona",
+        "role": "In real use"
+      },
+      {
+        "name": "Creative Favours",
+        "role": "Judaica — London"
+      },
+      {
+        "name": "Perashapp",
+        "role": "Parasha study"
+      },
+      {
+        "name": "Kolel",
+        "role": "Torah"
+      },
+      {
+        "name": "Magen Publishers",
+        "role": "Publishing"
+      }
     ]
   },
   "servicios": {
@@ -53,142 +75,390 @@
       {
         "number": "01",
         "eyebrow": "Our Services",
-        "headline": ["Custom apps.", "For your community."],
+        "headline": [
+          "Custom apps.",
+          "For your community."
+        ],
         "description": "We build unique applications, with the features you need and the experience you want. You imagine it, we make it real.",
-        "chips": ["Members", "Events", "Donations", "Messaging", "Content", "Payments", "Analytics", "And much more"],
+        "chips": [
+          "Members",
+          "Events",
+          "Donations",
+          "Messaging",
+          "Content",
+          "Payments",
+          "Analytics",
+          "And much more"
+        ],
         "cta": "Discover our services",
         "asideNote": "The limits are your ideas, not the tools.",
         "cards": [
-          { "title": "Custom development", "note": "Every community is unique. 100% tailored." },
-          { "title": "Security and trust", "note": "Your community's data, always protected." },
-          { "title": "Intuitive design", "note": "Modern experiences, aligned with your identity." },
-          { "title": "Ongoing support", "note": "We're with you every step of the way." }
+          {
+            "title": "Custom development",
+            "note": "Every community is unique. 100% tailored."
+          },
+          {
+            "title": "Security and trust",
+            "note": "Your community's data, always protected."
+          },
+          {
+            "title": "Intuitive design",
+            "note": "Modern experiences, aligned with your identity."
+          },
+          {
+            "title": "Ongoing support",
+            "note": "We're with you every step of the way."
+          }
         ]
       },
       {
         "number": "02",
         "eyebrow": "Donations & Fundraising",
-        "headline": ["Grow", "your donations."],
+        "headline": [
+          "Grow",
+          "your donations."
+        ],
         "description": "Accept one-time or recurring donations, launch campaigns, assign specific funds, and keep your community connected to every cause.",
-        "chips": ["Donate", "Campaigns", "Recurring", "Funds", "Receipts"],
+        "chips": [
+          "Donate",
+          "Campaigns",
+          "Recurring",
+          "Funds",
+          "Receipts"
+        ],
         "cta": "Discover more",
         "cards": [
-          { "title": "Donation received", "value": "€180.00", "note": "Thank you for your contribution!" },
-          { "title": "Active donors", "value": "124", "note": "+15 this month" },
-          { "title": "Active campaign", "value": "73%", "note": "Education Fund · €7,280 / €10,000" },
-          { "title": "Receipt sent", "value": "€180.00", "note": "David Cohen · July 19, 2026" }
+          {
+            "title": "Donation received",
+            "value": "€180.00",
+            "note": "Thank you for your contribution!"
+          },
+          {
+            "title": "Active donors",
+            "value": "124",
+            "note": "+15 this month"
+          },
+          {
+            "title": "Active campaign",
+            "value": "73%",
+            "note": "Education Fund · €7,280 / €10,000"
+          },
+          {
+            "title": "Receipt sent",
+            "value": "€180.00",
+            "note": "David Cohen · July 19, 2026"
+          }
         ]
       },
       {
         "number": "03",
         "eyebrow": "Hebrew Calendar",
-        "headline": ["Every member.", "Always up to date."],
+        "headline": [
+          "Every member.",
+          "Always up to date."
+        ],
         "description": "Dates, Shabbat times, holidays, parasha and important reminders, synced automatically.",
-        "chips": ["Zmanim", "Holidays", "Parasha", "Hebrew Calendar", "Yahrzeit"],
+        "chips": [
+          "Zmanim",
+          "Holidays",
+          "Parasha",
+          "Hebrew Calendar",
+          "Yahrzeit"
+        ],
         "cta": "Explore calendar",
         "cards": [
-          { "title": "Candle lighting", "value": "8:58 PM", "note": "Madrid · Fri, July 21" },
-          { "title": "Parasha", "value": "Matot-Masei", "note": "Numbers 30:2–36:13" },
-          { "title": "17th of Tammuz", "value": "July 22", "note": "Fast day" },
-          { "title": "Upcoming Yahrzeit", "value": "Tomorrow", "note": "R' Moshe Cohen (Tammuz 23)" }
+          {
+            "title": "Candle lighting",
+            "value": "8:58 PM",
+            "note": "Madrid · Fri, July 21"
+          },
+          {
+            "title": "Parasha",
+            "value": "Matot-Masei",
+            "note": "Numbers 30:2–36:13"
+          },
+          {
+            "title": "17th of Tammuz",
+            "value": "July 22",
+            "note": "Fast day"
+          },
+          {
+            "title": "Upcoming Yahrzeit",
+            "value": "Tomorrow",
+            "note": "R' Moshe Cohen (Tammuz 23)"
+          }
         ]
       },
       {
         "number": "04",
         "eyebrow": "Member Management",
-        "headline": ["Every member.", "Well organized."],
+        "headline": [
+          "Every member.",
+          "Well organized."
+        ],
         "description": "Manage members, families, dues, groups and communication from one complete, easy-to-use panel.",
-        "chips": ["Members", "Families", "Dues", "Groups", "Communication"],
+        "chips": [
+          "Members",
+          "Families",
+          "Dues",
+          "Groups",
+          "Communication"
+        ],
         "cta": "Manage your community",
         "cards": [
-          { "title": "Total members", "value": "562", "note": "+24 this month" },
-          { "title": "Families", "value": "186", "note": "In the community" },
-          { "title": "Dues up to date", "value": "92%", "note": "+5% vs last month" },
-          { "title": "Active groups", "value": "24", "note": "From kids to adults" }
+          {
+            "title": "Total members",
+            "value": "562",
+            "note": "+24 this month"
+          },
+          {
+            "title": "Families",
+            "value": "186",
+            "note": "In the community"
+          },
+          {
+            "title": "Dues up to date",
+            "value": "92%",
+            "note": "+5% vs last month"
+          },
+          {
+            "title": "Active groups",
+            "value": "24",
+            "note": "From kids to adults"
+          }
         ]
       },
       {
         "number": "05",
         "eyebrow": "Mikvah Appointments",
-        "headline": ["Private.", "Simple.", "Respectful."],
+        "headline": [
+          "Private.",
+          "Simple.",
+          "Respectful."
+        ],
         "description": "Book your mikvah visit quickly and securely, with total privacy and automatic reminders.",
-        "chips": ["Bookings", "Availability", "Privacy", "Reminders", "Confirmation"],
+        "chips": [
+          "Bookings",
+          "Availability",
+          "Privacy",
+          "Reminders",
+          "Confirmation"
+        ],
         "cta": "Book now",
         "cards": [
-          { "title": "Appointment confirmed", "value": "8:00 PM", "note": "Tuesday, July 21 · See you there" },
-          { "title": "Total privacy", "note": "Your information always safe and confidential." },
-          { "title": "Reminder", "note": "We'll remind you 1 hour before your appointment." },
-          { "title": "Availability", "note": "Time slots updated in real time." }
+          {
+            "title": "Appointment confirmed",
+            "value": "8:00 PM",
+            "note": "Tuesday, July 21 · See you there"
+          },
+          {
+            "title": "Total privacy",
+            "note": "Your information always safe and confidential."
+          },
+          {
+            "title": "Reminder",
+            "note": "We'll remind you 1 hour before your appointment."
+          },
+          {
+            "title": "Availability",
+            "note": "Time slots updated in real time."
+          }
         ]
       },
       {
         "number": "06",
         "eyebrow": "Community Services",
-        "headline": ["Every important moment.", "One place."],
+        "headline": [
+          "Every important moment.",
+          "One place."
+        ],
         "description": "Request community services quickly and easily. From Bar Mitzvah to meetings with the Rabbi, all in your app.",
-        "chips": ["Bar/Bat Mitzvah", "Brit Milah", "Wedding", "Baby naming", "Aliyot", "Meeting with the Rabbi"],
+        "chips": [
+          "Bar/Bat Mitzvah",
+          "Brit Milah",
+          "Wedding",
+          "Baby naming",
+          "Aliyot",
+          "Meeting with the Rabbi"
+        ],
         "cta": "Request a service",
         "cards": [
-          { "title": "Bar Mitzvah", "value": "Request sent", "note": "July 22, 2026" },
-          { "title": "Baby naming", "value": "Request sent", "note": "August 15, 2026" },
-          { "title": "Meeting with the Rabbi", "value": "Confirmed", "note": "Tuesday, July 22 · 5:30 PM" },
-          { "title": "Wedding", "value": "In progress", "note": "September 3, 2026" }
+          {
+            "title": "Bar Mitzvah",
+            "value": "Request sent",
+            "note": "July 22, 2026"
+          },
+          {
+            "title": "Baby naming",
+            "value": "Request sent",
+            "note": "August 15, 2026"
+          },
+          {
+            "title": "Meeting with the Rabbi",
+            "value": "Confirmed",
+            "note": "Tuesday, July 22 · 5:30 PM"
+          },
+          {
+            "title": "Wedding",
+            "value": "In progress",
+            "note": "September 3, 2026"
+          }
         ]
       },
       {
         "number": "07",
         "eyebrow": "Events & Registrations",
-        "headline": ["Every event.", "Perfectly organized.", "Effortlessly."],
+        "headline": [
+          "Every event.",
+          "Perfectly organized.",
+          "Effortlessly."
+        ],
         "description": "Create, manage and fill your events with one-click registration, fast check-in, and real-time information.",
-        "chips": ["Events", "Registrations", "Check-in", "Attendees", "Waitlist", "Real-time capacity"],
+        "chips": [
+          "Events",
+          "Registrations",
+          "Check-in",
+          "Attendees",
+          "Waitlist",
+          "Real-time capacity"
+        ],
         "cta": "Explore events",
         "cards": [
-          { "title": "Shabbat dinner", "value": "120/200", "note": "Registration open" },
-          { "title": "Kids 6-12", "value": "35/50", "note": "35 registered" },
-          { "title": "Fast check-in", "note": "Scan the code and log attendance instantly." },
-          { "title": "Waitlist", "value": "18 people", "note": "waiting" }
+          {
+            "title": "Shabbat dinner",
+            "value": "120/200",
+            "note": "Registration open"
+          },
+          {
+            "title": "Kids 6-12",
+            "value": "35/50",
+            "note": "35 registered"
+          },
+          {
+            "title": "Fast check-in",
+            "note": "Scan the code and log attendance instantly."
+          },
+          {
+            "title": "Waitlist",
+            "value": "18 people",
+            "note": "waiting"
+          }
         ]
       },
       {
         "number": "08",
         "eyebrow": "Jconnect",
-        "headline": ["Your business.", "Connected to your community."],
+        "headline": [
+          "Your business.",
+          "Connected to your community."
+        ],
         "description": "Publish your business, find collaboration and grow your Jewish professional network, all inside the app.",
-        "chips": ["Directory", "Businesses", "Professionals", "Co-Work", "Publish", "Search"],
+        "chips": [
+          "Directory",
+          "Businesses",
+          "Professionals",
+          "Co-Work",
+          "Publish",
+          "Search"
+        ],
         "cta": "Explore Jconnect",
         "cards": [
-          { "title": "Business published", "value": "Kosher Catering BCN", "note": "Visible to the whole community" },
-          { "title": "New collaboration", "value": "2 proposals", "note": "Received this week" },
-          { "title": "Active directory", "value": "48 businesses", "note": "View directory" },
-          { "title": "Publish my business", "note": "Publish in minutes and reach the whole community." }
+          {
+            "title": "Business published",
+            "value": "Kosher Catering BCN",
+            "note": "Visible to the whole community"
+          },
+          {
+            "title": "New collaboration",
+            "value": "2 proposals",
+            "note": "Received this week"
+          },
+          {
+            "title": "Active directory",
+            "value": "48 businesses",
+            "note": "View directory"
+          },
+          {
+            "title": "Publish my business",
+            "note": "Publish in minutes and reach the whole community."
+          }
         ]
       },
       {
         "number": "09",
         "eyebrow": "Torah & Shiurim",
-        "headline": ["Torah.", "Whenever you want.", "Wherever you are."],
+        "headline": [
+          "Torah.",
+          "Whenever you want.",
+          "Wherever you are."
+        ],
         "description": "Access shiurim, classes and inspiring materials to learn, grow and connect with your community.",
-        "chips": ["Videos", "Podcasts", "Classes", "Materials", "Favorites", "Continue watching"],
+        "chips": [
+          "Videos",
+          "Podcasts",
+          "Classes",
+          "Materials",
+          "Favorites",
+          "Continue watching"
+        ],
         "cta": "Explore Torah & Shiurim",
         "cards": [
-          { "title": "Videos", "note": "Explore hundreds of video shiurim from great rabbis." },
-          { "title": "Podcasts", "note": "Listen to shiurim anywhere, whenever you want." },
-          { "title": "Materials", "note": "Guides, articles and sources to keep learning." },
-          { "title": "Favorites", "note": "Save your favorite shiurim and materials." }
+          {
+            "title": "Videos",
+            "note": "Explore hundreds of video shiurim from great rabbis."
+          },
+          {
+            "title": "Podcasts",
+            "note": "Listen to shiurim anywhere, whenever you want."
+          },
+          {
+            "title": "Materials",
+            "note": "Guides, articles and sources to keep learning."
+          },
+          {
+            "title": "Favorites",
+            "note": "Save your favorite shiurim and materials."
+          }
         ]
       },
       {
         "number": "10",
         "eyebrow": "Admin Dashboard",
-        "headline": ["Manage everything.", "From one place."],
+        "headline": [
+          "Manage everything.",
+          "From one place."
+        ],
         "description": "Powerful tools for members, events, donations, mikvah bookings, communications and analytics. All from one central dashboard.",
-        "chips": ["Members", "Events", "Donations", "Analytics", "Messages", "Settings"],
+        "chips": [
+          "Members",
+          "Events",
+          "Donations",
+          "Analytics",
+          "Messages",
+          "Settings"
+        ],
         "cta": "Explore Admin Dashboard",
         "cards": [
-          { "title": "New member approved", "value": "Leah Cohen", "note": "5 minutes ago" },
-          { "title": "Donations", "value": "€18,450", "note": "+22% vs last month" },
-          { "title": "Bulk message sent", "value": "1,248 members", "note": "" },
-          { "title": "Growth", "value": "+18%", "note": "vs last month" }
+          {
+            "title": "New member approved",
+            "value": "Leah Cohen",
+            "note": "5 minutes ago"
+          },
+          {
+            "title": "Donations",
+            "value": "€18,450",
+            "note": "+22% vs last month"
+          },
+          {
+            "title": "Bulk message sent",
+            "value": "1,248 members",
+            "note": ""
+          },
+          {
+            "title": "Growth",
+            "value": "+18%",
+            "note": "vs last month"
+          }
         ]
       }
     ]
@@ -247,7 +517,10 @@
     "finalLine": "This isn't just a startup. It's our contribution to the future of Jewish communities worldwide."
   },
   "idea": {
-    "headlineLines": ["Have an idea?", "Let's build it."],
+    "headlineLines": [
+      "Have an idea?",
+      "Let's build it."
+    ],
     "subhead": "Kehál is our flagship product, but not the only one. We build custom tools for rabbis, Jewish businesses and community leaders with an idea worth making real. That's how Creative Favours and Perashapp started — with a conversation, not a fixed request.",
     "chips": [
       "A website for your Jewish business",
@@ -276,7 +549,15 @@
       "submit": "Send message",
       "sending": "Sending…",
       "success": "Sent! We'll get back to you soon.",
-      "error": "Something went wrong. Email us at jactive@gmail.com."
+      "error": "Something went wrong. Email us at jactive@gmail.com.",
+      "interest": "¿Qué te interesa?",
+      "interestPlaceholder": "Elige una opción",
+      "interests": {
+        "comunidad": "Comunidad",
+        "colegio": "Colegio o institución",
+        "empresa": "Empresa",
+        "otra": "Otra cosa"
+      }
     },
     "whatsappPanel": {
       "title": "Chat with us",
@@ -290,17 +571,24 @@
     "floatingSent": {
       "title": "Sent",
       "body": "We reply within 24h"
-    }
+    },
+    "channels": {
+      "whatsapp": "Escríbenos directamente",
+      "emailLabel": "Email"
+    },
+    "orForm": "O déjanos un mensaje aquí y te escribimos nosotros."
   },
   "footer": {
     "tagline": "Technology with life, for Jewish communities.",
     "rights": "© {year} Chai Active. All rights reserved.",
-    "pendingDomain": "chaiactive.com — domain pending registration",
     "legalLinks": {
       "avisoLegal": "Legal Notice",
       "privacidad": "Privacy Policy",
       "cookies": "Cookie Policy"
-    }
+    },
+    "location": "Barcelona",
+    "navLabel": "Secciones",
+    "legalLabel": "Información legal"
   },
   "legal": {
     "reviewBanner": "Working draft. This document must be reviewed by a legal professional and completed with Chai Active's real identification details before going live in production.",
@@ -450,6 +738,50 @@
           ]
         }
       ]
+    }
+  },
+  "comunidades": {
+    "meta": {
+      "title": "Kehál, la app para comunidades judías | Chai Active",
+      "description": "Kehál: membresía, calendario hebreo, eventos, mikvé, donativos, servicios de ciclo de vida y Torá en una app con la identidad de tu comunidad. En uso en Jabad Barcelona."
+    },
+    "hero": {
+      "eyebrow": "Para comunidades judías",
+      "title": "La vida de tu comunidad, en una app que lleva su nombre.",
+      "subtitle": "Kehál reúne membresía, calendario hebreo, eventos, mikvé, donativos y Torá en un solo sitio, con los colores, el logo y los idiomas de tu kehilá. Toda la app o solo los módulos que necesitas.",
+      "ctaPrimary": "Ver qué incluye",
+      "ctaSecondary": "Hablemos de tu comunidad",
+      "tabs": [
+        "Eventos",
+        "Donativos",
+        "Mikvé"
+      ]
+    }
+  },
+  "colegios": {
+    "meta": {
+      "title": "Una app propia para colegios judíos | Chai Active",
+      "description": "Seguimiento académico, comunicación con familias y vida judía integrada en una app con la identidad de tu colegio. Buscamos colegios piloto."
+    },
+    "hero": {
+      "eyebrow": "Para colegios judíos",
+      "title": "La vida escolar de un colegio judío, en una sola app con su identidad.",
+      "subtitle": "Diseñamos una app propia para el alumno, el profesorado y las familias: notas, tareas, asistencia y mensajes en un solo sitio, con el calendario hebreo y la vida judía dentro. Estamos en conversaciones con colegios de Barcelona y listos para empezar con colegios piloto.",
+      "ctaPrimary": "Cuéntanos cómo es tu colegio",
+      "ctaSecondary": "Empecemos con un grupo piloto"
+    }
+  },
+  "empresas": {
+    "meta": {
+      "title": "Webs, e-commerce y apps a medida para empresas | Chai Active",
+      "description": "Transformación digital a medida desde Barcelona: webs corporativas, tiendas online, landings de lanzamiento, apps y herramientas internas. Multilingüe y con SEO."
+    },
+    "hero": {
+      "eyebrow": "Para empresas",
+      "title": "Tu negocio, con una presencia digital que se parezca a él.",
+      "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
+      "ctaPrimary": "Cuéntanos tu proyecto",
+      "ctaSecondary": "Ver proyectos"
     }
   }
 }

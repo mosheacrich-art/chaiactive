@@ -9,10 +9,13 @@
   },
   "skipToContent": "מעבר לתוכן",
   "nav": {
-    "servicios": "שירותים",
+    "label": "Navegación principal",
+    "skip": "Ir al contenido",
+    "comunidades": "Comunidades",
+    "colegios": "Colegios",
+    "empresas": "Empresas",
     "casos": "סיפורי הצלחה",
     "nosotros": "אודותינו",
-    "idea": "פרויקטים בהתאמה אישית",
     "contacto": "צור קשר",
     "cta": "קביעת פגישה",
     "openMenu": "פתיחת התפריט",
@@ -34,16 +37,35 @@
     "subtitle": "טכנולוגיה שנועדה לעזור לקהילות יהודיות להשקיע פחות זמן בניהול, ויותר זמן בחיבור.",
     "ctaPrimary": "לצפייה בפלטפורמה",
     "ctaSecondary": "קביעת פגישה",
-    "tabs": ["אירועים", "תרומות", "מקווה"]
+    "tabs": [
+      "אירועים",
+      "תרומות",
+      "מקווה"
+    ]
   },
   "confianza": {
     "title": "כבר סומכים עלינו",
     "items": [
-      { "name": "חב״ד ברצלונה", "role": "בשימוש אמיתי" },
-      { "name": "Creative Favours", "role": "יודאיקה — לונדון" },
-      { "name": "Perashapp", "role": "לימוד פרשת השבוע" },
-      { "name": "Kolel", "role": "תורה" },
-      { "name": "Magen Publishers", "role": "הוצאה לאור" }
+      {
+        "name": "חב״ד ברצלונה",
+        "role": "בשימוש אמיתי"
+      },
+      {
+        "name": "Creative Favours",
+        "role": "יודאיקה — לונדון"
+      },
+      {
+        "name": "Perashapp",
+        "role": "לימוד פרשת השבוע"
+      },
+      {
+        "name": "Kolel",
+        "role": "תורה"
+      },
+      {
+        "name": "Magen Publishers",
+        "role": "הוצאה לאור"
+      }
     ]
   },
   "servicios": {
@@ -53,142 +75,390 @@
       {
         "number": "01",
         "eyebrow": "השירותים שלנו",
-        "headline": ["אפליקציות בהתאמה אישית.", "לקהילה שלך."],
+        "headline": [
+          "אפליקציות בהתאמה אישית.",
+          "לקהילה שלך."
+        ],
         "description": "אנחנו בונים אפליקציות ייחודיות, עם הפונקציות שאתם צריכים והחוויה שאתם רוצים. אתם מדמיינים, אנחנו הופכים את זה למציאות.",
-        "chips": ["חברים", "אירועים", "תרומות", "הודעות", "תוכן", "תשלומים", "אנליטיקה", "ועוד הרבה"],
+        "chips": [
+          "חברים",
+          "אירועים",
+          "תרומות",
+          "הודעות",
+          "תוכן",
+          "תשלומים",
+          "אנליטיקה",
+          "ועוד הרבה"
+        ],
         "cta": "גלו את השירותים שלנו",
         "asideNote": "הגבולות הם הרעיונות שלכם, לא הכלים.",
         "cards": [
-          { "title": "פיתוח בהתאמה אישית", "note": "כל קהילה היא ייחודית. 100% מותאם אישית." },
-          { "title": "אבטחה ואמון", "note": "המידע של הקהילה שלכם, תמיד מוגן." },
-          { "title": "עיצוב אינטואיטיבי", "note": "חוויות מודרניות, בהתאמה לזהות שלכם." },
-          { "title": "ליווי מתמשך", "note": "אנחנו איתכם בכל שלב בדרך." }
+          {
+            "title": "פיתוח בהתאמה אישית",
+            "note": "כל קהילה היא ייחודית. 100% מותאם אישית."
+          },
+          {
+            "title": "אבטחה ואמון",
+            "note": "המידע של הקהילה שלכם, תמיד מוגן."
+          },
+          {
+            "title": "עיצוב אינטואיטיבי",
+            "note": "חוויות מודרניות, בהתאמה לזהות שלכם."
+          },
+          {
+            "title": "ליווי מתמשך",
+            "note": "אנחנו איתכם בכל שלב בדרך."
+          }
         ]
       },
       {
         "number": "02",
         "eyebrow": "תרומות וגיוס כספים",
-        "headline": ["הגדילו", "את התרומות."],
+        "headline": [
+          "הגדילו",
+          "את התרומות."
+        ],
         "description": "קבלו תרומות חד-פעמיות או קבועות, השיקו קמפיינים, הקצו קרנות ייעודיות ושמרו על הקהילה מחוברת לכל מטרה.",
-        "chips": ["תרומה", "קמפיינים", "תרומות קבועות", "קרנות", "קבלות"],
+        "chips": [
+          "תרומה",
+          "קמפיינים",
+          "תרומות קבועות",
+          "קרנות",
+          "קבלות"
+        ],
         "cta": "גלו עוד",
         "cards": [
-          { "title": "תרומה התקבלה", "value": "€180.00", "note": "תודה על תרומתכם!" },
-          { "title": "תורמים פעילים", "value": "124", "note": "+15 החודש" },
-          { "title": "קמפיין פעיל", "value": "73%", "note": "קרן החינוך · €7,280 / €10,000" },
-          { "title": "קבלה נשלחה", "value": "€180.00", "note": "דוד כהן · 19 ביולי 2026" }
+          {
+            "title": "תרומה התקבלה",
+            "value": "€180.00",
+            "note": "תודה על תרומתכם!"
+          },
+          {
+            "title": "תורמים פעילים",
+            "value": "124",
+            "note": "+15 החודש"
+          },
+          {
+            "title": "קמפיין פעיל",
+            "value": "73%",
+            "note": "קרן החינוך · €7,280 / €10,000"
+          },
+          {
+            "title": "קבלה נשלחה",
+            "value": "€180.00",
+            "note": "דוד כהן · 19 ביולי 2026"
+          }
         ]
       },
       {
         "number": "03",
         "eyebrow": "לוח שנה עברי",
-        "headline": ["כל חבר.", "תמיד מעודכן."],
+        "headline": [
+          "כל חבר.",
+          "תמיד מעודכן."
+        ],
         "description": "תאריכים, זמני שבת, חגים, פרשת השבוע ותזכורות חשובות, מסונכרנים אוטומטית.",
-        "chips": ["זמנים", "חגים", "פרשה", "לוח שנה עברי", "יארצייט"],
+        "chips": [
+          "זמנים",
+          "חגים",
+          "פרשה",
+          "לוח שנה עברי",
+          "יארצייט"
+        ],
         "cta": "לצפייה בלוח השנה",
         "cards": [
-          { "title": "הדלקת נרות", "value": "20:58", "note": "מדריד · יום ו', 21 ביולי" },
-          { "title": "פרשה", "value": "מטות-מסעי", "note": "במדבר ל:ב–לו:יג" },
-          { "title": "צום י\"ז בתמוז", "value": "22 ביולי", "note": "יום צום" },
-          { "title": "יארצייט קרוב", "value": "מחר", "note": "ר' משה כהן (כ\"ג תמוז)" }
+          {
+            "title": "הדלקת נרות",
+            "value": "20:58",
+            "note": "מדריד · יום ו', 21 ביולי"
+          },
+          {
+            "title": "פרשה",
+            "value": "מטות-מסעי",
+            "note": "במדבר ל:ב–לו:יג"
+          },
+          {
+            "title": "צום י\"ז בתמוז",
+            "value": "22 ביולי",
+            "note": "יום צום"
+          },
+          {
+            "title": "יארצייט קרוב",
+            "value": "מחר",
+            "note": "ר' משה כהן (כ\"ג תמוז)"
+          }
         ]
       },
       {
         "number": "04",
         "eyebrow": "ניהול חברים",
-        "headline": ["כל חבר.", "מאורגן היטב."],
+        "headline": [
+          "כל חבר.",
+          "מאורגן היטב."
+        ],
         "description": "נהלו חברים, משפחות, דמי חבר, קבוצות ותקשורת מלוח בקרה שלם וקל לשימוש.",
-        "chips": ["חברים", "משפחות", "דמי חבר", "קבוצות", "תקשורת"],
+        "chips": [
+          "חברים",
+          "משפחות",
+          "דמי חבר",
+          "קבוצות",
+          "תקשורת"
+        ],
         "cta": "נהלו את הקהילה שלכם",
         "cards": [
-          { "title": "סה\"כ חברים", "value": "562", "note": "+24 החודש" },
-          { "title": "משפחות", "value": "186", "note": "בקהילה" },
-          { "title": "דמי חבר מעודכנים", "value": "92%", "note": "+5% לעומת החודש שעבר" },
-          { "title": "קבוצות פעילות", "value": "24", "note": "מילדים ועד מבוגרים" }
+          {
+            "title": "סה\"כ חברים",
+            "value": "562",
+            "note": "+24 החודש"
+          },
+          {
+            "title": "משפחות",
+            "value": "186",
+            "note": "בקהילה"
+          },
+          {
+            "title": "דמי חבר מעודכנים",
+            "value": "92%",
+            "note": "+5% לעומת החודש שעבר"
+          },
+          {
+            "title": "קבוצות פעילות",
+            "value": "24",
+            "note": "מילדים ועד מבוגרים"
+          }
         ]
       },
       {
         "number": "05",
         "eyebrow": "תורים למקווה",
-        "headline": ["פרטי.", "פשוט.", "מכובד."],
+        "headline": [
+          "פרטי.",
+          "פשוט.",
+          "מכובד."
+        ],
         "description": "קבעו תור למקווה במהירות ובבטחה, עם פרטיות מלאה ותזכורות אוטומטיות.",
-        "chips": ["הזמנות", "זמינות", "פרטיות", "תזכורות", "אישור"],
+        "chips": [
+          "הזמנות",
+          "זמינות",
+          "פרטיות",
+          "תזכורות",
+          "אישור"
+        ],
         "cta": "קביעת תור עכשיו",
         "cards": [
-          { "title": "התור אושר", "value": "20:00", "note": "יום שלישי, 21 ביולי · מחכים לכם" },
-          { "title": "פרטיות מלאה", "note": "המידע שלכם תמיד מאובטח וחסוי." },
-          { "title": "תזכורת", "note": "נזכיר לכם שעה לפני התור." },
-          { "title": "זמינות", "note": "זמנים מתעדכנים בזמן אמת." }
+          {
+            "title": "התור אושר",
+            "value": "20:00",
+            "note": "יום שלישי, 21 ביולי · מחכים לכם"
+          },
+          {
+            "title": "פרטיות מלאה",
+            "note": "המידע שלכם תמיד מאובטח וחסוי."
+          },
+          {
+            "title": "תזכורת",
+            "note": "נזכיר לכם שעה לפני התור."
+          },
+          {
+            "title": "זמינות",
+            "note": "זמנים מתעדכנים בזמן אמת."
+          }
         ]
       },
       {
         "number": "06",
         "eyebrow": "שירותים קהילתיים",
-        "headline": ["כל רגע חשוב.", "במקום אחד."],
+        "headline": [
+          "כל רגע חשוב.",
+          "במקום אחד."
+        ],
         "description": "בקשו שירותים קהילתיים במהירות ובקלות. מבר מצווה ועד פגישה עם הרב, הכול באפליקציה שלכם.",
-        "chips": ["בר/בת מצווה", "ברית מילה", "חתונה", "שם לתינוק", "עליות", "פגישה עם הרב"],
+        "chips": [
+          "בר/בת מצווה",
+          "ברית מילה",
+          "חתונה",
+          "שם לתינוק",
+          "עליות",
+          "פגישה עם הרב"
+        ],
         "cta": "בקשת שירות",
         "cards": [
-          { "title": "בר מצווה", "value": "הבקשה נשלחה", "note": "22 ביולי 2026" },
-          { "title": "שם לתינוק", "value": "הבקשה נשלחה", "note": "15 באוגוסט 2026" },
-          { "title": "פגישה עם הרב", "value": "אושרה", "note": "יום שלישי, 22 ביולי · 17:30" },
-          { "title": "חתונה", "value": "בתהליך", "note": "3 בספטמבר 2026" }
+          {
+            "title": "בר מצווה",
+            "value": "הבקשה נשלחה",
+            "note": "22 ביולי 2026"
+          },
+          {
+            "title": "שם לתינוק",
+            "value": "הבקשה נשלחה",
+            "note": "15 באוגוסט 2026"
+          },
+          {
+            "title": "פגישה עם הרב",
+            "value": "אושרה",
+            "note": "יום שלישי, 22 ביולי · 17:30"
+          },
+          {
+            "title": "חתונה",
+            "value": "בתהליך",
+            "note": "3 בספטמבר 2026"
+          }
         ]
       },
       {
         "number": "07",
         "eyebrow": "אירועים והרשמות",
-        "headline": ["כל אירוע.", "מאורגן בשלמות.", "בלי מאמץ."],
+        "headline": [
+          "כל אירוע.",
+          "מאורגן בשלמות.",
+          "בלי מאמץ."
+        ],
         "description": "צרו, נהלו ומלאו את האירועים שלכם עם הרשמה בלחיצה אחת, צ'ק-אין מהיר וכל המידע בזמן אמת.",
-        "chips": ["אירועים", "הרשמות", "צ'ק-אין", "משתתפים", "רשימת המתנה", "תפוסה בזמן אמת"],
+        "chips": [
+          "אירועים",
+          "הרשמות",
+          "צ'ק-אין",
+          "משתתפים",
+          "רשימת המתנה",
+          "תפוסה בזמן אמת"
+        ],
         "cta": "לצפייה באירועים",
         "cards": [
-          { "title": "ארוחת שבת", "value": "120/200", "note": "ההרשמה פתוחה" },
-          { "title": "ילדים 6-12", "value": "35/50", "note": "35 נרשמו" },
-          { "title": "צ'ק-אין מהיר", "note": "סרקו את הקוד ורשמו נוכחות באופן מיידי." },
-          { "title": "רשימת המתנה", "value": "18 אנשים", "note": "ממתינים" }
+          {
+            "title": "ארוחת שבת",
+            "value": "120/200",
+            "note": "ההרשמה פתוחה"
+          },
+          {
+            "title": "ילדים 6-12",
+            "value": "35/50",
+            "note": "35 נרשמו"
+          },
+          {
+            "title": "צ'ק-אין מהיר",
+            "note": "סרקו את הקוד ורשמו נוכחות באופן מיידי."
+          },
+          {
+            "title": "רשימת המתנה",
+            "value": "18 אנשים",
+            "note": "ממתינים"
+          }
         ]
       },
       {
         "number": "08",
         "eyebrow": "Jconnect",
-        "headline": ["העסק שלך.", "מחובר לקהילה שלך."],
+        "headline": [
+          "העסק שלך.",
+          "מחובר לקהילה שלך."
+        ],
         "description": "פרסמו את העסק שלכם, מצאו שיתופי פעולה והרחיבו את הרשת המקצועית היהודית שלכם, הכול בתוך האפליקציה.",
-        "chips": ["מדריך", "עסקים", "אנשי מקצוע", "עבודה משותפת", "פרסום", "חיפוש"],
+        "chips": [
+          "מדריך",
+          "עסקים",
+          "אנשי מקצוע",
+          "עבודה משותפת",
+          "פרסום",
+          "חיפוש"
+        ],
         "cta": "לצפייה ב-Jconnect",
         "cards": [
-          { "title": "עסק פורסם", "value": "Kosher Catering BCN", "note": "גלוי לכל הקהילה" },
-          { "title": "שיתוף פעולה חדש", "value": "2 הצעות", "note": "התקבלו השבוע" },
-          { "title": "מדריך פעיל", "value": "48 עסקים", "note": "צפייה במדריך" },
-          { "title": "פרסמו את העסק שלכם", "note": "פרסמו תוך דקות והגיעו לכל הקהילה." }
+          {
+            "title": "עסק פורסם",
+            "value": "Kosher Catering BCN",
+            "note": "גלוי לכל הקהילה"
+          },
+          {
+            "title": "שיתוף פעולה חדש",
+            "value": "2 הצעות",
+            "note": "התקבלו השבוע"
+          },
+          {
+            "title": "מדריך פעיל",
+            "value": "48 עסקים",
+            "note": "צפייה במדריך"
+          },
+          {
+            "title": "פרסמו את העסק שלכם",
+            "note": "פרסמו תוך דקות והגיעו לכל הקהילה."
+          }
         ]
       },
       {
         "number": "09",
         "eyebrow": "תורה ושיעורים",
-        "headline": ["תורה.", "מתי שתרצו.", "איפה שתהיו."],
+        "headline": [
+          "תורה.",
+          "מתי שתרצו.",
+          "איפה שתהיו."
+        ],
         "description": "גשו לשיעורים, כיתות וחומרים מעוררי השראה כדי ללמוד, לצמוח ולהתחבר לקהילה שלכם.",
-        "chips": ["סרטונים", "פודקאסטים", "כיתות", "חומרים", "מועדפים", "המשך צפייה"],
+        "chips": [
+          "סרטונים",
+          "פודקאסטים",
+          "כיתות",
+          "חומרים",
+          "מועדפים",
+          "המשך צפייה"
+        ],
         "cta": "לצפייה בתורה ושיעורים",
         "cards": [
-          { "title": "סרטונים", "note": "גלו מאות שיעורי וידאו מרבנים גדולים." },
-          { "title": "פודקאסטים", "note": "האזינו לשיעורים בכל מקום, מתי שתרצו." },
-          { "title": "חומרים", "note": "מדריכים, מאמרים ומקורות להמשך הלמידה." },
-          { "title": "מועדפים", "note": "שמרו את השיעורים והחומרים המועדפים עליכם." }
+          {
+            "title": "סרטונים",
+            "note": "גלו מאות שיעורי וידאו מרבנים גדולים."
+          },
+          {
+            "title": "פודקאסטים",
+            "note": "האזינו לשיעורים בכל מקום, מתי שתרצו."
+          },
+          {
+            "title": "חומרים",
+            "note": "מדריכים, מאמרים ומקורות להמשך הלמידה."
+          },
+          {
+            "title": "מועדפים",
+            "note": "שמרו את השיעורים והחומרים המועדפים עליכם."
+          }
         ]
       },
       {
         "number": "10",
         "eyebrow": "לוח בקרה לניהול",
-        "headline": ["נהלו הכול.", "ממקום אחד."],
+        "headline": [
+          "נהלו הכול.",
+          "ממקום אחד."
+        ],
         "description": "כלים עוצמתיים לחברים, אירועים, תרומות, הזמנות מקווה, תקשורת ואנליטיקה. הכול מלוח בקרה מרכזי אחד.",
-        "chips": ["חברים", "אירועים", "תרומות", "אנליטיקה", "הודעות", "הגדרות"],
+        "chips": [
+          "חברים",
+          "אירועים",
+          "תרומות",
+          "אנליטיקה",
+          "הודעות",
+          "הגדרות"
+        ],
         "cta": "לצפייה בלוח הבקרה",
         "cards": [
-          { "title": "חבר חדש אושר", "value": "לאה כהן", "note": "לפני 5 דקות" },
-          { "title": "תרומות", "value": "€18,450", "note": "+22% לעומת החודש שעבר" },
-          { "title": "הודעה קבוצתית נשלחה", "value": "1,248 חברים", "note": "" },
-          { "title": "צמיחה", "value": "+18%", "note": "לעומת החודש שעבר" }
+          {
+            "title": "חבר חדש אושר",
+            "value": "לאה כהן",
+            "note": "לפני 5 דקות"
+          },
+          {
+            "title": "תרומות",
+            "value": "€18,450",
+            "note": "+22% לעומת החודש שעבר"
+          },
+          {
+            "title": "הודעה קבוצתית נשלחה",
+            "value": "1,248 חברים",
+            "note": ""
+          },
+          {
+            "title": "צמיחה",
+            "value": "+18%",
+            "note": "לעומת החודש שעבר"
+          }
         ]
       }
     ]
@@ -247,7 +517,10 @@
     "finalLine": "זו לא רק סטארטאפ. זו התרומה שלנו לעתיד הקהילות היהודיות ברחבי העולם."
   },
   "idea": {
-    "headlineLines": ["יש לך רעיון?", "בואו נבנה אותו."],
+    "headlineLines": [
+      "יש לך רעיון?",
+      "בואו נבנה אותו."
+    ],
     "subhead": "‏Kehál הוא המוצר הדגל שלנו, אבל לא היחיד. אנחנו בונים כלים בהתאמה אישית לרבנים, עסקים יהודיים ומנהיגי קהילה עם רעיון ששווה להפוך למציאות. כך התחילו Creative Favours ו-Perashapp — עם שיחה, לא עם הזמנה סגורה.",
     "chips": [
       "אתר לעסק היהודי שלך",
@@ -276,7 +549,15 @@
       "submit": "שליחה",
       "sending": "שולח…",
       "success": "נשלח! נחזור אליכם בקרוב.",
-      "error": "משהו השתבש. כתבו ל-jactive@gmail.com."
+      "error": "משהו השתבש. כתבו ל-jactive@gmail.com.",
+      "interest": "¿Qué te interesa?",
+      "interestPlaceholder": "Elige una opción",
+      "interests": {
+        "comunidad": "Comunidad",
+        "colegio": "Colegio o institución",
+        "empresa": "Empresa",
+        "otra": "Otra cosa"
+      }
     },
     "whatsappPanel": {
       "title": "שוחחו איתנו",
@@ -290,17 +571,24 @@
     "floatingSent": {
       "title": "נשלח",
       "body": "עונים תוך 24 שעות"
-    }
+    },
+    "channels": {
+      "whatsapp": "Escríbenos directamente",
+      "emailLabel": "Email"
+    },
+    "orForm": "O déjanos un mensaje aquí y te escribimos nosotros."
   },
   "footer": {
     "tagline": "טכנולוגיה עם חיים, לקהילות יהודיות.",
     "rights": "© {year} Chai Active. כל הזכויות שמורות.",
-    "pendingDomain": "chaiactive.com — הדומיין ממתין לרישום",
     "legalLinks": {
       "avisoLegal": "הודעה משפטית",
       "privacidad": "מדיניות פרטיות",
       "cookies": "מדיניות עוגיות"
-    }
+    },
+    "location": "Barcelona",
+    "navLabel": "Secciones",
+    "legalLabel": "Información legal"
   },
   "legal": {
     "reviewBanner": "טיוטת עבודה. מסמך זה חייב לעבור בדיקה של איש מקצוע משפטי ולהיות מושלם עם פרטי הזיהוי האמיתיים של Chai Active לפני פרסום באתר החי.",
@@ -450,6 +738,50 @@
           ]
         }
       ]
+    }
+  },
+  "comunidades": {
+    "meta": {
+      "title": "Kehál, la app para comunidades judías | Chai Active",
+      "description": "Kehál: membresía, calendario hebreo, eventos, mikvé, donativos, servicios de ciclo de vida y Torá en una app con la identidad de tu comunidad. En uso en Jabad Barcelona."
+    },
+    "hero": {
+      "eyebrow": "Para comunidades judías",
+      "title": "La vida de tu comunidad, en una app que lleva su nombre.",
+      "subtitle": "Kehál reúne membresía, calendario hebreo, eventos, mikvé, donativos y Torá en un solo sitio, con los colores, el logo y los idiomas de tu kehilá. Toda la app o solo los módulos que necesitas.",
+      "ctaPrimary": "Ver qué incluye",
+      "ctaSecondary": "Hablemos de tu comunidad",
+      "tabs": [
+        "Eventos",
+        "Donativos",
+        "Mikvé"
+      ]
+    }
+  },
+  "colegios": {
+    "meta": {
+      "title": "Una app propia para colegios judíos | Chai Active",
+      "description": "Seguimiento académico, comunicación con familias y vida judía integrada en una app con la identidad de tu colegio. Buscamos colegios piloto."
+    },
+    "hero": {
+      "eyebrow": "Para colegios judíos",
+      "title": "La vida escolar de un colegio judío, en una sola app con su identidad.",
+      "subtitle": "Diseñamos una app propia para el alumno, el profesorado y las familias: notas, tareas, asistencia y mensajes en un solo sitio, con el calendario hebreo y la vida judía dentro. Estamos en conversaciones con colegios de Barcelona y listos para empezar con colegios piloto.",
+      "ctaPrimary": "Cuéntanos cómo es tu colegio",
+      "ctaSecondary": "Empecemos con un grupo piloto"
+    }
+  },
+  "empresas": {
+    "meta": {
+      "title": "Webs, e-commerce y apps a medida para empresas | Chai Active",
+      "description": "Transformación digital a medida desde Barcelona: webs corporativas, tiendas online, landings de lanzamiento, apps y herramientas internas. Multilingüe y con SEO."
+    },
+    "hero": {
+      "eyebrow": "Para empresas",
+      "title": "Tu negocio, con una presencia digital que se parezca a él.",
+      "subtitle": "Webs, tiendas online, apps y herramientas internas hechas a medida, sin plantillas. Para una promotora, una marca de café o una tienda de kipot: escuchamos cómo trabajas y lo construimos contigo.",
+      "ctaPrimary": "Cuéntanos tu proyecto",
+      "ctaSecondary": "Ver proyectos"
     }
   }
 }

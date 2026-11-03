@@ -1,38 +1,55 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
 import { Check, ArrowRight } from "lucide-react";
-
-// TODO: replace with the real WhatsApp number once Isaac provides it.
-const WHATSAPP_URL = "https://wa.me/00000000000";
+import { INTERESTS, isInterest, WHATSAPP_URL, CONTACT_EMAIL, type Interest } from "@/lib/contact";
+import { WhatsAppIcon } from "./icons";
 
 type Tab = "form" | "whatsapp";
 type Status = "idle" | "sending" | "success" | "error";
 
-function WhatsAppIcon({ className }: { className?: string }) {
-  return (
-    <svg viewBox="0 0 32 32" fill="currentColor" className={className} aria-hidden="true">
-      <path d="M16.001 3C9.098 3 3.5 8.598 3.5 15.5c0 2.34.647 4.53 1.77 6.4L3 29l7.3-2.22a12.42 12.42 0 0 0 5.7 1.42h.005c6.902 0 12.5-5.598 12.5-12.5S22.903 3 16.001 3zm5.68 15.14c-.31-.155-1.836-.906-2.12-1.01-.284-.104-.492-.155-.699.156-.207.31-.803 1.01-.984 1.218-.181.207-.362.233-.673.078-.31-.155-1.31-.483-2.494-1.538-.922-.822-1.545-1.836-1.726-2.146-.181-.31-.02-.478.136-.632.14-.14.31-.362.465-.544.155-.181.207-.31.31-.518.104-.207.052-.388-.026-.544-.078-.155-.699-1.685-.958-2.307-.252-.605-.508-.523-.699-.533l-.595-.01c-.207 0-.544.078-.828.388-.284.31-1.086 1.062-1.086 2.59s1.112 3.005 1.267 3.213c.155.207 2.19 3.343 5.306 4.688.741.32 1.319.512 1.77.655.744.237 1.42.203 1.955.123.596-.089 1.836-.75 2.095-1.475.259-.725.259-1.346.181-1.475-.078-.13-.284-.207-.595-.362z" />
-    </svg>
-  );
-}
+const field =
+  "w-full rounded-xl border border-navy/20 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus-visible:border-gold focus-visible:ring-2 focus-visible:ring-gold/40";
 
-export default function ContactPhoneDemo() {
+export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?: Interest }) {
   const t = useTranslations("contacto");
   const [tab, setTab] = useState<Tab>("form");
   const [status, setStatus] = useState<Status>("idle");
+  const [interest, setInterest] = useState<Interest | "">(defaultInterest ?? "");
+
+  // Any link on the page with data-interest="colegio" (see ContactLink)
+  // preselects that option when clicked. `?interes=colegio` in the URL works too,
+  // so the selector can be preset from outside the site.
+  useEffect(() => {
+    const fromQuery = new URLSearchParams(window.location.search).get("interes");
+    if (isInterest(fromQuery)) setInterest(fromQuery);
+
+    function onClick(event: MouseEvent) {
+      const link = (event.target as HTMLElement | null)?.closest<HTMLElement>("[data-interest]");
+      const value = link?.dataset.interest;
+      if (isInterest(value)) {
+        setInterest(value);
+        setTab("form");
+      }
+    }
+    document.addEventListener("click", onClick);
+    return () => document.removeEventListener("click", onClick);
+  }, []);
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setStatus("sending");
 
     const form = event.currentTarget;
+    const value = (name: string) =>
+      (form.elements.namedItem(name) as HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement).value;
     const data = {
-      name: (form.elements.namedItem("name") as HTMLInputElement).value,
-      email: (form.elements.namedItem("email") as HTMLInputElement).value,
-      community: (form.elements.namedItem("community") as HTMLInputElement).value,
-      message: (form.elements.namedItem("message") as HTMLTextAreaElement).value,
+      name: value("name"),
+      email: value("email"),
+      interest: value("interest"),
+      community: value("community"),
+      message: value("message"),
     };
 
     try {
@@ -44,35 +61,44 @@ export default function ContactPhoneDemo() {
       if (!res.ok) throw new Error("request failed");
       setStatus("success");
       form.reset();
+      setInterest(defaultInterest ?? "");
     } catch {
       setStatus("error");
     }
   }
 
+  const resetSuccess = () => status === "success" && setStatus("idle");
+
   return (
     <div className="flex h-full flex-col px-5 pb-5">
       <p className="text-sm font-semibold text-navy">{t("phoneSubtitle")}</p>
 
-      <div className="mt-4 flex gap-1 rounded-full bg-white p-1">
-        <button
-          type="button"
-          onClick={() => setTab("form")}
-          className={`flex-1 rounded-full py-2 text-xs font-semibold transition ${
-            tab === "form" ? "bg-navy text-white" : "text-ink/50"
-          }`}
-        >
-          {t("tabForm")}
-        </button>
-        <button
-          type="button"
-          onClick={() => setTab("whatsapp")}
-          className={`flex-1 rounded-full py-2 text-xs font-semibold transition ${
-            tab === "whatsapp" ? "bg-[#25D366] text-white" : "text-ink/50"
-          }`}
-        >
-          {t("tabWhatsapp")}
-        </button>
-      </div>
+      {WHATSAPP_URL && (
+        <div className="mt-4 flex gap-1 rounded-full bg-white p-1" role="tablist">
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === "form"}
+            onClick={() => setTab("form")}
+            className={`flex-1 rounded-full py-2 text-xs font-semibold transition focus-visible:outline-2 focus-visible:outline-gold ${
+              tab === "form" ? "bg-navy text-white" : "text-ink/60"
+            }`}
+          >
+            {t("tabForm")}
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={tab === "whatsapp"}
+            onClick={() => setTab("whatsapp")}
+            className={`flex-1 rounded-full py-2 text-xs font-semibold transition focus-visible:outline-2 focus-visible:outline-gold ${
+              tab === "whatsapp" ? "bg-[#128C4A] text-white" : "text-ink/60"
+            }`}
+          >
+            {t("tabWhatsapp")}
+          </button>
+        </div>
+      )}
 
       {tab === "form" ? (
         <form onSubmit={handleSubmit} className="mt-4 flex flex-1 flex-col gap-3 overflow-y-auto">
@@ -80,78 +106,75 @@ export default function ContactPhoneDemo() {
             <label htmlFor="phone-name" className="mb-1 block text-[11px] font-semibold text-navy">
               {t("form.name")}
             </label>
-            <input
-              id="phone-name"
-              name="name"
-              type="text"
-              required
-              placeholder={t("form.namePlaceholder")}
-              onFocus={() => status === "success" && setStatus("idle")}
-              className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
-            />
+            <input id="phone-name" name="name" type="text" required autoComplete="name"
+              placeholder={t("form.namePlaceholder")} onFocus={resetSuccess} className={field} />
           </div>
           <div>
             <label htmlFor="phone-email" className="mb-1 block text-[11px] font-semibold text-navy">
               {t("form.email")}
             </label>
-            <input
-              id="phone-email"
-              name="email"
-              type="email"
+            <input id="phone-email" name="email" type="email" required autoComplete="email"
+              placeholder={t("form.emailPlaceholder")} onFocus={resetSuccess} className={field} />
+          </div>
+          <div>
+            <label htmlFor="phone-interest" className="mb-1 block text-[11px] font-semibold text-navy">
+              {t("form.interest")}
+            </label>
+            <select
+              id="phone-interest"
+              name="interest"
               required
-              placeholder={t("form.emailPlaceholder")}
-              onFocus={() => status === "success" && setStatus("idle")}
-              className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
-            />
+              value={interest}
+              onChange={(e) => setInterest(e.target.value as Interest)}
+              onFocus={resetSuccess}
+              className={field}
+            >
+              <option value="" disabled>
+                {t("form.interestPlaceholder")}
+              </option>
+              {INTERESTS.map((option) => (
+                <option key={option} value={option}>
+                  {t(`form.interests.${option}`)}
+                </option>
+              ))}
+            </select>
           </div>
           <div>
             <label htmlFor="phone-community" className="mb-1 block text-[11px] font-semibold text-navy">
               {t("form.community")}
             </label>
-            <input
-              id="phone-community"
-              name="community"
-              type="text"
-              placeholder={t("form.communityPlaceholder")}
-              onFocus={() => status === "success" && setStatus("idle")}
-              className="w-full rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
-            />
+            <input id="phone-community" name="community" type="text" autoComplete="organization"
+              placeholder={t("form.communityPlaceholder")} onFocus={resetSuccess} className={field} />
           </div>
           <div>
             <label htmlFor="phone-message" className="mb-1 block text-[11px] font-semibold text-navy">
               {t("form.message")}
             </label>
-            <textarea
-              id="phone-message"
-              name="message"
-              required
-              rows={3}
-              placeholder={t("form.messagePlaceholder")}
-              onFocus={() => status === "success" && setStatus("idle")}
-              className="w-full resize-none rounded-xl border border-navy/15 bg-white px-3.5 py-2.5 text-sm text-navy outline-none focus:border-gold"
-            />
+            <textarea id="phone-message" name="message" required rows={3}
+              placeholder={t("form.messagePlaceholder")} onFocus={resetSuccess}
+              className={`${field} resize-none`} />
           </div>
 
           {status === "success" ? (
-            <div className="flex items-center gap-2.5 rounded-2xl bg-emerald-100 px-3.5 py-3">
-              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-emerald-500">
+            <div role="status" className="flex items-center gap-2.5 rounded-2xl bg-emerald-100 px-3.5 py-3">
+              <span className="flex size-6 shrink-0 items-center justify-center rounded-full bg-emerald-600">
                 <Check className="size-3.5 text-white" aria-hidden="true" />
               </span>
-              <p className="text-xs font-semibold leading-snug text-emerald-800">
-                {t("form.success")}
-              </p>
+              <p className="text-xs font-semibold leading-snug text-emerald-900">{t("form.success")}</p>
             </div>
           ) : (
             <button
               type="submit"
               disabled={status === "sending"}
-              className="mt-1 rounded-full bg-navy py-3 text-sm font-bold text-white transition hover:bg-navy-light disabled:opacity-60"
+              className="mt-1 rounded-full bg-navy py-3 text-sm font-bold text-white transition hover:bg-navy-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60"
             >
               {status === "sending" ? t("form.sending") : t("form.submit")}
             </button>
           )}
           {status === "error" && (
-            <p className="text-xs font-medium text-red-700">{t("form.error")}</p>
+            <p role="alert" className="text-xs font-medium text-red-700">
+              {t("form.error", { email: CONTACT_EMAIL })}
+            </p>
           )}
         </form>
       ) : (
@@ -161,16 +184,16 @@ export default function ContactPhoneDemo() {
           </span>
           <div>
             <p className="text-base font-extrabold text-navy">{t("whatsappPanel.title")}</p>
-            <p className="mt-1.5 text-xs leading-relaxed text-ink/50">
-              {t("whatsappPanel.body")}
-            </p>
+            <p className="mt-1.5 text-xs leading-relaxed text-ink/60">{t("whatsappPanel.body")}</p>
           </div>
           <a
             href={WHATSAPP_URL}
-            className="flex w-full items-center justify-center gap-2 rounded-full bg-[#25D366] py-3.5 text-sm font-bold text-white"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex w-full items-center justify-center gap-2 rounded-full bg-[#128C4A] py-3.5 text-sm font-bold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold"
           >
             {t("whatsappPanel.cta")}
-            <ArrowRight className="size-4" aria-hidden="true" />
+            <ArrowRight className="size-4 rtl:rotate-180" aria-hidden="true" />
           </a>
         </div>
       )}
