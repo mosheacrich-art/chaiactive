@@ -1360,30 +1360,6 @@
       "button": "Let's talk"
     }
   },
-  "queHacemos": {
-    "title": "What we do",
-    "intro": "Chai means life in Hebrew. We believe good technology barely shows: it removes work, brings order to what was scattered and leaves more time for people. We work in three areas, with the same care in all three.",
-    "lines": {
-      "comunidades": {
-        "label": "Jewish communities",
-        "title": "An app for the life of your community",
-        "body": "We give each community its own app. Members sign up for events, book the mikveh, donate and check Shabbat times; the team runs everything from one dashboard instead of five WhatsApp groups and a spreadsheet.",
-        "cta": "Discover Kehál"
-      },
-      "colegios": {
-        "label": "Jewish schools",
-        "title": "The school app with your school's identity",
-        "body": "We have designed an app for Jewish schools with grades, homework, attendance and messages with families, and with the Hebrew calendar, Shabbat mode and Jewish studies built in. Each profile sees only what is theirs.",
-        "cta": "See the proposal for schools"
-      },
-      "empresas": {
-        "label": "Business",
-        "title": "Custom digital transformation",
-        "body": "We build corporate websites, online shops, launch pages with waitlists and internal tools for businesses in any sector. Just as much for a property developer as for a canned coffee brand.",
-        "cta": "See services for business"
-      }
-    }
-  },
   "audiences": {
     "title": "Who are you?",
     "cards": {
@@ -1399,6 +1375,81 @@
         "title": "I'm a business",
         "line": "Websites, shops and tools made to measure."
       }
+    }
+  },
+  "blocks": {
+    "comunidades": {
+      "label": "For communities",
+      "title": "Your community, in one app.",
+      "body": "Members, events, mikveh, donations and the Hebrew calendar, with your kehilla's name and colours.",
+      "cta": "Discover Kehál",
+      "alt": "Community events in Kehál at Chabad Barcelona"
+    },
+    "colegios": {
+      "label": "For schools",
+      "title": "School life, with Jewish life built in.",
+      "body": "A dedicated app for students, teachers and families. Designed and ready to start with pilot schools.",
+      "cta": "See the proposal"
+    },
+    "empresas": {
+      "label": "For business",
+      "title": "A website that looks like your business.",
+      "body": "Websites, online shops, landing pages and internal tools, made to measure with no templates.",
+      "cta": "See what we do",
+      "alt": "Home page of the Creative Favours website"
+    }
+  },
+  "useCases": {
+    "title": "What you can do",
+    "concept": "Concept design",
+    "tags": {
+      "comunidades": "Communities",
+      "colegios": "Schools",
+      "empresas": "Business"
+    },
+    "items": {
+      "comunidades": [
+        {
+          "title": "Book the mikveh from your phone",
+          "body": "Discreetly, in the slots the community sets."
+        },
+        {
+          "title": "Sign up for Shabbat dinner in one click",
+          "body": "With capacity limits and an attendee list for the team."
+        },
+        {
+          "title": "Donate to the area you choose",
+          "body": "Education, kashrut, welfare or whatever the community defines."
+        }
+      ],
+      "colegios": [
+        {
+          "title": "Justify an absence in two taps",
+          "body": "Families do it in the app and the tutor sees it straight away."
+        },
+        {
+          "title": "Sign a permission slip without paper",
+          "body": "Trips and activities signed from the phone."
+        },
+        {
+          "title": "Get a warning if an exam falls on Shabbat",
+          "body": "The app warns before the date is saved."
+        }
+      ],
+      "empresas": [
+        {
+          "title": "Launch your shop with a waitlist",
+          "body": "Present your product and gather your first customers."
+        },
+        {
+          "title": "Get every enquiry on its channel",
+          "body": "Call, email or WhatsApp, as the customer prefers."
+        },
+        {
+          "title": "Take your catalogue online",
+          "body": "By category, with customer accounts and orders."
+        }
+      ]
     }
   }
 }

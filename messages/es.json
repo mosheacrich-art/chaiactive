@@ -1360,30 +1360,6 @@
       "button": "Hablemos"
     }
   },
-  "queHacemos": {
-    "title": "Qué hacemos",
-    "intro": "Chai significa vida en hebreo. Creemos que la buena tecnología apenas se nota: quita trabajo, ordena lo que estaba disperso y deja más tiempo para las personas. Trabajamos en tres líneas, con el mismo cuidado en las tres.",
-    "lines": {
-      "comunidades": {
-        "label": "Comunidades judías",
-        "title": "Una app para la vida de tu comunidad",
-        "body": "Damos a cada comunidad su propia app. Los miembros se inscriben a eventos, reservan el mikvé, donan y consultan los horarios de Shabat; el equipo lo gestiona todo desde un panel, en lugar de cinco grupos de WhatsApp y una hoja de cálculo.",
-        "cta": "Descubrir Kehál"
-      },
-      "colegios": {
-        "label": "Colegios judíos",
-        "title": "La app escolar con la identidad de tu colegio",
-        "body": "Diseñamos una app para colegios judíos con notas, tareas, asistencia y mensajes con las familias, y con el calendario hebreo, el modo Shabat y los estudios judaicos dentro. Cada perfil ve solo lo suyo.",
-        "cta": "Ver la propuesta para colegios"
-      },
-      "empresas": {
-        "label": "Empresas",
-        "title": "Transformación digital a medida",
-        "body": "Hacemos webs corporativas, tiendas online, landings con lista de espera y herramientas internas para negocios de cualquier sector. Lo mismo para una promotora inmobiliaria que para una marca de café en lata.",
-        "cta": "Ver servicios para empresas"
-      }
-    }
-  },
   "audiences": {
     "title": "¿Quién eres?",
     "cards": {
@@ -1399,6 +1375,81 @@
         "title": "Soy una empresa",
         "line": "Webs, tiendas y herramientas hechas a tu medida."
       }
+    }
+  },
+  "blocks": {
+    "comunidades": {
+      "label": "Para comunidades",
+      "title": "Tu comunidad, en una sola app.",
+      "body": "Miembros, eventos, mikvé, donativos y calendario hebreo, con el nombre y los colores de tu kehilá.",
+      "cta": "Conocer Kehál",
+      "alt": "Eventos de la comunidad en Kehál, en Jabad Barcelona"
+    },
+    "colegios": {
+      "label": "Para colegios",
+      "title": "La vida escolar, con la vida judía dentro.",
+      "body": "Una app propia para alumnos, profesorado y familias. Diseñada y lista para empezar con colegios piloto.",
+      "cta": "Ver la propuesta"
+    },
+    "empresas": {
+      "label": "Para empresas",
+      "title": "Una web que se parece a tu negocio.",
+      "body": "Webs, tiendas online, landings y herramientas internas, hechas a medida y sin plantillas.",
+      "cta": "Ver qué hacemos",
+      "alt": "Página de inicio de la web de Creative Favours"
+    }
+  },
+  "useCases": {
+    "title": "Lo que se puede hacer",
+    "concept": "Diseño conceptual",
+    "tags": {
+      "comunidades": "Comunidades",
+      "colegios": "Colegios",
+      "empresas": "Empresas"
+    },
+    "items": {
+      "comunidades": [
+        {
+          "title": "Reserva el mikvé desde el móvil",
+          "body": "Con discreción y en la franja que marca la comunidad."
+        },
+        {
+          "title": "Apúntate a la cena de Shabat en un clic",
+          "body": "Con aforo y lista de asistentes para el equipo."
+        },
+        {
+          "title": "Dona al área que tú eliges",
+          "body": "Educación, kashrut, ayuda social o lo que defina la comunidad."
+        }
+      ],
+      "colegios": [
+        {
+          "title": "Justifica una ausencia en dos toques",
+          "body": "La familia lo hace desde la app y el tutor lo ve al momento."
+        },
+        {
+          "title": "Firma una autorización sin papeles",
+          "body": "Salidas y actividades firmadas desde el móvil."
+        },
+        {
+          "title": "Recibe un aviso si un examen cae en Shabat",
+          "body": "La app avisa antes de guardar la fecha."
+        }
+      ],
+      "empresas": [
+        {
+          "title": "Lanza tu tienda con lista de espera",
+          "body": "Presenta tu producto y reúne a tus primeros clientes."
+        },
+        {
+          "title": "Recibe cada contacto por su canal",
+          "body": "Llamada, email o WhatsApp, según elija el cliente."
+        },
+        {
+          "title": "Lleva tu catálogo a internet",
+          "body": "Por categorías, con cuentas de cliente y pedidos."
+        }
+      ]
     }
   }
 }

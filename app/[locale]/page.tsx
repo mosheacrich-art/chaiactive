@@ -1,7 +1,8 @@
 import { setRequestLocale } from "next-intl/server";
 import PageShell from "@/components/layout/PageShell";
 import Hero from "@/components/Hero";
-import QueHacemos from "@/components/home/QueHacemos";
+import LineBlocks from "@/components/home/LineBlocks";
+import UseCases from "@/components/home/UseCases";
 import AudienceCards from "@/components/home/AudienceCards";
 import CasosDeExito from "@/components/CasosDeExito";
 import SobreNosotros from "@/components/SobreNosotros";
@@ -14,7 +15,8 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
     <PageShell>
       <Hero />
       <AudienceCards />
-      <QueHacemos />
+      <LineBlocks />
+      <UseCases />
       <CasosDeExito />
       <SobreNosotros />
     </PageShell>

@@ -1360,30 +1360,6 @@
       "button": "Parlons-en"
     }
   },
-  "queHacemos": {
-    "title": "Ce que nous faisons",
-    "intro": "Chai signifie vie en hébreu. Pour nous, une bonne technologie se remarque à peine : elle enlève du travail, met de l'ordre dans ce qui était dispersé et laisse plus de temps pour les personnes. Nous travaillons sur trois axes, avec le même soin pour chacun.",
-    "lines": {
-      "comunidades": {
-        "label": "Communautés juives",
-        "title": "Une appli pour la vie de votre communauté",
-        "body": "Nous donnons à chaque communauté sa propre appli. Les membres s'inscrivent aux événements, réservent le mikvé, font des dons et consultent les horaires de Chabbat ; l'équipe gère tout depuis un tableau de bord, au lieu de cinq groupes WhatsApp et d'un tableur.",
-        "cta": "Découvrir Kehál"
-      },
-      "colegios": {
-        "label": "Écoles juives",
-        "title": "L'appli scolaire à l'identité de votre école",
-        "body": "Nous avons conçu une appli pour les écoles juives avec notes, devoirs, présences et messages aux familles, avec le calendrier hébraïque, le mode Chabbat et les études juives intégrés. Chaque profil ne voit que ce qui le concerne.",
-        "cta": "Voir la proposition pour les écoles"
-      },
-      "empresas": {
-        "label": "Entreprises",
-        "title": "Transformation numérique sur mesure",
-        "body": "Nous réalisons des sites institutionnels, des boutiques en ligne, des pages de lancement avec liste d'attente et des outils internes pour des entreprises de tous secteurs. Aussi bien pour un promoteur immobilier que pour une marque de café en canette.",
-        "cta": "Voir les services pour entreprises"
-      }
-    }
-  },
   "audiences": {
     "title": "Qui êtes-vous ?",
     "cards": {
@@ -1399,6 +1375,81 @@
         "title": "Je suis une entreprise",
         "line": "Sites, boutiques et outils faits sur mesure."
       }
+    }
+  },
+  "blocks": {
+    "comunidades": {
+      "label": "Pour les communautés",
+      "title": "Votre communauté, dans une seule appli.",
+      "body": "Membres, événements, mikvé, dons et calendrier hébraïque, au nom et aux couleurs de votre kehila.",
+      "cta": "Découvrir Kehál",
+      "alt": "Événements de la communauté dans Kehál, chez Habad Barcelone"
+    },
+    "colegios": {
+      "label": "Pour les écoles",
+      "title": "La vie scolaire, avec la vie juive intégrée.",
+      "body": "Une appli dédiée aux élèves, aux enseignants et aux familles. Conçue et prête à démarrer avec des écoles pilotes.",
+      "cta": "Voir la proposition"
+    },
+    "empresas": {
+      "label": "Pour les entreprises",
+      "title": "Un site qui ressemble à votre entreprise.",
+      "body": "Sites, boutiques en ligne, pages de lancement et outils internes, faits sur mesure, sans modèles.",
+      "cta": "Voir ce que nous faisons",
+      "alt": "Page d'accueil du site de Creative Favours"
+    }
+  },
+  "useCases": {
+    "title": "Ce que l'on peut faire",
+    "concept": "Design conceptuel",
+    "tags": {
+      "comunidades": "Communautés",
+      "colegios": "Écoles",
+      "empresas": "Entreprises"
+    },
+    "items": {
+      "comunidades": [
+        {
+          "title": "Réservez le mikvé depuis votre téléphone",
+          "body": "En toute discrétion, sur les créneaux fixés par la communauté."
+        },
+        {
+          "title": "Inscrivez-vous au dîner de Chabbat en un clic",
+          "body": "Avec jauge et liste des participants pour l'équipe."
+        },
+        {
+          "title": "Donnez au domaine de votre choix",
+          "body": "Éducation, cacherout, aide sociale ou ce que définit la communauté."
+        }
+      ],
+      "colegios": [
+        {
+          "title": "Justifiez une absence en deux touches",
+          "body": "La famille le fait dans l'appli et le tuteur le voit aussitôt."
+        },
+        {
+          "title": "Signez une autorisation sans papier",
+          "body": "Sorties et activités signées depuis le téléphone."
+        },
+        {
+          "title": "Soyez alerté si un examen tombe pendant Chabbat",
+          "body": "L'appli prévient avant d'enregistrer la date."
+        }
+      ],
+      "empresas": [
+        {
+          "title": "Lancez votre boutique avec liste d'attente",
+          "body": "Présentez votre produit et réunissez vos premiers clients."
+        },
+        {
+          "title": "Recevez chaque contact sur son canal",
+          "body": "Appel, e-mail ou WhatsApp, au choix du client."
+        },
+        {
+          "title": "Mettez votre catalogue en ligne",
+          "body": "Par catégories, avec comptes clients et commandes."
+        }
+      ]
     }
   }
 }
