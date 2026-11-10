@@ -1556,47 +1556,11 @@
         "body": "Prayer times, Shabbat, events and notices, with your community's name and colours. It's the app Chabad Barcelona uses.",
         "alt": "Kehál app home with the kehilla's times and upcoming events"
       },
-      "kehalMikve": {
-        "kicker": "Communities · Kehál",
-        "title": "Booking the mikveh, discreetly.",
-        "body": "Slots for women, men and tevilat kelim, set by the community. No calls, no paper.",
-        "alt": "Mikveh booking screen in Kehál"
-      },
-      "alumno": {
-        "kicker": "Schools · student",
-        "title": "Every student knows what today holds.",
-        "body": "Classes, deadlines and the next exam, with Friday's candle lighting on the same screen.",
-        "alt": "Student home in the school app with the next exam and Shabbat times"
-      },
       "familia": {
         "kicker": "Schools · family",
         "title": "Excusing an absence, in one tap.",
         "body": "Families see the absence, excuse it and sign the trip permission from their phone.",
         "alt": "Family home with an absence to excuse and a permission slip to sign"
-      },
-      "calendario": {
-        "kicker": "Schools · calendar",
-        "title": "The calendar knows when Shabbat is.",
-        "body": "Hebrew dates, holidays and deadlines in one month. If an exam falls on Shabbat, the app warns before it's saved.",
-        "alt": "School calendar with holidays, deadlines and exams"
-      },
-      "creativeFavours": {
-        "kicker": "Business · Creative Favours, London",
-        "title": "A made-to-order kippot shop.",
-        "body": "Kippot, benchers and favours for weddings and bar mitzvahs, with appointments and customer accounts.",
-        "alt": "Creative Favours shop home on a phone"
-      },
-      "kippot": {
-        "kicker": "Business · Creative Favours, London",
-        "title": "Nineteen fabrics, every colour.",
-        "body": "The catalogue is browsed by fabric and colour, with the minimum order clear from the start.",
-        "alt": "Creative Favours kippot fabric catalogue"
-      },
-      "shevat": {
-        "kicker": "Business · Shevat, Barcelona and Madrid",
-        "title": "A website for a developer selling homes.",
-        "body": "A page for each development and a form where the client chooses how to be contacted: call, email or WhatsApp.",
-        "alt": "Shevat website home on a phone"
       },
       "betterCoffee": {
         "kicker": "Business · Better Coffee",
