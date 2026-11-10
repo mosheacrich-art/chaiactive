@@ -15,4 +15,4 @@ export function isInterest(value: unknown): value is Interest {
 // Each must allow framing, honour ?showcase=1 and use fictitious data only.
 export const KEHAL_DEMO_URL = process.env.NEXT_PUBLIC_KEHAL_DEMO_URL || "https://chaiactive-demo.vercel.app/";
 // TODO(datos): URL de la demo de colegios cuando esté lista. Vacío = se mantiene el mockup conceptual.
-export const SCHOOL_DEMO_URL = process.env.NEXT_PUBLIC_SCHOOL_DEMO_URL || "";
+export const SCHOOL_DEMO_URL = process.env.NEXT_PUBLIC_SCHOOL_DEMO_URL || "https://chaiactive-colegios.vercel.app/";
