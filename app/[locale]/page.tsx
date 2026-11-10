@@ -5,6 +5,7 @@ import LineBlocks from "@/components/home/LineBlocks";
 import UseCases from "@/components/home/UseCases";
 import ProjectStrip from "@/components/home/ProjectStrip";
 import StatStrip from "@/components/home/StatStrip";
+import Seguridad from "@/components/home/Seguridad";
 import AudienceCards from "@/components/home/AudienceCards";
 import CasosDeExito from "@/components/CasosDeExito";
 import SobreNosotros from "@/components/SobreNosotros";
@@ -21,6 +22,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <LineBlocks />
       <UseCases />
       <StatStrip />
+      <Seguridad />
       <CasosDeExito />
       <SobreNosotros />
     </PageShell>

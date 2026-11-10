@@ -9,13 +9,14 @@ import { ArrowRight, Menu, X } from "lucide-react";
 import { Link, usePathname } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
 
-// Page links go to their own route; "casos" and "nosotros" are sections of
+// Page links go to their own route; "casos", "seguridad" and "nosotros" are sections of
 // the home page. Contact is a single button (the form is on every page).
 const links = [
   { key: "comunidades", href: "/comunidades" },
   { key: "colegios", href: "/colegios" },
   { key: "empresas", href: "/empresas" },
   { key: "casos", href: { pathname: "/", hash: "casos" } },
+  { key: "seguridad", href: { pathname: "/", hash: "seguridad" } },
   { key: "nosotros", href: { pathname: "/", hash: "nosotros" } },
 ] as const;
 

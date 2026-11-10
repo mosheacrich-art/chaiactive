@@ -15,6 +15,7 @@
     "colegios": "Écoles",
     "empresas": "Entreprises",
     "casos": "Projets",
+    "seguridad": "Sécurité",
     "nosotros": "À propos",
     "contacto": "Contact",
     "cta": "Parlons-en",
@@ -1448,6 +1449,56 @@
     "value": "+250",
     "label": "membres sur l'appli, sur une communauté de plus de 750",
     "source": "Habad Barcelone"
+  },
+  "seguridad": {
+    "eyebrow": "Sécurité",
+    "title": "Vos données, protégées selon les normes les plus exigeantes",
+    "intro": "Nous traitons des informations de communautés, de familles et d'entreprises. La sécurité n'est donc pas une option : elle est à la base de tout ce que nous construisons.",
+    "seals": [
+      {
+        "value": "AES-256",
+        "label": "Chiffrement des données stockées"
+      },
+      {
+        "value": "TLS 1.3",
+        "label": "Chiffrement de chaque connexion"
+      },
+      {
+        "value": "ISO 27001",
+        "label": "Gestion de la sécurité de l'information"
+      },
+      {
+        "value": "RGPD",
+        "label": "Protection des données en Europe"
+      }
+    ],
+    "items": [
+      {
+        "title": "Chiffrement au repos",
+        "body": "Toutes les informations stockées sont chiffrées en AES-256, la norme utilisée par les banques et les administrations publiques."
+      },
+      {
+        "title": "Chiffrement en transit",
+        "body": "Les données circulent toujours en HTTPS avec TLS 1.3 entre l'appareil et nos serveurs : personne ne peut les lire en chemin."
+      },
+      {
+        "title": "Infrastructure Google Cloud",
+        "body": "Nos applications fonctionnent sur Google Cloud : centres de données sous surveillance physique permanente, protection contre les attaques et supervision continue."
+      },
+      {
+        "title": "Données hébergées dans l'Union européenne",
+        "body": "Les données sont stockées dans les régions européennes de Google Cloud et régies par la réglementation de l'UE."
+      },
+      {
+        "title": "RGPD et LOPDGDD",
+        "body": "Nous respectons le Règlement général sur la protection des données et la loi espagnole sur la protection des données."
+      },
+      {
+        "title": "ISO/IEC 27001",
+        "body": "Nous travaillons selon ISO/IEC 27001, la norme internationale de gestion de la sécurité de l'information."
+      }
+    ],
+    "note": "Besoin de plus de détails techniques pour votre équipe ou votre conseil ? Écrivez-nous, nous vous expliquons tout."
   },
   "closing": {
     "quote": "La technologie, quand elle est bien faite, laisse plus de temps pour la vie."
