@@ -71,6 +71,7 @@ export default function Footer() {
             links={[
               { label: nav("nosotros"), href: { pathname: "/", hash: "nosotros" } },
               { label: nav("casos"), href: { pathname: "/", hash: "casos" } },
+              { label: nav("seguridad"), href: { pathname: "/", hash: "seguridad" } },
             ]}
           />
           <div>
