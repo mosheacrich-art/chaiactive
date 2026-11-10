@@ -1535,5 +1535,75 @@
       "creative-favours": "Kippot et judaïca personnalisés",
       "perashapp": "Étude de la paracha avec audio synchronisé"
     }
+  },
+  "stage": {
+    "label": "Ce que nous construisons",
+    "linesLabel": "Domaines",
+    "lines": {
+      "comunidades": "Communautés",
+      "colegios": "Écoles",
+      "empresas": "Entreprises"
+    },
+    "cta": {
+      "comunidades": "Essayer la démo de Kehál",
+      "colegios": "Essayer la démo de l'école",
+      "empresas": "Voir les projets"
+    },
+    "steps": {
+      "kehalHome": {
+        "kicker": "Communautés · Kehál",
+        "title": "Toute votre kehila, dans la poche.",
+        "body": "Horaires des offices, Chabbat, événements et annonces, aux couleurs et au nom de votre communauté. C'est l'appli qu'utilise Habad Barcelone.",
+        "alt": "Accueil de l'appli Kehál avec les horaires de la kehila et les prochains événements"
+      },
+      "kehalMikve": {
+        "kicker": "Communautés · Kehál",
+        "title": "Réserver le mikvé, en toute discrétion.",
+        "body": "Créneaux pour les femmes, les hommes et la tevilat kelim, fixés par la communauté. Sans appels ni papiers.",
+        "alt": "Écran de réservation du mikvé dans Kehál"
+      },
+      "alumno": {
+        "kicker": "Écoles · élève",
+        "title": "Chaque élève sait ce qui l'attend aujourd'hui.",
+        "body": "Cours, devoirs et prochain examen, avec l'allumage des bougies du vendredi sur le même écran.",
+        "alt": "Accueil de l'élève dans l'appli de l'école avec le prochain examen et les horaires de Chabbat"
+      },
+      "familia": {
+        "kicker": "Écoles · famille",
+        "title": "Justifier une absence, d'un geste.",
+        "body": "La famille voit l'absence, la justifie et signe l'autorisation de sortie depuis son téléphone.",
+        "alt": "Accueil de la famille avec une absence à justifier et une autorisation à signer"
+      },
+      "calendario": {
+        "kicker": "Écoles · calendrier",
+        "title": "Le calendrier sait quand c'est Chabbat.",
+        "body": "Date hébraïque, fêtes et devoirs dans le même mois. Si un examen tombe un Chabbat, l'appli prévient avant de l'enregistrer.",
+        "alt": "Calendrier de l'école avec fêtes, devoirs et examens"
+      },
+      "creativeFavours": {
+        "kicker": "Entreprises · Creative Favours, Londres",
+        "title": "Une boutique de kippot sur mesure.",
+        "body": "Kippot, benchers et cadeaux pour mariages et bar-mitsvas, avec prise de rendez-vous et compte client.",
+        "alt": "Accueil de la boutique Creative Favours sur téléphone"
+      },
+      "kippot": {
+        "kicker": "Entreprises · Creative Favours, Londres",
+        "title": "Dix-neuf tissus, toutes leurs couleurs.",
+        "body": "Le catalogue se parcourt par tissu et par couleur, avec la commande minimum claire dès le départ.",
+        "alt": "Catalogue des tissus de kippot de Creative Favours"
+      },
+      "shevat": {
+        "kicker": "Entreprises · Shevat, Barcelone et Madrid",
+        "title": "Le site d'un promoteur qui vend des logements.",
+        "body": "Une page par programme et un formulaire où le client choisit comment être contacté : appel, e-mail ou WhatsApp.",
+        "alt": "Accueil du site de Shevat sur téléphone"
+      },
+      "betterCoffee": {
+        "kicker": "Entreprises · Better Coffee",
+        "title": "Un lancement avec liste d'attente.",
+        "body": "Un cold brew fonctionnel avant sa mise en vente : le site présente le produit et réunit les premiers clients.",
+        "alt": "Accueil de Better Coffee avec le formulaire de liste d'attente"
+      }
+    }
   }
 }

@@ -1535,5 +1535,75 @@
       "creative-favours": "Kipot y judaica personalizada",
       "perashapp": "Estudio de la parashá con audio sincronizado"
     }
+  },
+  "stage": {
+    "label": "Lo que construimos",
+    "linesLabel": "Líneas de trabajo",
+    "lines": {
+      "comunidades": "Comunidades",
+      "colegios": "Colegios",
+      "empresas": "Empresas"
+    },
+    "cta": {
+      "comunidades": "Prueba la demo de Kehál",
+      "colegios": "Prueba la demo del colegio",
+      "empresas": "Ver proyectos de empresa"
+    },
+    "steps": {
+      "kehalHome": {
+        "kicker": "Comunidades · Kehál",
+        "title": "Tu kehilá entera, en el bolsillo.",
+        "body": "Horarios de rezo, Shabat, eventos y avisos, con el nombre y los colores de tu comunidad. Es la app que usa Jabad Barcelona.",
+        "alt": "Inicio de la app Kehál con los horarios de la kehilá y los próximos eventos"
+      },
+      "kehalMikve": {
+        "kicker": "Comunidades · Kehál",
+        "title": "Reservar el mikvé, con discreción.",
+        "body": "Franjas para mujeres, hombres y tevilat kelim, las que marque la comunidad. Sin llamadas ni papeles.",
+        "alt": "Pantalla de reserva del mikvé en Kehál"
+      },
+      "alumno": {
+        "kicker": "Colegios · alumno",
+        "title": "Cada alumno sabe qué le toca hoy.",
+        "body": "Clases, entregas y el próximo examen, con el encendido de velas del viernes en la misma pantalla.",
+        "alt": "Inicio del alumno en la app del colegio con el próximo examen y el horario de Shabat"
+      },
+      "familia": {
+        "kicker": "Colegios · familia",
+        "title": "Justificar una falta, en un toque.",
+        "body": "La familia ve la ausencia, la justifica y firma la autorización de la salida desde el móvil.",
+        "alt": "Inicio de la familia con una ausencia por justificar y una autorización por firmar"
+      },
+      "calendario": {
+        "kicker": "Colegios · calendario",
+        "title": "El calendario sabe cuándo es Shabat.",
+        "body": "Fecha hebrea, festividades y entregas en el mismo mes. Si un examen cae en Shabat, la app avisa antes de guardarlo.",
+        "alt": "Calendario del colegio con festividades, entregas y exámenes"
+      },
+      "creativeFavours": {
+        "kicker": "Empresas · Creative Favours, Londres",
+        "title": "Una tienda de kipot hecha a medida.",
+        "body": "Kipot, benchers y detalles para bodas y bar mitzvás, con cita previa y cuenta de cliente.",
+        "alt": "Portada de la tienda de Creative Favours en el móvil"
+      },
+      "kippot": {
+        "kicker": "Empresas · Creative Favours, Londres",
+        "title": "Diecinueve telas y todos sus colores.",
+        "body": "El catálogo se recorre por tela y por color, con el pedido mínimo claro desde el principio.",
+        "alt": "Catálogo de telas de kipot de Creative Favours"
+      },
+      "shevat": {
+        "kicker": "Empresas · Shevat, Barcelona y Madrid",
+        "title": "La web de una promotora que vende pisos.",
+        "body": "Una página por promoción y un formulario donde el cliente elige cómo quiere que le contacten: llamada, email o WhatsApp.",
+        "alt": "Portada de la web de Shevat en el móvil"
+      },
+      "betterCoffee": {
+        "kicker": "Empresas · Better Coffee",
+        "title": "Un lanzamiento con lista de espera.",
+        "body": "Cold brew funcional antes de salir a la venta: la web presenta el producto y reúne a los primeros clientes.",
+        "alt": "Portada de Better Coffee con el formulario de lista de espera"
+      }
+    }
   }
 }
