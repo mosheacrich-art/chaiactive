@@ -1261,6 +1261,12 @@
       "body": "Nous sommes en discussion avec des écoles de Barcelone et cherchons des écoles pilotes. Si cela vous intéresse, parlons-en.",
       "primary": "Parlez-nous de votre école",
       "secondary": "Commençons par un groupe pilote"
+    },
+    "demo": {
+      "title": "Essayez-la vous-même",
+      "intro": "C'est la vraie appli, avec une école d'exemple. Passez de la vue élève à celle de la famille, du professeur ou de la direction, et naviguez comme sur votre téléphone.",
+      "badge": "Démo interactive · données fictives",
+      "frameTitle": "Démo interactive de l'appli pour écoles"
     }
   },
   "empresas": {

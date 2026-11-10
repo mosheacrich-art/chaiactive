@@ -1261,6 +1261,12 @@
       "body": "Estamos en conversaciones con colegios de Barcelona y buscamos colegios piloto. Si os interesa, hablemos.",
       "primary": "Cuéntanos cómo es tu colegio",
       "secondary": "Empecemos con un grupo piloto"
+    },
+    "demo": {
+      "title": "Pruébala tú mismo",
+      "intro": "Esta es la app de verdad, con un colegio de ejemplo. Cambia entre alumno, familia, profesor y dirección, y muévete por ella como en tu móvil.",
+      "badge": "Demo interactiva · datos ficticios",
+      "frameTitle": "Demo interactiva de la app para colegios"
     }
   },
   "empresas": {

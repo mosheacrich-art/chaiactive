@@ -1261,6 +1261,12 @@
       "body": "We are in conversations with schools in Barcelona and are looking for pilot schools. If you're interested, let's talk.",
       "primary": "Tell us about your school",
       "secondary": "Let's start with a pilot group"
+    },
+    "demo": {
+      "title": "Try it yourself",
+      "intro": "This is the real app, with a sample school. Switch between student, family, teacher and head of school, and move around it as you would on your phone.",
+      "badge": "Interactive demo · fictitious data",
+      "frameTitle": "School app interactive demo"
     }
   },
   "empresas": {
