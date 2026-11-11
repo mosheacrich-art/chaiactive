@@ -664,54 +664,6 @@
         }
       ]
     },
-    "capaJudia": {
-      "eyebrow": "El diferencial",
-      "title": "La vida judía, dentro de la app",
-      "intro": "Esto es lo que una plataforma escolar genérica no puede darte. El calendario judío no es un añadido: organiza el curso.",
-      "items": [
-        {
-          "title": "Calendario hebreo",
-          "body": "Doble fecha, gregoriana y hebrea, en toda la app."
-        },
-        {
-          "title": "Festividades en el calendario lectivo",
-          "body": "Las festividades ajustan el calendario del curso solas, sin rehacerlo a mano cada año."
-        },
-        {
-          "title": "Horarios de Shabat para Barcelona",
-          "body": "Encendido y salida de Shabat calculados para la ciudad."
-        },
-        {
-          "title": "Avisos de Shabat y festividades",
-          "body": "Si alguien programa un examen o una entrega en Shabat o en una festividad, la app avisa antes de guardarlo."
-        },
-        {
-          "title": "Modo Shabat",
-          "body": "Silencio de notificaciones opcional durante Shabat y un resumen al terminar."
-        },
-        {
-          "title": "Estudios judaicos y hebreo",
-          "body": "Escritura de derecha a izquierda real y nikud en tareas, apuntes y exámenes."
-        },
-        {
-          "title": "Comedor con kashrut",
-          "body": "El menú del comedor con su información de kashrut."
-        },
-        {
-          "title": "Tzedaká y voluntariado",
-          "body": "Campañas de tzedaká y registro de horas de voluntariado."
-        },
-        {
-          "title": "Agenda de la comunidad",
-          "body": "La agenda de la comunidad judía de Barcelona, junto a la del colegio."
-        },
-        {
-          "title": "Cuatro idiomas",
-          "body": "Español, catalán, inglés y hebreo."
-        }
-      ],
-      "note": "Todo es configurable por el colegio y opcional para cada usuario. En un mismo colegio conviven familias con distintos grados de observancia, y la app lo respeta."
-    },
     "profesorado": {
       "title": "Para profesorado y dirección",
       "intro": "Si el profesorado no ahorra tiempo, la app no sirve. Por eso el panel del profesor es lo primero que diseñamos.",

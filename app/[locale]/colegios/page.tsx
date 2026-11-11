@@ -9,7 +9,6 @@ import ModulosScroll from "@/components/colegios/ModulosScroll";
 import DemoSection from "@/components/colegios/DemoSection";
 import { SCHOOL_DEMO_URL } from "@/lib/contact";
 import {
-  CapaJudia,
   Empezamos,
   Futuro,
   Perfiles,
@@ -72,7 +71,6 @@ export default async function ColegiosPage({ params }: { params: Promise<{ local
         </section>
       )}
       <ModulosScroll />
-      <CapaJudia />
       <Profesorado />
       <Privacidad />
       <Futuro />

@@ -664,54 +664,6 @@
         }
       ]
     },
-    "capaJudia": {
-      "eyebrow": "Ce qui fait la différence",
-      "title": "La vie juive, au cœur de l'appli",
-      "intro": "C'est ce qu'une plateforme scolaire générique ne peut pas vous offrir. Le calendrier juif n'est pas un ajout : il organise l'année.",
-      "items": [
-        {
-          "title": "Calendrier hébraïque",
-          "body": "Double date, grégorienne et hébraïque, dans toute l'appli."
-        },
-        {
-          "title": "Fêtes dans le calendrier scolaire",
-          "body": "Les fêtes ajustent automatiquement le calendrier de l'année, sans tout refaire à la main chaque année."
-        },
-        {
-          "title": "Horaires de Chabbat pour Barcelone",
-          "body": "Allumage et fin de Chabbat calculés pour la ville."
-        },
-        {
-          "title": "Alertes Chabbat et fêtes",
-          "body": "Si quelqu'un programme un examen ou un rendu pendant Chabbat ou une fête, l'appli le signale avant d'enregistrer."
-        },
-        {
-          "title": "Mode Chabbat",
-          "body": "Notifications en silence pendant Chabbat, en option, et un résumé ensuite."
-        },
-        {
-          "title": "Études juives et hébreu",
-          "body": "Vraie écriture de droite à gauche et nikoud dans les devoirs, notes et examens."
-        },
-        {
-          "title": "Cantine cachère",
-          "body": "Le menu de la cantine avec ses informations de cacherout."
-        },
-        {
-          "title": "Tsedaka et bénévolat",
-          "body": "Campagnes de tsedaka et suivi des heures de bénévolat."
-        },
-        {
-          "title": "Agenda de la communauté",
-          "body": "L'agenda de la communauté juive de Barcelone, à côté de celui de l'école."
-        },
-        {
-          "title": "Quatre langues",
-          "body": "Espagnol, catalan, anglais et hébreu."
-        }
-      ],
-      "note": "Tout est paramétrable par l'école et facultatif pour chaque utilisateur. Des familles aux pratiques différentes cohabitent dans une même école, et l'appli le respecte."
-    },
     "profesorado": {
       "title": "Pour les enseignants et la direction",
       "intro": "Si les enseignants ne gagnent pas de temps, l'appli ne sert à rien. C'est pourquoi le tableau de bord de l'enseignant est la première chose que nous avons conçue.",

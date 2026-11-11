@@ -1,7 +1,6 @@
 import { useTranslations } from "next-intl";
 import {
   BookOpenCheck,
-  CalendarHeart,
   ClipboardList,
   Compass,
   Database,
@@ -11,23 +10,18 @@ import {
   FileSpreadsheet,
   HeartHandshake,
   KeyRound,
-  Languages,
   LayoutDashboard,
   Lock,
   MessagesSquare,
-  MoonStar,
   PenLine,
   School,
   Server,
   ShieldCheck,
-  Sparkles,
   Timer,
   TriangleAlert,
   UserRound,
   Users,
   UsersRound,
-  UtensilsCrossed,
-  type LucideIcon,
 } from "lucide-react";
 import ScrollReveal from "@/components/about/ScrollReveal";
 
@@ -102,41 +96,6 @@ export function Perfiles() {
           <KeyRound className="mt-0.5 size-5 shrink-0 text-gold-dark" aria-hidden="true" />
           {t("security")}
         </p>
-      </div>
-    </section>
-  );
-}
-
-export function CapaJudia() {
-  const t = useTranslations("colegios.capaJudia");
-  const items = t.raw("items") as Item[];
-  const icons: LucideIcon[] = [
-    CalendarHeart, CalendarHeart, MoonStar, TriangleAlert, MoonStar,
-    Languages, UtensilsCrossed, HeartHandshake, Users, Languages,
-  ];
-  return (
-    <section id="vida-judia" className="relative scroll-mt-20 overflow-hidden bg-navy py-24 sm:py-32">
-      <span
-        aria-hidden="true"
-        className="font-hebrew pointer-events-none absolute -bottom-16 start-[-1rem] select-none text-[18rem] leading-none text-white/[0.04]"
-      >
-        לוח
-      </span>
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
-        <Heading eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")} light />
-        <ul className="mt-14 grid gap-px overflow-hidden rounded-3xl bg-white/10 sm:grid-cols-2 lg:grid-cols-5">
-          {items.map((item, i) => {
-            const Icon = icons[i] ?? Sparkles;
-            return (
-              <li key={item.title} className="bg-navy p-6">
-                <Icon className="size-6 text-gold-light" aria-hidden="true" />
-                <h3 className="mt-4 font-bold text-white">{item.title}</h3>
-                <p className="mt-2 text-sm leading-relaxed text-white/75">{item.body}</p>
-              </li>
-            );
-          })}
-        </ul>
-        <p className="mt-10 max-w-3xl text-lg font-medium text-white/90">{t("note")}</p>
       </div>
     </section>
   );

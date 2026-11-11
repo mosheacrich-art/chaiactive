@@ -664,54 +664,6 @@
         }
       ]
     },
-    "capaJudia": {
-      "eyebrow": "What makes it different",
-      "title": "Jewish life, inside the app",
-      "intro": "This is what a generic school platform cannot give you. The Jewish calendar is not an add-on: it shapes the school year.",
-      "items": [
-        {
-          "title": "Hebrew calendar",
-          "body": "Dual dates, Gregorian and Hebrew, throughout the app."
-        },
-        {
-          "title": "Holidays in the school calendar",
-          "body": "Holidays adjust the school calendar automatically, without redoing it by hand every year."
-        },
-        {
-          "title": "Shabbat times for Barcelona",
-          "body": "Candle lighting and the end of Shabbat calculated for the city."
-        },
-        {
-          "title": "Shabbat and holiday warnings",
-          "body": "If someone schedules an exam or a hand-in on Shabbat or a holiday, the app warns them before saving."
-        },
-        {
-          "title": "Shabbat mode",
-          "body": "Optional silencing of notifications during Shabbat and a summary afterwards."
-        },
-        {
-          "title": "Jewish studies and Hebrew",
-          "body": "Real right-to-left writing and nikud in homework, notes and exams."
-        },
-        {
-          "title": "Kosher canteen",
-          "body": "The canteen menu with its kashrut information."
-        },
-        {
-          "title": "Tzedakah and volunteering",
-          "body": "Tzedakah campaigns and a log of volunteering hours."
-        },
-        {
-          "title": "Community calendar",
-          "body": "The Barcelona Jewish community's calendar alongside the school's."
-        },
-        {
-          "title": "Four languages",
-          "body": "Spanish, Catalan, English and Hebrew."
-        }
-      ],
-      "note": "Everything can be configured by the school and is optional for each user. Families with different levels of observance share the same school, and the app respects that."
-    },
     "profesorado": {
       "title": "For teachers and leadership",
       "intro": "If teachers don't save time, the app is useless. That's why the teacher dashboard is the first thing we designed.",
