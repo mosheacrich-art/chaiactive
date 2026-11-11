@@ -1000,8 +1000,8 @@
   },
   "seguridad": {
     "eyebrow": "Security",
-    "title": "Your data, under lock and key.",
-    "intro": "We work with data from communities, families and businesses. We keep it with certified providers, and each person sees only what's theirs.",
+    "title": "Google-grade security.",
+    "intro": "We work with data from communities, families and businesses, so we don't cut corners: everything runs on Google Cloud, the same infrastructure that protects Google, encrypted at every step and open only to the people it belongs to.",
     "seals": [
       {
         "value": "AES-256",
@@ -1013,29 +1013,29 @@
       },
       {
         "value": "ISO 27001",
-        "label": "Supabase and Vercel certification"
+        "label": "Google Cloud ISO 27001, 27017 and 27018"
       },
       {
         "value": "SOC 2",
-        "label": "Supabase and Vercel type 2 audit"
+        "label": "Google Cloud type 2 audit"
       }
     ],
     "items": [
       {
         "title": "Encryption at rest",
-        "body": "The database and its backups are encrypted with AES-256 in Supabase."
+        "body": "Everything we store on Google Cloud, backups included, is encrypted with AES-256 by default, with keys Google guards and rotates in its own key management system."
       },
       {
         "title": "Encryption in transit",
-        "body": "Everything travels over HTTPS with TLS between the phone or computer and the server."
+        "body": "Every connection travels over HTTPS with TLS, and inside Google's private network the traffic between services is encrypted too."
       },
       {
-        "title": "Certified providers",
-        "body": "Supabase stores the data and Vercel serves the websites. Both hold ISO 27001 and a SOC 2 type 2 audit."
+        "title": "Google's infrastructure",
+        "body": "Google Cloud holds ISO 27001, 27017 and 27018 and a SOC 2 type 2 audit, and its servers boot verified by Titan, Google's own security chip."
       },
       {
         "title": "Data in Europe",
-        "body": "The databases for Kehál and the shops we build sit in data centres in Zurich and Ireland."
+        "body": "Data for Kehál and the shops we build is hosted in Google Cloud's European regions."
       },
       {
         "title": "Everyone sees their own",

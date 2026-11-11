@@ -1000,8 +1000,8 @@
   },
   "seguridad": {
     "eyebrow": "Sécurité",
-    "title": "Vos données, sous clé.",
-    "intro": "Nous travaillons avec les données de communautés, de familles et d'entreprises. Nous les confions à des prestataires certifiés, et chacun ne voit que ce qui le concerne.",
+    "title": "Une sécurité au niveau de Google.",
+    "intro": "Nous travaillons avec les données de communautés, de familles et d'entreprises, alors nous n'improvisons pas : tout tourne sur Google Cloud, la même infrastructure qui protège Google, chiffré à chaque étape et accessible seulement à qui de droit.",
     "seals": [
       {
         "value": "AES-256",
@@ -1013,29 +1013,29 @@
       },
       {
         "value": "ISO 27001",
-        "label": "Certification de Supabase et Vercel"
+        "label": "ISO 27001, 27017 et 27018 de Google Cloud"
       },
       {
         "value": "SOC 2",
-        "label": "Audit type 2 de Supabase et Vercel"
+        "label": "Audit type 2 de Google Cloud"
       }
     ],
     "items": [
       {
         "title": "Chiffrement au repos",
-        "body": "La base de données et ses sauvegardes sont chiffrées en AES-256 chez Supabase."
+        "body": "Tout ce que nous stockons sur Google Cloud, sauvegardes comprises, est chiffré en AES-256 par défaut, avec des clés que Google garde et renouvelle dans son propre système de gestion des clés."
       },
       {
         "title": "Chiffrement en transit",
-        "body": "Tout passe par HTTPS avec TLS entre le téléphone ou l'ordinateur et le serveur."
+        "body": "Chaque connexion passe par HTTPS avec TLS, et dans le réseau privé de Google le trafic entre services est lui aussi chiffré."
       },
       {
-        "title": "Prestataires certifiés",
-        "body": "Supabase stocke les données et Vercel sert les sites. Les deux ont l'ISO 27001 et un audit SOC 2 type 2."
+        "title": "L'infrastructure de Google",
+        "body": "Google Cloud a les certifications ISO 27001, 27017 et 27018 et un audit SOC 2 type 2, et ses serveurs démarrent vérifiés par Titan, la puce de sécurité conçue par Google."
       },
       {
         "title": "Données en Europe",
-        "body": "Les bases de données de Kehál et des boutiques que nous réalisons se trouvent dans des centres de données à Zurich et en Irlande."
+        "body": "Les données de Kehál et des boutiques que nous réalisons sont hébergées dans les régions européennes de Google Cloud."
       },
       {
         "title": "Chacun voit ce qui le concerne",

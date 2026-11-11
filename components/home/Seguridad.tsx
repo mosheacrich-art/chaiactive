@@ -8,10 +8,10 @@ type Item = { title: string; body: string };
 // Same order as `seguridad.items` in messages/*.json.
 const ICONS = [Lock, ShieldCheck, Database, MapPin, KeyRound, UserX];
 
-// Honesty rule for this section: the certifications (ISO 27001, SOC 2) are
-// our providers' (Supabase, Vercel), never ours, and the copy says so.
-// Data location verified 2026-11-11: Kehál's database in AWS eu-central-2
-// (Zurich), the shops' in eu-west-1 (Ireland).
+// Honesty rule for this section: the certifications (ISO 27001/27017/27018,
+// SOC 2) are Google Cloud's, never ours, and the copy says so.
+// Backend migrated to Google Cloud (2026-11). Data location: European
+// Google Cloud regions — keep the copy in sync if a region changes.
 export default function Seguridad() {
   const t = useTranslations("seguridad");
   const seals = t.raw("seals") as Seal[];
