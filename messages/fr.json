@@ -296,7 +296,7 @@
         {
           "heading": "À quels destinataires vos données seront-elles communiquées ?",
           "paragraphs": [
-            "Aucune donnée ne sera cédée à des tiers, sauf obligation légale. Nous pourrons recourir à des prestataires technologiques agissant comme sous-traitants (par exemple : hébergeur/plateforme de déploiement [Vercel], ou outil de gestion de formulaires et d'envoi d'emails [Resend]), qui traiteront les données uniquement selon les instructions du TITULAIRE et avec les garanties exigées par le RGPD (y compris, le cas échéant, des clauses de transfert international si le prestataire est situé hors de l'Espace économique européen)."
+            "Aucune donnée ne sera cédée à des tiers, sauf obligation légale. Nous pourrons recourir à des prestataires technologiques agissant comme sous-traitants (par exemple : infrastructure cloud et stockage des données [Google Cloud], hébergeur/plateforme de déploiement [Vercel], ou outil de gestion de formulaires et d'envoi d'emails [Resend]), qui traiteront les données uniquement selon les instructions du TITULAIRE et avec les garanties exigées par le RGPD (y compris, le cas échéant, des clauses de transfert international si le prestataire est situé hors de l'Espace économique européen)."
           ]
         },
         {

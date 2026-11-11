@@ -296,7 +296,7 @@
         {
           "heading": "Who will your data be shared with?",
           "paragraphs": [
-            "Data will not be shared with third parties, except where legally required. We may rely on technology providers acting as data processors (for example: a hosting/deployment provider [Vercel], or an email/form management tool [Resend]), who will process data only under THE OWNER's instructions and with the guarantees required by the GDPR (including, where applicable, international transfer clauses if the provider is outside the European Economic Area)."
+            "Data will not be shared with third parties, except where legally required. We may rely on technology providers acting as data processors (for example: a cloud infrastructure and data storage provider [Google Cloud], a hosting/deployment provider [Vercel], or an email/form management tool [Resend]), who will process data only under THE OWNER's instructions and with the guarantees required by the GDPR (including, where applicable, international transfer clauses if the provider is outside the European Economic Area)."
           ]
         },
         {

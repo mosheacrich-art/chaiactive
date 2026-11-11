@@ -296,7 +296,7 @@
         {
           "heading": "¿A qué destinatarios se comunicarán tus datos?",
           "paragraphs": [
-            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios y envío de email [Resend]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
+            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: infraestructura en la nube y almacenamiento de datos [Google Cloud], proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios y envío de email [Resend]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
           ]
         },
         {
