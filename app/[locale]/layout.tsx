@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Assistant, Frank_Ruhl_Libre, Geist_Mono } from "next/font/google";
+import { Assistant, Frank_Ruhl_Libre, Geist_Mono, Hubot_Sans, Mona_Sans } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
@@ -7,9 +7,23 @@ import { notFound } from "next/navigation";
 import { routing, isRtl, SITE_URL, type Locale } from "@/i18n/routing";
 import "../globals.css";
 
-// Latin text and headings: Satoshi, loaded from the Fontshare API in <head>
-// (its licence forbids putting the font files in a public repo). Labels:
-// Geist Mono. Hebrew: Assistant (body) and Frank Ruhl Libre (headings).
+// Latin: Hubot Sans (wide display, headings), Mona Sans (body), Geist Mono
+// (labels, data). None has Hebrew glyphs, so RTL keeps Assistant for body
+// and Frank Ruhl Libre for headings (globals.css).
+const hubot = Hubot_Sans({
+  subsets: ["latin", "latin-ext"],
+  axes: ["wdth"],
+  variable: "--font-display-sans",
+  display: "swap",
+});
+
+const mona = Mona_Sans({
+  subsets: ["latin", "latin-ext"],
+  axes: ["wdth"],
+  variable: "--font-latin-body",
+  display: "swap",
+});
+
 const geistMono = Geist_Mono({
   subsets: ["latin"],
   variable: "--font-data",
@@ -66,15 +80,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} dir={dir} data-scroll-behavior="smooth">
-      <head>
-        {/* Satoshi from Fontshare (ITF Free Font License). Served by their API
-            on purpose: the repo is public and the licence forbids
-            redistributing the font files. */}
-        <link rel="preconnect" href="https://api.fontshare.com" crossOrigin="" />
-        <link rel="preconnect" href="https://cdn.fontshare.com" crossOrigin="" />
-        <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700,900&display=swap" />
-      </head>
-      <body className={`${geistMono.variable} ${assistant.variable} ${frankRuhl.variable} bg-haze text-ink antialiased`}>
+      <body className={`${hubot.variable} ${mona.variable} ${geistMono.variable} ${assistant.variable} ${frankRuhl.variable} bg-haze text-ink antialiased`}>
         <script
           type="application/ld+json"
           // Organization + WebSite structured data for search engines.

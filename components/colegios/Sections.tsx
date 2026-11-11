@@ -9,7 +9,6 @@ import {
   EyeOff,
   FileSearch,
   FileSpreadsheet,
-  GraduationCap,
   HeartHandshake,
   KeyRound,
   Languages,
@@ -138,33 +137,6 @@ export function CapaJudia() {
           })}
         </ul>
         <p className="mt-10 max-w-3xl text-lg font-medium text-white/90">{t("note")}</p>
-      </div>
-    </section>
-  );
-}
-
-export function Bachillerato() {
-  const t = useTranslations("colegios.bachillerato");
-  const items = t.raw("items") as Item[];
-  return (
-    <section className="py-20 sm:py-28">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="flex flex-wrap items-center gap-4">
-          <GraduationCap className="size-8 text-navy" aria-hidden="true" />
-          <h2 className="text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">{t("title")}</h2>
-          <span className="rounded-full bg-gold/15 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-gold-dark">
-            {t("label")}
-          </span>
-        </div>
-        <ol className="mt-10 grid gap-6 md:grid-cols-4">
-          {items.map((item, i) => (
-            <li key={item.title} className="border-t-2 border-navy pt-5">
-              <span className="text-sm font-semibold text-gold-dark">{i + 1}</span>
-              <h3 className="mt-1 font-bold text-navy">{item.title}</h3>
-              <p className="mt-2 text-[15px] text-ink/70">{item.body}</p>
-            </li>
-          ))}
-        </ol>
       </div>
     </section>
   );

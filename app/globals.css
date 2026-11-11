@@ -60,7 +60,7 @@
   --color-gold-dark: var(--color-gold-dark);
   --color-ink: var(--color-ink);
 
-  --font-sans: "Satoshi", var(--font-body), sans-serif;
+  --font-sans: var(--font-latin-body), var(--font-body), sans-serif;
   --animate-marquee: marquee 38s linear infinite;
   --font-mono: var(--font-data), ui-monospace, monospace;
   --font-hebrew: var(--font-hebrew-serif), serif;
@@ -96,14 +96,16 @@ html[dir="rtl"] body {
   to { transform: translateX(-50%); }
 }
 
-/* Headings: Satoshi Black. Outside any layer on purpose, so it wins over
-   weight utilities (font-bold, font-extrabold) on every h1/h2. Hebrew keeps
-   Frank Ruhl Libre, as Satoshi has no Hebrew glyphs. */
+/* Headings: Hubot Sans, wide (wdth 118), as on the reference site. Outside
+   any layer on purpose, so it wins over weight utilities on every h1/h2.
+   Hebrew keeps Frank Ruhl Libre (no Hebrew glyphs in Hubot). */
 h1,
 h2,
 .font-display {
-  font-family: "Satoshi", var(--font-body), sans-serif;
-  font-weight: 900;
+  font-family: var(--font-display-sans), var(--font-latin-body), sans-serif;
+  font-variation-settings: "wdth" 118;
+  font-stretch: 118%;
+  font-weight: 760;
   letter-spacing: -0.035em;
 }
 
@@ -112,6 +114,8 @@ html[dir="rtl"] h2,
 html[dir="rtl"] h3,
 html[dir="rtl"] .font-display {
   font-family: var(--font-hebrew-serif), serif;
+  font-variation-settings: normal;
+  font-stretch: normal;
   font-weight: 700;
   letter-spacing: 0;
 }
