@@ -60,7 +60,8 @@
   --color-gold-dark: var(--color-gold-dark);
   --color-ink: var(--color-ink);
 
-  --font-sans: var(--font-latin-body), var(--font-body), sans-serif;
+  --font-sans: "Satoshi", var(--font-body), sans-serif;
+  --animate-marquee: marquee 38s linear infinite;
   --font-mono: var(--font-data), ui-monospace, monospace;
   --font-hebrew: var(--font-hebrew-serif), serif;
 }
@@ -90,26 +91,29 @@ html[dir="rtl"] body {
   color: #ffffff;
 }
 
-@layer base {
-  /* Wide display sans for the big headings; Hebrew overrides below. */
-  h1,
-  h2,
-  .font-display {
-    font-family: var(--font-display-sans), var(--font-latin-body), sans-serif;
-    font-variation-settings: "wdth" 118;
-    font-stretch: 118%;
-    letter-spacing: -0.035em;
-  }
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
 
-  html[dir="rtl"] h1,
-  html[dir="rtl"] h2,
-  html[dir="rtl"] h3,
-  html[dir="rtl"] .font-display {
-    font-family: var(--font-hebrew-serif), serif;
-    font-variation-settings: normal;
-    font-stretch: normal;
-    letter-spacing: 0;
-  }
+/* Headings: Satoshi Black. Outside any layer on purpose, so it wins over
+   weight utilities (font-bold, font-extrabold) on every h1/h2. Hebrew keeps
+   Frank Ruhl Libre, as Satoshi has no Hebrew glyphs. */
+h1,
+h2,
+.font-display {
+  font-family: "Satoshi", var(--font-body), sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.035em;
+}
+
+html[dir="rtl"] h1,
+html[dir="rtl"] h2,
+html[dir="rtl"] h3,
+html[dir="rtl"] .font-display {
+  font-family: var(--font-hebrew-serif), serif;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 
 /* Light ground with two soft glows: royal top-left, flame bottom-right. */
