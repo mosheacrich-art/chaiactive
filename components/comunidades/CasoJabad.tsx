@@ -3,13 +3,13 @@ import { ArrowUpRight } from "lucide-react";
 import ScreenshotSlideshow from "@/components/casos/ScreenshotSlideshow";
 import ScrollReveal from "@/components/about/ScrollReveal";
 
+// Real captures of bcnkehila.com (2026-11-11). Phone numbers on event
+// cards and posters are blurred before they go in.
 const SCREENSHOTS = [
-  "casos/jabad/login.png",
-  "casos/jabad/inicio.png",
-  "casos/jabad/calendario.png",
-  "casos/jabad/eventos.png",
-  "casos/jabad/mikve.png",
-  "casos/jabad/donativos.png",
+  "casos/jabad/2026/inicio.jpg",
+  "casos/jabad/2026/eventos.jpg",
+  "casos/jabad/2026/mikve.jpg",
+  "casos/jabad/2026/donativos.jpg",
 ];
 
 export default function CasoJabad() {
@@ -18,7 +18,7 @@ export default function CasoJabad() {
   return (
     <section className="bg-cream py-20 sm:py-28">
       <div className="mx-auto grid max-w-6xl items-center gap-10 px-4 sm:px-6 lg:grid-cols-[1.15fr_0.85fr]">
-        <ScrollReveal className="shot relative aspect-[4/3] bg-white">
+        <ScrollReveal className="shot relative aspect-[16/10] bg-white">
           <ScreenshotSlideshow images={SCREENSHOTS} alt={t("screenshotAlt")} />
         </ScrollReveal>
 

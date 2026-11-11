@@ -20,11 +20,10 @@ export const CASOS_CONFIG: CasoConfig[] = [
     line: "comunidades",
     logo: "logos/jabad.png",
     screenshots: [
-      "casos/jabad/inicio.png",
-      "casos/jabad/calendario.png",
-      "casos/jabad/eventos.png",
-      "casos/jabad/mikve.png",
-      "casos/jabad/donativos.png",
+      "casos/jabad/2026/inicio.jpg",
+      "casos/jabad/2026/eventos.jpg",
+      "casos/jabad/2026/mikve.jpg",
+      "casos/jabad/2026/donativos.jpg",
     ],
   },
   {
