@@ -824,33 +824,43 @@
       "items": [
         {
           "title": "Web corporativa",
-          "body": "Una web que explica bien qué haces y transmite quién eres, fácil de actualizar."
+          "body": "Una web que explica bien qué haces y transmite quién eres, fácil de actualizar.",
+          "chip": "Lo editas sin programar"
         },
         {
           "title": "E-commerce",
-          "body": "Tienda online a medida con catálogo, carrito, cuentas de cliente y pagos."
+          "body": "Tienda online a medida con catálogo, carrito, cuentas de cliente y pagos.",
+          "chip": "Pago completado"
         },
         {
           "title": "Landing de lanzamiento",
-          "body": "Una página para presentar un producto nuevo y reunir una lista de espera antes de salir."
+          "body": "Una página para presentar un producto nuevo y reunir una lista de espera antes de salir.",
+          "chip": "+1 en la lista de espera"
         },
         {
           "title": "Apps y herramientas a medida",
-          "body": "Aplicaciones y herramientas internas para lo que hoy hacéis con hojas de cálculo."
+          "body": "Aplicaciones y herramientas internas para lo que hoy hacéis con hojas de cálculo.",
+          "chip": "De la hoja de cálculo a la app"
         },
         {
           "title": "Formularios y flujos de contacto",
-          "body": "Formularios por pasos que llevan cada contacto al canal adecuado: email, llamada o WhatsApp."
+          "body": "Formularios por pasos que llevan cada contacto al canal adecuado: email, llamada o WhatsApp.",
+          "chip": "Enviado por WhatsApp"
         },
         {
           "title": "Multilingüe",
-          "body": "Tu web en los idiomas de tus clientes, incluido el hebreo con escritura de derecha a izquierda."
+          "body": "Tu web en los idiomas de tus clientes, incluido el hebreo con escritura de derecha a izquierda.",
+          "chip": "4 idiomas, también RTL"
         },
         {
           "title": "SEO",
-          "body": "Estructura, velocidad y contenidos pensados para que te encuentren en Google."
+          "body": "Estructura, velocidad y contenidos pensados para que te encuentren en Google.",
+          "chip": "Rápida e indexable"
         }
-      ]
+      ],
+      "eyebrow": "Servicios",
+      "domain": "tuempresa.com",
+      "pickLabel": "Elige un servicio"
     },
     "sectores": {
       "title": "Sectores con los que trabajamos",

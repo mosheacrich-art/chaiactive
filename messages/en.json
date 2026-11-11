@@ -824,33 +824,43 @@
       "items": [
         {
           "title": "Corporate website",
-          "body": "A website that clearly explains what you do and conveys who you are, easy to update."
+          "body": "A website that clearly explains what you do and conveys who you are, easy to update.",
+          "chip": "Edit it without code"
         },
         {
           "title": "E-commerce",
-          "body": "A custom online shop with catalogue, cart, customer accounts and payments."
+          "body": "A custom online shop with catalogue, cart, customer accounts and payments.",
+          "chip": "Payment complete"
         },
         {
           "title": "Launch page",
-          "body": "A page to present a new product and build a waitlist before you go live."
+          "body": "A page to present a new product and build a waitlist before you go live.",
+          "chip": "+1 on the waitlist"
         },
         {
           "title": "Custom apps and tools",
-          "body": "Applications and internal tools for what you do in spreadsheets today."
+          "body": "Applications and internal tools for what you do in spreadsheets today.",
+          "chip": "From spreadsheet to app"
         },
         {
           "title": "Forms and contact flows",
-          "body": "Step-by-step forms that send each lead to the right channel: email, phone call or WhatsApp."
+          "body": "Step-by-step forms that send each lead to the right channel: email, phone call or WhatsApp.",
+          "chip": "Sent via WhatsApp"
         },
         {
           "title": "Multilingual",
-          "body": "Your website in your customers' languages, including Hebrew with right-to-left text."
+          "body": "Your website in your customers' languages, including Hebrew with right-to-left text.",
+          "chip": "4 languages, RTL included"
         },
         {
           "title": "SEO",
-          "body": "Structure, speed and content designed so people find you on Google."
+          "body": "Structure, speed and content designed so people find you on Google.",
+          "chip": "Fast and indexable"
         }
-      ]
+      ],
+      "eyebrow": "Services",
+      "domain": "yourbusiness.com",
+      "pickLabel": "Pick a service"
     },
     "sectores": {
       "title": "Sectors we work with",

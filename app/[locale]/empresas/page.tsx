@@ -5,7 +5,7 @@ import PageHero from "@/components/layout/PageHero";
 import CtaBand from "@/components/layout/CtaBand";
 import { ContactLink, buttonSecondary } from "@/components/layout/Buttons";
 import IdeaSection from "@/components/IdeaSection";
-import ServiciosScroll from "@/components/empresas/ServiciosScroll";
+import ServiciosStage from "@/components/empresas/ServiciosStage";
 import { CasosEmpresas, Proceso, Sectores } from "@/components/empresas/Sections";
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -32,7 +32,7 @@ export default async function EmpresasPage({ params }: { params: Promise<{ local
         }
       />
       <Sectores />
-      <ServiciosScroll />
+      <ServiciosStage />
       <CasosEmpresas />
       <Proceso />
       <IdeaSection />

@@ -824,33 +824,43 @@
       "items": [
         {
           "title": "Site institutionnel",
-          "body": "Un site qui explique clairement ce que vous faites et transmet qui vous êtes, facile à mettre à jour."
+          "body": "Un site qui explique clairement ce que vous faites et transmet qui vous êtes, facile à mettre à jour.",
+          "chip": "Modifiable sans coder"
         },
         {
           "title": "E-commerce",
-          "body": "Une boutique en ligne sur mesure avec catalogue, panier, comptes clients et paiements."
+          "body": "Une boutique en ligne sur mesure avec catalogue, panier, comptes clients et paiements.",
+          "chip": "Paiement réussi"
         },
         {
           "title": "Page de lancement",
-          "body": "Une page pour présenter un nouveau produit et constituer une liste d'attente avant la sortie."
+          "body": "Une page pour présenter un nouveau produit et constituer une liste d'attente avant la sortie.",
+          "chip": "+1 sur la liste d'attente"
         },
         {
           "title": "Applis et outils sur mesure",
-          "body": "Des applications et outils internes pour ce que vous faites aujourd'hui dans des tableurs."
+          "body": "Des applications et outils internes pour ce que vous faites aujourd'hui dans des tableurs.",
+          "chip": "Du tableur à l'appli"
         },
         {
           "title": "Formulaires et parcours de contact",
-          "body": "Des formulaires par étapes qui orientent chaque contact vers le bon canal : e-mail, appel ou WhatsApp."
+          "body": "Des formulaires par étapes qui orientent chaque contact vers le bon canal : e-mail, appel ou WhatsApp.",
+          "chip": "Envoyé par WhatsApp"
         },
         {
           "title": "Multilingue",
-          "body": "Votre site dans les langues de vos clients, y compris l'hébreu écrit de droite à gauche."
+          "body": "Votre site dans les langues de vos clients, y compris l'hébreu écrit de droite à gauche.",
+          "chip": "4 langues, RTL compris"
         },
         {
           "title": "SEO",
-          "body": "Structure, vitesse et contenus pensés pour qu'on vous trouve sur Google."
+          "body": "Structure, vitesse et contenus pensés pour qu'on vous trouve sur Google.",
+          "chip": "Rapide et indexable"
         }
-      ]
+      ],
+      "eyebrow": "Services",
+      "domain": "votreentreprise.fr",
+      "pickLabel": "Choisissez un service"
     },
     "sectores": {
       "title": "Secteurs avec lesquels nous travaillons",
