@@ -6,6 +6,7 @@ import CtaBand from "@/components/layout/CtaBand";
 import { ContactLink } from "@/components/layout/Buttons";
 import AppMockup from "@/components/colegios/AppMockup";
 import ModulosScroll from "@/components/colegios/ModulosScroll";
+import Privacidad from "@/components/colegios/Privacidad";
 import DemoSection from "@/components/colegios/DemoSection";
 import { SCHOOL_DEMO_URL } from "@/lib/contact";
 import {
@@ -13,7 +14,6 @@ import {
   Futuro,
   Perfiles,
   Pilares,
-  Privacidad,
   Profesorado,
 } from "@/components/colegios/Sections";
 

@@ -742,7 +742,15 @@
           "title": "Free export",
           "body": "The school can export all its data whenever it wants."
         }
-      ]
+      ],
+      "eyebrow": "Privacy",
+      "filterLabel": "Filter by type",
+      "all": "All",
+      "categories": {
+        "law": "Law and control",
+        "tech": "Technical protection",
+        "use": "Use of data"
+      }
     },
     "futuro": {
       "title": "Where it could grow",

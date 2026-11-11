@@ -3,20 +3,14 @@ import {
   BookOpenCheck,
   ClipboardList,
   Compass,
-  Database,
   Download,
-  EyeOff,
-  FileSearch,
   FileSpreadsheet,
   HeartHandshake,
   KeyRound,
   LayoutDashboard,
-  Lock,
   MessagesSquare,
   PenLine,
   School,
-  Server,
-  ShieldCheck,
   Timer,
   TriangleAlert,
   UserRound,
@@ -117,37 +111,6 @@ export function Profesorado() {
                 <Icon className="size-6 text-navy" aria-hidden="true" />
                 <h3 className="mt-3 font-bold text-navy">{item.title}</h3>
                 <p className="mt-1.5 text-[15px] text-ink/70">{item.body}</p>
-              </li>
-            );
-          })}
-        </ul>
-      </div>
-    </section>
-  );
-}
-
-export function Privacidad() {
-  const t = useTranslations("colegios.privacidad");
-  const items = t.raw("items") as Item[];
-  const icons = [Database, ShieldCheck, Server, Lock, KeyRound, EyeOff, FileSearch, EyeOff, Download];
-  return (
-    <section id="privacidad" className="scroll-mt-20 py-20 sm:py-28">
-      <div className="mx-auto grid max-w-6xl gap-12 px-4 sm:px-6 lg:grid-cols-[0.8fr_1.2fr]">
-        <div className="lg:sticky lg:top-28 lg:self-start">
-          <ShieldCheck className="size-10 text-navy" aria-hidden="true" />
-          <h2 className="mt-4 text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">{t("title")}</h2>
-          <p className="mt-4 text-lg text-ink/70">{t("intro")}</p>
-        </div>
-        <ul className="divide-y divide-navy/10 rounded-3xl border border-navy/10">
-          {items.map((item, i) => {
-            const Icon = icons[i];
-            return (
-              <li key={item.title} className="flex gap-4 p-6">
-                <Icon className="mt-0.5 size-5 shrink-0 text-gold-dark" aria-hidden="true" />
-                <div>
-                  <h3 className="font-bold text-navy">{item.title}</h3>
-                  <p className="mt-1 text-[15px] text-ink/70">{item.body}</p>
-                </div>
               </li>
             );
           })}

@@ -742,7 +742,15 @@
           "title": "Exportación libre",
           "body": "El colegio puede exportar todos sus datos cuando quiera."
         }
-      ]
+      ],
+      "eyebrow": "Privacidad",
+      "filterLabel": "Filtrar por tipo",
+      "all": "Todos",
+      "categories": {
+        "law": "Ley y control",
+        "tech": "Protección técnica",
+        "use": "Uso de los datos"
+      }
     },
     "futuro": {
       "title": "Hacia dónde puede crecer",

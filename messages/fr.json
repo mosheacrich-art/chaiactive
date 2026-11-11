@@ -742,7 +742,15 @@
           "title": "Export libre",
           "body": "L'école peut exporter toutes ses données quand elle le souhaite."
         }
-      ]
+      ],
+      "eyebrow": "Confidentialité",
+      "filterLabel": "Filtrer par type",
+      "all": "Tous",
+      "categories": {
+        "law": "Loi et contrôle",
+        "tech": "Protection technique",
+        "use": "Usage des données"
+      }
     },
     "futuro": {
       "title": "Vers où elle peut grandir",
