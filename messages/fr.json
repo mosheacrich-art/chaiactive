@@ -1025,11 +1025,6 @@
   "projectStrip": {
     "label": "Projets que nous avons réalisés"
   },
-  "stats": {
-    "value": "+250",
-    "label": "membres sur l'appli, sur une communauté de plus de 750",
-    "source": "Habad Barcelone"
-  },
   "seguridad": {
     "eyebrow": "Sécurité",
     "title": "Vos données, sous clé.",

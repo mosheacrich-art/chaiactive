@@ -1025,11 +1025,6 @@
   "projectStrip": {
     "label": "Proyectos que hemos construido"
   },
-  "stats": {
-    "value": "+250",
-    "label": "miembros en la app, de una comunidad de más de 750",
-    "source": "Jabad Barcelona"
-  },
   "seguridad": {
     "eyebrow": "Seguridad",
     "title": "Tus datos, bajo llave.",
