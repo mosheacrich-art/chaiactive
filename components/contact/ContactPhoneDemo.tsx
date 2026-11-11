@@ -172,7 +172,7 @@ export default function ContactPhoneDemo({ defaultInterest }: { defaultInterest?
             <button
               type="submit"
               disabled={status === "sending"}
-              className="mt-1 rounded-full bg-navy py-3 text-sm font-bold text-white transition hover:bg-navy-light focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60"
+              className="mt-1 rounded-full bg-royal py-3 text-sm font-bold text-white transition hover:bg-flame focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gold disabled:opacity-60"
             >
               {status === "sending" ? t("form.sending") : t("form.submit")}
             </button>
