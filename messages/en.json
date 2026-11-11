@@ -31,7 +31,7 @@
   },
   "hero": {
     "title": "Technology with life.",
-    "subtitle": "Custom digital tools for communities, schools and businesses. From Barcelona, with Jewish roots.",
+    "subtitle": "Websites, apps and custom tools for communities, schools and businesses in any sector. From Barcelona.",
     "ctaPrimary": "Let's talk",
     "ctaSecondary": "See projects"
   },
@@ -86,29 +86,32 @@
   },
   "sobreNosotros": {
     "eyebrow": "Our story",
-    "title": "More than software",
-    "subhead": "We build technology with life, so communities, schools and businesses can spend their time on what matters.",
+    "title": "We build technology people use.",
+    "subhead": "We're a software studio between Barcelona and Israel. We design and build websites, apps and custom tools for organisations and businesses in any sector.",
     "paragraphs": [
-      "Two Jews, two different paths and one shared idea. Wherever we looked we saw the same thing: extraordinary communities held together by scattered WhatsApp groups, spreadsheets and hours of volunteer work that technology should handle effortlessly.",
-      "That's where we started, with Kehál, the community app that Chabad Barcelona uses today. Along the way, businesses with the same need to get organised and grow called us: a kippah brand, a parasha study tool, a property developer, a coffee brand. And Jewish schools brought us their own challenge.",
-      "Today we work across all three areas with the same approach: listen first, build to measure and stay alongside you after launch. For us it is also a way of giving something back to the community that shaped us."
+      "We began by solving a problem we knew first-hand: organisations running on WhatsApp groups, spreadsheets and hours of manual work. That's where Kehál came from, the app Chabad Barcelona uses today.",
+      "Soon businesses with the same need to get organised and grow called us: an online shop in London, a property developer, a coffee brand, an education platform. Each one with a different solution, built for it.",
+      "Today we work across three lines (communities, schools and businesses) with the same method: listen first, build to measure and stay alongside you after launch."
     ],
-    "anchorCaption": "Barcelona · Israel",
-    "pullQuote": "Because when communities thrive, Judaism thrives.",
-    "foundersHeader": "Meet the Founders",
+    "pullQuote": "Custom software, built for people to actually use.",
     "founders": [
       {
         "name": "Isaac Ayash Belilty",
         "role": "Business & Law Student · Barcelona, Spain",
-        "quote": "I believe technology should remove obstacles, so community leaders can focus on people."
+        "quote": "I believe technology should remove obstacles, so the people leading a project can focus on people."
       },
       {
         "name": "Moshe Acrish",
         "role": "Computer Science Student · Israel",
-        "quote": "Building technology with purpose, to strengthen Jewish communities around the world."
+        "quote": "I build technology with purpose, so organisations and businesses work better."
       }
     ],
-    "finalLine": "It isn't just a company. It's our way of contributing to Jewish communities and to anyone who wants to build something with us."
+    "steps": [
+      "The start",
+      "The leap",
+      "Today"
+    ],
+    "bridge": "One studio"
   },
   "idea": {
     "headlineLines": [

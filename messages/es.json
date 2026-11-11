@@ -31,7 +31,7 @@
   },
   "hero": {
     "title": "Tecnología con vida.",
-    "subtitle": "Herramientas digitales a medida para comunidades, colegios y empresas. Desde Barcelona, con raíces judías.",
+    "subtitle": "Webs, apps y herramientas a medida para comunidades, colegios y empresas de cualquier sector. Desde Barcelona.",
     "ctaPrimary": "Hablemos",
     "ctaSecondary": "Ver proyectos"
   },
@@ -86,29 +86,32 @@
   },
   "sobreNosotros": {
     "eyebrow": "Nuestra historia",
-    "title": "Más que software",
-    "subhead": "Construimos tecnología con vida, para que comunidades, colegios y empresas dediquen su tiempo a lo que importa.",
+    "title": "Hacemos tecnología que se usa.",
+    "subhead": "Somos un estudio de software entre Barcelona e Israel. Diseñamos y construimos webs, apps y herramientas a medida para organizaciones y empresas de cualquier sector.",
     "paragraphs": [
-      "Dos judíos, dos caminos distintos y una misma idea. Allá donde mirábamos veíamos lo mismo: comunidades extraordinarias sosteniéndose con grupos de WhatsApp dispersos, hojas de cálculo y horas de trabajo voluntario que la tecnología debería resolver sin esfuerzo.",
-      "Empezamos por ahí, con Kehál, la app de comunidad que hoy usa Jabad Barcelona. Por el camino nos llamaron negocios con la misma necesidad de ordenar y crecer: una marca de kipot, una herramienta para estudiar la parashá, una promotora, una marca de café. Y los colegios judíos nos plantearon su propio reto.",
-      "Hoy trabajamos en las tres líneas con el mismo criterio: escuchar primero, construir a medida y quedarnos al lado después del lanzamiento. Para nosotros también es una forma de devolver algo a la comunidad que nos ha formado."
+      "Empezamos resolviendo un problema que conocíamos de cerca: organizaciones que funcionaban a base de grupos de WhatsApp, hojas de cálculo y horas de trabajo manual. De ahí salió Kehál, la app que hoy usa Jabad Barcelona.",
+      "Pronto nos llamaron negocios con la misma necesidad de ordenarse y crecer: una tienda online en Londres, una promotora inmobiliaria, una marca de café, una plataforma educativa. Cada uno con una solución distinta, hecha para él.",
+      "Hoy trabajamos en tres líneas (comunidades, colegios y empresas) con el mismo método: escuchar primero, construir a medida y seguir al lado después del lanzamiento."
     ],
-    "anchorCaption": "Barcelona · Israel",
-    "pullQuote": "Porque cuando las comunidades prosperan, el judaísmo prospera.",
-    "foundersHeader": "Los fundadores",
+    "pullQuote": "Software a medida, hecho para que la gente lo use de verdad.",
     "founders": [
       {
         "name": "Isaac Ayash Belilty",
         "role": "Estudiante de Empresariales y Derecho · Barcelona, España",
-        "quote": "Creo que la tecnología debe eliminar obstáculos, para que quienes lideran una comunidad puedan centrarse en las personas."
+        "quote": "Creo que la tecnología debe eliminar obstáculos, para que quienes lideran un proyecto puedan centrarse en las personas."
       },
       {
         "name": "Moshe Acrish",
         "role": "Estudiante de Ingeniería Informática · Israel",
-        "quote": "Construyo tecnología con propósito, para fortalecer comunidades judías en todo el mundo."
+        "quote": "Construyo tecnología con propósito, para que organizaciones y empresas funcionen mejor."
       }
     ],
-    "finalLine": "No es solo una empresa. Es nuestra manera de aportar algo a las comunidades judías y a cualquiera que quiera construir algo con nosotros."
+    "steps": [
+      "El origen",
+      "El salto",
+      "Hoy"
+    ],
+    "bridge": "Un mismo estudio"
   },
   "idea": {
     "headlineLines": [

@@ -31,7 +31,7 @@
   },
   "hero": {
     "title": "Une technologie vivante.",
-    "subtitle": "Des outils numériques sur mesure pour les communautés, les écoles et les entreprises. Depuis Barcelone, avec des racines juives.",
+    "subtitle": "Sites, applis et outils sur mesure pour des communautés, des écoles et des entreprises de tous les secteurs. Depuis Barcelone.",
     "ctaPrimary": "Parlons-en",
     "ctaSecondary": "Voir les projets"
   },
@@ -86,29 +86,32 @@
   },
   "sobreNosotros": {
     "eyebrow": "Notre histoire",
-    "title": "Plus que du logiciel",
-    "subhead": "Nous créons une technologie vivante, pour que communautés, écoles et entreprises consacrent leur temps à l'essentiel.",
+    "title": "Nous faisons de la technologie qu'on utilise.",
+    "subhead": "Nous sommes un studio logiciel entre Barcelone et Israël. Nous concevons et développons des sites, des applis et des outils sur mesure pour des organisations et des entreprises de tous les secteurs.",
     "paragraphs": [
-      "Deux Juifs, deux parcours différents et une même idée. Partout où nous regardions, nous voyions la même chose : des communautés extraordinaires qui tenaient grâce à des groupes WhatsApp dispersés, des tableurs et des heures de bénévolat que la technologie devrait régler sans effort.",
-      "Nous avons commencé par là, avec Kehál, l'appli de communauté qu'utilise aujourd'hui Habad Barcelone. En chemin, des entreprises avec le même besoin de s'organiser et de grandir nous ont appelés : une marque de kippot, un outil d'étude de la paracha, un promoteur, une marque de café. Et les écoles juives nous ont soumis leur propre défi.",
-      "Aujourd'hui, nous travaillons sur ces trois axes avec la même méthode : écouter d'abord, construire sur mesure et rester à vos côtés après le lancement. C'est aussi pour nous une façon de rendre quelque chose à la communauté qui nous a formés."
+      "Nous avons commencé par résoudre un problème que nous connaissions de près : des organisations qui tournaient avec des groupes WhatsApp, des tableurs et des heures de travail manuel. C'est de là qu'est né Kehál, l'appli qu'utilise aujourd'hui Habad Barcelone.",
+      "Très vite, des entreprises avec le même besoin de s'organiser et de grandir nous ont appelés : une boutique en ligne à Londres, un promoteur immobilier, une marque de café, une plateforme éducative. Chacune avec une solution différente, faite pour elle.",
+      "Aujourd'hui, nous travaillons sur trois axes (communautés, écoles et entreprises) avec la même méthode : écouter d'abord, construire sur mesure et rester à vos côtés après le lancement."
     ],
-    "anchorCaption": "Barcelone · Israël",
-    "pullQuote": "Parce que quand les communautés prospèrent, le judaïsme prospère.",
-    "foundersHeader": "Les fondateurs",
+    "pullQuote": "Du logiciel sur mesure, fait pour être vraiment utilisé.",
     "founders": [
       {
         "name": "Isaac Ayash Belilty",
         "role": "Étudiant en commerce et droit · Barcelone, Espagne",
-        "quote": "Je crois que la technologie doit lever les obstacles, pour que les responsables communautaires puissent se concentrer sur les personnes."
+        "quote": "Je crois que la technologie doit lever les obstacles, pour que ceux qui mènent un projet puissent se consacrer aux personnes."
       },
       {
         "name": "Moshe Acrish",
         "role": "Étudiant en informatique · Israël",
-        "quote": "Construire une technologie avec un but, pour renforcer les communautés juives à travers le monde."
+        "quote": "Je construis une technologie qui a du sens, pour que les organisations et les entreprises fonctionnent mieux."
       }
     ],
-    "finalLine": "Ce n'est pas seulement une entreprise. C'est notre façon d'apporter quelque chose aux communautés juives et à tous ceux qui veulent construire avec nous."
+    "steps": [
+      "Le début",
+      "Le saut",
+      "Aujourd'hui"
+    ],
+    "bridge": "Un même studio"
   },
   "idea": {
     "headlineLines": [
