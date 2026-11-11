@@ -1,72 +1,60 @@
 import { useTranslations } from "next-intl";
-import { BadgeCheck, Cloud, Globe2, Lock, Scale, ShieldCheck } from "lucide-react";
-import ScrollReveal from "@/components/about/ScrollReveal";
+import { ArrowRight, Database, KeyRound, Lock, MapPin, ShieldCheck, UserX } from "lucide-react";
+import SpecHeader from "./SpecHeader";
 
 type Seal = { value: string; label: string };
 type Item = { title: string; body: string };
 
 // Same order as `seguridad.items` in messages/*.json.
-const ICONS = [Lock, ShieldCheck, Cloud, Globe2, Scale, BadgeCheck];
+const ICONS = [Lock, ShieldCheck, Database, MapPin, KeyRound, UserX];
 
-// Security section of the home page, on the same cream background as the
-// sections around it.
+// Honesty rule for this section: the certifications (ISO 27001, SOC 2) are
+// our providers' (Supabase, Vercel), never ours, and the copy says so.
+// Data location verified 2026-11-11: Kehál's database in AWS eu-central-2
+// (Zurich), the shops' in eu-west-1 (Ireland).
 export default function Seguridad() {
   const t = useTranslations("seguridad");
   const seals = t.raw("seals") as Seal[];
   const items = t.raw("items") as Item[];
 
   return (
-    <section
-      id="seguridad"
-      aria-labelledby="seguridad-title"
-      className="relative scroll-mt-20 overflow-hidden bg-cream py-20 sm:py-28"
-    >
-      <span
-        aria-hidden="true"
-        className="font-hebrew pointer-events-none absolute -bottom-16 end-[-1rem] select-none text-[18rem] leading-none text-navy/[0.04]"
-      >
-        שמירה
-      </span>
+    <section id="seguridad" aria-labelledby="seguridad-title" className="scroll-mt-20 bg-white py-20 sm:py-28">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
+        <SpecHeader id="seguridad-title" eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")} />
 
-      <div className="relative mx-auto max-w-6xl px-4 sm:px-6">
-        <ScrollReveal className="max-w-2xl">
-          <p className="text-sm font-semibold uppercase tracking-wider text-gold-dark">{t("eyebrow")}</p>
-          <h2 id="seguridad-title" className="mt-2 text-3xl font-extrabold tracking-tight text-navy sm:text-4xl">
-            {t("title")}
-          </h2>
-          <p className="mt-4 text-lg text-ink/70">{t("intro")}</p>
-        </ScrollReveal>
-
-        <ul className="mt-14 grid grid-cols-2 gap-4 lg:grid-cols-4">
-          {seals.map((seal, i) => (
-            <li key={seal.value}>
-              <ScrollReveal
-                delay={i * 0.06}
-                className="flex h-full flex-col items-center justify-center rounded-3xl border border-navy/10 bg-white px-4 py-8 text-center"
-              >
-                <span className="font-display text-3xl font-bold text-navy sm:text-4xl" dir="ltr">
-                  {seal.value}
-                </span>
-                <span className="mt-2 text-sm text-ink/70">{seal.label}</span>
-              </ScrollReveal>
+        {/* Key figures, as a strip of hairline cells */}
+        <ul className="mt-12 grid grid-cols-2 border-s border-t border-navy/15 lg:grid-cols-4">
+          {seals.map((seal) => (
+            <li key={seal.value} className="border-b border-e border-navy/15 px-5 py-7">
+              <span className="block font-sans text-3xl font-extrabold tracking-[-0.03em] text-navy-dark sm:text-4xl" dir="ltr">
+                {seal.value}
+              </span>
+              <span className="mt-2 block text-xs font-bold uppercase tracking-[0.16em] text-navy/60">{seal.label}</span>
             </li>
           ))}
         </ul>
 
-        <ul className="mt-6 grid gap-px overflow-hidden rounded-3xl bg-navy/10 sm:grid-cols-2 lg:grid-cols-3">
+        {/* What it means in practice */}
+        <ul className="grid border-s border-navy/15 sm:grid-cols-2 lg:grid-cols-3">
           {items.map((item, i) => {
             const Icon = ICONS[i] ?? ShieldCheck;
             return (
-              <li key={item.title} className="bg-white p-7">
-                <Icon className="size-6 text-gold-dark" aria-hidden="true" />
-                <h3 className="mt-4 font-bold text-navy">{item.title}</h3>
+              <li key={item.title} className="group border-b border-e border-navy/15 p-5 transition-colors duration-150 hover:bg-cream sm:p-7">
+                <Icon className="size-5 text-gold-dark transition-transform duration-200 group-hover:scale-110" aria-hidden="true" />
+                <h3 className="mt-4 font-bold text-navy-dark">{item.title}</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-ink/70">{item.body}</p>
               </li>
             );
           })}
         </ul>
 
-        <p className="mt-10 max-w-3xl text-lg font-medium text-navy">{t("note")}</p>
+        <a
+          href="#contacto"
+          className="group mt-10 inline-flex min-h-11 items-center gap-2 text-sm font-bold uppercase tracking-[0.16em] text-navy hover:text-gold-dark"
+        >
+          {t("note")}
+          <ArrowRight className="size-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" aria-hidden="true" />
+        </a>
       </div>
     </section>
   );

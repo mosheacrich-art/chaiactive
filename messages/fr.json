@@ -1458,53 +1458,53 @@
   },
   "seguridad": {
     "eyebrow": "Sécurité",
-    "title": "Vos données, protégées selon les normes les plus exigeantes",
-    "intro": "Nous traitons des informations de communautés, de familles et d'entreprises. La sécurité n'est donc pas une option : elle est à la base de tout ce que nous construisons.",
+    "title": "Vos données, sous clé.",
+    "intro": "Nous travaillons avec les données de communautés, de familles et d'entreprises. Nous les confions à des prestataires certifiés, et chacun ne voit que ce qui le concerne.",
     "seals": [
       {
         "value": "AES-256",
         "label": "Chiffrement des données stockées"
       },
       {
-        "value": "TLS 1.3",
+        "value": "TLS",
         "label": "Chiffrement de chaque connexion"
       },
       {
         "value": "ISO 27001",
-        "label": "Gestion de la sécurité de l'information"
+        "label": "Certification de Supabase et Vercel"
       },
       {
-        "value": "RGPD",
-        "label": "Protection des données en Europe"
+        "value": "SOC 2",
+        "label": "Audit type 2 de Supabase et Vercel"
       }
     ],
     "items": [
       {
         "title": "Chiffrement au repos",
-        "body": "Toutes les informations stockées sont chiffrées en AES-256, la norme utilisée par les banques et les administrations publiques."
+        "body": "La base de données et ses sauvegardes sont chiffrées en AES-256 chez Supabase."
       },
       {
         "title": "Chiffrement en transit",
-        "body": "Les données circulent toujours en HTTPS avec TLS 1.3 entre l'appareil et nos serveurs : personne ne peut les lire en chemin."
+        "body": "Tout passe par HTTPS avec TLS entre le téléphone ou l'ordinateur et le serveur."
       },
       {
-        "title": "Infrastructure Google Cloud",
-        "body": "Nos applications fonctionnent sur Google Cloud : centres de données sous surveillance physique permanente, protection contre les attaques et supervision continue."
+        "title": "Prestataires certifiés",
+        "body": "Supabase stocke les données et Vercel sert les sites. Les deux ont l'ISO 27001 et un audit SOC 2 type 2."
       },
       {
-        "title": "Données hébergées dans l'Union européenne",
-        "body": "Les données sont stockées dans les régions européennes de Google Cloud et régies par la réglementation de l'UE."
+        "title": "Données en Europe",
+        "body": "Les bases de données de Kehál et des boutiques que nous réalisons se trouvent dans des centres de données à Zurich et en Irlande."
       },
       {
-        "title": "RGPD et LOPDGDD",
-        "body": "Nous respectons le Règlement général sur la protection des données et la loi espagnole sur la protection des données."
+        "title": "Chacun voit ce qui le concerne",
+        "body": "Les règles d'accès sont dans la base de données elle-même : un membre ne voit que ses données, et seul qui a ce rôle ouvre le panneau d'administration."
       },
       {
-        "title": "ISO/IEC 27001",
-        "body": "Nous travaillons selon ISO/IEC 27001, la norme internationale de gestion de la sécurité de l'information."
+        "title": "Données minimales",
+        "body": "Nous ne demandons que le nécessaire, et chaque utilisateur peut supprimer son compte depuis l'appli."
       }
     ],
-    "note": "Besoin de plus de détails techniques pour votre équipe ou votre conseil ? Écrivez-nous, nous vous expliquons tout."
+    "note": "Votre conseil veut le détail technique ? Écrivez-nous"
   },
   "closing": {
     "quote": "La technologie, quand elle est bien faite, laisse plus de temps pour la vie."
@@ -1568,6 +1568,21 @@
         "body": "Un cold brew fonctionnel avant sa mise en vente : le site présente le produit et réunit les premiers clients.",
         "alt": "Accueil de Better Coffee avec le formulaire de liste d'attente"
       }
+    }
+  },
+  "stack": {
+    "eyebrow": "Technologie",
+    "title": "Construit avec des outils qui durent.",
+    "intro": "Ce sont ceux que nous utilisons dans Kehál, l'appli de l'école et les sites de nos clients. Aucun n'est une expérience : tous ont des années en production.",
+    "filterLabel": "Filtrer par type",
+    "all": "Tous",
+    "categories": {
+      "frontend": "Frontend",
+      "languages": "Langages",
+      "backend": "Backend et données",
+      "mobile": "Mobile",
+      "services": "Paiement, e-mail et IA",
+      "deploy": "Déploiement"
     }
   }
 }

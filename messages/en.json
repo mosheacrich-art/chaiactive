@@ -1458,53 +1458,53 @@
   },
   "seguridad": {
     "eyebrow": "Security",
-    "title": "Your data, protected to the highest standards",
-    "intro": "We handle information from communities, families and businesses. That's why security isn't an add-on: it's the foundation of everything we build.",
+    "title": "Your data, under lock and key.",
+    "intro": "We work with data from communities, families and businesses. We keep it with certified providers, and each person sees only what's theirs.",
     "seals": [
       {
         "value": "AES-256",
         "label": "Encryption of stored data"
       },
       {
-        "value": "TLS 1.3",
+        "value": "TLS",
         "label": "Encryption of every connection"
       },
       {
         "value": "ISO 27001",
-        "label": "Information security management"
+        "label": "Supabase and Vercel certification"
       },
       {
-        "value": "GDPR",
-        "label": "EU data protection law"
+        "value": "SOC 2",
+        "label": "Supabase and Vercel type 2 audit"
       }
     ],
     "items": [
       {
         "title": "Encryption at rest",
-        "body": "All stored information is encrypted with AES-256, the same standard used by banks and public administrations."
+        "body": "The database and its backups are encrypted with AES-256 in Supabase."
       },
       {
         "title": "Encryption in transit",
-        "body": "Data always travels over HTTPS with TLS 1.3 between the device and our servers, so no one can read it along the way."
+        "body": "Everything travels over HTTPS with TLS between the phone or computer and the server."
       },
       {
-        "title": "Google Cloud infrastructure",
-        "body": "Our apps run on Google Cloud: data centres with round-the-clock physical security, protection against attacks and continuous monitoring."
+        "title": "Certified providers",
+        "body": "Supabase stores the data and Vercel serves the websites. Both hold ISO 27001 and a SOC 2 type 2 audit."
       },
       {
-        "title": "Data hosted in the European Union",
-        "body": "Data is stored in Google Cloud's European regions and governed by EU regulations."
+        "title": "Data in Europe",
+        "body": "The databases for Kehál and the shops we build sit in data centres in Zurich and Ireland."
       },
       {
-        "title": "GDPR and LOPDGDD",
-        "body": "We comply with the General Data Protection Regulation and Spain's data protection law."
+        "title": "Everyone sees their own",
+        "body": "Access rules live in the database itself: a member only sees their own data, and only people with that role can open the admin panel."
       },
       {
-        "title": "ISO/IEC 27001",
-        "body": "We work to ISO/IEC 27001, the international standard for information security management."
+        "title": "Minimal data",
+        "body": "We ask only for what's needed, and any user can delete their account from the app."
       }
     ],
-    "note": "Need more technical detail for your team or board? Get in touch and we'll walk you through it."
+    "note": "Does your board want the technical detail? Write to us"
   },
   "closing": {
     "quote": "Technology, when it's done well, leaves more time for life."
@@ -1568,6 +1568,21 @@
         "body": "Functional cold brew before it goes on sale: the site presents the product and gathers the first customers.",
         "alt": "Better Coffee home with the waitlist form"
       }
+    }
+  },
+  "stack": {
+    "eyebrow": "Technology",
+    "title": "Built with tools that last.",
+    "intro": "These are the ones we use in Kehál, the school app and our clients' websites. None of them is an experiment: all have years in production.",
+    "filterLabel": "Filter by type",
+    "all": "All",
+    "categories": {
+      "frontend": "Frontend",
+      "languages": "Languages",
+      "backend": "Backend and data",
+      "mobile": "Mobile",
+      "services": "Payments, email and AI",
+      "deploy": "Deployment"
     }
   }
 }
