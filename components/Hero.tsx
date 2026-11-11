@@ -7,7 +7,7 @@ export default function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="overflow-hidden bg-[#f7f1ec] pb-28 pt-16 sm:pb-36 sm:pt-24">
+    <section className="overflow-hidden surface-haze pb-28 pt-16 sm:pb-36 sm:pt-24">
       <div className="mx-auto max-w-6xl px-4 text-center sm:px-6">
         <h1 className="text-5xl font-bold leading-[1.05] text-navy sm:text-7xl">{t("title")}</h1>
         <p className="mx-auto mt-6 max-w-[34rem] text-lg text-ink/70 sm:text-xl">{t("subtitle")}</p>

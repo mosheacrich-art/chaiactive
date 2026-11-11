@@ -1,23 +1,55 @@
 @import "tailwindcss";
 
 :root {
-  --color-navy: #1b2e5e;
-  --color-navy-dark: #12203f;
-  --color-navy-light: #2c4177;
-  --color-cream: #f8f7f4;
-  --color-cream-dark: #eeece5;
-  --color-gold: #c1932f;
-  --color-gold-light: #d9b45c;
-  /* Darker gold for small text on white/cream: passes WCAG AA (≈5:1). */
-  --color-gold-dark: #8a6516;
+  /* Palette (2026-11-11): cool blues on haze, after the reference site the
+     user picked. The old token names stay so every component follows:
+     navy = ink, gold = royal accent, cream = haze. */
+  --color-void: #040c20;
+  --color-void-2: #06132f;
+  --color-deep: #0c1d40;
+  --color-deep-2: #132b5a;
+  --color-royal-deep: #0a2f94;
+  --color-royal: #1d52de;
+  --color-flame: #1485f4;
+  --color-flame-bright: #60b0ff;
+  --color-haze: #f3f7fc;
+  --color-haze-2: #e0ebf8;
+  --color-haze-3: #ccdcf2;
+  --color-mist: #b1bfd1;
+  --color-mist-2: #8394ab;
+  --color-starlight: #f1f6fc;
+
+  --color-navy: #0d1a32;
+  --color-navy-dark: #040c20;
+  --color-navy-light: #132b5a;
+  --color-cream: #f3f7fc;
+  --color-cream-dark: #e0ebf8;
+  --color-gold: #1d52de;
+  --color-gold-light: #60b0ff;
+  /* Small accent text on haze/white: royal-deep, well above AA. */
+  --color-gold-dark: #0a2f94;
+  --color-ink: #0d1a32;
 
   /* One radius and one shadow for every screenshot/mockup on the site. */
   --radius-shot: 1.25rem;
-  --shadow-shot: 0 1px 2px rgb(18 32 63 / 0.06), 0 18px 40px -12px rgb(18 32 63 / 0.22);
-  --color-ink: #1c1a15;
+  --shadow-shot: 0 1px 2px rgb(13 26 50 / 0.06), 0 18px 40px -12px rgb(13 26 50 / 0.24);
 }
 
 @theme inline {
+  --color-void: var(--color-void);
+  --color-void-2: var(--color-void-2);
+  --color-deep: var(--color-deep);
+  --color-deep-2: var(--color-deep-2);
+  --color-royal-deep: var(--color-royal-deep);
+  --color-royal: var(--color-royal);
+  --color-flame: var(--color-flame);
+  --color-flame-bright: var(--color-flame-bright);
+  --color-haze: var(--color-haze);
+  --color-haze-2: var(--color-haze-2);
+  --color-haze-3: var(--color-haze-3);
+  --color-mist: var(--color-mist);
+  --color-mist-2: var(--color-mist-2);
+  --color-starlight: var(--color-starlight);
   --color-navy: var(--color-navy);
   --color-navy-dark: var(--color-navy-dark);
   --color-navy-light: var(--color-navy-light);
@@ -28,7 +60,8 @@
   --color-gold-dark: var(--color-gold-dark);
   --color-ink: var(--color-ink);
 
-  --font-sans: var(--font-body), sans-serif;
+  --font-sans: var(--font-latin-body), var(--font-body), sans-serif;
+  --font-mono: var(--font-data), ui-monospace, monospace;
   --font-hebrew: var(--font-hebrew-serif), serif;
 }
 
@@ -37,8 +70,13 @@ html {
 }
 
 body {
-  background: #ffffff;
+  background: var(--color-haze);
   color: var(--color-ink);
+}
+
+/* Hebrew: Mona Sans has no Hebrew glyphs, so RTL body text uses Assistant. */
+html[dir="rtl"] body {
+  font-family: var(--font-body), sans-serif;
 }
 
 /* Hebrew reads a touch larger and with more line-height than Latin body copy */
@@ -48,17 +86,19 @@ html[dir="rtl"] body {
 }
 
 ::selection {
-  background: var(--color-gold);
-  color: var(--color-navy-dark);
+  background: var(--color-flame);
+  color: #ffffff;
 }
 
 @layer base {
-  /* Serif display for the big headings; Hebrew overrides below. */
+  /* Wide display sans for the big headings; Hebrew overrides below. */
   h1,
   h2,
   .font-display {
-    font-family: var(--font-display-serif), Georgia, serif;
-    letter-spacing: -0.01em;
+    font-family: var(--font-display-sans), var(--font-latin-body), sans-serif;
+    font-variation-settings: "wdth" 118;
+    font-stretch: 118%;
+    letter-spacing: -0.035em;
   }
 
   html[dir="rtl"] h1,
@@ -66,7 +106,25 @@ html[dir="rtl"] body {
   html[dir="rtl"] h3,
   html[dir="rtl"] .font-display {
     font-family: var(--font-hebrew-serif), serif;
+    font-variation-settings: normal;
+    font-stretch: normal;
+    letter-spacing: 0;
   }
+}
+
+/* Light ground with two soft glows: royal top-left, flame bottom-right. */
+@utility surface-haze {
+  background-color: var(--color-haze);
+  background-image:
+    radial-gradient(46rem 30rem at 10% 18%, color-mix(in oklab, var(--color-royal) 9%, transparent), transparent 70%),
+    radial-gradient(40rem 28rem at 90% 84%, color-mix(in oklab, var(--color-flame) 8%, transparent), transparent 70%);
+}
+
+/* Dark ground: void with a faint royal glow. */
+@utility surface-void {
+  background-color: var(--color-void);
+  background-image: radial-gradient(50rem 32rem at 85% 10%, color-mix(in oklab, var(--color-royal) 22%, transparent), transparent 70%);
+  color: var(--color-starlight);
 }
 
 @utility shot {
@@ -79,7 +137,7 @@ html[dir="rtl"] body {
 
 /* Visible keyboard focus everywhere, even on elements without their own style. */
 :focus-visible {
-  outline: 2px solid var(--color-gold);
+  outline: 2px solid var(--color-flame);
   outline-offset: 2px;
 }
 

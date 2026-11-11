@@ -17,16 +17,16 @@ export default function HebrewPattern() {
           patternUnits="userSpaceOnUse"
           patternTransform="rotate(-8)"
         >
-          <text x="10" y="30" fontSize="22" fill="#1b2e5e" fontWeight="700">
+          <text x="10" y="30" fontSize="22" fill="#0d1a32" fontWeight="700">
             {WORDS[0]}
           </text>
-          <text x="120" y="70" fontSize="22" fill="#1b2e5e" fontWeight="700">
+          <text x="120" y="70" fontSize="22" fill="#0d1a32" fontWeight="700">
             {WORDS[1]}
           </text>
-          <text x="20" y="115" fontSize="22" fill="#1b2e5e" fontWeight="700">
+          <text x="20" y="115" fontSize="22" fill="#0d1a32" fontWeight="700">
             {WORDS[2]}
           </text>
-          <text x="150" y="130" fontSize="22" fill="#1b2e5e" fontWeight="700">
+          <text x="150" y="130" fontSize="22" fill="#0d1a32" fontWeight="700">
             {WORDS[3]}
           </text>
         </pattern>

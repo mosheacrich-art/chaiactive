@@ -26,10 +26,10 @@ export default function Seguridad() {
         <ul className="mt-12 grid grid-cols-2 border-s border-t border-navy/15 lg:grid-cols-4">
           {seals.map((seal) => (
             <li key={seal.value} className="border-b border-e border-navy/15 px-5 py-7">
-              <span className="block font-sans text-3xl font-extrabold tracking-[-0.03em] text-navy-dark sm:text-4xl" dir="ltr">
+              <span className="block font-display text-3xl font-extrabold text-navy sm:text-4xl" dir="ltr">
                 {seal.value}
               </span>
-              <span className="mt-2 block text-xs font-bold uppercase tracking-[0.16em] text-navy/60">{seal.label}</span>
+              <span className="mt-2 block font-mono text-[11px] font-medium uppercase tracking-[0.16em] text-mist-2">{seal.label}</span>
             </li>
           ))}
         </ul>
@@ -39,7 +39,7 @@ export default function Seguridad() {
           {items.map((item, i) => {
             const Icon = ICONS[i] ?? ShieldCheck;
             return (
-              <li key={item.title} className="group border-b border-e border-navy/15 p-5 transition-colors duration-150 hover:bg-cream sm:p-7">
+              <li key={item.title} className="group border-b border-e border-navy/15 p-5 transition-colors duration-150 hover:bg-haze sm:p-7">
                 <Icon className="size-5 text-gold-dark transition-transform duration-200 group-hover:scale-110" aria-hidden="true" />
                 <h3 className="mt-4 font-bold text-navy-dark">{item.title}</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-ink/70">{item.body}</p>
@@ -50,7 +50,7 @@ export default function Seguridad() {
 
         <a
           href="#contacto"
-          className="group mt-10 inline-flex min-h-11 items-center gap-2 text-sm font-bold uppercase tracking-[0.16em] text-navy hover:text-gold-dark"
+          className="group mt-10 inline-flex min-h-11 items-center gap-2 font-mono text-xs font-medium uppercase tracking-[0.18em] text-royal hover:text-flame"
         >
           {t("note")}
           <ArrowRight className="size-4 transition-transform group-hover:translate-x-1 rtl:rotate-180" aria-hidden="true" />

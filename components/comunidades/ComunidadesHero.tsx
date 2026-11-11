@@ -25,7 +25,7 @@ export default function ComunidadesHero() {
 
   return (
     <PageHero
-      className="bg-[#f7f1ec]"
+      className="surface-haze"
       eyebrow={t("eyebrow")}
       title={t("title")}
       subtitle={t("subtitle")}

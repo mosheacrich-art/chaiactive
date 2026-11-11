@@ -28,12 +28,12 @@ const LINES: { line: Line; key: string; shot: string }[] = [
   { line: "empresas", key: "betterCoffee", shot: "bettercoffee-home" },
 ];
 
-// Ground and ink per line: cream for communities, the school app's pine
-// green for schools, navy for business.
+// Ground and ink per line, from the site palette: haze for communities,
+// deep for schools, void for business.
 const THEME: Record<Line, { bg: string; ink: string; muted: string; kicker: string; accent: string; onAccent: string }> = {
-  comunidades: { bg: "#f7f1ec", ink: "#1b2a4a", muted: "rgba(27,42,74,.68)", kicker: "#8a6a1f", accent: "#1b2a4a", onAccent: "#ffffff" },
-  colegios: { bg: "#1f4d3f", ink: "#fbf6ec", muted: "rgba(251,246,236,.75)", kicker: "#e0913a", accent: "#e0913a", onAccent: "#1f2a24" },
-  empresas: { bg: "#1b2a4a", ink: "#ffffff", muted: "rgba(255,255,255,.72)", kicker: "#d4b65f", accent: "#d4b65f", onAccent: "#1b2a4a" },
+  comunidades: { bg: "#f3f7fc", ink: "#0d1a32", muted: "#394860", kicker: "#1d52de", accent: "#1d52de", onAccent: "#ffffff" },
+  colegios: { bg: "#0c1d40", ink: "#f1f6fc", muted: "#b1bfd1", kicker: "#60b0ff", accent: "#1485f4", onAccent: "#ffffff" },
+  empresas: { bg: "#040c20", ink: "#f1f6fc", muted: "#b1bfd1", kicker: "#60b0ff", accent: "#1d52de", onAccent: "#ffffff" },
 };
 
 const HREF: Record<Line, "/empresas" | { pathname: "/comunidades" | "/colegios"; hash: string }> = {
@@ -119,7 +119,7 @@ export default function AppStage() {
                       : { borderColor: theme.muted, color: theme.ink }
                   }
                 >
-                  <span className="me-1.5 tabular-nums opacity-60">0{i + 1}</span>
+                  <span className="me-1.5 font-mono tabular-nums opacity-60">0{i + 1}</span>
                   {t(`lines.${l.line}`)}
                 </button>
               );
@@ -135,7 +135,7 @@ export default function AppStage() {
                 exit={reduce ? { opacity: 0 } : { opacity: 0, x: -24 * dir }}
                 transition={{ duration: 0.18, ease: EASE }}
               >
-                <p className="text-sm font-semibold uppercase tracking-wider" style={{ color: theme.kicker }}>
+                <p className="font-mono text-xs font-medium uppercase tracking-[0.22em]" style={{ color: theme.kicker }}>
                   {t(`steps.${key}.kicker`)}
                 </p>
                 <h2 className="mt-3 max-w-xl text-4xl font-bold leading-[1.06] sm:text-5xl lg:text-6xl">{t(`steps.${key}.title`)}</h2>

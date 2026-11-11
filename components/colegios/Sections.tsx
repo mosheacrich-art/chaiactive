@@ -175,7 +175,7 @@ export function Profesorado() {
   const items = t.raw("items") as Item[];
   const icons = [LayoutDashboard, PenLine, ClipboardList, UsersRound, TriangleAlert, Timer, Download, FileSpreadsheet];
   return (
-    <section className="bg-[#f7f1ec] py-20 sm:py-28">
+    <section className="surface-haze py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <Heading title={t("title")} intro={t("intro")} />
         <ul className="mt-12 grid gap-x-10 gap-y-8 sm:grid-cols-2 lg:grid-cols-4">

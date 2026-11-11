@@ -74,7 +74,7 @@ export default function TechStack() {
   ];
 
   return (
-    <section aria-labelledby="stack-title" className="bg-cream py-20 sm:py-28">
+    <section aria-labelledby="stack-title" className="surface-haze py-20 sm:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <SpecHeader id="stack-title" eyebrow={t("eyebrow")} title={t("title")} intro={t("intro")} />
 
@@ -91,12 +91,12 @@ export default function TechStack() {
                   role="tab"
                   aria-selected={on}
                   onClick={() => setCat(tab.id)}
-                  className={`min-h-11 shrink-0 whitespace-nowrap px-4 text-xs font-bold uppercase tracking-[0.18em] transition-colors duration-150 ${
-                    on ? "bg-navy text-white" : "text-navy/80 hover:bg-navy/5 hover:text-navy"
+                  className={`min-h-11 shrink-0 whitespace-nowrap px-4 font-mono text-xs font-medium uppercase tracking-[0.18em] transition-colors duration-150 ${
+                    on ? "bg-royal text-white" : "text-navy/80 hover:bg-navy/5 hover:text-navy"
                   }`}
                 >
                   {tab.label}
-                  <span className={`ms-2 tabular-nums ${on ? "text-gold-light" : "text-navy/45"}`}>{tab.count}</span>
+                  <span className={`ms-2 tabular-nums ${on ? "text-white/70" : "text-navy/45"}`}>{tab.count}</span>
                 </button>
               );
             })}
@@ -112,17 +112,17 @@ export default function TechStack() {
                   animate={{ opacity: 1, scale: 1 }}
                   exit={reduce ? { opacity: 0 } : { opacity: 0, scale: 0.96 }}
                   transition={{ duration: 0.18, ease: [0.22, 1, 0.36, 1] }}
-                  className="group flex h-24 flex-col items-center justify-center gap-2 border-b border-e border-navy/15 px-2 text-center sm:flex-row sm:justify-start sm:gap-3 sm:px-5 sm:text-start transition-colors duration-150 hover:bg-white"
+                  className="group flex h-24 flex-col items-center justify-center gap-2 border-b border-e border-navy/15 px-2 text-center sm:flex-row sm:justify-start sm:gap-3 sm:px-5 sm:text-start transition-colors duration-150 hover:bg-white/70"
                 >
                   <svg
                     role="img"
                     aria-hidden="true"
                     viewBox="0 0 24 24"
-                    className="size-6 shrink-0 fill-navy-dark transition-transform duration-200 group-hover:scale-110"
+                    className="size-6 shrink-0 fill-navy transition-transform duration-200 group-hover:scale-110"
                   >
                     <path d={tool.icon.path} />
                   </svg>
-                  <span className="text-xs font-medium text-navy-dark sm:text-base">{tool.name}</span>
+                  <span className="text-xs font-medium text-navy sm:text-base">{tool.name}</span>
                 </motion.li>
               ))}
             </AnimatePresence>

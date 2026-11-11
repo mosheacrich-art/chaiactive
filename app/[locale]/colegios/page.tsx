@@ -35,7 +35,7 @@ export default async function ColegiosPage({ params }: { params: Promise<{ local
   return (
     <PageShell interest="colegio">
       <PageHero
-        className="bg-[#f7f1ec]"
+        className="surface-haze"
         eyebrow={t("hero.eyebrow")}
         title={t("hero.title")}
         subtitle={t("hero.subtitle")}

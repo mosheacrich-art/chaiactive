@@ -91,7 +91,7 @@ export default function Header() {
           <LanguageSwitcher />
           <a
             href="#contacto"
-            className="hidden rounded-full bg-navy px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-navy-light sm:inline-flex"
+            className="hidden rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-flame sm:inline-flex"
           >
             {t("cta")}
           </a>
@@ -166,7 +166,7 @@ export default function Header() {
                   <a
                     href="#contacto"
                     onClick={() => setOpen(false)}
-                    className="flex items-center justify-center gap-2 rounded-full bg-navy py-4 text-base font-semibold text-white"
+                    className="flex items-center justify-center gap-2 rounded-full bg-royal py-4 text-base font-semibold text-white"
                   >
                     {t("cta")}
                     <ArrowRight
