@@ -4,6 +4,7 @@ import { ArrowUpRight } from "lucide-react";
 import type { CasoConfig } from "./data";
 import ScreenshotSlideshow from "./ScreenshotSlideshow";
 import PhotoPlaceholder from "./PhotoPlaceholder";
+import CasoVideo from "./CasoVideo";
 
 type CasoText = { name: string; sector: string; reto: string; solucion: string; resultado: string };
 
@@ -16,8 +17,14 @@ export default function CasoCard({ config, compact = false }: { config: CasoConf
 
   return (
     <article className="shot flex h-full flex-col bg-white ring-1 ring-navy/10">
-      <div className="relative aspect-[4/3] bg-cream">
-        {config.screenshots.length > 0 ? (
+      <div className={`relative overflow-hidden bg-cream ${config.video ? "aspect-video" : "aspect-[4/3]"}`}>
+        {config.video ? (
+          <CasoVideo
+            src={`/videos/casos/${config.slug}.mp4`}
+            poster={`/videos/casos/${config.slug}.jpg`}
+            label={t("screenshotAlt", { name: text.name })}
+          />
+        ) : config.screenshots.length > 0 ? (
           <ScreenshotSlideshow images={config.screenshots} alt={t("screenshotAlt", { name: text.name })} />
         ) : (
           <PhotoPlaceholder label={t("screenshotPending")} />

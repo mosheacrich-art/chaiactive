@@ -11,6 +11,9 @@ export type CasoConfig = {
   logo?: string;
   // Paths relative to public/images/. Empty = labelled placeholder.
   screenshots: string[];
+  // Screen recording in public/videos/casos/<slug>.mp4 (+ .jpg poster).
+  // When set, it replaces the screenshots on the card.
+  video?: boolean;
 };
 
 export const CASOS_CONFIG: CasoConfig[] = [
@@ -28,20 +31,21 @@ export const CASOS_CONFIG: CasoConfig[] = [
   },
   {
     slug: "shevat",
+    video: true,
     url: "https://shevat.eu",
     line: "empresas",
-    // TODO(imágenes): añadir capturas de promociones y del formulario por pasos.
     screenshots: ["casos/shevat/home.jpg"],
   },
   {
     slug: "better-coffee",
+    video: true,
     url: "https://better-coffee.vercel.app",
     line: "empresas",
-    // TODO(imágenes): añadir capturas del selector de sabor y de la lista de espera.
     screenshots: ["casos/better-coffee/home.jpg"],
   },
   {
     slug: "creative-favours",
+    video: true,
     url: "https://creativefavours.vercel.app",
     line: "empresas",
     logo: "logos/creative-favours.png",
@@ -54,6 +58,7 @@ export const CASOS_CONFIG: CasoConfig[] = [
   },
   {
     slug: "perashapp",
+    video: true,
     url: "https://perashapp.com",
     line: "empresas",
     logo: "logos/perashapp.png",
