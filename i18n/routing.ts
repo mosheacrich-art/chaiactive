@@ -35,6 +35,7 @@ export const pathnames = {
     fr: "/ecoles",
     he: "/colegios",
   },
+  "/kashrut": "/kashrut",
   "/empresas": {
     es: "/empresas",
     en: "/business",

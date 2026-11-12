@@ -6,6 +6,7 @@ const ROUTES: { href: AppPathname; priority: number }[] = [
   { href: "/", priority: 1 },
   { href: "/comunidades", priority: 0.9 },
   { href: "/colegios", priority: 0.9 },
+  { href: "/kashrut", priority: 0.9 },
   { href: "/empresas", priority: 0.9 },
   { href: "/aviso-legal", priority: 0.2 },
   { href: "/privacidad", priority: 0.2 },
