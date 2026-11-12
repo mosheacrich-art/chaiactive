@@ -296,7 +296,7 @@
         {
           "heading": "¿A qué destinatarios se comunicarán tus datos?",
           "paragraphs": [
-            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios y envío de email [Resend]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
+            "No se cederán datos a terceros, salvo obligación legal. Se podrá recurrir a proveedores tecnológicos que actúan como encargados del tratamiento (por ejemplo: infraestructura en la nube y almacenamiento de datos [Google Cloud], proveedor de hosting/despliegue [Vercel], herramienta de gestión de formularios y envío de email [Resend]), quienes tratarán los datos únicamente conforme a las instrucciones de EL TITULAR y con las garantías exigidas por el RGPD (incluidas, en su caso, cláusulas de transferencia internacional si el proveedor está fuera del Espacio Económico Europeo)."
           ]
         },
         {
@@ -1000,8 +1000,8 @@
   },
   "seguridad": {
     "eyebrow": "Seguridad",
-    "title": "Tus datos, bajo llave.",
-    "intro": "Trabajamos con datos de comunidades, familias y empresas. Los guardamos con proveedores certificados y cada persona ve solo lo que le toca.",
+    "title": "Seguridad de nivel Google.",
+    "intro": "Trabajamos con datos de comunidades, familias y empresas, así que no improvisamos: todo corre sobre Google Cloud, la misma infraestructura que protege a Google, cifrado en cada paso y con acceso solo para quien le toca.",
     "seals": [
       {
         "value": "AES-256",
@@ -1013,29 +1013,29 @@
       },
       {
         "value": "ISO 27001",
-        "label": "Certificación de Supabase y Vercel"
+        "label": "ISO 27001, 27017 y 27018 de Google Cloud"
       },
       {
         "value": "SOC 2",
-        "label": "Auditoría tipo 2 de Supabase y Vercel"
+        "label": "Auditoría tipo 2 de Google Cloud"
       }
     ],
     "items": [
       {
         "title": "Cifrado en reposo",
-        "body": "La base de datos y sus copias de seguridad se cifran con AES-256 en Supabase."
+        "body": "Todo lo que guardamos en Google Cloud, copias de seguridad incluidas, se cifra con AES-256 por defecto, con claves que Google custodia y rota en su propio sistema de gestión de claves."
       },
       {
         "title": "Cifrado en tránsito",
-        "body": "Todo viaja por HTTPS con TLS entre el móvil o el ordenador y el servidor."
+        "body": "Cada conexión viaja por HTTPS con TLS, y dentro de la red privada de Google el tráfico entre servicios también va cifrado."
       },
       {
-        "title": "Proveedores certificados",
-        "body": "Supabase guarda los datos y Vercel sirve las webs. Los dos tienen ISO 27001 y auditoría SOC 2 tipo 2."
+        "title": "Infraestructura de Google",
+        "body": "Google Cloud tiene ISO 27001, 27017 y 27018 y auditoría SOC 2 tipo 2, y sus servidores arrancan verificados por Titan, el chip de seguridad diseñado por Google."
       },
       {
         "title": "Datos en Europa",
-        "body": "Las bases de datos de Kehál y de las tiendas que hacemos están en centros de datos de Zúrich e Irlanda."
+        "body": "Los datos de Kehál y de las tiendas que hacemos se alojan en regiones europeas de Google Cloud."
       },
       {
         "title": "Cada uno ve lo suyo",
