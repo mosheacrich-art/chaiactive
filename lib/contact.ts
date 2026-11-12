@@ -4,7 +4,7 @@
 export const WHATSAPP_URL = process.env.NEXT_PUBLIC_WHATSAPP_URL || "";
 export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL || "jactive@gmail.com";
 
-export const INTERESTS = ["comunidad", "colegio", "empresa", "otra"] as const;
+export const INTERESTS = ["comunidad", "colegio", "kashrut", "empresa", "otra"] as const;
 export type Interest = (typeof INTERESTS)[number];
 
 export function isInterest(value: unknown): value is Interest {

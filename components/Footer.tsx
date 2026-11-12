@@ -34,7 +34,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-black/5 bg-cream pb-10 pt-16">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
-        <div className="grid gap-10 sm:grid-cols-3 lg:grid-cols-[1.4fr_repeat(5,1fr)]">
+        <div className="grid gap-10 sm:grid-cols-3 lg:grid-cols-[1.3fr_repeat(5,1fr)_1.5fr]">
           <div className="sm:col-span-3 lg:col-span-1">
             <p className="font-display text-2xl font-bold text-navy">Chai Active</p>
             <p className="mt-2 max-w-[16rem] text-sm text-ink/70">{t("tagline")}</p>
@@ -57,6 +57,13 @@ export default function Footer() {
               { label: t("cols.propuesta"), href: "/colegios" },
               { label: t("cols.vidaJudia"), href: { pathname: "/colegios", hash: "vida-judia" } },
               { label: t("cols.privacidad"), href: { pathname: "/colegios", hash: "privacidad" } },
+            ]}
+          />
+          <Column
+            title={nav("kashrut")}
+            links={[
+              { label: t("cols.appKashrut"), href: "/kashrut" },
+              { label: t("cols.funciones"), href: { pathname: "/kashrut", hash: "funciones" } },
             ]}
           />
           <Column

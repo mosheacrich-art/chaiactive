@@ -13,6 +13,7 @@
     "skip": "Aller au contenu",
     "comunidades": "Communautés",
     "colegios": "Écoles",
+    "kashrut": "Cacherout",
     "empresas": "Entreprises",
     "casos": "Projets",
     "seguridad": "Sécurité",
@@ -152,6 +153,7 @@
       "interests": {
         "comunidad": "Communauté",
         "colegio": "École ou institution",
+        "kashrut": "Appli de cacherout",
         "empresa": "Entreprise",
         "otra": "Autre chose"
       }
@@ -193,7 +195,9 @@
       "vidaJudia": "Vie juive",
       "privacidad": "Confidentialité",
       "servicios": "Services",
-      "proyectos": "Projets"
+      "proyectos": "Projets",
+      "appKashrut": "L'appli",
+      "funciones": "Fonctions"
     }
   },
   "legal": {
@@ -804,6 +808,96 @@
       "intro": "C'est la vraie appli, avec une école d'exemple. Passez de la vue élève à celle de la famille, du professeur ou de la direction, et naviguez comme sur votre téléphone.",
       "badge": "Démo interactive · données fictives",
       "frameTitle": "Démo interactive de l'appli pour écoles"
+    }
+  },
+  "kashrut": {
+    "meta": {
+      "title": "Une appli de cacherout pour communautés et rabbinats | Chai Active",
+      "description": "Nous transformons la liste casher de votre communauté en appli : recherche de produits avec leur statut et leur sceau, où manger et un assistant qui rend vos recettes casher. Voici Kashrut FCJE, à Madrid."
+    },
+    "hero": {
+      "eyebrow": "Cacherout",
+      "title": "C'est casher ? La réponse, au supermarché.",
+      "subtitle": "Nous transformons la liste casher de votre communauté en appli : une recherche de produits avec leur statut et leur sceau, où manger et acheter, et un assistant qui vous aide à préparer n'importe quelle recette casher avec de vraies marques.",
+      "ctaPrimary": "Voir l'appli",
+      "ctaSecondary": "J'ai une liste casher"
+    },
+    "app": {
+      "tablist": "Écrans de l'appli",
+      "label": "Reconstitution de l'appli avec les vraies données de son catalogue"
+    },
+    "caso": {
+      "eyebrow": "Cas réel · Madrid",
+      "title": "Kashrut FCJE",
+      "body": "L'appli de cacherout que nous avons réalisée pour la communauté juive de Madrid. Elle prend la liste officielle des produits autorisés et en fait un moteur de recherche : vous tapez « huile » devant le rayon et vous savez tout de suite si c'est parvé ou lacté, s'il faut un sceau et dans quel supermarché le trouver.",
+      "stats": [
+        {
+          "value": "418",
+          "label": "produits catalogués"
+        },
+        {
+          "value": "26",
+          "label": "catégories"
+        },
+        {
+          "value": "16",
+          "label": "commerces casher"
+        }
+      ]
+    },
+    "funciones": {
+      "eyebrow": "Fonctions",
+      "title": "Tout ce que fait l'appli.",
+      "intro": "Pensée pour s'utiliser debout, dans l'allée du supermarché, d'une seule main.",
+      "items": [
+        {
+          "title": "Recherche de produits",
+          "body": "Par nom ou par marque, avec des filtres par catégorie, statut (parvé ou lacté) et type de sceau."
+        },
+        {
+          "title": "Une fiche par produit",
+          "body": "Statut, sceau, magasins où l'acheter et la page de la liste officielle d'où vient l'information."
+        },
+        {
+          "title": "Assistant IA",
+          "body": "Répond aux questions de cacherout et rend les recettes casher : il sépare ce qui n'a pas besoin de sceau, ce qui en a besoin et ce qui n'est jamais casher, et recommande des marques du catalogue."
+        },
+        {
+          "title": "Où manger et acheter",
+          "body": "Restaurants, magasins, traiteurs et hôtels pour les fêtes, sur une carte avec leur adresse et leurs coordonnées."
+        },
+        {
+          "title": "Web et appli iPhone",
+          "body": "La même appli fonctionne dans le navigateur et comme appli installée sur l'iPhone."
+        },
+        {
+          "title": "Un catalogue toujours à jour",
+          "body": "Quand une nouvelle liste sort, vous nous l'envoyez et nous la mettons à jour. Vous n'avez rien à toucher."
+        }
+      ]
+    },
+    "pasos": {
+      "title": "Votre liste, votre appli",
+      "intro": "Elle convient à n'importe quel rabbinat ou communauté, dans n'importe quelle ville ou pays.",
+      "items": [
+        {
+          "title": "Vous nous envoyez la liste",
+          "body": "En PDF, en Excel ou sous la forme que vous avez aujourd'hui."
+        },
+        {
+          "title": "Nous en faisons un catalogue",
+          "body": "Chaque produit avec son statut, son sceau et où l'acheter, prêt à être recherché."
+        },
+        {
+          "title": "Nous la publions à votre image",
+          "body": "Avec votre nom, votre logo et les commerces casher de votre ville."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Vous avez une liste casher ?",
+      "body": "Nous la transformons en une appli que toute la communauté garde dans sa poche. Racontez-nous comment vous la gérez aujourd'hui.",
+      "button": "Parlons de votre liste"
     }
   },
   "empresas": {

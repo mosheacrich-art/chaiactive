@@ -13,6 +13,7 @@
     "skip": "Skip to content",
     "comunidades": "Communities",
     "colegios": "Schools",
+    "kashrut": "Kashrut",
     "empresas": "Business",
     "casos": "Projects",
     "seguridad": "Security",
@@ -152,6 +153,7 @@
       "interests": {
         "comunidad": "Community",
         "colegio": "School or institution",
+        "kashrut": "Kashrut app",
         "empresa": "Business",
         "otra": "Something else"
       }
@@ -193,7 +195,9 @@
       "vidaJudia": "Jewish life",
       "privacidad": "Privacy",
       "servicios": "Services",
-      "proyectos": "Projects"
+      "proyectos": "Projects",
+      "appKashrut": "The app",
+      "funciones": "Features"
     }
   },
   "legal": {
@@ -804,6 +808,96 @@
       "intro": "This is the real app, with a sample school. Switch between student, family, teacher and head of school, and move around it as you would on your phone.",
       "badge": "Interactive demo · fictitious data",
       "frameTitle": "School app interactive demo"
+    }
+  },
+  "kashrut": {
+    "meta": {
+      "title": "A kashrut app for communities and rabbinates | Chai Active",
+      "description": "We turn your community's kosher list into an app: product search with status and hechsher, where to eat, and an assistant that makes recipes kosher. This is Kashrut FCJE, in Madrid."
+    },
+    "hero": {
+      "eyebrow": "Kashrut",
+      "title": "Is it kosher? The answer, right in the aisle.",
+      "subtitle": "We turn your community's kosher list into an app: product search with each item's status and hechsher, where to eat and shop, and an assistant that helps you make any recipe kosher with real brands.",
+      "ctaPrimary": "See the app",
+      "ctaSecondary": "I have a kosher list"
+    },
+    "app": {
+      "tablist": "App screens",
+      "label": "Recreation of the app with real data from its catalogue"
+    },
+    "caso": {
+      "eyebrow": "Real case · Madrid",
+      "title": "Kashrut FCJE",
+      "body": "The kashrut app we built for the Jewish community of Madrid. It takes the official list of approved products and turns it into a search engine: type “oil” in front of the shelf and you know straight away whether it's pareve or dairy, whether it needs a hechsher and which supermarket stocks it.",
+      "stats": [
+        {
+          "value": "418",
+          "label": "products catalogued"
+        },
+        {
+          "value": "26",
+          "label": "categories"
+        },
+        {
+          "value": "16",
+          "label": "kosher businesses"
+        }
+      ]
+    },
+    "funciones": {
+      "eyebrow": "Features",
+      "title": "Everything the app does.",
+      "intro": "Built to be used standing up, in the supermarket aisle, with one hand.",
+      "items": [
+        {
+          "title": "Product search",
+          "body": "By name or brand, with filters for category, status (pareve or dairy) and type of hechsher."
+        },
+        {
+          "title": "A page for every product",
+          "body": "Status, hechsher, the shops that stock it and the page of the official list the information comes from."
+        },
+        {
+          "title": "AI assistant",
+          "body": "Answers kashrut questions and makes recipes kosher: it separates what needs no hechsher, what does and what is never kosher, and recommends brands from the catalogue."
+        },
+        {
+          "title": "Where to eat and shop",
+          "body": "Restaurants, shops, caterers and hotels for celebrations, on a map with their address and contact details."
+        },
+        {
+          "title": "Web and iPhone app",
+          "body": "The same app works in the browser and as an app installed on the iPhone."
+        },
+        {
+          "title": "A catalogue that stays current",
+          "body": "When a new list comes out, you send it to us and we update it. You don't have to touch a thing."
+        }
+      ]
+    },
+    "pasos": {
+      "title": "Your list, your app",
+      "intro": "It works for any rabbinate or community, in any city or country.",
+      "items": [
+        {
+          "title": "You send us the list",
+          "body": "As a PDF, a spreadsheet or however you keep it today."
+        },
+        {
+          "title": "We turn it into a catalogue",
+          "body": "Every product with its status, its hechsher and where to buy it, ready to search."
+        },
+        {
+          "title": "We publish it under your brand",
+          "body": "With your name, your logo and the kosher businesses in your city."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Do you have a kosher list?",
+      "body": "We'll turn it into an app the whole community carries in their pocket. Tell us how you manage it today.",
+      "button": "Let's talk about your list"
     }
   },
   "empresas": {

@@ -14,6 +14,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 const links = [
   { key: "comunidades", href: "/comunidades" },
   { key: "colegios", href: "/colegios" },
+  { key: "kashrut", href: "/kashrut" },
   { key: "empresas", href: "/empresas" },
   { key: "casos", href: { pathname: "/", hash: "casos" } },
   { key: "seguridad", href: { pathname: "/", hash: "seguridad" } },
@@ -71,7 +72,7 @@ export default function Header() {
 
         <nav
           aria-label={t("label")}
-          className="hidden items-center gap-8 lg:flex"
+          className="hidden items-center gap-5 whitespace-nowrap lg:flex xl:gap-8"
         >
           {links.map((link) => (
             <Link
@@ -91,7 +92,7 @@ export default function Header() {
           <LanguageSwitcher />
           <a
             href="#contacto"
-            className="hidden rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-flame sm:inline-flex"
+            className="hidden whitespace-nowrap rounded-full bg-royal px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-flame sm:inline-flex"
           >
             {t("cta")}
           </a>

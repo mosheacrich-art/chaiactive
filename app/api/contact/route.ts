@@ -13,6 +13,7 @@ const RESEND_FROM = process.env.RESEND_FROM || "Chai Active <onboarding@resend.d
 const INTEREST_LABELS = {
   comunidad: "Comunidad",
   colegio: "Colegio o institución",
+  kashrut: "App de kashrut",
   empresa: "Empresa",
   otra: "Otra cosa",
 } as const;
