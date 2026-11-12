@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, type KeyboardEvent, type ReactNode } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { BadgeCheck, Check, Droplet, Home, Leaf, MapPin, MessageCircle, Search, Stamp, TriangleAlert } from "lucide-react";
@@ -8,7 +9,8 @@ import { BadgeCheck, Check, Droplet, Home, Leaf, MapPin, MessageCircle, Search, 
 // Recreation of the Kashrut FCJE app (repo mosheacrich-art/kosher) drawn in
 // code, NOT a screenshot. It copies the app's real layout, colours and copy,
 // and every product and business shown is a real entry of its catalogue
-// (server/data/*.json, 2026-11). The app only exists in Spanish, so the
+// (server/data/*.json, 2026-11). Product photos, category icons and business
+// banners are the app's own images, in public/images/kashrut/. The app only exists in Spanish, so the
 // screen stays in Spanish on every locale; only the label under it changes.
 
 const BRAND = "#0f5c4c";
@@ -24,25 +26,34 @@ type TabKey = (typeof TABS)[number]["key"];
 
 type Estatus = "pareve" | "lacteo";
 type Sello = "apto_sin_sello" | "requiere_sello" | "planta_especifica";
-type Producto = { marca: string; nombre: string; categoria: string; emoji: string; estatus: Estatus; sello: Sello; tiendas: string };
+type Producto = { id: string; marca: string; nombre: string; categoria: string; estatus: Estatus; sello: Sello; tiendas: string };
 
-// Real entries: p343, p352, p355, p356, p325, p72.
+const IMG = "/images/kashrut";
+
+// Real entries of the catalogue, by id.
 const ACEITES: Producto[] = [
-  { marca: "Borges", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", emoji: "🫒", estatus: "pareve", sello: "apto_sin_sello", tiendas: "Carrefour, Alcampo, Mercadona" },
-  { marca: "La Española", nombre: "Aceite de oliva suave", categoria: "Aceites", emoji: "🫒", estatus: "pareve", sello: "apto_sin_sello", tiendas: "Carrefour, Alcampo, Mercadona" },
-  { marca: "Manzano", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", emoji: "🫒", estatus: "pareve", sello: "requiere_sello", tiendas: "Carrefour" },
-  { marca: "Francisco Gomez", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", emoji: "🫒", estatus: "pareve", sello: "planta_especifica", tiendas: "" },
+  { id: "p343", marca: "Borges", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", estatus: "pareve", sello: "apto_sin_sello", tiendas: "Carrefour, Alcampo, Mercadona" },
+  { id: "p352", marca: "La Española", nombre: "Aceite de oliva suave", categoria: "Aceites", estatus: "pareve", sello: "apto_sin_sello", tiendas: "Carrefour, Alcampo, Mercadona" },
+  { id: "p355", marca: "Manzano", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", estatus: "pareve", sello: "requiere_sello", tiendas: "Carrefour" },
+  { id: "p356", marca: "Francisco Gomez", nombre: "Aceite de oliva virgen extra", categoria: "Aceites", estatus: "pareve", sello: "planta_especifica", tiendas: "" },
 ];
 const DESTACADOS: Producto[] = [
-  { marca: "Simon Coll", nombre: "Chocolate negro 70%", categoria: "Chocolates", emoji: "🍫", estatus: "pareve", sello: "requiere_sello", tiendas: "Corte Inglés" },
-  { marca: "Almendrola", nombre: "Leche de almendra", categoria: "Leche Páreve", emoji: "🥛", estatus: "pareve", sello: "requiere_sello", tiendas: "Carrefour, Alcampo" },
+  { id: "p316", marca: "Kit Kat", nombre: "Barrita de chocolate", categoria: "Chocolates", estatus: "lacteo", sello: "requiere_sello", tiendas: "Carrefour, Alcampo" },
+  { id: "p72", marca: "Almendrola", nombre: "Leche de almendra", categoria: "Leche Páreve", estatus: "pareve", sello: "requiere_sello", tiendas: "Carrefour, Alcampo" },
 ];
 
 const CATEGORIAS = [
-  { name: "Aceites", emoji: "🫒" },
-  { name: "Chocolates", emoji: "🍫" },
-  { name: "Conservas", emoji: "🥫" },
-  { name: "Leche Páreve", emoji: "🥛" },
+  { name: "Aceites", icon: "aceites" },
+  { name: "Chocolates", icon: "chocolates" },
+  { name: "Conservas", icon: "conservas" },
+  { name: "Leche Páreve", icon: "leche-pareve" },
+];
+
+// Businesses with a promotional banner go first on the app's home screen.
+const BANNERS = [
+  { id: "neg-6", nombre: "Kosher Sefarad" },
+  { id: "neg-7", nombre: "Gourmet Kosher" },
+  { id: "neg-5", nombre: "Herzl Coffee & Market" },
 ];
 
 const NEGOCIOS = [
@@ -185,6 +196,14 @@ function Badge({ cls, Icon, children }: { cls: string; Icon: typeof Check; child
   );
 }
 
+function ProductPhoto({ p, className }: { p: Producto; className: string }) {
+  return (
+    <div className={`relative overflow-hidden rounded-lg bg-white ${className}`}>
+      <Image src={`${IMG}/${p.id}.png`} alt={`${p.marca} ${p.nombre}`} fill sizes="120px" className="object-contain p-1" />
+    </div>
+  );
+}
+
 function Badges({ p }: { p: Producto }) {
   const e = ESTATUS[p.estatus];
   const s = SELLO[p.sello];
@@ -205,7 +224,7 @@ function Inicio() {
         <div className="mt-2 grid grid-cols-4 gap-1.5">
           {CATEGORIAS.map((c) => (
             <div key={c.name} className="flex flex-col items-center gap-1 rounded-xl border border-neutral-200 bg-white px-1 py-2">
-              <span className="text-xl" aria-hidden="true">{c.emoji}</span>
+              <Image src={`${IMG}/cat-${c.icon}.png`} alt="" width={32} height={32} className="size-8" />
               <span className="text-center text-[9px] leading-tight text-[#1a1a1a]">{c.name}</span>
             </div>
           ))}
@@ -213,16 +232,10 @@ function Inicio() {
       </div>
       <div>
         <Heading>Dónde comer y comprar kosher</Heading>
-        <div className="mt-2 grid grid-cols-2 gap-2">
-          {NEGOCIOS.slice(0, 2).map((n) => (
-            <div key={n.nombre} className="overflow-hidden rounded-xl border border-neutral-200 bg-white">
-              <div className="flex h-10 items-center justify-center text-lg" style={{ background: "#e7efec" }} aria-hidden="true">
-                {n.emoji}
-              </div>
-              <div className="p-2">
-                <p className="truncate text-[11px] font-semibold text-[#1a1a1a]">{n.nombre}</p>
-                <p className="truncate text-[9px] text-[#6b6b6b]">{n.sub}</p>
-              </div>
+        <div className="-mx-3.5 mt-2 flex gap-2 overflow-hidden px-3.5">
+          {BANNERS.map((b) => (
+            <div key={b.id} className="w-[210px] shrink-0 overflow-hidden rounded-xl border border-neutral-200 bg-white">
+              <Image src={`${IMG}/${b.id}.jpg`} alt={b.nombre} width={600} height={300} sizes="210px" className="h-auto w-full" />
             </div>
           ))}
         </div>
@@ -232,9 +245,7 @@ function Inicio() {
         <div className="mt-2 grid grid-cols-2 gap-2">
           {DESTACADOS.map((p) => (
             <div key={p.nombre} className="flex flex-col gap-1.5 rounded-xl border border-neutral-200 bg-white p-2">
-              <div className="flex h-12 items-center justify-center rounded-lg bg-gradient-to-br from-[#e7efec] to-[#fcefd8] text-xl" aria-hidden="true">
-                {p.emoji}
-              </div>
+              <ProductPhoto p={p} className="h-16" />
               <div>
                 <p className="text-[9px] text-[#6b6b6b]">{p.marca}</p>
                 <p className="line-clamp-2 text-[11px] font-semibold leading-tight text-[#1a1a1a]">{p.nombre}</p>
@@ -266,9 +277,7 @@ function Buscar() {
       <p className="text-[10px] text-[#6b6b6b]">16 productos</p>
       {ACEITES.map((p) => (
         <div key={p.marca} className="flex gap-2.5 rounded-xl border border-neutral-200 bg-white p-2.5">
-          <div className="flex size-11 shrink-0 items-center justify-center rounded-lg bg-gradient-to-br from-[#e7efec] to-[#e6f4ec] text-lg" aria-hidden="true">
-            {p.emoji}
-          </div>
+          <ProductPhoto p={p} className="size-12 shrink-0" />
           <div className="min-w-0 space-y-1">
             <div>
               <p className="text-[9px] uppercase tracking-wide text-[#6b6b6b]">{p.marca}</p>
